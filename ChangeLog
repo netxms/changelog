@@ -12,6 +12,7 @@
 
 - UI framework updated to Eclipse 4.17 / RAP 3.14
 - Improved access control logic for enter/leave/schedule maintenance
+- Fixed issues with file following
 - Fixed issues:
 	NX-1058 (Repeat event in DCI threshold may not be generated if repeat interval is the same as polling interval)
 	NX-1975 (Per DCI multiplier settimgs)
