@@ -11,11 +11,13 @@
 *
 
 - UI framework updated to Eclipse 4.17 / RAP 3.14
+- Improved clipboard support in web UI
 - Improved access control logic for enter/leave/schedule maintenance
+- Fixed unrecoverable "objects out of sync" state on client
 - Fixed issues with file following
 - Fixed issues:
 	NX-1058 (Repeat event in DCI threshold may not be generated if repeat interval is the same as polling interval)
-	NX-1975 (Per DCI multiplier settimgs)
+	NX-1975 (Per DCI multiplier settings)
 	NX-1983 (Add automatic bind rules for clusters)
 
 
