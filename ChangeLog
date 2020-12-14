@@ -13,6 +13,7 @@
 - UI framework updated to Eclipse 4.17 / RAP 3.14
 - Improved clipboard support in web UI
 - Improved access control logic for enter/leave/schedule maintenance
+- New agent parameter Agent.IsRestartPending
 - Fixed unrecoverable "objects out of sync" state on client
 - Fixed issues with file following
 - Fixed issues:
