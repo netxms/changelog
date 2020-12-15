@@ -20,6 +20,7 @@
 	NX-1058 (Repeat event in DCI threshold may not be generated if repeat interval is the same as polling interval)
 	NX-1975 (Per DCI multiplier settings)
 	NX-1983 (Add automatic bind rules for clusters)
+	NX-1985 (File name is cleaned on save in GUI log parser policy editor)
 
 
 *
