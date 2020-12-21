@@ -24,6 +24,7 @@
 	NX-1173 (Add bulk DCI update functionality)
 	NX-1975 (Per DCI multiplier settings)
 	NX-1983 (Add automatic bind rules for clusters)
+	NX-1984 (File delivery policy incorrectly handles Russian letters)
 	NX-1985 (File name is cleaned on save in GUI log parser policy editor)
 
 
