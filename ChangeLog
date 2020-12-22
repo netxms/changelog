@@ -13,6 +13,7 @@
 - UI framework updated to Eclipse 4.17 / RAP 3.14
 - Improved clipboard support in web UI
 - Improved access control logic for enter/leave/schedule maintenance
+- Added command line tool nxaevent for sending events to server via local agent
 - New agent parameter Agent.IsRestartPending
 - Default DCI instance retention time changed to 7 days
 - Explicit boolean data type in NXSL
@@ -22,6 +23,7 @@
 - Fixed issues:
 	NX-1058 (Repeat event in DCI threshold may not be generated if repeat interval is the same as polling interval)
 	NX-1173 (Add bulk DCI update functionality)
+	NX-1948 (Create nxaevent utility similar to nxapush)
 	NX-1975 (Per DCI multiplier settings)
 	NX-1983 (Add automatic bind rules for clusters)
 	NX-1984 (File delivery policy incorrectly handles Russian letters)
