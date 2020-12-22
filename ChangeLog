@@ -24,6 +24,7 @@
 	NX-1058 (Repeat event in DCI threshold may not be generated if repeat interval is the same as polling interval)
 	NX-1173 (Add bulk DCI update functionality)
 	NX-1948 (Create nxaevent utility similar to nxapush)
+	NX-1956 (Allow applying templates to Access Points)
 	NX-1975 (Per DCI multiplier settings)
 	NX-1983 (Add automatic bind rules for clusters)
 	NX-1984 (File delivery policy incorrectly handles Russian letters)
