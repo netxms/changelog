@@ -315,6 +315,7 @@
 	NX-1739 (When a node goes down and it's upstream port on a switch goes down, do not correlate those events)
 	NX-1753 (File downloads from agent and file upload to server should be logged to Audit Log)
 	NX-1801 (Strange if condition)
+	NX-1818 (Agent should remember servers for a specified time to send events when server reconnects)
 	NX-1832 (Export configuration does not detect referenced NXSL scripts within NXSL scripts)
 	NX-1837 (Store out of the box object tools as .xml files, not in database initialization script)
 	NX-1846 (Server crash when querying Audit Log)
