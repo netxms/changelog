@@ -24,6 +24,7 @@
 - Fixed unrecoverable "objects out of sync" state on client
 - Fixed issues with file following
 - Fixed issues:
+	NX-770 (Instance discovery poll a node when an instance DCI is added)
 	NX-790 (Ability to disable 802.1x checking)
 	NX-1058 (Repeat event in DCI threshold may not be generated if repeat interval is the same as polling interval)
 	NX-1173 (Add bulk DCI update functionality)
