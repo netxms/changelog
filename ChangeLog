@@ -10,6 +10,7 @@
 * 3.7-CURRENT
 *
 
+- DCI transformation test can be run from template data collection configuration
 - Fixed issues:
 	NX-1875 (Error message is not cleared in list of notification channels)
 
