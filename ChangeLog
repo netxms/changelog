@@ -43,6 +43,7 @@
 	NX-1469 (Show warning to user on attempt to force poll node in unmanaged state)
 	NX-1602 (Option to disable ICMP poll for individual child Interface objects)
 	NX-1623 (DCI > "Clear collected data" should refresh Last Values)
+	NX-1654 (NXMC slow when container or template with many nodes is expanded)
 	NX-1948 (Create nxaevent utility similar to nxapush)
 	NX-1956 (Allow applying templates to Access Points)
 	NX-1975 (Per DCI multiplier settings)
