@@ -11,7 +11,7 @@
 * 3.7-CURRENT
 *
 
-- New method "join" in NXSL arrays
+- New methods "appendAll" and "insertAll" in NXSL arrays
 - DCI transformation test can be run from template data collection configuration
 - Fixed bug in remote agent configuration update
 - Fixed issues:
