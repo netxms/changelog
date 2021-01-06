@@ -4,7 +4,7 @@
 
 - SMTP implemented as a notification channel and e-mail actions replaced by notification actions
 - Added 'DefaultNotificationChannel.SMTP.Html' and 'DefaultNotificationChannel.SMTP.Text' server configuration parametes for default SMTP channel names used by internal functions
-- Added SSh port configuration per node
+- Added per node SSH port configuration
 
 
 *
