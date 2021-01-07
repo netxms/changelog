@@ -14,6 +14,7 @@
 - New methods "appendAll" and "insertAll" in NXSL arrays
 - DCI transformation test can be run from template data collection configuration
 - Fixed bug in remote agent configuration update
+- Fixed bug in object selection dialog in UI
 - Fixed issues:
 	NX-1875 (Error message is not cleared in list of notification channels)
 
