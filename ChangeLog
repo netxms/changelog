@@ -12,6 +12,7 @@
 
 - Per node SSH port configuration
 - New user properties "email" and "phone number"
+- Fixed broken reporting server connector
 
 
 *
