@@ -13,6 +13,8 @@
 - Per node SSH port configuration
 - New user properties "email" and "phone number"
 - Fixed broken reporting server connector
+- Fixed issues:
+	NX-1965 (Inconsistencies in address range add/edit dialog)
 
 
 *
