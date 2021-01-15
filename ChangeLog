@@ -7,13 +7,15 @@
 
 
 *
-* 3.7-CURRENT
+* 3.7.130
 *
 
 - Per node SSH port configuration
 - New user properties "email" and "phone number"
 - Fixed broken reporting server connector
 - Fixed issues:
+	NX-1081 (Some devices are not detected correctly by CATALYST-GENERIC driver)
+	NX-1663 (NXSL function GetDCIValue should read value from database if cache is not populated yet)
 	NX-1965 (Inconsistencies in address range add/edit dialog)
 
 
@@ -157,6 +159,7 @@
 - Fixed issues:
 	NX-904 (Sensitive info should be hidden in Audit Log)
 	NX-1294 (Completed Scheduled Task Re-scheduling)
+	NX-1360 (Add ability to set custom icon for node)
 	NX-1416 (NetXMS Agents shutdown does not end ExternalParametersProviders)
 	NX-1823 (Using SSH login and password in object tools)
 	NX-1905 (Log Parser policy in Template Agent Policies does not automatically include Events in Export Configuration Tool)
