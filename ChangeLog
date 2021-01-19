@@ -7,6 +7,20 @@
 
 
 *
+* 3.8-CURRENT
+*
+
+- Improved reporting server
+
+
+*
+* 3.7-CURRENT
+*
+
+- Fixed bug in agent action execution from event processing policy
+
+
+*
 * 3.7.130
 *
 
