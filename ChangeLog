@@ -20,6 +20,7 @@
 - Target for event processing policy remote action can be given as node object ID
 - Fixed bug in agent action execution from event processing policy
 - Fixed incorrect boolean values handling in NXSL
+- Fixed bug in "Find switch port" tool
 
 
 *
