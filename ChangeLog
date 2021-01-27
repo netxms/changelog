@@ -12,6 +12,7 @@
 
 - Improved reporting server
 - Added option to load SSH keys to server for data collection authentication
+- Removed context part from non policy log parsers
 
 
 *
