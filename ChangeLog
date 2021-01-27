@@ -11,6 +11,7 @@
 *
 
 - Improved reporting server
+- Added option to load SSH keys to server for data collection authentication
 
 
 *
