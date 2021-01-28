@@ -11,8 +11,15 @@
 *
 
 - Improved reporting server
-- Added option to load SSH keys to server for data collection authentication
+- Support for key based SSH authentication
 - Removed context part from non policy log parsers
+
+
+*
+* 3.7.145
+*
+
+- Fixed bug in interface and subnet creation hook scripts handling
 
 
 *
