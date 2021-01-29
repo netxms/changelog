@@ -12,7 +12,9 @@
 
 - Improved reporting server
 - Support for key based SSH authentication
-- Removed context part from non policy log parsers
+- Web service proxy function in core agent now disabled by default
+- Only HTTP and HTTPS are allowed in web service URLs
+- Context configuration removed from global log parsers configuration views in UI
 
 
 *
