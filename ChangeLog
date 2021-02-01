@@ -17,6 +17,7 @@
 - Context configuration removed from global log parsers configuration views in UI
 - New NXSL functions PollerTrace and SendNotification
 - Fixed bug in subnet mask correction
+- Added Topology.RoutingTable internal DCI table
 - Fixed issues:
 	NX-1992 (Properly parse : in web monitoring parameter name)
 	NX-2001 (Add ability to put trace messages from hook scripts to text output of status/conf/etc poll)
