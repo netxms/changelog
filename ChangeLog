@@ -15,6 +15,7 @@
 - Web service proxy function in core agent now disabled by default
 - Only HTTP and HTTPS are allowed in web service URLs
 - Context configuration removed from global log parsers configuration views in UI
+- Fixed bug in subnet mask correction
 - Fixed issues:
 	NX-1992 (Properly parse : in web monitoring parameter name)
 	
