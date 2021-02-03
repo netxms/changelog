@@ -19,7 +19,7 @@
 - Fixed bug in subnet mask correction
 - Added Topology.RoutingTable internal DCI table
 - Fixed issues:
-	NX-1991 (Agent should react properly to 404, etc... errors and when it's unable to connect to web server)
+	NX-1991 (Incorrect handling of HTTP and communication errors when collecting data from web services)
 	NX-1992 (Properly parse : in web monitoring parameter name)
 	NX-2001 (Add ability to put trace messages from hook scripts to text output of status/conf/etc poll)
 
