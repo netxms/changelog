@@ -19,6 +19,7 @@
 - Fixed bug in subnet mask correction
 - Added Topology.RoutingTable internal DCI table
 - Fixed issues:
+	NX-1775 (Add deactivation event to list of thresholds in DCI properties)
 	NX-1988 (Show full user name in user selector dialogs)
 	NX-1991 (Incorrect handling of HTTP and communication errors when collecting data from web services)
 	NX-1992 (Properly parse : in web monitoring parameter name)
