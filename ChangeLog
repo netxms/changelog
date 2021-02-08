@@ -26,6 +26,7 @@
 	NX-1992 (Properly parse : in web monitoring parameter name)
 	NX-1994 (Handle multiple agents connecting back to same node)
 	NX-1999 (Make routing table available as internal table)
+	NX-2000 (Snooze timer in EPP to avoid repeating actions)
 	NX-2001 (Add ability to put trace messages from hook scripts to text output of status/conf/etc poll)
 
 
