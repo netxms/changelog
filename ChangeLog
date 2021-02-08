@@ -18,6 +18,7 @@
 - New NXSL functions PollerTrace and SendNotification
 - Fixed bug in subnet mask correction
 - Added Topology.RoutingTable internal DCI table
+- Fixed bug on node creation
 - Fixed issues:
 	NX-1437 (Show tunnel connection time in tunnel manager)
 	NX-1775 (Add deactivation event to list of thresholds in DCI properties)
