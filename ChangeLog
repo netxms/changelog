@@ -29,6 +29,7 @@
 	NX-1999 (Make routing table available as internal table)
 	NX-2000 (Snooze timer in EPP to avoid repeating actions)
 	NX-2001 (Add ability to put trace messages from hook scripts to text output of status/conf/etc poll)
+	NX-2004 (/objects/<container_id> REST API endpoint against container object returning error 46 - multiple JSON fields named flags)
 
 
 *
