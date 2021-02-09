@@ -16,6 +16,7 @@
 - Only HTTP and HTTPS are allowed in web service URLs
 - Context configuration removed from global log parsers configuration views in UI
 - New NXSL functions PollerTrace and SendNotification
+- New method setNamedParameter in NXSL class Event
 - Fixed bug in subnet mask correction
 - Added Topology.RoutingTable internal DCI table
 - Fixed bug on node creation
