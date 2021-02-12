@@ -12,6 +12,7 @@
 
 - Fixed multiple file download in file manager in web UI
 - Fixed excessive server memory consumption when transferring file from client to agent over slow link
+- Deleted unused job_hisotry table
 
 
 *
