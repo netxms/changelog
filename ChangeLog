@@ -12,8 +12,10 @@
 
 - Fixed multiple file download in file manager in web UI
 - Fixed excessive server memory consumption when transferring file from client to agent over slow link
-- Deleted unused job_hisotry table
+- Fixed occasional high CPU usage by server process
+- Deleted unused job_history table
 - Fixed graph refresh
+- Fixed object synchronization issue in web UI
 - Fixed issues:
 	NX-2005 (Add ability to have formatting in Telegram notifications)
 
