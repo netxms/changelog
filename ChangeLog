@@ -19,6 +19,7 @@
 - Fixed issues:
 	NX-1990 (Add filter in Script Library)
 	NX-2005 (Add ability to have formatting in Telegram notifications)
+	NX-2011 (NXSL inList function returns int32 instead of boolean)
 
 
 *
