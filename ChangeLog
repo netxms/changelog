@@ -16,6 +16,7 @@
 - Deleted unused job_history table
 - Fixed graph refresh
 - Fixed object synchronization issue in web UI
+- Fixed memory leak in dashboard save
 - Fixed issues:
 	NX-1990 (Add filter in Script Library)
 	NX-2005 (Add ability to have formatting in Telegram notifications)
