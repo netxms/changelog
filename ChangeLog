@@ -44,6 +44,7 @@
 	NX-1437 (Show tunnel connection time in tunnel manager)
 	NX-1775 (Add deactivation event to list of thresholds in DCI properties)
 	NX-1988 (Show full user name in user selector dialogs)
+	NX-1989 (Compile nxsl in dci instance discovery filter and container autobind filter)
 	NX-1991 (Incorrect handling of HTTP and communication errors when collecting data from web services)
 	NX-1992 (Properly parse : in web monitoring parameter name)
 	NX-1994 (Handle multiple agents connecting back to same node)
