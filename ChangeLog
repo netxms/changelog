@@ -10,14 +10,16 @@
 * 3.8-CURRENT
 *
 
+- Fixed intermittent problems with SNMP communications via proxy agents
 - Fixed multiple file download in file manager in web UI
 - Fixed excessive server memory consumption when transferring file from client to agent over slow link
 - Fixed occasional high CPU usage by server process
 - Deleted unused job_history table
 - Fixed graph refresh
 - Fixed object synchronization issue in web UI
-- Fixed memory leak in dashboard save
-- Fixed user sorting by Source column
+- Fixed memory leak in server
+- Fixed incorrect sorting by "Source" column in user management view
+- Fixed intermittent client disconnects
 - Fixed issues:
 	NX-1990 (Add filter in Script Library)
 	NX-2005 (Add ability to have formatting in Telegram notifications)
