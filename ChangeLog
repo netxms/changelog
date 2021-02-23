@@ -7,9 +7,10 @@
 
 
 *
-* 3.8-CURRENT
+* 3.8.165
 *
 
+- Improved driver for H3C (now HPE) switches
 - Fixed intermittent problems with SNMP communications via proxy agents
 - Fixed multiple file download in file manager in web UI
 - Fixed excessive server memory consumption when transferring file from client to agent over slow link
