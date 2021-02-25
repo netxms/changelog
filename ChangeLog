@@ -10,6 +10,7 @@
 * 3.8-CURRENT
 *
 
+- New methods isDirectChild, isDirectParent, isChild, isParent in NXSL class "NetObj"
 - Fixed possible server crash when agent tunnel is closing
 
 
