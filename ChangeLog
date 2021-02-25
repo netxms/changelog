@@ -7,6 +7,13 @@
 
 
 *
+* 3.8-CURRENT
+*
+
+- Fixed possible server crash when agent tunnel is closing
+
+
+*
 * 3.8.166
 *
 
