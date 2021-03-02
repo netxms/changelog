@@ -13,6 +13,10 @@
 - New methods isDirectChild, isDirectParent, isChild, isParent in NXSL class "NetObj"
 - Fixed possible server crash when agent tunnel is closing
 - Always use UTF-8 instead of current system character encoding for exported CSV files
+- Fixed process handle leak in Windows agent when external parameter providers are used
+- Westerstrand SNMP device driver can read device geolocation
+- NXSL function PollerTrace works in autobind filter scripts
+- Improved diagnostic output for manually started polls
 
 
 *
