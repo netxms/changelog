@@ -10,6 +10,7 @@
 * 3.8-CURRENT
 *
 
+- Fixed Timescale DB 2.x compatibility issues
 - New methods isDirectChild, isDirectParent, isChild, isParent in NXSL class "NetObj"
 - New NXSL function GetCurrentTimeMs
 - Fixed possible server crash when agent tunnel is closing
