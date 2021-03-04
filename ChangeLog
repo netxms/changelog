@@ -4,6 +4,7 @@
 
 - SMTP implemented as a notification channel and e-mail actions replaced by notification actions
 - Added 'DefaultNotificationChannel.SMTP.Html' and 'DefaultNotificationChannel.SMTP.Text' server configuration parametes for default SMTP channel names used by internal functions
+- Added method to get all tooltip data of the network map in one request
 
 
 *
@@ -19,6 +20,7 @@
 - Westerstrand SNMP device driver can read device geolocation
 - NXSL function PollerTrace works in autobind filter scripts
 - Improved diagnostic output for manually started polls
+- Improved network map tooltip data update
 
 
 *
