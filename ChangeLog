@@ -8,7 +8,7 @@
 
 
 *
-* 3.8-CURRENT
+* 3.8.192
 *
 
 - Fixed Timescale DB 2.x compatibility issues
@@ -18,7 +18,7 @@
 - Always use UTF-8 instead of current system character encoding for exported CSV files
 - Fixed process handle leak in Windows agent when external parameter providers are used
 - Westerstrand SNMP device driver can read device geolocation
-- NXSL function PollerTrace works in autobind filter scripts
+- NXSL function PollerTrace works in autobind filter scripts and instance discovery filter scripts
 - Improved diagnostic output for manually started polls
 - Improved network map tooltip data update
 
