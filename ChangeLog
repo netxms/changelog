@@ -8,6 +8,13 @@
 
 
 *
+* 3.8-CURRENT
+*
+
+- Added tunnel attribute to node in NXSL
+
+
+*
 * 3.8.193
 *
 
