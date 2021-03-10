@@ -11,8 +11,9 @@
 * 3.8-CURRENT
 *
 
-- Added tunnel attribute to node in NXSL
-- Fixed refresh of Object Details
+- Lower memory footprint of NXSL scripts
+- Added attribute "tunnel" to NXSL class "Node"
+- Fixed refresh issues in Object Details view
 - Fixed issues:
 	NX-2014 (Create NXSL property on node object that gives reference to each type of proxy)
 
