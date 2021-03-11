@@ -15,6 +15,7 @@
 - Correct handling of agent policies by external subagents
 - Added attribute "tunnel" to NXSL class "Node"
 - Fixed refresh issues in Object Details view
+- Fixed incorrect root object filtering in dashboard elements "Event Monitor", "SNMP Trap Monitor", and "Syslog Monitor"
 - Fixed issues:
 	NX-2014 (Create NXSL property on node object that gives reference to each type of proxy)
 
