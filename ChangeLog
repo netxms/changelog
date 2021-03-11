@@ -12,6 +12,7 @@
 *
 
 - Lower memory footprint of NXSL scripts
+- Correct handling of agent policies by external subagents
 - Added attribute "tunnel" to NXSL class "Node"
 - Fixed refresh issues in Object Details view
 - Fixed issues:
