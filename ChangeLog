@@ -14,6 +14,7 @@
 - Lower memory footprint of NXSL scripts
 - Correct handling of agent policies by external subagents
 - Added attribute "tunnel" to NXSL class "Node"
+- Server runs configuration poll on node after agent upgrade
 - Fixed refresh issues in Object Details view
 - Fixed incorrect root object filtering in dashboard elements "Event Monitor", "SNMP Trap Monitor", and "Syslog Monitor"
 - Fixed issues:
