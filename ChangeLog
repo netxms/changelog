@@ -11,7 +11,11 @@
 *
 * 3.8-CURRENT
 *
-- Improved Data Collection and Policy tab usability
+
+- Added notification channel driver for SNMP traps
+- Event processing macro %K (alarm key) also works in rules following one that triggered alarm
+- Improved Data Collection Editor and Policy Editor usability
+
 
 *
 * 3.8.226
