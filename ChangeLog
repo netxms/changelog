@@ -19,6 +19,7 @@
 - Added check for customAttribute::instance as a key before the check by plain custom attribute name
 - Fixed issues:
 	NX-2029 (Line Chart General Time Period keeps reverting to "Back from now" when trying to use "Fixed time frame" option)
+	NX-2031 (HTTP proxy parameter configured in nxmc properties has no effect)
 
 
 *
