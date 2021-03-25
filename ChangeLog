@@ -16,8 +16,9 @@
 - Added notification channel driver for SNMP traps
 - Event processing macro %K (alarm key) also works in rules following one that triggered alarm
 - Improved Data Collection Editor and Policy Editor usability
-- Added check for customAttribute::instance as a key before the check by plain custom attribute name
+- DCI instance used for custom attribute lookup when expanding %{} macro
 - Fixed issues:
+	NX-2028 (Use instance name for custom attribute search when expanding %{} macro)
 	NX-2029 (Line Chart General Time Period keeps reverting to "Back from now" when trying to use "Fixed time frame" option)
 	NX-2031 (HTTP proxy parameter configured in nxmc properties has no effect)
 
