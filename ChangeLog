@@ -6,6 +6,7 @@
 - Added 'DefaultNotificationChannel.SMTP.Html' and 'DefaultNotificationChannel.SMTP.Text' server configuration parametes for default SMTP channel names used by internal functions
 - Added method to get all tooltip data of the network map in one request
 - Removed lock for User Managenet View
+- Strings "true" and "false" interpreted as boolean values when accessing custom attributes from NXSL
 
 
 *
