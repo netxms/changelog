@@ -7,6 +7,7 @@
 - Added method to get all tooltip data of the network map in one request
 - Removed lock for User Managenet View
 - Strings "true" and "false" interpreted as boolean values when accessing custom attributes from NXSL
+- Database manager can create database and database user before database schema initialization
 
 
 *
