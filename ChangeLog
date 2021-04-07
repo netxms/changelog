@@ -11,6 +11,17 @@
 
 
 *
+* 3.8-CURRENT
+*
+
+- Fixed server crash when accessing NXSL class metadata
+- Fixed agent crash when parsing log files
+- Fixed file handle leak in log parser subagent
+- DCI Editor filter now search by description, parameter, and DCI ID
+- Long polling can be disabled in Telegram driver
+
+
+*
 * 3.8.250
 *
 
