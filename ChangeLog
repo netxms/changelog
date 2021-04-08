@@ -21,6 +21,7 @@
 - Fixed file handle leak in log parser subagent
 - DCI Editor filter now search by description, parameter, and DCI ID
 - Long polling can be disabled in Telegram driver
+- Fixed Log Parser Policy save with empty agent action field
 
 
 *
