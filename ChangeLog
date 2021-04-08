@@ -8,6 +8,8 @@
 - Removed lock for User Managenet View
 - Strings "true" and "false" interpreted as boolean values when accessing custom attributes from NXSL
 - Database manager can create database and database user before database schema initialization
+- Fixed issues:
+	NX-2013 (Add ability to send audit log to syslog in UTF-8)
 
 
 *
