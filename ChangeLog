@@ -13,7 +13,7 @@
 
 
 *
-* 3.8-CURRENT
+* 3.8.262
 *
 
 - Fixed server crash when accessing NXSL class metadata
@@ -22,6 +22,8 @@
 - DCI Editor filter now search by description, parameter, and DCI ID
 - Long polling can be disabled in Telegram driver
 - Fixed Log Parser Policy save with empty agent action field
+- Fixed issues:
+	NX-2033 (Incorrect interface name displayed in MAC address table for Mikrotik routers)
 
 
 *
