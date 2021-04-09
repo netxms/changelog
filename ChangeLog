@@ -13,6 +13,14 @@
 
 
 *
+* 3.8-CURRENT
+*
+
+- Fixed issues:
+	NX-2035 (Instance discovery using ICMP.Targets list crashes server )
+
+
+*
 * 3.8.262
 *
 
@@ -23,7 +31,9 @@
 - Long polling can be disabled in Telegram driver
 - Fixed Log Parser Policy save with empty agent action field
 - Fixed issues:
+	NX-1770 (Add ability to filter by DCI name in DCI list)
 	NX-2033 (Incorrect interface name displayed in MAC address table for Mikrotik routers)
+	NX-2036 (Filter in DCI editor should search both description and parameter)
 
 
 *
