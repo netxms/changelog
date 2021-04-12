@@ -13,9 +13,10 @@
 
 
 *
-* 3.8-CURRENT
+* 3.8.267
 *
 
+- Fixed server crash during scheduled task processing
 - Fixed issues:
 	NX-2009 (Add notification channel driver "Shell command")
 	NX-2035 (Instance discovery using ICMP.Targets list crashes server)
