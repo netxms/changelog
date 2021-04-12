@@ -10,6 +10,7 @@
 - Database manager can create database and database user before database schema initialization
 - Fixed issues:
 	NX-2013 (Add ability to send audit log to syslog in UTF-8)
+	NX-2013 (Add notification channel driver "Shell command")
 
 
 *
@@ -17,7 +18,7 @@
 *
 
 - Fixed issues:
-	NX-2035 (Instance discovery using ICMP.Targets list crashes server )
+	NX-2035 (Instance discovery using ICMP.Targets list crashes server)
 
 
 *
