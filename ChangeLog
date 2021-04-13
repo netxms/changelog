@@ -21,6 +21,7 @@
 	NX-2009 (Add notification channel driver "Shell command")
 	NX-2035 (Instance discovery using ICMP.Targets list crashes server)
 	NX-2037 (Save IP address of client connecting via WebAPI to audit log)
+	NX-1923 (Enforce unique event names)
 
 
 *
