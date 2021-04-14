@@ -10,6 +10,7 @@
 - Database manager can create database and database user before database schema initialization
 - Fixed issues:
 	NX-1923 (Enforce unique event names)
+	NX-1964 (Windows installer unable to create user on MySQL 8)
 	NX-2013 (Add ability to send audit log to syslog in UTF-8)
 
 
