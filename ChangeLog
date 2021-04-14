@@ -17,6 +17,7 @@
 * 3.8-CURRENT
 *
 
+- Fixed agent crash on log parser rule with inverted match
 - MIB compiler accepts object identifiers that starts with uppercase letter
 - Fixed issues:
 	NX-227 (Create "nxdownload" utility)
