@@ -17,6 +17,7 @@
 * 3.8-CURRENT
 *
 
+- MIB compiler accepts object identifiers that starts with uppercase letter
 - Fixed issues:
 	NX-227 (Create "nxdownload" utility)
 
