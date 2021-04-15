@@ -22,6 +22,7 @@
 - MIB compiler accepts object identifiers that starts with uppercase letter
 - Fixed issues:
 	NX-227 (Create "nxdownload" utility)
+	NX-1947 (Server repeats SYS_IF_DOWN after SYS_NODE_UP even if interface was already down before SYS_NODE_DOWN)
 
 
 *
