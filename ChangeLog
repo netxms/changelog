@@ -8,6 +8,7 @@
 - Removed lock for User Managenet View
 - Strings "true" and "false" interpreted as boolean values when accessing custom attributes from NXSL
 - Database manager can create database and database user before database schema initialization
+- Bind9 subagent rewritten in C++ and uses HTTP API
 - Fixed issues:
 	NX-1923 (Enforce unique event names)
 	NX-1964 (Windows installer unable to create user on MySQL 8)
