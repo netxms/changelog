@@ -21,6 +21,7 @@
 *
 
 - Database manager can detect and delete orphaned data tables
+- Event processing macro %A (alarm message) also works in rules following one that triggered alarm as well as when alarm is resolved or terminated by the rule
 - Fixed agent crash on log parser rule with inverted match
 - MIB compiler accepts object identifiers that starts with uppercase letter
 - Fixed issues:
