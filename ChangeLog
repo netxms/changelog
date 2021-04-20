@@ -24,6 +24,7 @@
 - Event processing macro %A (alarm message) also works in rules following one that triggered alarm as well as when alarm is resolved or terminated by the rule
 - Fixed agent crash on log parser rule with inverted match
 - MIB compiler accepts object identifiers that starts with uppercase letter
+- Implemented hash map to string conversion in NXSL
 - Fixed issues:
 	NX-227 (Create "nxdownload" utility)
 	NX-1947 (Server repeats SYS_IF_DOWN after SYS_NODE_UP even if interface was already down before SYS_NODE_DOWN)
