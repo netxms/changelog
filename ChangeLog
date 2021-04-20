@@ -28,6 +28,7 @@
 - Implemented hash map to string conversion in NXSL
 - Fixed issues:
 	NX-227 (Create "nxdownload" utility)
+	NX-1851 (nxdbmgr not checking for situation when DCI present in items, but not in object_properties)
 	NX-1947 (Server repeats SYS_IF_DOWN after SYS_NODE_UP even if interface was already down before SYS_NODE_DOWN)
 
 
