@@ -31,6 +31,7 @@
 	NX-553 (CPU and Memory DCI support in Darwin)
 	NX-1851 (nxdbmgr not checking for situation when DCI present in items, but not in object_properties)
 	NX-1947 (Server repeats SYS_IF_DOWN after SYS_NODE_UP even if interface was already down before SYS_NODE_DOWN)
+	NX-1976 (Add interface names to automatically generated IP topology maps)
 
 
 *
