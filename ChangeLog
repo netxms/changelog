@@ -26,6 +26,7 @@
 - Fixed agent crash on log parser rule with inverted match
 - MIB compiler accepts object identifiers that starts with uppercase letter
 - Implemented hash map to string conversion in NXSL
+- Fixed save of node state
 - Fixed issues:
 	NX-227 (Create "nxdownload" utility)
 	NX-553 (CPU and Memory DCI support in Darwin)
