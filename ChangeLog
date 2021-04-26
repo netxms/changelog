@@ -12,10 +12,10 @@
 - OPC UA subagent moved to core product
 - Added option to manually create subnet
 - Fixed issues:
+	NX-1487 (Grace period for automatic template removal)
 	NX-1923 (Enforce unique event names)
 	NX-1964 (Windows installer unable to create user on MySQL 8)
 	NX-2013 (Add ability to send audit log to syslog in UTF-8)
-	NX-1487 (Grace period for automatic template removal)
 
 
 *
