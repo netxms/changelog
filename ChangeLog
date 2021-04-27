@@ -28,6 +28,8 @@
 - MIB compiler accepts object identifiers that starts with uppercase letter
 - Implemented hash map to string conversion in NXSL
 - Fixed save of node state
+- Web API included into Web UI installer on Windows
+- Fixed deployment issues with Web UI installer on Windows
 - Fixed issues:
 	NX-227 (Create "nxdownload" utility)
 	NX-553 (CPU and Memory DCI support in Darwin)
