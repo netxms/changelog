@@ -20,7 +20,7 @@
 
 
 *
-* 3.8-CURRENT
+* 3.8.314
 *
 
 - Database manager can detect and delete orphaned data tables
