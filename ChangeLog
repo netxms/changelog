@@ -11,6 +11,7 @@
 - Bind9 subagent rewritten in C++ and uses HTTP API
 - OPC UA subagent moved to core product
 - Added option to manually create subnet
+- Separately configurable timeouts for agent's external parameters and external command execution
 - Fixed issues:
 	NX-1487 (Grace period for automatic template removal)
 	NX-1923 (Enforce unique event names)
