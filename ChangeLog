@@ -39,6 +39,7 @@
 	NX-1882 (Add option for negative mask in File.Count, File.FolderCount, and File.Size)
 	NX-1947 (Server repeats SYS_IF_DOWN after SYS_NODE_UP even if interface was already down before SYS_NODE_DOWN)
 	NX-1976 (Add interface names to automatically generated IP topology maps)
+	NX-2043 (Delete "last agent contact" timestamp when isAgent capability switches off)
 
 
 *
