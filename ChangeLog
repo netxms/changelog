@@ -23,6 +23,9 @@
 * 3.8-CURRENT
 *
 
+- Fixed issues:
+	NX-658 (Write poller statistics to debug log)
+
 
 *
 * 3.8.314
@@ -39,7 +42,6 @@
 - Fixed issues:
 	NX-227 (Create "nxdownload" utility)
 	NX-553 (CPU and Memory DCI support in Darwin)
-	NX-658 (Write poller statistics to debug log)
 	NX-1006 (Node with all status poll sources disabled creates a down alarm)
 	NX-1057 (Ability to execute set of SQL commands on server start) 
 	NX-1473 (System Description for Agents that are also running SNMP should be Agent's description, not SNMP's)
