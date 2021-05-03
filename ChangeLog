@@ -26,6 +26,7 @@
 - Fixed issues:
 	NX-658 (Write poller statistics to debug log)
 	NX-1952 (Update IP address on interface to address resolved by DNS for nodes without agent)
+	NX-2040 (Periodically check if files used in file delivery policies are available on the server)
 
 
 *
