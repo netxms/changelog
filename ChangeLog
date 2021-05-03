@@ -23,6 +23,7 @@
 * 3.8-CURRENT
 *
 
+- Fixed bug in discovering agent only nodes in remote zones
 - Fixed issues:
 	NX-658 (Write poller statistics to debug log)
 	NX-1952 (Update IP address on interface to address resolved by DNS for nodes without agent)
