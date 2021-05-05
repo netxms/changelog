@@ -23,6 +23,7 @@
 * 3.8-CURRENT
 *
 
+- Improved handling of partial or incorrect information in LLDP MIB (fixes topology building issues with Mikrotik devices)
 - Fixed bug in discovering agent only nodes in remote zones
 - Fixed interface object synchronization for physical links widget
 - Fixed issues:
