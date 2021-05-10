@@ -32,6 +32,7 @@
 	NX-1952 (Update IP address on interface to address resolved by DNS for nodes without agent)
 	NX-2040 (Periodically check if files used in file delivery policies are available on the server)
 	NX-2051 (Allow storing SYS_DB_QUERY_FAILED events to event log)
+	NX-2052 (nxdbmgr cannot drop orphaned TDATA tables created by older server versions)
 
 
 *
