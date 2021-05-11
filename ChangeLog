@@ -28,6 +28,7 @@
 - Fixed interface object synchronization for physical links widget
 - Fixed issues:
 	NX-658 (Write poller statistics to debug log)
+	NX-1510 (Special handling for user initiated agent restart to avoid node down or agent unreachable events)
 	NX-1589 (Error in database initialization on MS SQL 2017)
 	NX-1952 (Update IP address on interface to address resolved by DNS for nodes without agent)
 	NX-2040 (Periodically check if files used in file delivery policies are available on the server)
