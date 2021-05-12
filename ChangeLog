@@ -31,6 +31,7 @@
 	NX-673 (Perfomance Tab - missing "Stacked" and "Translucent")
 	NX-1510 (Special handling for user initiated agent restart to avoid node down or agent unreachable events)
 	NX-1589 (Error in database initialization on MS SQL 2017)
+	NX-1783 (When upgrading, agent installer asks for server IP, but does not update it in nxagentd.conf)
 	NX-1952 (Update IP address on interface to address resolved by DNS for nodes without agent)
 	NX-2040 (Periodically check if files used in file delivery policies are available on the server)
 	NX-2041 (Filter by Object ID (in Object Browser's filter) should match exact ID, not substring)
