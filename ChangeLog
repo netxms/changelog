@@ -37,6 +37,7 @@
 	NX-2041 (Filter by Object ID (in Object Browser's filter) should match exact ID, not substring)
 	NX-2051 (Allow storing SYS_DB_QUERY_FAILED events to event log)
 	NX-2052 (nxdbmgr cannot drop orphaned TDATA tables created by older server versions)
+	NX-2055 (Execution of some commands as agent actions may fail on Windows)
 
 
 *
