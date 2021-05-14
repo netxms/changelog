@@ -26,6 +26,9 @@
 - Improved handling of partial or incorrect information in LLDP MIB (fixes topology building issues with Mikrotik devices)
 - Fixed bug in discovering agent only nodes in remote zones
 - Fixed interface object synchronization for physical links widget
+- Fixed log name save for "Windows event log parser"
+- Removed repeat count options from "Windows event log parser" and "Syslog parser"
+- Added event and alaorm on agent tunnel connection problems
 - Fixed issues:
 	NX-658 (Write poller statistics to debug log)
 	NX-673 (Perfomance Tab - missing "Stacked" and "Translucent")
