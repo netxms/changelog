@@ -166,6 +166,7 @@
 - Fixed intermittent client disconnects
 - Fixed interface synchronization for network map element on dasbhboad
 - Fixed issues:
+	NX-804 (Validate scripts in all windows)
 	NX-1989 (Compile NXSL in dci instance discovery filter and container autobind filter)
 	NX-1990 (Add filter in Script Library)
 	NX-1996 (Retriggered event when node comes out of maintenance is missing value for currentValue (%4) parameter)
