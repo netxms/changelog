@@ -28,6 +28,7 @@
 - Fixed interface object synchronization for physical links widget
 - Fixed log name save for "Windows event log parser"
 - Removed repeat count options from "Windows event log parser" and "Syslog parser"
+- Added severity filter in Windows Event Log synchronization subagent
 - Added event and alaorm on agent tunnel connection problems
 - Fixed issues:
 	NX-658 (Write poller statistics to debug log)
