@@ -42,6 +42,7 @@
 	NX-2051 (Allow storing SYS_DB_QUERY_FAILED events to event log)
 	NX-2052 (nxdbmgr cannot drop orphaned TDATA tables created by older server versions)
 	NX-2055 (Execution of some commands as agent actions may fail on Windows)
+	NX-2057 (Add filtering by alarm status (acknowledged, resolved) in Alarm Viewer dashboard element)
 
 
 *
