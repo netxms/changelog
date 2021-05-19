@@ -20,7 +20,7 @@
 
 
 *
-* 3.8-CURRENT
+* 3.8.366
 *
 
 - Improved handling of partial or incorrect information in LLDP MIB (fixes topology building issues with Mikrotik devices)
