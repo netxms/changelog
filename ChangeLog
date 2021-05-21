@@ -23,6 +23,7 @@
 * 3.8-CURRENT
 *
 
+- New method "enable8021xStatusPolling" in NXSL class "Node"
 - Fixed issues:
 	NX-2052 (nxdbmgr cannot drop orphaned TDATA tables created by older server versions)
 
