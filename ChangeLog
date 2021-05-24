@@ -24,6 +24,7 @@
 *
 
 - New method "enable8021xStatusPolling" in NXSL class "Node"
+- Linux agent reports correct MTU for interfaces
 - Fixed issues:
 	NX-2052 (nxdbmgr cannot drop orphaned TDATA tables created by older server versions)
 
