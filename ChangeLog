@@ -20,7 +20,7 @@
 
 
 *
-* 3.8-CURRENT
+* 3.8.382
 *
 
 - New method "enable8021xStatusPolling" in NXSL class "Node"
