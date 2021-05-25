@@ -26,7 +26,9 @@
 - New method "enable8021xStatusPolling" in NXSL class "Node"
 - Linux agent reports correct MTU for interfaces
 - Data view created for report execution only if explicitly requested in report properties
+- Fixed database upgrade issue on Microsoft SQL Server
 - Fixed issues:
+	NX-2048 (More information in System.Services table)
 	NX-2052 (nxdbmgr cannot drop orphaned TDATA tables created by older server versions)
 
 
