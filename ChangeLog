@@ -23,9 +23,22 @@
 
 - Bind9 subagent rewritten in C++ and uses HTTP API
 - New NXSL function replace
-- Fixed potential data loss in InfluxDB driver
 - Fixed issues:
 	NX-1964 (Windows installer unable to create user on MySQL 8)
+
+
+*
+* 3.8.405
+*
+
+- Fixed potential data loss in InfluxDB driver
+- Fixed invalid memory access in NXSL VM when using expression variables
+- Fixed interface counters access by agent on FreeBSD 13
+- Fixed bug in CAS server access
+- Fixed bug in report definition processing
+- Fixed server deadlock during proxy load rebalancing
+- Read system description before interface list during configuration poll
+- Separate debug tag for SMTP sender
 
 
 *
