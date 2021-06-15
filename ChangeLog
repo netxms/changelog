@@ -31,7 +31,8 @@
 *
 * 3.8-CURRENT
 *
-- Fixed table column size for Table DCI Last Values view
+- Fixed issues:
+	NX-2074 ( DCI Table Last Value Column Widths are very large)
 
 
 *
