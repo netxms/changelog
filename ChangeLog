@@ -33,6 +33,7 @@
 	NX-1964 (Windows installer unable to create user on MySQL 8)
 	NX-2046 (Get remote file fingerprint using file manager)
 	NX-2061 (Add changing file owner and changing file permissions functionality to file delivery policy)
+	NX-2087 (Incorrect values reported by WindowsFirewall.State)
 
 
 *
