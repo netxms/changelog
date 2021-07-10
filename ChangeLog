@@ -29,6 +29,8 @@
 - Added percentage value to pie chart
 - Added drill down object for tube and pie charts
 - New NXSL functions to make web service custom requests (GET, POST, PUT, PATCH, DELETE)
+- If agent configuration contains errors agent starts anyway and reports configuration load failure
+- Agent configuration tree logged on startup
 - Fixed issues:
 	NX-1964 (Windows installer unable to create user on MySQL 8)
 	NX-2046 (Get remote file fingerprint using file manager)
