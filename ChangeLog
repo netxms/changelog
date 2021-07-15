@@ -2,6 +2,7 @@
 * 4.0-CURRENT
 *
 
+- Two-factor authentication for users
 - SMTP implemented as a notification channel and e-mail actions replaced by notification actions
 - Added 'DefaultNotificationChannel.SMTP.Html' and 'DefaultNotificationChannel.SMTP.Text' server configuration parametes for default SMTP channel names used by internal functions
 - Added method to get all tooltip data of the network map in one request
@@ -13,6 +14,7 @@
 - Separately configurable timeouts for agent's external parameters and external command execution
 - Fixed issues:
 	NX-1487 (Grace period for automatic template removal)
+	NX-1859 (Implement two-factor authentication in NetXMS server)
 	NX-1923 (Enforce unique event names)
 	NX-2013 (Add ability to send audit log to syslog in UTF-8)
 
@@ -31,21 +33,17 @@
 - New NXSL functions to make web service custom requests (GET, POST, PUT, PATCH, DELETE)
 - If agent configuration contains errors agent starts anyway and reports configuration load failure
 - Agent configuration tree logged on startup
+- Fixed broken "Responsible Users" object property page
 - Fixed issues:
 	NX-1964 (Windows installer unable to create user on MySQL 8)
 	NX-2046 (Get remote file fingerprint using file manager)
 	NX-2061 (Add changing file owner and changing file permissions functionality to file delivery policy)
+	NX-2070 (Add notification log and server action execution log)
+	NX-2073 (Generate event when duplicate MAC address is detected on the network)
+	NX-2074 (DCI Table Last Value Column Widths are very large)
+	NX-2082 (File upload should support resume and consistency checks)
 	NX-2087 (Incorrect values reported by WindowsFirewall.State)
 	NX-2088 (PostgreSQL driver reporting internal error "pResult is NULL in DrvExecute")
-
-
-*
-* 3.8-CURRENT
-*
-
-- Fixed broken "Responsible Users" object property page
-- Fixed issues:
-	NX-2074 ( DCI Table Last Value Column Widths are very large)
 
 
 *
