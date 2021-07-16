@@ -42,6 +42,7 @@
 	NX-2073 (Generate event when duplicate MAC address is detected on the network)
 	NX-2074 (DCI Table Last Value Column Widths are very large)
 	NX-2082 (File upload should support resume and consistency checks)
+	NX-2086 (Notification channel driver for Google Chat)
 	NX-2087 (Incorrect values reported by WindowsFirewall.State)
 	NX-2088 (PostgreSQL driver reporting internal error "pResult is NULL in DrvExecute")
 
