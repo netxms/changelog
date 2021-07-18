@@ -37,6 +37,7 @@
 - Fixed broken "Responsible Users" object property page
 - Fixed issues:
 	NX-1899 (Add description filter to Summary Table column definition)
+	NX-1903 (REST API AdHoc Summary Table - add ability to filter dci on description instead of just dciName)
 	NX-1964 (Windows installer unable to create user on MySQL 8)
 	NX-2046 (Get remote file fingerprint using file manager)
 	NX-2059 (Predefined object queries)
