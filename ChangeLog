@@ -42,6 +42,7 @@
 	NX-2046 (Get remote file fingerprint using file manager)
 	NX-2059 (Predefined object queries)
 	NX-2061 (Add changing file owner and changing file permissions functionality to file delivery policy)
+	NX-2063 (Detect conversion from group to super group in Telegram notification channel) 
 	NX-2070 (Add notification log and server action execution log)
 	NX-2073 (Generate event when duplicate MAC address is detected on the network)
 	NX-2074 (DCI Table Last Value Column Widths are very large)
