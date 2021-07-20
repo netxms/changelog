@@ -32,6 +32,7 @@
 - Added percentage value to pie chart
 - Added drill down object for tube and pie charts
 - New NXSL functions to make web service custom requests (GET, POST, PUT, PATCH, DELETE)
+- NXSL function assert() accepts second argument - diagnostic message
 - If agent configuration contains errors agent starts anyway and reports configuration load failure
 - Agent configuration tree logged on startup
 - Fixed broken "Responsible Users" object property page
