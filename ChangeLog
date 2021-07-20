@@ -36,6 +36,7 @@
 - Agent configuration tree logged on startup
 - Fixed broken "Responsible Users" object property page
 - Fixed issues:
+	NX-408 (Alarm log columns Ack by/Resolved by/Terminated by contain "admin" if not set)
 	NX-1899 (Add description filter to Summary Table column definition)
 	NX-1903 (REST API AdHoc Summary Table - add ability to filter dci on description instead of just dciName)
 	NX-1964 (Windows installer unable to create user on MySQL 8)
