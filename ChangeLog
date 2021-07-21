@@ -32,10 +32,12 @@
 - Added percentage value to pie chart
 - Added drill down object for tube and pie charts
 - New NXSL functions to make web service custom requests (GET, POST, PUT, PATCH, DELETE)
+- JQ used for json parsing in web service requests
 - NXSL function assert() accepts second argument - diagnostic message
 - If agent configuration contains errors agent starts anyway and reports configuration load failure
 - Agent configuration tree logged on startup
 - Fixed broken "Responsible Users" object property page
+- Added to web API object create and modify, bind, bindTo, unbind, unbindFrom and search in DCI's by name, nameRegexp, description and descriptionRegexp
 - Fixed issues:
 	NX-408 (Alarm log columns Ack by/Resolved by/Terminated by contain "admin" if not set)
 	NX-1899 (Add description filter to Summary Table column definition)
