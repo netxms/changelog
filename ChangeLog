@@ -39,6 +39,7 @@
 - Fixed broken "Responsible Users" object property page
 - Added to web API object create and modify, bind, bindTo, unbind, unbindFrom and search in DCI's by name, nameRegexp, description and descriptionRegexp
 - Source build configuration script do not throw error if libjq, libcurl, libssh, libmosquitto, or OpenLDAP are not available unless they are explicitly required
+- Cambium ePMP driver can read geo coordinates from device
 - Fixed issues:
 	NX-408 (Alarm log columns Ack by/Resolved by/Terminated by contain "admin" if not set)
 	NX-1899 (Add description filter to Summary Table column definition)
