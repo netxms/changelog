@@ -31,6 +31,7 @@
 - Added Geolocation.History.RetentionTime server configuration parameter and geolocation history clearing by housekeeper
 - Added percentage value to pie chart
 - Added drill down object for tube and pie charts
+- Network map link color can be defined by script
 - New NXSL functions to make web service custom requests (GET, POST, PUT, PATCH, DELETE)
 - JQ used for json parsing in web service requests
 - NXSL function assert() accepts second argument - diagnostic message
