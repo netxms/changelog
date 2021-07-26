@@ -47,6 +47,7 @@
 	NX-1899 (Add description filter to Summary Table column definition)
 	NX-1903 (REST API AdHoc Summary Table - add ability to filter dci on description instead of just dciName)
 	NX-1964 (Windows installer unable to create user on MySQL 8)
+	NX-2030 (Use last known coordinates when re-adding node to network map)
 	NX-2046 (Get remote file fingerprint using file manager)
 	NX-2059 (Predefined object queries)
 	NX-2061 (Add changing file owner and changing file permissions functionality to file delivery policy)
