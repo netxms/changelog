@@ -5,7 +5,6 @@
 - Two-factor authentication for users
 - SMTP implemented as a notification channel and e-mail actions replaced by notification actions
 - Added 'DefaultNotificationChannel.SMTP.Html' and 'DefaultNotificationChannel.SMTP.Text' server configuration parametes for default SMTP channel names used by internal functions
-- Added method to get all tooltip data of the network map in one request
 - Removed lock for user management view
 - Strings "true" and "false" interpreted as boolean values when accessing custom attributes from NXSL
 - Database manager can create database and database user before database schema initialization
@@ -32,6 +31,7 @@
 - Added percentage value to pie chart
 - Added drill down object for tube and pie charts
 - Network map link color can be defined by script
+- Added method to get all tooltip data of the network map in one request
 - New NXSL functions to make web service custom requests (GET, POST, PUT, PATCH, DELETE)
 - JQ used for json parsing in web service requests
 - NXSL function assert() accepts second argument - diagnostic message
