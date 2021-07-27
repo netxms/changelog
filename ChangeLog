@@ -22,6 +22,7 @@
 * 3.9-CURRENT
 *
 
+- Added option to push DCI data using Web API
 - Fixed issues:
 	NX-2094 (Error ORA-01476 in Oracle subagent)
 
