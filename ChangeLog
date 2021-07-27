@@ -41,6 +41,7 @@
 - Object management endpoints in web API
 - Source build configuration script do not throw error if libjq, libcurl, libssh, libmosquitto, or OpenLDAP are not available unless they are explicitly required
 - Cambium ePMP driver can read geo coordinates from device
+- Improved InfluxDB driver
 - Fixed issues:
 	NX-408 (Alarm log columns Ack by/Resolved by/Terminated by contain "admin" if not set)
 	NX-1548 (Allow monitoring of dynamic number of logs via Logwatch)
