@@ -19,6 +19,14 @@
 
 
 *
+* 3.9-CURRENT
+*
+
+- Fixed issues:
+	NX-2094 (Error ORA-01476 in Oracle subagent)
+
+
+*
 * 3.9.156
 *
 
