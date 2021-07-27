@@ -1,4 +1,19 @@
 *
+* 3.9
+*
+
+- Predefined object queries
+- Improved LDAP synchronization
+- JQ used for json parsing in web service requests
+- New NXSL functions to make web service custom requests (GET, POST, PUT, PATCH, DELETE)
+- Monitoring of dynamic number of logs via Logwatch
+- Network map link color can be defined by script
+- Drill down objects for bar and pie charts
+- Object management endpoints in web API
+- Server stability and performance improvements
+
+
+*
 * 3.8
 *
 
@@ -10,4 +25,3 @@
 - Snooze timer for actions in event processing policy
 - New NXSL functions and methods
 - Server stability and performance improvements
-
