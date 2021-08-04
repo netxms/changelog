@@ -19,12 +19,14 @@
 
 
 *
-* 3.9-CURRENT
+* 3.9.176
 *
 
 - Added option to push DCI data using Web API
 - Fixed bug in file transfer to agent on Windows
 - Fixed agent crash if file template is used in logwatch subagent
+- Fixed object tools in alarm browser
+- Server configuration tree logged on startup
 - Fixed issues:
 	NX-2094 (Error ORA-01476 in Oracle subagent)
 	NX-2097 (Server and agent cannot load configuration if it is a symbolic link)
