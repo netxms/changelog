@@ -19,6 +19,13 @@
 
 
 *
+* 3.9.178
+*
+
+- Server installer on Windows has database initialization task unchecked when upgrading from pre 3.9 version
+
+
+*
 * 3.9.176
 *
 
