@@ -25,6 +25,7 @@
 
 - Dashboards can be saved as images in desktop UI
 - Database manager checks for access point objects without valid parent node
+- Server does not report duplicate MAC addresses if interfaces are from same node
 - Fixed server deadlock related to multi-zone configuration
 
 
