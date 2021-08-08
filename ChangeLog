@@ -20,6 +20,15 @@
 
 
 *
+* 3.9-CURRENT
+*
+
+- Dashboards can be saved as images in desktop UI
+- Database manager checks for access point objects without valid parent node
+- Fixed server deadlock related to multi-zone configuration
+
+
+*
 * 3.9.178
 *
 
