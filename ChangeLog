@@ -28,6 +28,10 @@
 - Server does not report duplicate MAC addresses if interfaces are from same node
 - Fixed server deadlock related to multi-zone configuration
 - Fixed bugs in external command execution
+- Fixed small issues in influxdb driver
+- Fixed deleted form network map object list load from database on startup
+- Fixed rack placement object property page save
+- Fix in sqlite driver for fields with null value
 
 
 *
