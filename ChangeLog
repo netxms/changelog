@@ -31,7 +31,10 @@
 - Fixed small issues in influxdb driver
 - Fixed deleted form network map object list load from database on startup
 - Fixed rack placement object property page save
-- Fix in sqlite driver for fields with null value
+- Fixed bug in SQLite driver (incorrect reading of fields with null value)
+- Fixed issues:
+	NX-1625 ("Icmp.MovingAvgPingTime(*)" need a way to specify sample size)
+	NX-2093 (Add new parameter to ping subagent that will calculate jitter as moving average on response time deltas)
 
 
 *
