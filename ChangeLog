@@ -26,6 +26,7 @@
 - Dashboards can be saved as images in desktop UI
 - Database manager checks for access point objects without valid parent node
 - Server does not report duplicate MAC addresses if interfaces are from same node
+- New agent actions: Process.Terminate, Service.Start, Service.Stop
 - Fixed server deadlock related to multi-zone configuration
 - Fixed bugs in external command execution
 - Fixed small issues in influxdb driver
