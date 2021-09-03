@@ -42,6 +42,7 @@
 - Fixed bug in SQLite driver (incorrect reading of fields with null value)
 - Fixed issues:
 	NX-1625 ("Icmp.MovingAvgPingTime(*)" need a way to specify sample size)
+	NX-2092 (Keep last known topology information when node goes down)
 	NX-2093 (Add new parameter to ping subagent that will calculate jitter as moving average on response time deltas)
 	NX-2101 ("Compile script" button should not be present in script preview in EPP rule list)
 
