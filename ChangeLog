@@ -27,6 +27,13 @@
 
 
 *
+* 3.9-CURRENT
+*
+
+- Fixed bug in NXSL function "trim"
+
+
+*
 * 3.9.229
 *
 
