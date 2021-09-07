@@ -27,10 +27,12 @@
 
 
 *
-* 3.9-CURRENT
+* 3.9.235
 *
 
 - Fixed bug in NXSL function "trim"
+- Fixed issues:
+	NX-2108 (3.9.229 Cannot start process (No such file or directory))
 
 
 *
