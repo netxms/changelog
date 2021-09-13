@@ -27,6 +27,14 @@
 
 
 *
+* 3.9-CURRENT
+*
+
+- Fixed issues with Chassis/Rack placement properties page save
+- Fixed issues:
+	NX-2115 Allow adding image in chassis properties without selecting a rack
+
+*
 * 3.9.235
 *
 
