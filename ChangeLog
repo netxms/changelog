@@ -30,6 +30,7 @@
 * 3.9-CURRENT
 *
 
+- Service manager view for nodes
 - External audit logging via LEEF protocol
 - Fixed issues with Chassis/Rack placement properties page save
 - Fixed issues:
