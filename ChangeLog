@@ -32,6 +32,9 @@
 
 - Service manager view for nodes
 - External audit logging via LEEF protocol
+- Improved process table in Windows agent
+- Windows service manager in GUI
+- Process manager in GUI
 - Fixed issues with Chassis/Rack placement properties page save
 - Fixed issues:
 	NX-2115 Allow adding image in chassis properties without selecting a rack
