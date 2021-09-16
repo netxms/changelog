@@ -36,6 +36,7 @@
 - Windows service manager in GUI
 - Process manager in GUI
 - Fixed issues with Chassis/Rack placement properties page save
+- Fixed bug in standard deviation calculation in ping subagent
 - Fixed issues:
 	NX-2115 (Allow adding image in chassis properties without selecting a rack)
 	NX-2119 (Agent table "ICMP.Targets" should have "Standard deviation" column)
