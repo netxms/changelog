@@ -37,7 +37,8 @@
 - Process manager in GUI
 - Fixed issues with Chassis/Rack placement properties page save
 - Fixed issues:
-	NX-2115 Allow adding image in chassis properties without selecting a rack
+	NX-2115 (Allow adding image in chassis properties without selecting a rack)
+	NX-2121 (Status map view should show node aliases)
 
 
 *
