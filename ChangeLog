@@ -35,6 +35,7 @@
 - Improved process table in Windows agent
 - Windows service manager in GUI
 - Process manager in GUI
+- Optimized working with ICMP
 - Fixed issues with Chassis/Rack placement properties page save
 - Fixed bug in standard deviation calculation in ping subagent
 - Fixed incorrect limit on dashboard element span in UI property page
