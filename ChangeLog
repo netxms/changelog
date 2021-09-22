@@ -45,6 +45,7 @@
 	NX-2119 (Agent table "ICMP.Targets" should have "Standard deviation" column)
 	NX-2121 (Status map view should show node aliases)
 	NX-2124 (Log parser hangs on lines longer than 4095 characters)
+	NX-2125 (Server incorrectly reads IP network mask from VMWare ESXi and vCenter)
 
 
 *
