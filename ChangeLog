@@ -41,6 +41,7 @@
 - Fixed incorrect limit on dashboard element span in UI property page
 - Fixed issues:
 	NX-2115 (Allow adding image in chassis properties without selecting a rack)
+	NX-2118 (Changes in ICMP statistic collection period are not applied until server restart)
 	NX-2119 (Agent table "ICMP.Targets" should have "Standard deviation" column)
 	NX-2121 (Status map view should show node aliases)
 	NX-2124 (Log parser hangs on lines longer than 4095 characters)
