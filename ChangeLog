@@ -24,6 +24,7 @@
 *
 
 - Escalation level for responsible users
+- Log parser debug output only controlled by debug level for tag logwatch.parser (parser option "trace" is deprectated)
 
 
 *
