@@ -12,6 +12,7 @@
 - Added option to manually create subnet
 - Separately configurable timeouts for agent's external parameters and external command execution
 - Zoning is enabled by default
+- NXSL operator "in" works for strings and hash maps
 - Fixed issues:
 	NX-1487 (Grace period for automatic template removal)
 	NX-1859 (Implement two-factor authentication in NetXMS server)
