@@ -44,6 +44,7 @@
 - Fixed issues with Chassis/Rack placement properties page save
 - Fixed bug in standard deviation calculation in ping subagent
 - Fixed incorrect limit on dashboard element span in UI property page
+- Fixed file transfer issue when upgrading agents from Package Manager
 - Fixed issues:
 	NX-2115 (Allow adding image in chassis properties without selecting a rack)
 	NX-2118 (Changes in ICMP statistic collection period are not applied until server restart)
