@@ -35,6 +35,7 @@
 - Improved file delivery policy editor
 - Fixed issues:
 	NX-2133 (Set subagent column as instance on table Agent.SubAgents)
+	NX-2134 (Agent crashes if invalid owner or group set in file delivery policy)
 
 
 *
