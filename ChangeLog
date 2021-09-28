@@ -29,6 +29,14 @@
 
 
 *
+* 3.9-CURRENT
+*
+
+- Fixed issues:
+	NX-2133 (Set subagent column as instance on table Agent.SubAgents)
+
+
+*
 * 3.9.280
 *
 
