@@ -35,6 +35,8 @@
 
 - Improved file delivery policy editor
 - Fixed bug in centralized agent upgrade on Windows
+- New endpoint /events in web API for sending events
+- Filtering by primary host name in web API endpoint /objects
 - Fixed issues:
 	NX-2129 (File delivery policy on Windows Agent causing .part0 to be added to the filename)
 	NX-2130 (If file in file delivery policy is updated new version is appended to the old one instead of replacing it)
