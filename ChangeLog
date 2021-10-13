@@ -34,6 +34,7 @@
 * 3.9-CURRENT
 *
 
+- Fixed bar gauge color selection by active DCI threshold
 - Fixed issues:
 	NX-2107 (SQL error on server startup)
 	NX-2128 (Disabled DCIs with instance discovery generate instance DCIs)
