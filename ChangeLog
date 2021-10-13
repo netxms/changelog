@@ -15,6 +15,7 @@
 - NXSL operator "in" works for strings and hash maps
 - Fixed issues:
 	NX-1487 (Grace period for automatic template removal)
+	NX-1838 (Files in file delivery policy should be exported as part of configuration export)
 	NX-1859 (Implement two-factor authentication in NetXMS server)
 	NX-1923 (Enforce unique event names)
 	NX-2013 (Add ability to send audit log to syslog in UTF-8)
