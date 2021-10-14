@@ -35,6 +35,8 @@
 *
 
 - Fixed bar gauge color selection by active DCI threshold
+- Bundled SQLite updated to version 3.36.0
+- Windows crash dump handler writes compressed dump files
 - Fixed issues:
 	NX-2107 (SQL error on server startup)
 	NX-2128 (Disabled DCIs with instance discovery generate instance DCIs)
