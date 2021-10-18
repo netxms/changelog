@@ -19,6 +19,7 @@
 	NX-1859 (Implement two-factor authentication in NetXMS server)
 	NX-1923 (Enforce unique event names)
 	NX-2013 (Add ability to send audit log to syslog in UTF-8)
+	NX-2068 (Rename column "check_responce" in table network_services to "check_response")
 
 
 *
