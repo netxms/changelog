@@ -42,6 +42,7 @@
 - NXSL methods enableConfigurationPolling and enableStatusPolling moved from class "Node" to class "DataCollectionTarget"
 - New method enableDataCollection in NXSL class "DataCollectionTarget"
 - Fixed bug in cluster resource selection for table DCI
+- Fixed possible server deadlock when zone proxies are in use
 - Fixed issues:
 	NX-2107 (SQL error on server startup)
 	NX-2128 (Disabled DCIs with instance discovery generate instance DCIs)
