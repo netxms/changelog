@@ -49,6 +49,7 @@
 	NX-2128 (Disabled DCIs with instance discovery generate instance DCIs)
 	NX-2131 (Migration from psql-timescale to psql is broken)
 	NX-2132 (nxdbmgr check should not delete orphaned idata/tdata records on Timescale database)
+	NX-2143 (MIB Explorer "Create Data Collection item..." reports error on Retention time 0 or blank, but is added as "default")
 	NX-2144 (Graph Title in Web GUI is truncated, seemingly due to an ampersand)
 	NX-2145 (Update HP iLO Template to include support for HP iLOs on G10 servers)
 	NX-2148 (MIB compiler throws syntax error if statements in TEXTUAL-CONVENTION definition are in non-standard order)
