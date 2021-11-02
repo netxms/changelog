@@ -14,13 +14,13 @@
 - Zoning is enabled by default
 - NXSL operator "in" works for strings and hash maps
 - Fixed issues:
-   NX-1468 (Status from network map objects is not propagated to map groups)
+	NX-1468 (Status from network map objects is not propagated to map groups)
 	NX-1487 (Grace period for automatic template removal)
 	NX-1660 (Generate event on ICMP status poll failure)
 	NX-1838 (Files in file delivery policy should be exported as part of configuration export)
 	NX-1859 (Implement two-factor authentication in NetXMS server)
 	NX-1923 (Enforce unique event names)
-   NX-1972 (Add extended version of System.Processes table having info on CPU and memory consumption per process)
+	NX-1972 (Add extended version of System.Processes table having info on CPU and memory consumption per process)
 	NX-2013 (Add ability to send audit log to syslog in UTF-8)
 	NX-2068 (Rename column "check_responce" in table network_services to "check_response")
 
@@ -32,6 +32,13 @@
 - Escalation level for responsible users
 - Structured alarm filter in UI
 - Log parser debug output only controlled by debug level for tag logwatch.parser (parser option "trace" is deprectated)
+
+
+*
+* 3.9-CURRENT
+*
+
+- Fixed bug in housekeeper (expired DCI data may not be deleted)
 
 
 *
