@@ -14,6 +14,7 @@
 - Zoning is enabled by default
 - NXSL operator "in" works for strings and hash maps
 - Fixed issues:
+	NX-1452 (User filter for Process.Count parameter)
 	NX-1468 (Status from network map objects is not propagated to map groups)
 	NX-1487 (Grace period for automatic template removal)
 	NX-1660 (Generate event on ICMP status poll failure)
