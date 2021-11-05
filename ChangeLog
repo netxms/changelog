@@ -42,7 +42,8 @@
 *
 
 - Fixed bug in housekeeper (expired DCI data may not be deleted)
-
+- Fixed issues:
+	NX-2157 (Macros are not expanded when uploading file via file delivery policy)
 
 *
 * 3.9.334
