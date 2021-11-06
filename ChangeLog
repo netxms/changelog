@@ -43,6 +43,7 @@
 
 - Fixed bug in housekeeper (expired DCI data may not be deleted)
 - Fixed issues:
+	NX-127 (Implement System.CPU.Usage.IoWait in Solaris subagent)
 	NX-2157 (Macros are not expanded when uploading file via file delivery policy)
 
 *
