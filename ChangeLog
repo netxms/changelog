@@ -45,6 +45,8 @@
 - Fixed issues:
 	NX-127 (Implement System.CPU.Usage.IoWait in Solaris subagent)
 	NX-2157 (Macros are not expanded when uploading file via file delivery policy)
+	NX-2166 ( "Hide value on last values" does not work)
+
 
 *
 * 3.9.334
