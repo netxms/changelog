@@ -55,6 +55,7 @@
 	NX-2157 (Macros are not expanded when uploading file via file delivery policy)
 	NX-2166 ("Hide value on last values" does not work)
 	NX-2168 (Divide by zero on core start)
+	NX-2170 (Macros in shell notification channel are not resolved)
 
 
 *
