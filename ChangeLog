@@ -13,12 +13,13 @@
 - Separately configurable timeouts for agent's external parameters and external command execution
 - Zoning is enabled by default
 - NXSL operator "in" works for strings and hash maps
+- Macros can be used in object comments
 - Fixed issues:
 	NX-1450 (External parameters that returns process exit code)
 	NX-1452 (User filter for Process.Count parameter)
 	NX-1468 (Status from network map objects is not propagated to map groups)
 	NX-1487 (Grace period for automatic template removal)
-	NX-1611 (Macro expansion in Comments)
+	NX-1611 (Macro expansion in object comments)
 	NX-1660 (Generate event on ICMP status poll failure)
 	NX-1829 (Misleading error message, when trying to rename protected image in image library)
 	NX-1838 (Files in file delivery policy should be exported as part of configuration export)
