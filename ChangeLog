@@ -15,7 +15,6 @@
 - NXSL operator "in" works for strings and hash maps
 - Macros can be used in object comments
 - Fixed issues:
-	NX-1450 (External parameters that returns process exit code)
 	NX-1452 (User filter for Process.Count parameter)
 	NX-1468 (Status from network map objects is not propagated to map groups)
 	NX-1487 (Grace period for automatic template removal)
@@ -52,6 +51,7 @@
 - Object filtering in object tree by exact IP address
 - Fixed issues:
 	NX-127 (Implement System.CPU.Usage.IoWait in Solaris subagent)
+	NX-1450 (External parameters that returns process exit code)
 	NX-2157 (Macros are not expanded when uploading file via file delivery policy)
 	NX-2166 ("Hide value on last values" does not work)
 	NX-2168 (Divide by zero on core start)
