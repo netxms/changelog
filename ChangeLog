@@ -42,7 +42,7 @@
 
 
 *
-* 3.9-CURRENT
+* 3.9.361
 *
 
 - Custom port number can be specified in MySQL and MariaDB database drivers
@@ -51,7 +51,9 @@
 - Object filtering in object tree by exact IP address
 - State filter in /objects endpoint in web API
 - Fixed issues:
+	NX-30 (Show thresholds on graph is broken)
 	NX-127 (Implement System.CPU.Usage.IoWait in Solaris subagent)
+	NX-1448 (It is not possible to specify semicolon as external table separator)
 	NX-1450 (External parameters that returns process exit code)
 	NX-2157 (Macros are not expanded when uploading file via file delivery policy)
 	NX-2166 ("Hide value on last values" does not work)
