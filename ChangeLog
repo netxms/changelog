@@ -14,7 +14,9 @@
 - Zoning is enabled by default
 - NXSL operator "in" works for strings and hash maps
 - Macros can be used in object comments
+- New threshold type "absolute deviation"
 - Fixed issues:
+	NX-1 (New threshold type: absolute deviation)
 	NX-1452 (User filter for Process.Count parameter)
 	NX-1468 (Status from network map objects is not propagated to map groups)
 	NX-1487 (Grace period for automatic template removal)
