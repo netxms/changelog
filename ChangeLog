@@ -17,6 +17,7 @@
 - New threshold type "absolute deviation"
 - Fixed issues:
 	NX-1 (New threshold type: absolute deviation)
+	NX-1448 (It is not possible to specify semicolon as external table separator)
 	NX-1452 (User filter for Process.Count parameter)
 	NX-1468 (Status from network map objects is not propagated to map groups)
 	NX-1487 (Grace period for automatic template removal)
