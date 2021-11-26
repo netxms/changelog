@@ -52,6 +52,7 @@
 - Fixed issues:
 	NX-781 (Convert to template item work incorrectly on cluster nodes)
 	NX-1587 (Fix MySQL error: The 'INFORMATION_SCHEMA.GLOBAL_STATUS' feature is disabled; see the documentation for 'show_compatibility_56')
+	NX-2122 (Table DCI last values are not loaded on server start)
 
 
 *
