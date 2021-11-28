@@ -50,6 +50,7 @@
 *
 
 - Fixed issues:
+	NX-290 (SSL Certificate expiration check)
 	NX-781 (Convert to template item work incorrectly on cluster nodes)
 	NX-1032 (Threshold violations are not shown for table DCIs)
 	NX-1587 (Fix MySQL error: The 'INFORMATION_SCHEMA.GLOBAL_STATUS' feature is disabled; see the documentation for 'show_compatibility_56')
