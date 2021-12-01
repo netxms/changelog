@@ -43,6 +43,7 @@
 - Escalation level for responsible users
 - Structured alarm filter in UI
 - Log parser debug output only controlled by debug level for tag logwatch.parser (parser option "trace" is deprectated)
+- Added support for multi-select fields in report execution forms
 - Fixed issues:
 	NX-2100 (Add "support level" or "escalation" value to Responsible persons)
 
