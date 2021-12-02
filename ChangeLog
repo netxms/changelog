@@ -52,6 +52,7 @@
 * 3.9-CURRENT
 *
 
+- New agent command line option -Q (query values of configuration entry)
 - Fixed bug in network topology discovery
 - Fixed issues:
 	NX-290 (SSL Certificate expiration check)
