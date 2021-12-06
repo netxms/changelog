@@ -60,6 +60,7 @@
 	NX-1032 (Threshold violations are not shown for table DCIs)
 	NX-1587 (Fix MySQL error: The 'INFORMATION_SCHEMA.GLOBAL_STATUS' feature is disabled; see the documentation for 'show_compatibility_56')
 	NX-2122 (Table DCI last values are not loaded on server start)
+	NX-2182 (Changing Objects.Nodes.ResolveNames actually requires server restart, but should work without server restart)
 
 
 *
