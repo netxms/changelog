@@ -55,6 +55,7 @@
 *
 
 - New agent command line option -Q (query values of configuration entry)
+- Windows service start mode can be changed from UI
 - Fixed bug in network topology discovery
 - Fixed issues:
 	NX-290 (SSL Certificate expiration check)
