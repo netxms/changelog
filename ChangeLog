@@ -34,6 +34,7 @@
 	NX-2098 (New action type "Execute command on remote node via ssh")
 	NX-2111 (Add ability to configure web service proxy in node properties)
 	NX-2167 (Add context to SYS_SCRIPT_ERROR event)
+	NX-2174 (Periodically check telegram API if it's operable)
 	NX-2178 (Configurable encoding for SNMP)
 	NX-2179 (Configurable encoding for syslog)
 
