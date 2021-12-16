@@ -23,6 +23,7 @@
 	NX-1487 (Grace period for automatic template removal)
 	NX-1611 (Macro expansion in object comments)
 	NX-1660 (Generate event on ICMP status poll failure)
+	NX-1698 (SNMP query for printer status string is unreadable)
 	NX-1829 (Misleading error message, when trying to rename protected image in image library)
 	NX-1838 (Files in file delivery policy should be exported as part of configuration export)
 	NX-1859 (Implement two-factor authentication in NetXMS server)
