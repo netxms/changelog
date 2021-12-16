@@ -30,6 +30,7 @@
 	NX-1923 (Enforce unique event names)
 	NX-1972 (Add extended version of System.Processes table having info on CPU and memory consumption per process)
 	NX-2013 (Add ability to send audit log to syslog in UTF-8)
+	NX-2025 (Add macro expansion in timer delay and snooze time fields in EPP action properties)
 	NX-2062 (Add option to specify community string in CreateSNMPTransport)
 	NX-2068 (Rename column "check_responce" in table network_services to "check_response")
 	NX-2098 (New action type "Execute command on remote node via ssh")
