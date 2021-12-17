@@ -56,7 +56,7 @@
 
 
 *
-* 3.9-CURRENT
+* 3.9.418
 *
 
 - New agent command line option -Q (query values of configuration entry)
@@ -74,6 +74,7 @@
 	NX-2152 (Map should zoom in relation to mouse cursor, not center of map view)
 	NX-2175 (Add hint to SNMP Trap Transformation Script editor)
 	NX-2182 (Changing Objects.Nodes.ResolveNames actually requires server restart, but should work without server restart)
+	NX-2183 (Daily Email Summary doesn't seem to resolve users properly in "Ack/Resolved by" column)
 
 
 *
