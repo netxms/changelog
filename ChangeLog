@@ -52,6 +52,7 @@
 - Log parser debug output only controlled by debug level for tag logwatch.parser (parser option "trace" is deprectated)
 - Added support for multi-select fields in report execution forms
 - Improved package deployment via agents
+- New event template option "hide from event monitor"
 - Fixed issues:
 	NX-1776 (File transfer implementation issues)
 	NX-2100 (Add "support level" or "escalation" value to Responsible persons)
