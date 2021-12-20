@@ -53,6 +53,7 @@
 - Added support for multi-select fields in report execution forms
 - Improved package deployment via agents
 - New event template option "hide from event monitor"
+- Reporting server uses XLSX format instead of XLS
 - Fixed issues:
 	NX-1776 (File transfer implementation issues)
 	NX-2100 (Add "support level" or "escalation" value to Responsible persons)
