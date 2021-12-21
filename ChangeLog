@@ -41,6 +41,7 @@
 	NX-2174 (Periodically check telegram API if it's operable)
 	NX-2178 (Configurable encoding for SNMP)
 	NX-2179 (Configurable encoding for syslog)
+   NX-2184 (Notification channels SMTPS support)
 
 
 *
