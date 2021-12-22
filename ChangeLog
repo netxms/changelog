@@ -15,6 +15,9 @@
 - NXSL operator "in" works for strings and hash maps
 - Macros can be used in object comments
 - New threshold type "absolute deviation"
+- Added option for L2 network maps to create links using physical links
+- Implemented DCI search on container
+- Improved Web API
 - Fixed issues:
 	NX-1 (New threshold type: absolute deviation)
 	NX-436 (Add an option to secure syslog server)
