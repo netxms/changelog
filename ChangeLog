@@ -20,6 +20,7 @@
 - Improved Web API
 - Fixed issues:
 	NX-1 (New threshold type: absolute deviation)
+   NX-251 (Service check for pop3s and smtps)
 	NX-436 (Add an option to secure syslog server)
 	NX-1452 (User filter for Process.Count parameter)
 	NX-1468 (Status from network map objects is not propagated to map groups)
