@@ -13,6 +13,7 @@
 - Separately configurable timeouts for agent's external parameters and external command execution
 - Zoning is enabled by default
 - NXSL operator "in" works for strings and hash maps
+- New methods "contains" and "remove" for NXSL hash maps
 - Macros can be used in object comments
 - New threshold type "absolute deviation"
 - Added option for L2 network maps to create links using physical links
@@ -20,7 +21,7 @@
 - Improved Web API
 - Fixed issues:
 	NX-1 (New threshold type: absolute deviation)
-   NX-251 (Service check for pop3s and smtps)
+	NX-251 (Service check for pop3s and smtps)
 	NX-436 (Add an option to secure syslog server)
 	NX-1452 (User filter for Process.Count parameter)
 	NX-1468 (Status from network map objects is not propagated to map groups)
