@@ -1,0 +1,6 @@
+* 4.0
+********************
+
+Incompatible attributes in NXSL DCI class:
+instance now refers to instance value (as in {instance} macro), not instance name as before.
+Instance name can be accessed via attribute "instanceName".
