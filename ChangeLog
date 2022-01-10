@@ -12,6 +12,7 @@
 - Added option to manually create subnet
 - Separately configurable timeouts for agent's external parameters and external command execution
 - Zoning is enabled by default
+- Value of any type can be used as boolean in NXSL
 - NXSL operator "in" works for strings and hash maps
 - New methods "contains" and "remove" for NXSL hash maps
 - Macros can be used in object comments
