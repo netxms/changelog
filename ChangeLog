@@ -52,6 +52,7 @@
 	NX-2184 (Notification channels SMTPS support)
 	NX-2185 (Certificate pinning for agent tunnels)
 	NX-2189 (Typo when interfaces are removed during polling)
+   NX-2190 (Add nxsl function that will convert numeric value to human-readable form with multipliers)
 	NX-2191 (Ignore node unreachable state when performing manual configuration poll)
 
 
