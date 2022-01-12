@@ -42,6 +42,7 @@
 	NX-2062 (Add option to specify community string in CreateSNMPTransport)
 	NX-2066 (Add more parameters to events created on server within Windows Event Log synchronization)
 	NX-2068 (Rename column "check_responce" in table network_services to "check_response")
+	NX-2095 (Add option to access node hardware inventory information from NXSL)
 	NX-2098 (New action type "Execute command on remote node via ssh")
 	NX-2111 (Add ability to configure web service proxy in node properties)
 	NX-2167 (Add context to SYS_SCRIPT_ERROR event)
