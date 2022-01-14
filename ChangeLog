@@ -55,7 +55,8 @@
 	NX-2189 (Typo when interfaces are removed during polling)
 	NX-2190 (Add NXSL function that will convert numeric value to human-readable form with multipliers)
 	NX-2191 (Ignore node unreachable state when performing manual configuration poll)
-   NX-2194 (Add option to access node software inventory information from NXSL)
+	NX-2194 (Add option to access node software inventory information from NXSL)
+	NX-2195 (DB Checker inefficiencies with IsDciExists)
 
 
 *
