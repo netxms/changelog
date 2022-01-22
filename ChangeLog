@@ -15,6 +15,7 @@
 - Value of any type can be used as boolean in NXSL
 - NXSL operator "in" works for strings and hash maps
 - Single-quoted strings in NXSL (without escape characters)
+- Operators "print" and "println" in NXSL converted to functions
 - New methods "contains" and "remove" for NXSL hash maps
 - Macros can be used in object comments
 - New threshold type "absolute deviation"
