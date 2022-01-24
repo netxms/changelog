@@ -64,6 +64,7 @@
 	NX-2191 (Ignore node unreachable state when performing manual configuration poll)
 	NX-2194 (Add option to access node software inventory information from NXSL)
 	NX-2195 (DB Checker inefficiencies with IsDciExists)
+	NX-2199 (Agent parameters to get certificate information from file)
 
 
 *
