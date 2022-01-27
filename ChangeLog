@@ -23,6 +23,7 @@
 - New threshold type "absolute deviation"
 - Added option for L2 network maps to create links using physical links
 - Configurable HTTP request method and request data in web service definitions
+- Polling intervals can be overridden on object level via custom attributes
 - Implemented DCI search on container
 - Improved Web API
 - Improved SSH subagent
