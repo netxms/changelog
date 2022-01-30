@@ -67,6 +67,7 @@
 	NX-2194 (Add option to access node software inventory information from NXSL)
 	NX-2195 (DB Checker inefficiencies with IsDciExists)
 	NX-2199 (Agent parameters to get certificate information from file)
+	NX-2204 (Agent not recognizing Windows 11)
 
 
 *
