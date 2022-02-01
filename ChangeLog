@@ -27,6 +27,7 @@
 - Implemented DCI search on container
 - Improved Web API
 - Improved SSH subagent
+- Inherited object access rights visible in object properties in UI
 - Fixed issues:
 	NX-1 (New threshold type: absolute deviation)
 	NX-251 (Service check for pop3s and smtps)
