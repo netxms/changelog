@@ -74,6 +74,7 @@
 	NX-2199 (Agent parameters to get certificate information from file)
 	NX-2204 (Agent not recognizing Windows 11)
 	NX-2205 (Generate event if LDAP sync failed)
+	NX-2207 (Implement System.OS metrics for Linux, AIX, FreeBSD and Solaris)
 	NX-2208 (Zone UIN being reused)
 
 
