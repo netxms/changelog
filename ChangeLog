@@ -28,6 +28,7 @@
 - Improved Web API
 - Improved SSH subagent
 - Inherited object access rights visible in object properties in UI
+- Correlated events can be processed in event processing policy
 - Fixed issues:
 	NX-1 (New threshold type: absolute deviation)
 	NX-251 (Service check for pop3s and smtps)
