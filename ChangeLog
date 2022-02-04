@@ -19,6 +19,7 @@
 - New methods "contains" and "remove" for NXSL hash maps
 - Improved string manipulation functions in NXSL
 - Integer division operator in NXSL
+- Multi-OID SNMP requests in NXSL
 - Macros can be used in object comments
 - New threshold type "absolute deviation"
 - Added option for L2 network maps to create links using physical links
