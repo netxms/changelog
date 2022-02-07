@@ -17,6 +17,7 @@
 	NX-1766 (File transfer implementation issues)
 	NX-2100 (Add "support level" or "escalation" value to Responsible persons)
 	NX-2189 (Typo when interfaces are removed during polling)
+	NX-2198 (Alternative data source for agent parameters Hardware.System.* on Linux)
 	NX-2199 (Agent parameters to get certificate information from file)
 	NX-2200 (Remove length limit on command in NXSL method Node::executeSSHCommand)
 	NX-2205 (Generate event if ldap sync failed)

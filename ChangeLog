@@ -1,5 +1,5 @@
 *
-* 4.0-CURRENT
+* 4.0.2083
 *
 
 - Two-factor authentication for users
@@ -82,6 +82,7 @@
 	NX-2191 (Ignore node unreachable state when performing manual configuration poll)
 	NX-2194 (Add option to access node software inventory information from NXSL)
 	NX-2195 (DB Checker inefficiencies with IsDciExists)
+	NX-2198 (Alternative data source for agent parameters Hardware.System.* on Linux)
 	NX-2199 (Agent parameters to get certificate information from file)
 	NX-2200 (Remove length limit on command in NXSL method Node::executeSSHCommand)
 	NX-2204 (Agent not recognizing Windows 11)
