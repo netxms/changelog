@@ -23,6 +23,7 @@
 	NX-2200 (Remove length limit on command in NXSL method Node::executeSSHCommand)
 	NX-2205 (Generate event if LDAP sync failed)
 	NX-2207 (Implement System.OS metrics for Linux, AIX, FreeBSD and Solaris)
+	NX-2209 (cpuid.h is not supported on ARM macOS)
 
 
 *
