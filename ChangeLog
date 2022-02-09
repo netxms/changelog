@@ -1,4 +1,12 @@
 *
+* 4.0-CURRENT
+*
+
+- Fixed issues:
+	NX-2209 (cpuid.h is not supported on ARM macOS)
+
+
+*
 * 4.0.2088
 *
 
