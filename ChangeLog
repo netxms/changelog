@@ -2,6 +2,7 @@
 * 4.0-CURRENT
 *
 
+- Fixed bug in NXSL function FormatMetricPrefix
 - Fixed issues:
 	NX-2209 (cpuid.h is not supported on ARM macOS)
 
