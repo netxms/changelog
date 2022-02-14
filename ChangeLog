@@ -4,6 +4,8 @@
 
 - Fixed bug in NXSL function FormatMetricPrefix
 - Fixed issues:
+	NX-2153 (Add REST API endpoint for persistent storage)
+	NX-2198 (Alternative data source for agent parameters Hardware.System.* on Linux)
 	NX-2209 (cpuid.h is not supported on ARM macOS)
 
 
