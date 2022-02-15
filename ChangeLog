@@ -5,6 +5,7 @@
 - New attribute "lastCollectionTime" in NXSL class "DCI"
 - Fixed bug in automatic object binding
 - Fixed bug in NXSL function FormatMetricPrefix
+- Fixed bug in business service state calculation
 - Fixed issues:
 	NX-2153 (Add REST API endpoint for persistent storage)
 	NX-2198 (Alternative data source for agent parameters Hardware.System.* on Linux)
