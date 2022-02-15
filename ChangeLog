@@ -2,6 +2,8 @@
 * 4.0-CURRENT
 *
 
+- New attribute "lastCollectionTime" in NXSL class "DCI"
+- Fixed bug in automatic object binding
 - Fixed bug in NXSL function FormatMetricPrefix
 - Fixed issues:
 	NX-2153 (Add REST API endpoint for persistent storage)
