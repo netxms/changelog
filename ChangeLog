@@ -3,6 +3,7 @@
 *
 
 - New attribute "lastCollectionTime" in NXSL class "DCI"
+- Notification channel driver for Twilio
 - Fixed bug in automatic object binding
 - Fixed bug in NXSL function FormatMetricPrefix
 - Fixed bug in business service state calculation
