@@ -1,9 +1,10 @@
 *
-* 4.0-CURRENT
+* 4.0.2151
 *
 
 - Fixed issues:
 	NX-2210 (Network Service HTTP polling ports above 32767 generates incorrect Host header in HTTP request)
+	NX-2211 (Agent crash while processing request for System.ThreadCount)
 
 
 *
