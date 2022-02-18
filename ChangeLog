@@ -1,4 +1,12 @@
 *
+* 4.0-CURRENT
+*
+
+- Fixed issues:
+	NX-2210 (Network Service HTTP polling ports above 32767 generates incorrect Host header in HTTP request)
+
+
+*
 * 4.0.2148
 *
 
