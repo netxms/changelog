@@ -1,4 +1,12 @@
 *
+* 4.0-CURRENT
+*
+
+Fixed issues:
+	NX-2212 (Agent segmentation fault when accessing table Hardware.NetworkAdapters)
+
+
+*
 * 4.0.2151
 *
 
