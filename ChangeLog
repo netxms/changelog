@@ -2,7 +2,8 @@
 * 4.0-CURRENT
 *
 
-Fixed issues:
+- New parameter Oracle.Cursors.MaxPerSession in Oracle subagent
+- Fixed issues:
 	NX-2212 (Agent segmentation fault when accessing table Hardware.NetworkAdapters)
 
 

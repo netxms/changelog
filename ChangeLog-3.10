@@ -12,6 +12,7 @@
 - Multiline string constants in NXSL
 - Improved string manipulation functions in NXSL
 - Inherited object access rights visible in object properties in UI
+- New parameter Oracle.Cursors.MaxPerSession in Oracle subagent
 - Fixed small isues in object custom attribute inheritance
 - Fixed issues:
 	NX-1766 (File transfer implementation issues)
