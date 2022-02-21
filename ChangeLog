@@ -1,5 +1,5 @@
 *
-* 4.0-CURRENT
+* 4.0.2157
 *
 
 - New parameter Oracle.Cursors.MaxPerSession in Oracle subagent
