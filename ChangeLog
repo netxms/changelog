@@ -1,8 +1,16 @@
 *
+* 4.1-CURRENT
+*
+
+- Fixed issues:
+	NX-2154 (Node search by partial MAC address)
+
+*
 * 4.0.2157
 *
 
 - New parameter Oracle.Cursors.MaxPerSession in Oracle subagent
+- Fixed json file parsing for Web Services
 - Fixed issues:
 	NX-2212 (Agent segmentation fault when accessing table Hardware.NetworkAdapters)
 	NX-2213 ( Set event parameter from NXSL by index)
