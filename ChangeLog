@@ -2,9 +2,10 @@
 * 4.1-CURRENT
 *
 
-- Improved titles for dashboard elements
+- Improved titles in dashboard elements
 - Fixed issues:
 	NX-1802 (Binary data support in NXSL SNMP functions)
+	NX-2021 (Title is not displayed for some Dashboard elements)
 	NX-2154 (Node search by partial MAC address)
 
 

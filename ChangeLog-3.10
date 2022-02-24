@@ -13,9 +13,11 @@
 - Improved string manipulation functions in NXSL
 - Inherited object access rights visible in object properties in UI
 - New parameter Oracle.Cursors.MaxPerSession in Oracle subagent
+- Improved titles in dashboard elements
 - Fixed small isues in object custom attribute inheritance
 - Fixed issues:
 	NX-1766 (File transfer implementation issues)
+	NX-2021 (Title is not displayed for some Dashboard elements)
 	NX-2069 (Collect hardware information about HDD/SSD and network cards on Linux)
 	NX-2100 (Add "support level" or "escalation" value to Responsible persons)
 	NX-2189 (Typo when interfaces are removed during polling)
