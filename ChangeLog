@@ -3,6 +3,7 @@
 *
 
 - Fixed issues:
+	NX-1802 (Binary data support in NXSL SNMP functions)
 	NX-2154 (Node search by partial MAC address)
 
 *
