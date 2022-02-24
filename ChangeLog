@@ -2,9 +2,11 @@
 * 4.1-CURRENT
 *
 
+- Improved titles for dashboard elements
 - Fixed issues:
 	NX-1802 (Binary data support in NXSL SNMP functions)
 	NX-2154 (Node search by partial MAC address)
+
 
 *
 * 4.0.2157
