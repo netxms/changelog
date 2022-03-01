@@ -8,6 +8,12 @@
 	NX-2021 (Title is not displayed for some Dashboard elements)
 	NX-2154 (Node search by partial MAC address)
 
+*
+* 4.0-CURRENT
+*
+
+- Fixed issues:
+	NX-2214 (Agent does not report network interface speed)
 
 *
 * 4.0.2157
