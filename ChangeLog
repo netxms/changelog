@@ -8,12 +8,15 @@
 	NX-2021 (Title is not displayed for some Dashboard elements)
 	NX-2154 (Node search by partial MAC address)
 
+
 *
 * 4.0-CURRENT
 *
 
+- Fixed bugs in IP topology map builder
 - Fixed issues:
 	NX-2214 (Agent does not report network interface speed)
+
 
 *
 * 4.0.2157
@@ -23,7 +26,7 @@
 - Fixed json file parsing for Web Services
 - Fixed issues:
 	NX-2212 (Agent segmentation fault when accessing table Hardware.NetworkAdapters)
-	NX-2213 ( Set event parameter from NXSL by index)
+	NX-2213 (Set event parameter from NXSL by index)
 
 
 *
