@@ -14,6 +14,7 @@
 *
 
 - Fixed bugs in IP topology map builder
+- Added action to open object detalis form Business Service checks
 - Fixed issues:
 	NX-2214 (Agent does not report network interface speed)
 
