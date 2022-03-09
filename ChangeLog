@@ -16,6 +16,8 @@
 
 - Fixed bugs in IP topology map builder
 - Added action to open object detalis form Business Service checks
+- Alarms for unknown nodes are not included in summary e-mails
+- Fixed bug with threshold recreation on any DCI change
 - Fixed issues:
 	NX-2214 (Agent does not report network interface speed)
 
