@@ -13,6 +13,14 @@
 
 
 *
+* 4.0-CURRENT
+*
+
+- Fixed issues:
+	NX-2227 (Typo in message for event SYS_DUPLICATE_MAC_ADDRESS)
+
+
+*
 * 4.0.2195
 *
 
