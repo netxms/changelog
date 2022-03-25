@@ -14,9 +14,10 @@
 
 
 *
-* 4.0-CURRENT
+* 4.0.2227
 *
 
+- NXSL hook script for user login
 - SSH subagent metric SSH.Command returns collection error instead of "unsupported metric" if host name cannot be resolved
 - Fixed issues:
 	NX-2227 (Typo in message for event SYS_DUPLICATE_MAC_ADDRESS)
