@@ -16,8 +16,11 @@
 * 4.0-CURRENT
 *
 
+- SSH subagent metric SSH.Command returns collection error instead of "unsupported metric" if host name cannot be resolved
 - Fixed issues:
 	NX-2227 (Typo in message for event SYS_DUPLICATE_MAC_ADDRESS)
+	NX-2235 (Object Query CSV export does not prompt to overwrite .csv file)
+	NX-2236 (Option of copying of data from an Object Query in Dashboard view)
 
 
 *
