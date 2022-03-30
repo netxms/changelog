@@ -13,6 +13,7 @@
 	NX-2215 (Remake XMPP into a notification channel)
 	NX-2216 (Telegram notification channel should throttle message sending and retry sending after timeout)
 	NX-2220 (Add timer key column to Scheduled Tasks)
+	NX-2223 (Notification log view should have multi-line preview panel)
 	NX-2225 (Maintenance journal)
 
 
