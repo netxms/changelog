@@ -17,6 +17,14 @@
 
 
 *
+* 4.0-CURRENT
+*
+
+- Fixed issues:
+	NX-2226 (Agent policy move to TemplateGroup)
+
+
+*
 * 4.0.2227
 *
 
