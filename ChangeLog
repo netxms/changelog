@@ -7,6 +7,7 @@
 - Ignore IP addresses found during network discovery on interfaces marked as excluded from topology
 - Added AgentTunnels.Certificates.ReissueInterval and AgentTunnels.Certificates.ValidityPeriod server configuration variables
 - Fixed issues:
+	NX-1734 (Add column "Peer Interface" to interface list view)
 	NX-1802 (Binary data support in NXSL SNMP functions)
 	NX-2021 (Title is not displayed for some Dashboard elements)
 	NX-2154 (Node search by partial MAC address)
