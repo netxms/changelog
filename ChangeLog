@@ -19,6 +19,7 @@
 	NX-2223 (Notification log view should have multi-line preview panel)
 	NX-2225 (Maintenance journal)
 	NX-2229 (Add scrollbar and ability to resize to script editor in Object Query)
+	NX-2230 (Business service enhancements)
 	NX-2231 (Use TCP/UDP for active network discovery)
 	NX-2240 (Changes to DCI comments in template are not synchronized with DCIs created from that template)
 
