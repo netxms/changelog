@@ -3,6 +3,7 @@
 *
 
 - Maintenance journals for objects
+- SSH connecivity checked as part of status and configuration polls
 - Improved titles in dashboard elements
 - Ignore IP addresses found during network discovery on interfaces marked as excluded from topology
 - Added AgentTunnels.Certificates.ReissueInterval and AgentTunnels.Certificates.ValidityPeriod server configuration variables
@@ -21,6 +22,7 @@
 	NX-2229 (Add scrollbar and ability to resize to script editor in Object Query)
 	NX-2230 (Business service enhancements)
 	NX-2231 (Use TCP/UDP for active network discovery)
+	NX-2239 (Node SSH polling)
 	NX-2240 (Changes to DCI comments in template are not synchronized with DCIs created from that template)
 
 
