@@ -20,6 +20,7 @@
 	NX-2021 (Title is not displayed for some Dashboard elements)
 	NX-2069 (Collect hardware information about HDD/SSD and network cards on Linux)
 	NX-2100 (Add "support level" or "escalation" value to Responsible persons)
+	NX-2163 (Show user name on process tab)
 	NX-2165 ("Show file" in file manager displays incorrect progress bar message)
 	NX-2189 (Typo when interfaces are removed during polling)
 	NX-2198 (Alternative data source for agent parameters Hardware.System.* on Linux)

@@ -20,6 +20,7 @@
 	NX-1802 (Binary data support in NXSL SNMP functions)
 	NX-2021 (Title is not displayed for some Dashboard elements)
 	NX-2154 (Node search by partial MAC address)
+	NX-2163 (Show user name on process tab)
 	NX-2165 ("Show file" in file manager displays incorrect progress bar message)
 	NX-2196 (Keep SNMP alias separately in interface object)
 	NX-2215 (Remake XMPP into a notification channel)
