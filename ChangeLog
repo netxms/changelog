@@ -31,6 +31,7 @@
 	NX-2231 (Use TCP/UDP for active network discovery)
 	NX-2239 (Node SSH polling)
 	NX-2240 (Changes to DCI comments in template are not synchronized with DCIs created from that template)
+	NX-2242 (On Windows, if agent action calls .cmd file and that file produces output, execution fails)
 	NX-2252 (TLS.Certificate.* 500 internal error to some domains when nginx enabled ssl_reject_handshake on)
 	NX-2254 (LDAP synchronization error events generated for any LDAP user login error)
 	NX-2255 (SQL issues with server_action_execution_log)

@@ -28,6 +28,7 @@
 	NX-2207 (Implement System.OS metrics for Linux, AIX, FreeBSD and Solaris)
 	NX-2209 (cpuid.h is not supported on ARM macOS)
 	NX-2210 (Network Service HTTP polling ports above 32767 generates incorrect Host header in HTTP request)
+	NX-2242 (On Windows, if agent action calls .cmd file and that file produces output, execution fails)
 
 
 *
