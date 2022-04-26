@@ -26,9 +26,11 @@
 	NX-2220 (Add timer key column to Scheduled Tasks)
 	NX-2223 (Notification log view should have multi-line preview panel)
 	NX-2225 (Maintenance journal)
+	NX-2226 (Agent policy move to TemplateGroup)
 	NX-2229 (Add scrollbar and ability to resize to script editor in Object Query)
 	NX-2230 (Business service enhancements)
 	NX-2231 (Use TCP/UDP for active network discovery)
+	NX-2233 (Add new agent metric similar to Service.Check() that would follow redirects)
 	NX-2239 (Node SSH polling)
 	NX-2240 (Changes to DCI comments in template are not synchronized with DCIs created from that template)
 	NX-2242 (On Windows, if agent action calls .cmd file and that file produces output, execution fails)
@@ -37,14 +39,6 @@
 	NX-2255 (SQL issues with server_action_execution_log)
 	NX-2256 (Have two separate certificates on server - for TLS connection and to issue agent certificates)
 	NX-2257 (PostgreSQL.Version returns 0.0 if database is not connected)
-
-
-*
-* 4.0-CURRENT
-*
-
-- Fixed issues:
-	NX-2226 (Agent policy move to TemplateGroup)
 
 
 *
