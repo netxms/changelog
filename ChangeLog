@@ -35,6 +35,7 @@
 	NX-2252 (TLS.Certificate.* 500 internal error to some domains when nginx enabled ssl_reject_handshake on)
 	NX-2254 (LDAP synchronization error events generated for any LDAP user login error)
 	NX-2255 (SQL issues with server_action_execution_log)
+	NX-2256 (Have two separate certificates on server - for TLS connection and to issue agent certificates)
 	NX-2257 (PostgreSQL.Version returns 0.0 if database is not connected)
 
 
