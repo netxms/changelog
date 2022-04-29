@@ -8,11 +8,12 @@
 - Authentication option (on by default) for local server console (accessible via nxadm)
 - Added driver for Ubiquiti EdgeSwitch switches
 - Octal numeric constants removed from NXSL
+- New string method "equals" in NXSL
 - Jira connector supports Jira Cloud
 - Improved titles in dashboard elements
 - Ignore IP addresses found during network discovery on interfaces marked as excluded from topology
 - Added AgentTunnels.Certificates.ReissueInterval and AgentTunnels.Certificates.ValidityPeriod server configuration variables
-- Fixed DCI creation form NXSL
+- Fixed DCI creation from NXSL
 - Added $dci variable to DCI script
 - Added option to configure column data type for external table
 - Fixed issues:
