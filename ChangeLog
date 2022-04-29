@@ -17,7 +17,9 @@
 - Added $dci variable to DCI script
 - Added option to configure column data type for external table
 - Fixed issues:
+	NX-1183 (Add option to choose automatic colors for instances in performance tabs)
 	NX-1734 (Add column "Peer Interface" to interface list view)
+	NX-1785 (Automatic color assignment for items on performance tab graph)
 	NX-1802 (Binary data support in NXSL SNMP functions)
 	NX-2021 (Title is not displayed for some Dashboard elements)
 	NX-2154 (Node search by partial MAC address)
