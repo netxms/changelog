@@ -10,6 +10,7 @@
 - Octal numeric constants removed from NXSL
 - New string method "equals" in NXSL
 - Jira connector supports Jira Cloud
+- Internal metrics for monitoring notification channels
 - Improved titles in dashboard elements
 - Ignore IP addresses found during network discovery on interfaces marked as excluded from topology
 - Added AgentTunnels.Certificates.ReissueInterval and AgentTunnels.Certificates.ValidityPeriod server configuration variables
