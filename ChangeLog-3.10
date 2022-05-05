@@ -13,6 +13,7 @@
 - Improved string manipulation functions in NXSL
 - Inherited object access rights visible in object properties in UI
 - New parameter Oracle.Cursors.MaxPerSession in Oracle subagent
+- Internal metrics for monitoring notification channels
 - Improved titles in dashboard elements
 - Fixed small isues in object custom attribute inheritance
 - Fixed issues:
