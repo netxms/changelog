@@ -3,6 +3,8 @@
 *
 
 - Added support for package type "zip"
+- Fixed issues:
+	NX-2258 (No context menu on area of interactive dashboard graphs)
 
 
 *
