@@ -4,6 +4,7 @@
 
 - Added support for package type "zip"
 - Fixed issues:
+	NX-2089 (Bundle prunmgr.exe with web-ui installer)
 	NX-2250 (Show VLAN information on interface overview page)
 	NX-2258 (No context menu on area of interactive dashboard graphs)
 
