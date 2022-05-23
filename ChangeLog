@@ -1,4 +1,12 @@
 *
+* 4.1-CURRENT
+*
+
+- Fixed issues:
+	NX-2262 (syncUserDatabase() does not wait for CMD_USER_DB_EOF)
+
+
+*
 * 4.1.333
 *
 
