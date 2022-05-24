@@ -1,4 +1,12 @@
 *
+* 4.2-CURRENT
+*
+
+- "Spread" operation for arrays in NXSL
+- New methods executeAgentCommand and executeAgentCommandWithOutput in NXSL class "Node"
+
+
+*
 * 4.1-CURRENT
 *
 
