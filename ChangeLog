@@ -12,6 +12,7 @@
 
 - Agent configuration option to disable local database
 - Linux subagent can read software inventory from OpenWrt package manager
+- Added driver for HPE iLO
 - Fixed issues:
 	NX-2262 (syncUserDatabase() does not wait for CMD_USER_DB_EOF)
 
