@@ -14,6 +14,8 @@
 - Linux subagent can read software inventory from OpenWrt package manager
 - Added driver for HPE iLO
 - Fixed incorrect return code of NXSL function "SNMPSet" and SNMP transport method "set"
+- Original DCI string value returned by transformation script is preserved
+- Fixed bug in downtime calculation for hierarchical business services 
 - Fixed issues:
 	NX-2262 (syncUserDatabase() does not wait for CMD_USER_DB_EOF)
 
