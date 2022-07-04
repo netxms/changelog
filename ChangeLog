@@ -10,6 +10,15 @@
 
 
 *
+* 4.1-CURRENT
+*
+
+- Fixed full screen dashboard display on startup in desktop client
+- Improved database consistency checks for business services
+- Fixed bugs in database schema upgrade from pre-4.0 versions
+
+
+*
 * 4.1.377
 *
 
