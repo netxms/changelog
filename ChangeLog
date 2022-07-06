@@ -15,7 +15,9 @@
 
 - Fixed full screen dashboard display on startup in desktop client
 - Improved database consistency checks for business services
+- Fixed slow appearance of discovered nodes
 - Fixed bugs in database schema upgrade from pre-4.0 versions
+- Fixed bug in map options property page
 
 
 *
@@ -68,6 +70,7 @@
 - Added $dci variable to DCI script
 - Added option to configure column data type for external table
 - Fixed issues:
+	NX-1115 (JIRA configuration parameters re-read only on restart)
 	NX-1183 (Add option to choose automatic colors for instances in performance tabs)
 	NX-1734 (Add column "Peer Interface" to interface list view)
 	NX-1785 (Automatic color assignment for items on performance tab graph)
