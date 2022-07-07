@@ -18,6 +18,8 @@
 - Fixed slow appearance of discovered nodes
 - Fixed bugs in database schema upgrade from pre-4.0 versions
 - Fixed bug in map options property page
+- Fixed issues:
+    NX-755 (Network discovery may not stop immediately)
 
 
 *
