@@ -6,7 +6,7 @@
 - New methods executeAgentCommand and executeAgentCommandWithOutput in NXSL class "Node"
 - Notification channel driver for MQTT
 - Fixed issues:
-   NX-2103 (Add ability to push values to Push DCIs from log file parser)
+	NX-2103 (Add ability to push values to Push DCIs from log file parser)
 	NX-2259 (Configurable server's SNMPv3 engine ID)
 	NX-2251 (Add 'conflict' marker to inherited custom attributes)
 
