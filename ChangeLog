@@ -23,7 +23,7 @@
 - Fixed sqlite upgrade issues
 - Fixed issues:
 	NX-755 (Network discovery may not stop immediately)
-    NX-1560 (List of custom agent ports to be used during network discovery and configuration polls)
+    	NX-1560 (List of custom agent ports to be used during network discovery and configuration polls)
 
 
 *
