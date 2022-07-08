@@ -9,7 +9,7 @@
 	NX-2103 (Add ability to push values to Push DCIs from log file parser)
 	NX-2259 (Configurable server's SNMPv3 engine ID)
 	NX-2251 (Add 'conflict' marker to inherited custom attributes)
-
+	NX-1560 (List of custom agent ports to be used during network discovery and configuration polls)
 
 *
 * 4.1-CURRENT
@@ -24,7 +24,7 @@
 - Fixed sqlite upgrade issues
 - Fixed issues:
 	NX-755 (Network discovery may not stop immediately)
-    	NX-1560 (List of custom agent ports to be used during network discovery and configuration polls)
+    	
 
 
 *
