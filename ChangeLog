@@ -11,12 +11,14 @@
 	NX-2251 (Add 'conflict' marker to inherited custom attributes)
 	NX-1560 (List of custom agent ports to be used during network discovery and configuration polls)
 
+
 *
 * 4.1-CURRENT
 *
 
 - Fixed full screen dashboard display on startup in desktop client
 - Improved database consistency checks for business services
+- Added Oracle driver option to disable OCI statement caching
 - Fixed slow appearance of discovered nodes
 - Fixed bugs in database schema upgrade from pre-4.0 versions
 - Fixed bug in map options property page
@@ -24,7 +26,6 @@
 - Fixed sqlite upgrade issues
 - Fixed issues:
 	NX-755 (Network discovery may not stop immediately)
-    	
 
 
 *
