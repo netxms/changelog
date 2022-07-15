@@ -6,15 +6,15 @@
 - New methods executeAgentCommand and executeAgentCommandWithOutput in NXSL class "Node"
 - Notification channel driver for MQTT
 - Fixed issues:
+	NX-702 (DCI option - "Store only if value changes")
 	NX-1279 (WebUI does not support ServerName/ServerColor options)
 	NX-1474 (Execute server script - replace error message box with alternative way)
 	NX-1560 (List of custom agent ports to be used during network discovery and configuration polls)
 	NX-2103 (Add ability to push values to Push DCIs from log file parser)
+	NX-2234 (With a drop-down menu with a choice of DCI metrics, swap the display of Description and Name (Parameter))
 	NX-2251 (Add 'conflict' marker to inherited custom attributes)
 	NX-2259 (Configurable server's SNMPv3 engine ID)
 	NX-2261 (Access to Mikrotik metrics via network driver metrics)
-	NX-702  (DCI option - "Store only if value changes")
-	NX-2234 (With a drop-down menu with a choice of DCI metrics, swap the display of Description and Name (Parameter))
 
 
 *
@@ -220,6 +220,7 @@
 	NX-251 (Service check for pop3s and smtps)
 	NX-436 (Add an option to secure syslog server)
 	NX-841 (Bar Chart legend always shown in two columns, event if space if available for more elements in each line)
+	NX-843 (Transposed bar chart use data sources from bottom to top instead of standard top to bottom)
 	NX-1354 (Object ACL editor should not allow empty list of users without "inherit access rights" checkbox)
 	NX-1382 (NXSL '$dci->instance' has 'instance-name' value)
 	NX-1452 (User filter for Process.Count parameter)
@@ -371,6 +372,7 @@
 - Fixed incorrect limit on dashboard element span in UI property page
 - Fixed file transfer issue when upgrading agents from Package Manager
 - Fixed issues:
+	NX-2050 (Show Node alias on Status Map widget)
 	NX-2115 (Allow adding image in chassis properties without selecting a rack)
 	NX-2118 (Changes in ICMP statistic collection period are not applied until server restart)
 	NX-2119 (Agent table "ICMP.Targets" should have "Standard deviation" column)
