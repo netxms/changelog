@@ -16,6 +16,7 @@
 	NX-2251 (Add 'conflict' marker to inherited custom attributes)
 	NX-2259 (Configurable server's SNMPv3 engine ID)
 	NX-2261 (Access to Mikrotik metrics via network driver metrics)
+	NX-2078 (Add the ability to specify an alias when creating an object)
 
 
 *
