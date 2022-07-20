@@ -18,6 +18,7 @@
 	NX-2261 (Access to Mikrotik metrics via network driver metrics)
 	NX-2078 (Add the ability to specify an alias when creating an object)
 	NX-2283 (Added 'Show version' command in debug console)
+	NX-1077 ('Copy MAC address to clipboard' option added on Topology - FDB view)
 
 
 *
