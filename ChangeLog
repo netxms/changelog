@@ -8,6 +8,7 @@
 - Optimied alarm resolve/terminate using regular expressions
 - Fixed issues:
 	NX-702 (DCI option - "Store only if value changes")
+	NX-846 (the ability to copy from Routing table)
 	NX-1077 ('Copy MAC address to clipboard' option added on Topology - FDB view)
 	NX-1279 (WebUI does not support ServerName/ServerColor options)
 	NX-1474 (Execute server script - replace error message box with alternative way)
