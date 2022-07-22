@@ -263,6 +263,7 @@
 	NX-2098 (New action type "Execute command on remote node via ssh")
 	NX-2100 (Add "support level" or "escalation" value to Responsible persons)
 	NX-2111 (Add ability to configure web service proxy in node properties)
+	NX-2161 (Move execution of object queries from "Configuration" menu)
 	NX-2167 (Add context to SYS_SCRIPT_ERROR event)
 	NX-2173 (File integrity monitoring)
 	NX-2174 (Periodically check telegram API if it's operable)
