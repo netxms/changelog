@@ -20,10 +20,11 @@
 
 
 *
-* 4.1-CURRENT
+* 4.1.420
 *
 
 - Optimized alarm resolve/terminate using regular expressions
+- Improved topology detection on Juniper switches
 - Fixed communication protocol compatibility issues in C++ client library and command line client tools
 - Fixed issues:
 	NX-627 (Gauge rendered incorrectly)
