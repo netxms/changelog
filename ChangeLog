@@ -10,6 +10,7 @@
 	NX-1279 (WebUI does not support ServerName/ServerColor options)
 	NX-1474 (Execute server script - replace error message box with alternative way)
 	NX-1560 (List of custom agent ports to be used during network discovery and configuration polls)
+	NX-1809 (Center Map Background Image)
 	NX-2078 (Add the ability to specify an alias when creating an object)
 	NX-2103 (Add ability to push values to Push DCIs from log file parser)
 	NX-2234 (With a drop-down menu with a choice of DCI metrics, swap the display of Description and Name (Parameter))
