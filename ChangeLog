@@ -5,6 +5,7 @@
 - "Spread" operation for arrays in NXSL
 - New methods executeAgentCommand and executeAgentCommandWithOutput in NXSL class "Node"
 - Notification channel driver for MQTT
+- Automatic binding on configuration poll works again (but can be switched off in configuration)
 - Fixed issues:
 	NX-702 (DCI option - "Store only if value changes")
 	NX-708 (Add map option to make all labels non-transparent) 
