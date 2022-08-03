@@ -33,6 +33,7 @@
 - Optimized alarm resolve/terminate using regular expressions
 - Improved topology detection on Juniper switches
 - Fixed communication protocol compatibility issues in C++ client library and command line client tools
+- Fixed business service default retention time for historical data
 - Fixed issues:
 	NX-627 (Gauge rendered incorrectly)
 	NX-846 (Ability to copy to clipboard in Routing Table and FDB views)
