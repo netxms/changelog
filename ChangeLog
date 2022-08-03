@@ -24,6 +24,7 @@
 	NX-2259 (Configurable server's SNMPv3 engine ID)
 	NX-2261 (Access to Mikrotik metrics via network driver metrics)
 	NX-2281 (Action message should be multiline field)
+	NX-2288 (External parameter redirect issue on Ubuntu 22.04 LTS)
 
 
 *
