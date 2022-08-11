@@ -6,6 +6,7 @@
 - New methods executeAgentCommand and executeAgentCommandWithOutput in NXSL class "Node"
 - Notification channel driver for MQTT
 - Automatic binding on configuration poll works again (but can be switched off in configuration)
+- Added driver for Teltonika modems
 - Improved UI for two-factor authentication
 - Impoved D-Link driver
 - Fixed issues:
