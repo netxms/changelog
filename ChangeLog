@@ -7,6 +7,8 @@
 - Notification channel driver for MQTT
 - Automatic binding on configuration poll works again (but can be switched off in configuration)
 - Added driver for Teltonika modems
+- Improved database write performance on TimescaleDB and PostgreSQL
+- Reduced memory consumption by server's background database writer
 - Improved UI for two-factor authentication
 - Impoved D-Link driver
 - Agent saves backup copy of it's ID on file system
@@ -26,6 +28,7 @@
 	NX-2251 (Add 'conflict' marker to inherited custom attributes)
 	NX-2259 (Configurable server's SNMPv3 engine ID)
 	NX-2261 (Access to Mikrotik metrics via network driver metrics)
+	NX-2266 (Add agent metric similar to System.IO.Devices but including sub-devices)
 	NX-2273 (2FA method can't be removed in user editor)
 	NX-2274 (2FA - unable to add failed method in user editor - it's silently ignored)
 	NX-2281 (Action message should be multiline field)
