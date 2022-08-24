@@ -12,7 +12,9 @@
 - Improved UI for two-factor authentication
 - Impoved D-Link driver
 - Agent saves backup copy of it's ID on file system
+- Reworked general data collection object property page
 - Fixed issues:
+	NX-648 (DCI units and binary prefix)
 	NX-702 (DCI option - "Store only if value changes")
 	NX-708 (Add map option to make all labels non-transparent) 
 	NX-1279 (WebUI does not support ServerName/ServerColor options)
