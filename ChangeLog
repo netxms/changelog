@@ -19,6 +19,7 @@
 	NX-1474 (Execute server script - replace error message box with alternative way)
 	NX-1527 (Option to hide DCIs from templates or created by instance discovery)
 	NX-1560 (List of custom agent ports to be used during network discovery and configuration polls)
+	NX-1632 (NetXMS agent service is disabled after installing netxms-agent deb package on Debian 9)
 	NX-1809 (Center Map Background Image)
 	NX-2044 (Object Tool to run against container)
 	NX-2078 (Add the ability to specify an alias when creating an object)
