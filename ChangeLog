@@ -2,6 +2,7 @@
 * 4.2-CURRENT
 *
 
+- Context dashboards
 - "Spread" operation for arrays in NXSL
 - New methods executeAgentCommand and executeAgentCommandWithOutput in NXSL class "Node"
 - Notification channel driver for MQTT
