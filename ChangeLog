@@ -15,6 +15,10 @@
 - Agent saves backup copy of it's ID on file system
 - Reworked general data collection object property page
 - Added internal monitoring metrics for server certificate expiration date
+- Fixed network map issues with link duplicates on auto populated maps
+- Fixed network map clone
+- NXSL JsonParse function can return JsonObject or JsonArray
+- Added DCI formatting macro "%{units, multipliers}s" or "%{u, m}s"
 - Fixed issues:
 	NX-648 (DCI units and binary prefix)
 	NX-702 (DCI option - "Store only if value changes")
