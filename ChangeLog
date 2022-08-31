@@ -18,6 +18,7 @@
 - Fixed network map issues with link duplicates on auto populated maps
 - Fixed network map clone
 - NXSL function JsonParse correctly handles JSON documents with array as top level element
+- Custom error message can be provided in NXSL statement \"abort\"
 - Improved DCI format strings (usage of unit names and multipliers can be controlled)
 - Agent manager view updates automatically on tunnel open or close
 - Fixed issues:
