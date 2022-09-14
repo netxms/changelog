@@ -22,6 +22,7 @@
 - Custom error message can be provided in NXSL statement \"abort\"
 - Improved DCI format strings (usage of unit names and multipliers can be controlled)
 - Agent manager view updates automatically on tunnel open or close
+- Added Organizationally Unique Identifier lookup
 - Fixed issues:
 	NX-648 (DCI units and binary prefix)
 	NX-702 (DCI option - "Store only if value changes")
