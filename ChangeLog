@@ -46,6 +46,7 @@
 	NX-2274 (2FA - unable to add failed method in user editor - it's silently ignored)
 	NX-2281 (Action message should be multiline field)
 	NX-2288 (External parameter redirect issue on Ubuntu 22.04 LTS)
+	NX-2302 (NXSL function PollerTrace is not working in template auto-apply poll)
 
 
 *
