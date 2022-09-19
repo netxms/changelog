@@ -47,6 +47,7 @@
 	NX-2281 (Action message should be multiline field)
 	NX-2288 (External parameter redirect issue on Ubuntu 22.04 LTS)
 	NX-2302 (NXSL function PollerTrace is not working in template auto-apply poll)
+	NX-2304 (Improved script execution options for nxadm)
 
 
 *
