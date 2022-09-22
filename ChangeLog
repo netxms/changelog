@@ -3,6 +3,8 @@
 *
 
 - Context dashboards
+- Out of the box access to OSPF information on routers
+- Automatic OSPF topology maps
 - "Spread" operation for arrays in NXSL
 - New methods executeAgentCommand and executeAgentCommandWithOutput in NXSL class "Node"
 - Notification channel driver for MQTT
