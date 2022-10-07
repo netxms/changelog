@@ -41,6 +41,7 @@
 	NX-2103 (Add ability to push values to Push DCIs from log file parser)
 	NX-2140 (Export result of the package deployment to CSV)
 	NX-2234 (With a drop-down menu with a choice of DCI metrics, swap the display of Description and Name (Parameter))
+	NX-2237 (Add the ability to set height for passive elements in rack and use custom picture)
 	NX-2251 (Add 'conflict' marker to inherited custom attributes)
 	NX-2259 (Configurable server's SNMPv3 engine ID)
 	NX-2261 (Access to Mikrotik metrics via network driver metrics)
