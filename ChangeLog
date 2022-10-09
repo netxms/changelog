@@ -7,6 +7,7 @@
 - Automatic OSPF topology maps
 - "Spread" operation for arrays in NXSL
 - New methods executeAgentCommand and executeAgentCommandWithOutput in NXSL class "Node"
+- Simplified data collection configuration for MQTT sources
 - Notification channel driver for MQTT
 - Automatic binding on configuration poll works again (but can be switched off in configuration)
 - Added driver for Teltonika modems
