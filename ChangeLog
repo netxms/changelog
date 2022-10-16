@@ -55,6 +55,7 @@
 	NX-2302 (NXSL function PollerTrace is not working in template auto-apply poll)
 	NX-2304 (Improved script execution options for nxadm)
 	NX-2306 (Node configuration poll don't update information about interfaces type)
+	NX-2308 (LDAP user sync login error should be logged at lower level)
 
 
 *
