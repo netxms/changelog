@@ -5,6 +5,7 @@
 - Context dashboards
 - Out of the box access to OSPF information on routers
 - Automatic OSPF topology maps
+- TCP port forwarding for object tools of type "local command"
 - "Spread" operation for arrays in NXSL
 - New methods executeAgentCommand and executeAgentCommandWithOutput in NXSL class "Node"
 - Simplified data collection configuration for MQTT sources
