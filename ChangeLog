@@ -1,5 +1,5 @@
 *
-* 4.2-CURRENT
+* 4.2.395
 *
 
 - Context dashboards
@@ -57,6 +57,7 @@
 	NX-2304 (Improved script execution options for nxadm)
 	NX-2306 (Node configuration poll don't update information about interfaces type)
 	NX-2308 (LDAP user sync login error should be logged at lower level)
+	NX-2309 (No scrolling or resize for ports part in VLAN view)
 
 
 *
