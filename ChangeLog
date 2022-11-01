@@ -1,4 +1,12 @@
 *
+* 4.2-CURRENT
+*
+
+- Fixed issues:
+	NX-2315 (Chained import in NXSL is not working)
+
+
+*
 * 4.2.395
 *
 
