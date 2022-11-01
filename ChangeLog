@@ -2,6 +2,7 @@
 * 4.2-CURRENT
 *
 
+- Driver for Juniper Networks devices retrieves product information from vendor MIB
 - Fixed issues:
 	NX-2315 (Chained import in NXSL is not working)
 
