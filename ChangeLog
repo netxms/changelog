@@ -3,6 +3,7 @@
 *
 
 - Driver for Juniper Networks devices retrieves product information from vendor MIB
+- Empty source/tag is processed as match all sources/tags for windows and syslog parser. 
 - Fixed issues:
 	NX-2315 (Chained import in NXSL is not working)
 
