@@ -3,8 +3,9 @@
 *
 
 - Driver for Juniper Networks devices retrieves product information from vendor MIB
-- Empty source/tag is processed as match all sources/tags for windows and syslog parser. 
+- Empty source/tag is processed as match any source/tag for Windows Event Log and syslog parser 
 - Fixed issues:
+	NX-2278 (Support for hexadecimal encoding of OCTET STRING in nxsnmpset)
 	NX-2315 (Chained import in NXSL is not working)
 
 
