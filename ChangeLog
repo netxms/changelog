@@ -1,4 +1,11 @@
 *
+* 4.3-CURRENT
+*
+
+- Fixed issues:
+	NX-2311 (Add macros to display DCI values with multipliers and measurement units)
+
+*
 * 4.2-CURRENT
 *
 
