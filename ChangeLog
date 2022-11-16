@@ -13,6 +13,7 @@
 - Driver for Juniper Networks devices retrieves product information from vendor MIB
 - Empty source/tag is processed as match any source/tag for Windows Event Log and syslog parser 
 - Configurable maximum message size for client connections
+- "Follow location" option for web services
 - Fixed server crash after DB connection loss
 - Fixed server deadlock within topology poll
 - Fixed web application property reading from JNDI and properties file
