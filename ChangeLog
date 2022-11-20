@@ -5,6 +5,7 @@
 - New format strings in NXSL (Python f-string style)
 - Fixed issues:
 	NX-2311 (Add macros to display DCI values with multipliers and measurement units)
+	NX-2324 (Telegram notifications should stay in queue if there is no connection to the Internet)
 	NX-2336 (F-strings in NXSL)
 
 
