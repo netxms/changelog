@@ -7,7 +7,18 @@
 - Fixed issues:
 	NX-2311 (Add macros to display DCI values with multipliers and measurement units)
 	NX-2324 (Telegram notifications should stay in queue if there is no connection to the Internet)
+	NX-2330 (Add option to set/delete custom attributes from EPP rule)
+	NX-2332 (Add new EPP action that allows to specify NXSL script inline)
 	NX-2336 (F-strings in NXSL)
+
+
+*
+* 4.2-CURRENT
+*
+
+- Fixed random 0 values for file system space information collection
+- Fixed copy MAC in FDB table
+- Fixed server certificate monitoring template
 
 
 *
