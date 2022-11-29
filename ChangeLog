@@ -10,6 +10,7 @@
 	NX-2075 (EPP rule to have both IF and IF NOT conditions for objects)
 	NX-2311 (Add macros to display DCI values with multipliers and measurement units)
 	NX-2324 (Telegram notifications should stay in queue if there is no connection to the Internet)
+	NX-2326 (Add parameter in log parser events that contains file name)
 	NX-2330 (Add option to set/delete custom attributes from EPP rule)
 	NX-2331 (Display DCI and policy count for templates in object details)
 	NX-2332 (Add new EPP action that allows to specify NXSL script inline)
