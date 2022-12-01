@@ -21,7 +21,9 @@
 * 4.2-CURRENT
 *
 
-- Fixed random 0 values for file system space information collection
+- Improved dashboard element "status indicator"
+- Improved SMSEagle notification channel driver
+- Fixed random zero values returned by Linux agent for file system space metrics
 - Fixed copy MAC in FDB table
 - Fixed server certificate monitoring template
 
