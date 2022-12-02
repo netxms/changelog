@@ -18,7 +18,7 @@
 
 
 *
-* 4.2-CURRENT
+* 4.2.458
 *
 
 - Improved dashboard element "status indicator"
@@ -26,6 +26,8 @@
 - Fixed random zero values returned by Linux agent for file system space metrics
 - Fixed copy MAC in FDB table
 - Fixed server certificate monitoring template
+- Fixed issues:
+	NX-2346 (Unexpected SNMPv3 authentication failures)
 
 
 *
