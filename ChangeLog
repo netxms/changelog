@@ -6,6 +6,8 @@
 - Inline action scripts in EPP
 - Set and delete custom attributes in EPP rule
 - Added agent's metric File.Type
+- Column display names in object queries can be set using column metadata
+- Fixed object query result sorting on hidden columns
 - Fixed issues:
 	NX-2075 (EPP rule to have both IF and IF NOT conditions for objects)
 	NX-2180 (Adde cluster binding under subnets)
