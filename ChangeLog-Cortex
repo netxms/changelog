@@ -45,10 +45,11 @@
 *
 * 2.2
 *
- - Implemented per acquirer/issuer pair transaction statistic
- - Added handling of transactions with missing TLOGID
- - Fixed memory leak in Cortex sub-agent
- 
+
+- Implemented per acquirer/issuer pair transaction statistic
+- Added handling of transactions with missing TLOGID
+- Fixed memory leak in Cortex sub-agent
+
 
 *
 * 2.1.1-86

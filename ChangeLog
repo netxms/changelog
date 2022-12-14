@@ -18,7 +18,7 @@
 	NX-2330 (Add option to set/delete custom attributes from EPP rule)
 	NX-2331 (Display DCI and policy count for templates in object details)
 	NX-2332 (Add new EPP action that allows to specify NXSL script inline)
-	NX-2336 (F-strings in NXSL)	
+	NX-2336 (F-strings in NXSL)
 
 
 *
@@ -41,7 +41,7 @@
 *
 
 - Driver for Juniper Networks devices retrieves product information from vendor MIB
-- Empty source/tag is processed as match any source/tag for Windows Event Log and syslog parser 
+- Empty source/tag is processed as match any source/tag for Windows Event Log and syslog parser
 - Configurable maximum message size for client connections
 - "Follow location" option for web services
 - Fixed server crash after DB connection loss
@@ -89,7 +89,7 @@
 - Fixed issues:
 	NX-648 (DCI units and binary prefix)
 	NX-702 (DCI option - "Store only if value changes")
-	NX-708 (Add map option to make all labels non-transparent) 
+	NX-708 (Add map option to make all labels non-transparent)
 	NX-1279 (WebUI does not support ServerName/ServerColor options)
 	NX-1474 (Execute server script - replace error message box with alternative way)
 	NX-1527 (Option to hide DCIs from templates or created by instance discovery)
@@ -157,7 +157,7 @@
 - Added driver for HPE iLO
 - Fixed incorrect return code of NXSL function "SNMPSet" and SNMP transport method "set"
 - Original DCI string value returned by transformation script is preserved
-- Fixed bug in downtime calculation for hierarchical business services 
+- Fixed bug in downtime calculation for hierarchical business services
 - Fixed issues:
 	NX-2262 (syncUserDatabase() does not wait for CMD_USER_DB_EOF)
 
@@ -585,7 +585,7 @@
 	NX-2046 (Get remote file fingerprint using file manager)
 	NX-2059 (Predefined object queries)
 	NX-2061 (Add changing file owner and changing file permissions functionality to file delivery policy)
-	NX-2063 (Detect conversion from group to super group in Telegram notification channel) 
+	NX-2063 (Detect conversion from group to super group in Telegram notification channel)
 	NX-2070 (Add notification log and server action execution log)
 	NX-2073 (Generate event when duplicate MAC address is detected on the network)
 	NX-2074 (DCI Table Last Value Column Widths are very large)
@@ -667,7 +667,7 @@
 	NX-227 (Create "nxdownload" utility)
 	NX-553 (CPU and Memory DCI support in Darwin)
 	NX-1006 (Node with all status poll sources disabled creates a down alarm)
-	NX-1057 (Ability to execute set of SQL commands on server start) 
+	NX-1057 (Ability to execute set of SQL commands on server start)
 	NX-1473 (System Description for Agents that are also running SNMP should be Agent's description, not SNMP's)
 	NX-1851 (nxdbmgr not checking for situation when DCI present in items, but not in object_properties)
 	NX-1882 (Add option for negative mask in File.Count, File.FolderCount, and File.Size)
@@ -1010,7 +1010,7 @@
 * 3.5.125
 *
 
-- Fixed network map filter script read form database 
+- Fixed network map filter script read form database
 - Fixed server crash
 - Fixed issues:
 	NX-1928 (nxdbmgr export/import does not work properly with TimescaleDB)
@@ -1247,7 +1247,7 @@
 
 *
 * 3.3.305
-* 
+*
 
 - Added driver for Moxa industrial routers
 - Fixed server crash when receiving ill-formed SNMP response
@@ -1258,7 +1258,7 @@
 
 *
 * 3.3.285
-* 
+*
 
 - Fixed server crash after scheduled task delete
 - Fixed web UI login screen issues
@@ -1266,7 +1266,7 @@
 
 *
 * 3.3.277
-* 
+*
 
 - Option for blacklisting network device drivers
 - Option for switching SNMP probing during configuration poll into single OID per request mode
@@ -1333,7 +1333,7 @@
 
 *
 * 3.2.451
-* 
+*
 
 - Internal parameters for monitoring syncer performance (Syncer.RunTime.*)
 - Improved notification handling in user support application
@@ -1893,7 +1893,7 @@
 
 - Server command line tools working with agents (nxaction, nxap, nxget, nxupload) use encryption by default
 - "Floor plan" display mode for objects on network map
-- Access to zone data in network discovery filters 
+- Access to zone data in network discovery filters
 - Automatic target configuration in PING subagent
 - Implemented option to display object status map in radial form
 - Fixed issues:
@@ -1941,7 +1941,7 @@
 - Thread pool used for data collection instead of fixed number of poller threads
 - Optimized data collection from agents
 - Configurable number of records per transaction for writing DCI data
-- Fixed issues: 
+- Fixed issues:
 	NX-662 (New network map element - text box)
 	NX-703 (Export/Import actions)
 	NX-757 (Instance discovery - grace period for removed instances before deleting DCIs)
@@ -1984,7 +1984,25 @@
 	- Option to show legend for performance tab graphs with single DCI
 	- Fixed file upload errors in web UI
 	- Option to show "Top N items" in dashboad summary table using given sorting columns
-- Fixed issues: NX-1147, NX-1265, NX-1270, NX-1276, NX-1282, NX-1290, NX-1296, NX-1300, NX-1309, NX-1313, NX-1314, NX-1315, NX-1320, NX-1324, NX-1325, NX-1331, NX-1333, NX-1335
+- Fixed issues:
+	NX-1147 (Create separate access right for taking screenshots)
+	NX-1265 (Add option to apply template on Container(nodes that are under container))
+	NX-1270 (Ability to skip event log / audit log during "nxdbmgr export")
+	NX-1276 (Service components map as dashboard element)
+	NX-1282 (Non-English characters in agent policy can cause corrupted configuration)
+	NX-1290 (Add separate access rights for reading data directly from SNMP or agent)
+	NX-1296 (Audit Log: Parameters passed to actions are not being logged)
+	NX-1300 (Upgrading Agents via Packet Manager times out when using Agent Tunnels)
+	NX-1309 (Tunnel commands missing in console help)
+	NX-1313 (Node can get stuck in "Node down" when switching from direct connection to tunnel)
+	NX-1314 (Force DCI Poll displays "Clear collected data" progress)
+	NX-1315 (Only top level dashboards displayed in dashboard selection dialog (only in embedded dashboard element properties))
+	NX-1320 (Add button duplicate or copy for thresholds)
+	NX-1324 (World Map - Allow to use a zoom level greater than 18 (19 and 20, like on the openstreetmap.org website))
+	NX-1325 (World Map - Add filter for map nodes, like in the list widgets)
+	NX-1331 (Cluster IDATA tables are lost during export/import)
+	NX-1333 (nxdbmgr -s/-S export raw_dci_values)
+	NX-1335 (nxdbmgr fail import if idata tables are missing)
 
 
 *
@@ -2013,7 +2031,19 @@
 	- Zone ID can be generated automatically on zone creation
 	- New node can be created directly from agent tunnel manager
 	- "Bar" mode for gauge dashboard elements working correctly
-- Fixed issues: NX-930, NX-1143, NX-1153, NX-1170, NX-1263, NX-1272, NX-1273, NX-1278, NX-1281, NX-1284, NX-1285, NX-1286
+- Fixed issues:
+	NX-930 (nxdbmgr export ignore $NETXMS_HOME)
+	NX-1143 ("Dormant" interface state is not supported correctly)
+	NX-1153 (SQL Injection in user profiles)
+	NX-1170 (Ask user confirmation before any action on FileManager UI)
+	NX-1263 ("Change zone" assigns node to zone's Object ID, not Zone ID)
+	NX-1272 (ExternalTable does not handle non-native live ending properly)
+	NX-1273 (Netxms 2.1 version. Copy Clipboard in Alarm Browser not work correctly)
+	NX-1278 (Unable to move dashboard to the first level)
+	NX-1281 (AdHocScheduler sleeping for 0 seconds)
+	NX-1284 (SQL errors when using mssql.ddr)
+	NX-1285 (SNMP trap varbind mapping by position broken)
+	NX-1286 (Internal parameter PingTime returns last known value if ICMP proxy for node is down)
 
 
 *
@@ -2041,7 +2071,27 @@
 	- Proper support for ANSI colors in object tools output in web UI
 	- Object dragging on map disabled if user don't have write access to map object
 	- Option to hide sub-interfaces in UI (currently works only for Juniper switches)
-- Fixed issues: NX-1039, NX-1041, NX-1166, NX-1180, NX-1194, NX-1195, NX-1212, NX-1214, NX-1215, NX-1234, NX-1236, NX-1243, NX-1244, NX-1251, NX-1253, NX-1256, NX-1257, NX-1260, NX-1262, NX-1264
+- Fixed issues:
+	NX-1039 (postgresql support problems)
+	NX-1041 (Encryption code incompatible with OpenSSL 1.1.0)
+	NX-1166 (Double click on a map link with attached DCIs should bring up a chart)
+	NX-1180 (Web localisation exceptions)
+	NX-1194 (Import ignoring " in Object Tool command)
+	NX-1195 (NetXMS Grafana Plugin)
+	NX-1212 (Threshold - disable fields depending on Function)
+	NX-1214 (Show only changed Server Configuration)
+	NX-1215 (EPP import fails)
+	NX-1234 (Provide access to DCI owner node in instance discovery filter when source node is set)
+	NX-1236 (Dashboard Groups)
+	NX-1243 (When dashboard is modified by admin, refresh request should be pushed to all connected clients)
+	NX-1244 (File manager -> Show file: "copy" in context menu not available after "Select all", only after manual selection with mouse or keyboard)
+	NX-1251 (Load object overview tab content only when tab is visible)
+	NX-1253 (NXSL: add new functions for arrays)
+	NX-1256 (Line chart improvements)
+	NX-1257 (Linux subagent segfault when core count > 64)
+	NX-1260 (Java subagent plugins can only be loaded with absolute path)
+	NX-1262 (Some parameters provided by JMX subagent are not working)
+	NX-1264 (Object tool output in web - not escaping JS control characters)
 
 
 *
@@ -2062,7 +2112,17 @@
 	- Sorting option in table based charts on dashboards (to implement "Top N" style charts)
 	- Full text object search
 	- Agent tunnel manager view
-- Fixed issues: NX-386, NX-1127, NX-1128, NX-1210, NX-1211, NX-1222, NX-1231, NX-1239, NX-1240, NX-1242 
+- Fixed issues:
+	NX-386 (Access to components data from NXSL)
+	NX-1127 (Add support for .mib files instead of only .txt-files)
+	NX-1128 (Add functionality for recursively add MIBs from nested folder structure)
+	NX-1210 (New system right - "Access to external integration tools")
+	NX-1211 (REST-like API - user authentication)
+	NX-1222 (Show Zone in alarm browser)
+	NX-1231 (Create help desk ticket from alarm log viewer)
+	NX-1239 (IgniteNet driver)
+	NX-1240 (System-wide search)
+	NX-1242 (LLDP - wrong neighbor linked)
 
 
 *
@@ -2097,7 +2157,37 @@
 	- Object tools can be filtered by custom attribute presence
 	- Configurable list of external URLs for each object
 	- Sound for outstanding alarm reminder can be configured
-- Fixed issues: NX-60, NX-623, NX-630, NX-743, NX-916, NX-1119, NX-1123, NX-1129, NX-1151, NX-1161, NX-1165, NX-1171, NX-1174, NX-1178, NX-1187, NX-1188, NX-1190, NX-1191, NX-1192, NX-1193, NX-1197, NX-1198, NX-1209, NX-1213, NX-1216, NX-1217, NX-1223, NX-1224, NX-1225, NX-1227
+- Fixed issues:
+	NX-60 (Implement object search by ID, IP address, primary host name)
+	NX-623 (Compression support on protocol level in file manager)
+	NX-630 (Descriptions and dropdowns with values in server configuration variables)
+	NX-743 (Finish script hints)
+	NX-916 (Stop command for server commands)
+	NX-1119 (Add Instance discovery for Table DCIs)
+	NX-1123 (Add filter for Table last values)
+	NX-1129 (nxmibc produces error compiling MIBs because of empty OBJECTS clause in NOTIFICATION-TYPE macro)
+	NX-1151 (Process.CountEx on Windows only checks first 255 characters of process command line)
+	NX-1161 (Android client crash)
+	NX-1165 (Notify user when edit DCI created from Templates(also from cluster))
+	NX-1171 (Add compression to usual netxms messages)
+	NX-1174 ("Copy name" additional option in context menu in the script library)
+	NX-1178 (Create helpdesk ticket on alarm creation)
+	NX-1187 (Additions to default EPPs)
+	NX-1188 (Zone proxy going down generates no alarms)
+	NX-1190 (Server configuration incorrectly detects type)
+	NX-1191 ("Display objects as" menu bug)
+	NX-1192 (Zone selection in node creation - show only zones)
+	NX-1193 (Drag-and-drop moving a larger ammount of EPPs can cause EPPs to disappear)
+	NX-1197 ('Download file' Object Tool - better handling when file not found)
+	NX-1198 (Container hierarchy deletion issue)
+	NX-1209 (Android client doesnt check server protocol version properly)
+	NX-1213 (Links to documentation for containers)
+	NX-1216 (After renaming user old login name still working until server restart)
+	NX-1217 (FreeBSD subagent FileSystem.MountPoints Parameter)
+	NX-1223 (Support multiple seed nodes per map)
+	NX-1224 (Show seed node for a map)
+	NX-1225 (Error on script delete from script librarry)
+	NX-1227 (Raspberry Pi SubAgent - CPU temperature)
 
 
 *
@@ -2135,7 +2225,72 @@
 	- File manager improvements
 	- Option to save graph as image
 	- Added multipliers support in data format string for gauges
-- Fixed issues: NX-18, NX-79, NX-102, NX-141, NX-146, NX-152, NX-338, NX-359, NX-394, NX-442, NX-446, NX-576, NX-664, NX-734, NX-736, NX-812, NX-824, NX-849, NX-859, NX-867, NX-870, NX-877, NX-901, NX-931, NX-961, NX-970, NX-973, NX-974, NX-976, NX-992, NX-1013, NX-1035, NX-1042, NX-1049, NX-1059, NX-1060, NX-1061, NX-1062, NX-1065, NX-1067, NX-1070, NX-1073, NX-1076, NX-1079, NX-1085, NX-1088, NX-1095, NX-1096, NX-1098, NX-1099, NX-1100, NX-1103, NX-1106, NX-1107, NX-1108, NX-1109, NX-1112, NX-1113, NX-1114, NX-1120, NX-1122, NX-1125, NX-1135, NX-1138, NX-1139
+- Fixed issues:
+	NX-18 (Different layouts in port view based on driver information)
+	NX-79 (Command line tools should return proper error code)
+	NX-102 (Alarm categories)
+	NX-141 (Implement support for UNICODE logs in log monitoring subagent)
+	NX-146 (Find node by IP address)
+	NX-152 (Automatic database unlock in clustered environment)
+	NX-338 (Alarm summary e-mails)
+	NX-359 ("nxdbmgr migrate" should print out source and destination datasource before confirmation)
+	NX-394 (Performance tab should be available for cluster objects)
+	NX-442 (Importing Template that has a DCI that has a 'Performance Tab' graph attached to another DCI doesnt work properly)
+	NX-446 (Copying / moving a Template DCI with a 'Performance Tab' graph attached to another DCI doesnt work properly)
+	NX-576 ("Find IP address" should find node if node in NetXMS)
+	NX-664 (Template graphs)
+	NX-734 (Login messages (MOTD))
+	NX-736 (System.Memory.*.*Perc should return float)
+	NX-812 (View table DCI history for selected instance)
+	NX-824 (NXSL: foreach should be null-torelant)
+	NX-849 (File name during dashboard export should be set to dashboard name (now 'Untitled"))
+	NX-859 (Empty subnet deletion should happen at last node removal)
+	NX-867 (filemgr should support read only roots)
+	NX-870 (Agent - default MaxSessions if agent is a proxy)
+	NX-877 (Automatically refresh last values screen after forced DCI poll)
+	NX-901 (Add customizable color for status bar in the management console)
+	NX-931 (WriteAuditLog should use prepared statements)
+	NX-961 (Group can be added under group while LDAP sync.)
+	NX-970 (Save current graph to PNG)
+	NX-973 (Create file download progress bar (from agent to console))
+	NX-974 (Jira integration configuration is loaded on startup only (but marked as restart requied=no))
+	NX-976 ("diff" threshold value for unsigned data processed as unsigned)
+	NX-992 (context switches and Interrupts agent support)
+	NX-1013 (Object Tools - No longer in Alarm browser)
+	NX-1035 (Bulk alarm terminate)
+	NX-1042 (Resolve SNMP OIDs to textual representation in user interface)
+	NX-1049 (File manager path to file)
+	NX-1059 (Установить дефолтную сортировку в log'ах (например event log))
+	NX-1060 (Average calculation for DCI summary table)
+	NX-1061 (New time option in condition filter (event log and others))
+	NX-1062 (Save button for agent editor broken)
+	NX-1065 (nxdbmgr export/import/migrate reference non existing tables tdata_records/tdata_rows)
+	NX-1067 (Unable to disable user "system" from user manager once it's enabled)
+	NX-1070 (Interface name sorting)
+	NX-1073 (Cannot set bind IP address for network service in GUI)
+	NX-1076 (Dashboard as Drilldown)
+	NX-1079 (ANSI color sequences not ignored in web console)
+	NX-1085 (Unicode handling errors)
+	NX-1088 ("Find MAC address" should find node if node in NetXMS)
+	NX-1095 (File manager fails with timeout on folders with large number of files)
+	NX-1096 (Watchdog with many nodes)
+	NX-1098 (icmp.cpp - Problems when there is many "ping poll" nodes)
+	NX-1099 (server crashes after a few seconds of running v2.0.6)
+	NX-1100 (Comments in scheduled tasks)
+	NX-1103 (High Load Average on update to 2.0.7 on FreeBSD 9.3)
+	NX-1106 (Separate access rights for entering/leaving maintenance mode)
+	NX-1107 (EnableReportingServer server config parameter not created by default)
+	NX-1108 (Threshold activation/deactivation events not considered as dependencies during export)
+	NX-1109 (nxdbmgr check can't create missing interface (Oracle))
+	NX-1112 (Force poll on push DCI changes it's state to "unsupported")
+	NX-1113 (Graphs tab does not automatically refresh when new predefined graph is added. Naming issues in template graph property pages.)
+	NX-1114 (Graph access rights do not save)
+	NX-1120 ("Invalid thread access" error on alarm state change to Acknowledge and Sticky Acknowledge)
+	NX-1122 (Not possible to save script from "Execute server script"(Web only))
+	NX-1125 (DCI's that are added from Teplates have problems with joint mapping on Performace tab of Object Details)
+	NX-1135 (Database 345 -> 346 upgrade failed on MSSQL)
+	NX-1138 (Dashboards  Status Map Refresh)
+	NX-1139 (Remove unexpected up/down alarms when interface gets deleted)
 
 
 *
@@ -2145,7 +2300,7 @@
 - New server configuration parameter "JobRetryCount"
 - Chassis objects
 - Hypervisor monitoring subagent
-- In case of Policy deploy, Policy uninstall or File upload jobs fail they are scheduled for reinstallation(scheduled tasks)  "JobRetryCount" times. First time job is rescheduled in 10 minutes. Each next wait time is twice more than the previous time. 
+- In case of Policy deploy, Policy uninstall or File upload jobs fail they are scheduled for reinstallation(scheduled tasks)  "JobRetryCount" times. First time job is rescheduled in 10 minutes. Each next wait time is twice more than the previous time.
 - If policy is known as installed on the node by the server and agent reposts that it is not installed it is being reinstalled.
 - Added configuration option to log parser to generate event only if regular expression have been matched exact count of the times in a predefined time period
 - New internal parameters: Server.ReceivedSNMPTraps, Server.ReceivedSyslogMessages, ReceivedSNMPTraps, ReceivedSyslogMessages
@@ -2166,15 +2321,54 @@
 - Agent environment variables can be set in configuration file
 - Added method "getResourceOwner" and attribute "nodes" to NXSL "Cluster" class
 - New object tool type "server script"
-- Number of polls can be set for "diff" type thresholds 
+- Number of polls can be set for "diff" type thresholds
 - Instance discovery scripts can return instances as map instance/instance name
 - CPU usage parameters on Windows moved to winnt.nsm from winperf.nsm and no longer depends on PDH
 - New agent metrics for self-monitoring:
 	Agent.SyslogProxy.IsEnabled, Agent.SyslogProxy.ReceivedMessages, Agent.SyslogProxy.QueueSize
 - Management console
-	- New editors for Agent Config Policy and Log Parser Policy. 
+	- New editors for Agent Config Policy and Log Parser Policy.
 	- DCI summary tables with empty menu path not shown in object context menu
-- Fixed issues: NX-44, NX-53, NX-65, NX-272, NX-355, NX-393, NX-520, NX-587, NX-694, NX-697, NX-726, NX-732, NX-742, NX-773, NX-780, NX-787, NX-796, NX-825, NX-832, NX-876, NX-880, NX-934, NX-956, NX-960, NX-980, NX-989, NX-996, NX-1000, NX-1001, NX-1004, NX-1009, NX-1012, NX-1016, NX-1018, NX-1026, NX-1033, NX-1034, NX-1038, NX-1051
+- Fixed issues:
+	NX-44 (Apply policy to node by clicking on node and selecting policies from list)
+	NX-53 (Monitors (event log, syslog, etc.) as dashboard elements)
+	NX-65 (Internal optimization for object references)
+	NX-272 (EPP Editor suggestion: change command names)
+	NX-355 (Apply policy automaticaly when node goes up)
+	NX-393 (NetXMS Agent Proxy SNMP Traps and Syslog)
+	NX-520 (Object tools - Columns tab present when it should not be)
+	NX-587 (Find switch port for a multi-selection in "Interfaces" tab)
+	NX-694 (Select source (agent / snmp) for new DCIs based node capabilities)
+	NX-697 (Reorder EPP rules using drag and drop)
+	NX-726 (Apply multiple templates at once)
+	NX-732 (Unify filter widgets in object selection dialogs)
+	NX-742 (Better accessability to ">" operator in Object browser filter)
+	NX-773 (Ability to nxget selected template DCI on any node)
+	NX-780 (Dashboard import should use name from xml file if not provided by user)
+	NX-787 (Search in results of a SNMP walk (MIB Explorer))
+	NX-796 (Additional information in management console title)
+	NX-825 (unable to export dashboard with invalid DCI IDs)
+	NX-832 (Object tree filter by Object ID)
+	NX-876 (Long running queries should be logged)
+	NX-880 (Use multipliers in agent tables DCIs)
+	NX-934 (Copy DCI name (not description) from last value view)
+	NX-956 (Scheduled file upload server->agent doesn't work with default file destination(empty  destination file name))
+	NX-960 (DCI summary tables with no menu path should not show in right click menus)
+	NX-980 (execute script from object tool)
+	NX-989 (Create agent DCIs that will provide status fo agent log file, local database)
+	NX-996 (do not create DCI if windows cancel button)
+	NX-1000 (Type of search in class ColumnFilter  should be change to Enum type.)
+	NX-1001 (DCI Summary Tables "Use multipliers" treat string objects as numbers)
+	NX-1004 (Object tools filer by client OS for local commands)
+	NX-1009 (Add button to clear filter)
+	NX-1012 (DCI description containing only {instance} macro is not substituted during instance discovery)
+	NX-1016 (Agentless UNIX monitoring over ssh)
+	NX-1018 (Java subagent fails if list size=0)
+	NX-1026 (Cannot set log size limit higher than 4GB)
+	NX-1033 (Add filter to FDB view)
+	NX-1034 (Refacrot Ping subagnet (Create ICMP.Targets table and ICMP.Target list with only IPs))
+	NX-1038 (Already created scheduled task cannot be modifyed from shcedule to one time execution)
+	NX-1051 (java api User object missing ldap_dn + ldap_unique_id)
 
 
 *
@@ -2195,7 +2389,15 @@
 	Agent.SNMP.Responses, Agent.SNMP.ServerRequests
 - Management console
 	- Fixed glitches in table value view
-- Fixed issues: NX-545, NX-614, NX-639, NX-768, NX-1025, NX-1028, NX-1029, NX-1031
+- Fixed issues:
+	NX-545 ("Export to CSV" file save dialog use incorrect file mask (*.* instead of *.csv))
+	NX-614 (Agent parameter list not retrieved when using a proxy)
+	NX-639 (User management changes and upgrades)
+	NX-768 (Ctrl+a and Filter in node's Interfaces tab)
+	NX-1025 (Segfault)
+	NX-1028 (If mail encoding set to utf-8 mail body encoded incorrectly)
+	NX-1029 (gps_history_%d table not dropped when node is deleted)
+	NX-1031 (Bug with displaying cross(remove field) in edit table threshold)
 
 
 *
@@ -2211,10 +2413,15 @@
 - Added option to get normalized server thread pool load average
 - Fixed bug in self-monitoring termplates
 - Management console
-        - Fixed possible deadlock when executing server script
-        - Fixed area charts on dashboards
-        - "Interactive" option for line chart dashboard elements
-- Fixed issues: NX-799, NX-820, NX-997, NX-1005, NX-1010
+	- Fixed possible deadlock when executing server script
+	- Fixed area charts on dashboards
+	- "Interactive" option for line chart dashboard elements
+- Fixed issues:
+	NX-799 (Support 64bit interface counters on 64bit Linux)
+	NX-820 (Set SYS_TABLE_THRESHOLD_ACTIVATED and DEACTIVATED as default in table threshold editor)
+	NX-997 (Force poll on DCI with custom schedule)
+	NX-1005 (Agent and server can write garbage instead of program name to syslog)
+	NX-1010 (NXSL function FindObject returns NetObj object for interfaces)
 
 
 *
@@ -2240,7 +2447,25 @@
 	- Line/area switch for all DCIs on chart level
 - Android console
 	- Reorganized alarm notification section (issue NX-963)
-- Fixed issues: NX-280, NX-567, NX-647, NX-765, NX-866, NX-892, NX-955, NX-963, NX-964, NX-965, NX-966, NX-969, NX-977, NX-978, NX-981, #1223, NX-986, NX-990
+- Fixed issues:
+	NX-280 (NXSL, ++ and += on array elements)
+	NX-567 (GetEventParameter issue)
+	NX-647 (Graph stacking only works on non inverted sources)
+	NX-765 (Agent Action - parameters not passed from object tool)
+	NX-866 (Linux NetXMS agent stops working.)
+	NX-892 (One check-box to "Area-chart" all DCIs on graph)
+	NX-955 (Remove deprecated table policy_time_range_list)
+	NX-963 (Refactoring of alarms notification)
+	NX-964 (DCI filter in DCI selection dialog)
+	NX-965 (Incorrect handling of VRRP MAC addresses)
+	NX-966 (Events got duplicated on template auto import)
+	NX-969 (Cannot select objects on map if zoom is not 100%)
+	NX-977 ((web) Exceptino in Server configuration -> new)
+	NX-978 (Suggested rack display improvements)
+	NX-981 (line width on graphs)
+	NX-986 (Add double click for schedule edit)
+	NX-990 (Agent cache not working if server is not configured as master server)
+	NX-1223 (Support multiple seed nodes per map)
 
 
 *
@@ -2269,7 +2494,22 @@
 	- Fixed object selection issues in network maps
 	- Added "hide links" option on network maps
 	- Added support for MAC addresses in format xxx.xxx.xxx.xxx
-- Fixed issues: NX-733, NX-745, NX-769, NX-829, NX-882, NX-902, NX-909, NX-913, NX-923, NX-924, NX-929, NX-938, NX-941, NX-944, NX-947
+- Fixed issues:
+	NX-733 ("Show object details" from DCI summary table)
+	NX-745 (Show Threshold value in DCI Configuration)
+	NX-769 (Default Expected State of Interface handling)
+	NX-829 (Change default legend position to "bottom")
+	NX-882 (Windows agent fails to parse/process some events.)
+	NX-902 (Object overview show expected state interface)
+	NX-909 (Setting for age of source data when alarm is created (for data reconciliation))
+	NX-913 (Maintenance mode from Summary Tables)
+	NX-923 (Agent can crash on Solaris when one of CPUs taken offline)
+	NX-924 (NXSL: DCI-related functions (FindDCIByName, etc.) fail on cluster nodes)
+	NX-929 (It should be possible to execute agent action on node behind proxy)
+	NX-938 (Add the option "fromPhone" for drivers websms)
+	NX-941 (Add option to enter and leave maintenance mode form nxsl script)
+	NX-944 (Java API connect() timeout)
+	NX-947 (No script error event when script uses "use" with non-existent library script)
 
 
 *
@@ -2290,7 +2530,17 @@
 	- Fixed bug in action bar commands: disconnect and exit sometimes wasn't working
 - Android Agent:
 	- Updated ACRA library: now crash reports are sent via e-mail (will use the app installed on device to send mail)
-- Fixed issues: NX-823, NX-830, NX-873, NX-891, NX-895, NX-903, NX-906, NX-911, NX-912, NX-915
+- Fixed issues:
+	NX-823 (F2 to rename objects in Object Tree)
+	NX-830 (Show template name with template groups as a path)
+	NX-873 (Improve isPrinter detection)
+	NX-891 (Maintenance mode doesn't work on subnet objects.)
+	NX-895 (Server may crash under heavy load if user logs in when objects being deleted from database)
+	NX-903 (NXSL functions to manipulate node location)
+	NX-906 (PollCountForStatusChange no longer has effect after upgrading to latest stable version)
+	NX-911 (ServiceResponseTime parameter can return 1 as error which can be interpreted as actual response time)
+	NX-912 (World map - zoom to cursor location, not to middle of map)
+	NX-915 (AIX(?) subagent should check if FileSystem.Total is -1)
 
 
 *
@@ -2299,7 +2549,9 @@
 
 - Fixed random server crash if ODBC database driver is used
 - Fixed incorrect reading of long text fields by MS SQL database driver
-- Fixed issues: NX-833, NX-844
+- Fixed issues:
+	NX-833 ("Thresholds" tab should be shown on clusters)
+	NX-844 (Android client graph problems)
 
 
 *
@@ -2340,7 +2592,40 @@
 - Android Agent:
 	- Support for Marshmallow devices (v6.0)
 	- Updated support library
-- Fixed issues: NX-171, NX-635, NX-637, NX-731, NX-746, NX-747, NX-749, NX-750, NX-754, NX-756, NX-759, NX-760, NX-761, NX-764, NX-772, NX-778, NX-783, NX-784, NX-785, NX-794, NX-800, NX-805, NX-810, NX-813, NX-839, NX-851, NX-852, NX-854, NX-861, NX-862, NX-863, NX-864, NX-865
+- Fixed issues:
+	NX-171 (Add empty hook scripts to configuration library)
+	NX-635 (Add "last communication with agent" timestamp to Overview tab)
+	NX-637 (Disable a map object filtering script by checkbox deletes the script)
+	NX-731 (Ability to move Object Tool Input Fields)
+	NX-746 (Default EPP rules for SNMP and Agent un-responsiveness)
+	NX-747 (Agent List - Interface name list)
+	NX-749 (newly created DB is inconsistent (SQLite only?))
+	NX-750 (Server ignores agent cache mode settings for DCIs with source node set)
+	NX-754 (Client library compilation script package.cmd for Windows is broken)
+	NX-756 (Show interface operational status in UI)
+	NX-759 (Default EPPs for SYS_THREAD_HANG and SYS_THREAD_RUNNING)
+	NX-760 (Hook::InterfaceAcceptFilter)
+	NX-761 (Server config parameter for default subnet size)
+	NX-764 (Maintanance mode - default EPPs and visualization)
+	NX-772 (Tables (empty) on cluster shown even is aggregation is disabled for DCI)
+	NX-778 (Dashboard import do not match "Table Value" element)
+	NX-783 (Ability to skip collected data export during "nxdbmgr export")
+	NX-784 (Internal DCI "AgentStatus" is supported only if agent is present on the node)
+	NX-785 (Show maintenance mode status in object browser)
+	NX-794 (When table inside dashboard can't load data (invalid DCI, etc.) – console error message is displayed)
+	NX-800 (Can't create dashboard with more than 8 columns)
+	NX-805 (Table::addRow() in nxsl return null empty value instead of row id)
+	NX-810 (mysql query error)
+	NX-813 (System.Memory.Physical.Available reports wrong values)
+	NX-839 (Crash on server shutdown)
+	NX-851 (Slow server shutdown)
+	NX-852 (Template auto-apply script is lost if auto-apply is disabled)
+	NX-854 (SQL errors on Oracle 12c)
+	NX-861 (Housekeeper doesnt delete empty subnets in multi-zone deployment)
+	NX-862 (VPN connector is not saved if subnets are not specified)
+	NX-863 (EPP rules not saved to DB after import)
+	NX-864 (Empty DCIs return "" string instead of null to calling NXSL functions)
+	NX-865 (FileSystem.Volumes vs. FileSystem.Type() inconsistency)
 
 
 *
@@ -2374,7 +2659,37 @@
 	- Dashboards can be associated with other objects (nodes, containers, etc.) and opened from object's context menu
 	- Forced DCI polls from summary tables
 	- Script hints
-- Fixed issues: NX-578, NX-619, NX-629, NX-640, NX-652, NX-666, NX-671, NX-674, NX-678, NX-679, NX-680, NX-684, NX-685, NX-686, NX-688, NX-690, NX-691, NX-693, NX-695, NX-698, NX-701, NX-705, NX-707, NX-709, NX-715, NX-717, NX-721, NX-727, NX-729, NX-730
+- Fixed issues:
+	NX-578 (Show DCI name under mouse on line charts)
+	NX-619 (Clone object tools)
+	NX-629 (Allow selection of SNMP port during network discovery)
+	NX-640 (File manager should show file owner and permissions)
+	NX-652 (Delete DCI from template causes SQL error)
+	NX-666 (Components data not collected from entity MIB on some devices)
+	NX-671 (Improve LLDP handling for devices that do not provide own LLDP ID)
+	NX-674 (scheduled maintenance/downtime)
+	NX-678 (LDAPConnection::getAllSyncParameters(): buffer overflow)
+	NX-679 (Disabled object tools shown in node commands)
+	NX-680 (Ability to bind node to container not from container's context menu, but from node's context menu as well)
+	NX-684 (ldapSync deadlock)
+	NX-685 (Object Tool - Server Command timeout)
+	NX-686 (Need function x2d - returns the decimal value of a hexidecimal.)
+	NX-688 (DATACOLL ThreadPool related parameters Unsupported on agent)
+	NX-690 (Show sysLocation and sysContact in object overview)
+	NX-691 (IPv6 support in syslog receiver)
+	NX-693 (Add option to use encrypted password in password fields in configuration files and in the server configuration parameters.)
+	NX-695 (Force Poll a DCI from a DCI Summary Table)
+	NX-698 (Show user source and auth method in User Manager)
+	NX-701 (Filter in Event Configuration window)
+	NX-705 (View Syslog/Events from node's right click menu)
+	NX-707 (Failure to read single value for bar chart prevents others from displaying)
+	NX-709 (Match syslog/snmp traps from all zones)
+	NX-715 ("%*" string cause crash in DCI container formatting string)
+	NX-717 (try / catch in NXSL can catch runtime errors after try block)
+	NX-721 (Change the behavior of DefaultDCIPollingInterval and DefaultDCIRetentionTime)
+	NX-727 (CreateSNMPTransport always creates a transport)
+	NX-729 (Threshold script for exported templates doesnt import)
+	NX-730 (Importing EPP rules fails when there already are EPP rules with same ID present)
 
 
 *
@@ -2402,7 +2717,28 @@
 	- Improved script editor for script library
 	- Interface speed displayed in interface object details and in "Interfaces" tab
 	- Symbolic name of interface type diplayed when known
-- Fixed issues: NX-14, NX-31, NX-533, NX-609, NX-617, NX-618, NX-624, NX-626, NX-628, NX-631, NX-632, NX-633, NX-634, NX-636, NX-638, NX-641, NX-643, NX-644, NX-645, NX-650, NX-654
+- Fixed issues:
+	NX-14 (Script validation before save in script editor)
+	NX-31 (Object tools by template)
+	NX-533 ("Command generates output" not working for "Server Command")
+	NX-609 (netxms-server .deb package help info bug)
+	NX-617 (Logarithmic scale not working in certain conditions)
+	NX-618 (Maps should save "Display objects as" server-side)
+	NX-624 (Put in order default SNMP configuration)
+	NX-626 (Support for SNMP devices with multi-component interface indexes)
+	NX-628 (Macro Substitution unification in Object Tools)
+	NX-631 (Disable all authentication configuration except disable for LDAP users.)
+	NX-632 (Add %userpassword% variable in object tools)
+	NX-633 (Separate in file manager file tail and fils show)
+	NX-634 (Send file tail updates in separate connection.)
+	NX-636 (Adding warning that large file will not be shown fully.)
+	NX-638 (Make detach LDAP user as a separate command. Open change password dialog after detach.)
+	NX-641 (Agent should create FileStore directory if not exist)
+	NX-643 (SNMP non-UTF8 collected data breaks SQL operations)
+	NX-644 (Increase size limit for configuration parameters (was: Изменение параметра LdapSearchFilter))
+	NX-645 (Case-insensitive user names (Чувствительность к регистру у аккаунтов))
+	NX-650 (Update list of internal parameters in selection dialog)
+	NX-654 (DCI container value not shown for network map on a dashboard if this network map is not opened)
 
 
 *
@@ -2436,7 +2772,23 @@
 	- "Proxy node" option in DCI properties renamed to "Source node" to avoid confusion
 - Android Console:
 	- Added "capabilities" in node overview (changed to expandable list view)
-- Fixed issues: NX-26, NX-439, NX-572, NX-573, NX-583, NX-586, NX-589, NX-590, NX-598, NX-606, NX-607, NX-608, NX-612, NX-620, NX-621, NX-625
+- Fixed issues:
+	NX-26 (Show some last values in overview page)
+	NX-439 (Object selection highlight not showing in maps)
+	NX-572 (Multiple server file upload in one operation)
+	NX-573 (Script DCI Unsupported when parameters en-quoted)
+	NX-583 (--disable-64bit have no effect when building on CentOS 6.6 x64)
+	NX-586 ("Create another" checkbox when creating a new node)
+	NX-589 (Paswords in DB are hashed without salt)
+	NX-590 ("Select all" function on network maps)
+	NX-598 (XMPP message send delay)
+	NX-606 (File parameters for directories)
+	NX-607 (Negate values on graph)
+	NX-608 (BeaconHosts reversed format)
+	NX-612 (Dashboard Line Chars - missing "Stacked")
+	NX-620 (Service.Check() reply with "can't connect" for second request on the same connection (windows only))
+	NX-621 (netsvc should send user agent header for http(s) checks)
+	NX-625 (Rename proxy node to source node on DCI configuration page)
 
 
 *
@@ -2464,7 +2816,20 @@
 	- Changed order of overview items to match Java console (node browser)
 	- Added MTU field in interface details (node browser)
 	- Updated support library
-- Fixed issues: NX-461, NX-463, NX-500, NX-505, NX-521, NX-591, NX-592, NX-595, NX-596, NX-597, NX-602, NX-603, NX-604
+- Fixed issues:
+	NX-461 (Template groups not exported)
+	NX-463 (Export scripts)
+	NX-500 (Export Object Tools)
+	NX-505 (Export DCI Summary Tables)
+	NX-521 (No alarm when or any notification when all BeaconHosts down)
+	NX-591 (Map appearance page not shown for access point objects)
+	NX-592 (Allow interface objects on network maps)
+	NX-595 (Extend eventlog parser for Windows CRITICAL events)
+	NX-596 (Change error message that appears when try to add node with existing IP)
+	NX-597 (diff thresholds activated after server restart)
+	NX-602 (New NXSL function to find alarm by key)
+	NX-603 (New imported events are not usable)
+	NX-604 (EPP export can be wrong)
 
 
 *
@@ -2495,11 +2860,42 @@
 	- "Current" column in extended line chart legend
 	- Option to clone network maps
 - Android console:
-    - Implemented feature NX-568 (WoL)
-- Fixed issues: NX-494, NX-497, NX-506, NX-519, NX-522, NX-537, NX-542, NX-544, NX-547, NX-548, 
-                NX-549, NX-550, NX-551, NX-552, NX-555, NX-556, NX-557, NX-558, NX-559, NX-560,
-                NX-561, NX-562, NX-563, NX-568, NX-570, NX-571, NX-574, NX-577, NX-579, NX-580,
-                NX-581, NX-582, NX-584, NX-585
+	- Implemented feature NX-568 (WoL)
+- Fixed issues:
+	NX-494 (Instance Discovery - method - SNMP Walk - Varbinds)
+	NX-497 (Add "Use multipliers" in DCI summary tables)
+	NX-506 (Tools accessible from DCI Summary Table)
+	NX-519 (MTU not reported in "Interfaces" tab)
+	NX-522 (Add %username% variable in object tools)
+	NX-537 (Filter in "Server Configuration Variables")
+	NX-542 (Server crash on dashboard edit)
+	NX-544 (PostEvent() should log unknown events)
+	NX-547 (Allow non-English event names)
+	NX-548 (VPN-Connector object, wrong labeling on register 'Subnets')
+	NX-549 (Do not refresh graphs or dashboards on invisible UI parts)
+	NX-550 (Remember map zoom size)
+	NX-551 (Allow processing of static FDB entries)
+	NX-552 (Некорректное отображение)
+	NX-555 (Forced DCI poll)
+	NX-556 ("Enable session agent" option in agent installer)
+	NX-557 (Missing "show filter" icon in server file manager)
+	NX-558 (System description for Windows 8 and Windows Server 2012 is incorrect)
+	NX-559 (Failed configuration poll should not initiate instance discovery)
+	NX-560 (Deleted subnets appear on automatically built maps)
+	NX-561 (Subnets are being replicated when they contain only objects with unknown network masks)
+	NX-562 (Fit map to screen)
+	NX-563 (VLAN selection when you click on a port)
+	NX-568 (WoL in Android App)
+	NX-570 (Use proxy agent for DNS names resolution for nodes in remote zones)
+	NX-571 (QtechOLT)
+	NX-574 (Remove policy tab from policy object properties)
+	NX-577 ("Current" column in line chart extended legend)
+	NX-579 (Multi-select Event Processing Policy delete bug)
+	NX-580 (Copy to clipboard option in last values view)
+	NX-581 (Rename Action in object tools as Agent command)
+	NX-582 (rename SNMP Table to SNMP List)
+	NX-584 (Find switch port is broken)
+	NX-585 (Housekeeping consumes all CPU)
 
 
 *
@@ -2512,7 +2908,15 @@
 - Russian translation improved
 - New MIB added: SYMBOL-CC-WS2000-MIB
 - Subagent for reading DS18T20 and DS18S20 temperature sensors on Linux
-- Fixed issues: NX-479, NX-503, NX-515, NX-518, NX-527, NX-528, NX-529, NX-534, NX-536
+	NX-479 (Wake-on-LAN possibly not working)
+	NX-503 (DCI Data source - Internal - PingTime - Stuck at 10k)
+	NX-515 (Device drivers not loaded on Windows if NetXMS installed into non-default location)
+	NX-518 (PingTime Unsupported)
+	NX-527 (Remove inet_pton dependency on Solaris)
+	NX-528 (LDAP sync problems on Windows)
+	NX-529 (Object tool download file does not work on web)
+	NX-534 (nxsnmpwalk: v3 AES encryption - Error parsing PDU)
+	NX-536 (nxagent dep package missing libnxsnmp)
 
 
 *
@@ -2534,14 +2938,43 @@
 - Alias and MTU collected and stored for interfaces
 - Server uses ipAddressTable and ipAddressPrefixTable to collect configured IP addresses when supported by monitored nodes
 - Management console:
-    - New dashboard element "DCI summary table"
-    - Cluster objects shown on status maps
+	- New dashboard element "DCI summary table"
+	- Cluster objects shown on status maps
 - Android console:
-    - Added date in X axis (graphs) when the time frame is greather that one day
-    - Added 10 minutes, 12 hours, 5 days, 30 days, last year options in draw graph for last values tab (5, 7, and 30 days asks for confirmation of long task execution)
-    - Fixed graphical problem (checkbox) in last values tab
-    - Support for KitKat Wear and Lollipop, updated support library v4
-- Fixed issues: NX-36, NX-223, NX-259, NX-330, NX-390, NX-437, NX-443, NX-471, NX-476, NX-477, NX-478, NX-479, NX-481, NX-482, NX-483, NX-486, NX-488, NX-490, NX-492, NX-493, NX-495, NX-501, NX-502, NX-504, NX-508, NX-509, NX-511, NX-512, NX-514
+	- Added date in X axis (graphs) when the time frame is greather that one day
+	- Added 10 minutes, 12 hours, 5 days, 30 days, last year options in draw graph for last values tab (5, 7, and 30 days asks for confirmation of long task execution)
+	- Fixed graphical problem (checkbox) in last values tab
+	- Support for KitKat Wear and Lollipop, updated support library v4
+- Fixed issues:
+	NX-36 (SNMP trap forwarding by agent in SNMP proxy mode)
+	NX-223 (Platform specific Object tools)
+	NX-259 (Can't list parameters from external subagent, when there are too many of them)
+	NX-330 (File.* should expand "``" only for MasterServer)
+	NX-390 (Monitor Network Service response time as DCI)
+	NX-437 (REFERENCE clause in MIB files not supported)
+	NX-443 (A function to return all 'Template' type parents of a node)
+	NX-471 (FileManager should allow bulk and directory download)
+	NX-476 (NotificationProcessor not updating cachedListenerList after reconnect)
+	NX-477 ("nxagentd" init script doesnt support "status")
+	NX-478 ("netxmsd" debian init script runs with "-D 5")
+	NX-479 (Wake-on-LAN possibly not working)
+	NX-481 (NXSL function PushData)
+	NX-482 (Command line tools always use ASCII as code page)
+	NX-483 (Auto-discovery pre-filter)
+	NX-486 (Script DCI parameters should be en-quoted)
+	NX-488 (Template export bug)
+	NX-490 (Multiple "Predefined graph" issues)
+	NX-492 (Separate syslog access right from event log access right)
+	NX-493 (Fix access control for monitors)
+	NX-495 (/32s showing in "Entire Network")
+	NX-501 (Add "Use multipliers" in map link Data Sources)
+	NX-502 (DCI Data source - Internal - PingTime Unsupported)
+	NX-504 (Delete, Manage, Unmanage - not working from Status Map)
+	NX-508 (Infinite loop in NetworkMap::updateObjects)
+	NX-509 (Crash in node overview)
+	NX-511 (Interface alias on the "Interfaces" object tab)
+	NX-512 (SNMPv3 communication problems with ESXi and Ubuntu 14)
+	NX-514 (SNMP data collection not working on SNOM phones)
 
 
 *
@@ -2561,16 +2994,16 @@
 - Improved network topology changes detection
 - Added driver for H3C switches
 - Management console:
-    - Can show alarms for multiple selected objects
-    - Fixed non-working ordering in event list in alarm details view
-    - Fixed bug with LDAP user system rights
-    - Added default search string for LDAP to select all objects: "(objectClass=*)"
-    - Added device geolocation tracking and display on map
-    - Filter in event processing policy editor
-    - Fixed bug with deletion of subnet with corrected IP
-    - Added command line option to open specific dashboard after login
+	- Can show alarms for multiple selected objects
+	- Fixed non-working ordering in event list in alarm details view
+	- Fixed bug with LDAP user system rights
+	- Added default search string for LDAP to select all objects: "(objectClass=*)"
+	- Added device geolocation tracking and display on map
+	- Filter in event processing policy editor
+	- Fixed bug with deletion of subnet with corrected IP
+	- Added command line option to open specific dashboard after login
 - Android console:
-	- Fixed issue NX-467
+	NX-467 (Predefined graphs with autocolor plotted with the same color)
 	- Added node boot time to overview tab
 	- Fix bug in notifying connection point not found
 	- Fix bug in computing interface expanded list size (removed hardcoded values)
@@ -2578,9 +3011,32 @@
 	- Fix aesthetic problems in expandable list (graphs and interfaces list)
 	- Integration of new support library
 	- Target to new API version (20)
-- Fixed issues: NX-27, NX-64, NX-228, NX-243, NX-283, NX-365, NX-373, NX-396, NX-388, NX-404, #593,
-                NX-424, NX-427, NX-433, NX-435, NX-438, NX-441, NX-444, NX-447, NX-448, NX-449,
-                NX-450, NX-456, NX-464, NX-469
+- Fixed issues:
+	NX-27 (Object Tools URL Caption)
+	NX-64 (Potential crash on business service deletion)
+	NX-228 (Ability to use DCI for node status calculation)
+	NX-243 (Investigate warning)
+	NX-283 (Copy chart to clipboard and/or file)
+	NX-365 (Remove manage/unmanage from Dashboard, Template and Policy object menu)
+	NX-373 (Allow use of environment variables in agent configuration files)
+	NX-396 (Option to show only status icon on network maps)
+	NX-388 (Allow delayed agent policy installation)
+	NX-404 (User defined list DCI)
+	NX-593 (Connection history for nodes, IP and MAC addresses)
+	NX-424 (Alarm filter for multiple objects)
+	NX-427 (Show icon next to object name in the alarm browser)
+	NX-433 (Agent on AIX occasionaly reports wrong CPU I/O wait value)
+	NX-435 (Show / hide link labels in L2 Maps)
+	NX-438 (/32s showing up in 'Entire Network')
+	NX-441 (Implement "Command generates output" option for agent action type object tools)
+	NX-444 (Add script function DeleteCustomAttribute())
+	NX-447 (Unable to use 'DCI summary tables' with multiple 'Dummy' type DCIs)
+	NX-448 ('network_map_links' DB table columns too small)
+	NX-449 (Process events in Windows event log created between system boot and agent start)
+	NX-450 (Threshold violations  shown for disabled DCIs)
+	NX-456 (IP Mask is not shown in interface list)
+	NX-464 (Escape mode for commands executed on server)
+	NX-469 (Proxy ICMP requests without zoning enabled)
 
 
 *
@@ -2596,11 +3052,17 @@
 - Transformation script terminated by "abort" call will not generate SYS_SCRIPT_ERROR event
 - Database manager can detect and fix missing IData and TData tables
 - NXSL:
-   - String concatenation operation interprets NULL value as empty string instead of throwing runtime error
-   - Fixed incorrect processing of ilike, match, and imatch operators
-   - Added try / catch operator
+	- String concatenation operation interprets NULL value as empty string instead of throwing runtime error
+	- Fixed incorrect processing of ilike, match, and imatch operators
+	- Added try / catch operator
 - New MIBs added: NETUP-MIB
-- Fixed issues: NX-293, NX-312, NX-374, NX-428, NX-429, NX-430
+- Fixed issues:
+	NX-293 (Summary DCI tables: missing values for some hosts)
+	NX-312 (nxdbmgr should check existence and permissions on idata tables)
+	NX-374 (try / catch (or other runtime error handling) in NXSL)
+	NX-428 (Agent crashes if root folder set to / in file manager subagent)
+	NX-429 (Table DCI cannot be saved)
+	NX-430 (Disk space percentage always rounded on AIX)
 
 
 *
@@ -2609,35 +3071,56 @@
 
 - LDAP support
 - Event names support in nxevent
-- Previous state parameter added to SYS_NODE_UP event 
-- Added file management subagent (filemgr.nsm) 
+- Previous state parameter added to SYS_NODE_UP event
+- Added file management subagent (filemgr.nsm)
 - Removed agent configuration parameter EnableArbitraryFileUpload
 - New NXSL class "Zone"
 - New attributes "zone" and "zoneId" in NXSL classes "Node" and "Interface"
 - Syslog records from unmanaged nodes do not generate events
 - Syslog node matching improved
-- New access rights for nodes: 
-   - Download File (download file from agent to local workstation)
-   - Upload File (upload file from local workstation to remote node) 
-   - Manage Files (move, rename and delete files on remote node)
+- New access rights for nodes:
+	- Download File (download file from agent to local workstation)
+	- Upload File (upload file from local workstation to remote node)
+	- Manage Files (move, rename and delete files on remote node)
 - Management console:
-   - "Commands" box on node overview page made configurable
-   - Object tools can have icons
-   - "Last value" type gauge can show non-numeric values
-   - "Trusted Nodes" property page shown for condition objects
-   - Network map content can be copied to clipboard
-   - Perspectives export/import
-   - Topology related options in node's context menu grouped in "Topology" submenu
-   - Added specialized view for IP routing table
-   - Added specialized view for switch forwarding database
-   - Agent configurations manager implemented
+	- "Commands" box on node overview page made configurable
+	- Object tools can have icons
+	- "Last value" type gauge can show non-numeric values
+	- "Trusted Nodes" property page shown for condition objects
+	- Network map content can be copied to clipboard
+	- Perspectives export/import
+	- Topology related options in node's context menu grouped in "Topology" submenu
+	- Added specialized view for IP routing table
+	- Added specialized view for switch forwarding database
+	- Agent configurations manager implemented
 - Android Console:
-   - Added option in preference to show/hide legend in graphs
-   - Object comments displayed
-   - Added "Navigate to" option for objects with geolocation set
-- Fixed issues: NX-105, NX-125, #457, NX-349, NX-369, NX-372, NX-380, NX-389, NX-391, NX-401, 
-                NX-402, NX-407, NX-409, NX-410, NX-411, NX-413, NX-416, NX-417, NX-418, NX-419, 
-                NX-421, NX-423, NX-425
+	- Added option in preference to show/hide legend in graphs
+	- Object comments displayed
+	- Added "Navigate to" option for objects with geolocation set
+- Fixed issues:
+	NX-105 (\ in file name processed as formatting character by logger)
+	NX-125 (Cannot use SNMP OIDs longer then 255 characters)
+	NX-457 (Support for multiple tile providers)
+	NX-349 (Driver for Mikrotik wireless devices)
+	NX-369 (Comments for DCIs)
+	NX-372 ("Unable to create raw socket for ICMP protocol" on Windows 2008)
+	NX-380 (NXSL: Deadlocks when CreateContainer called from Container's Auto-Bind Filtering script)
+	NX-389 (Allow agent deployment restart)
+	NX-391 (Resolve DNS hostname each time on Status Pool - option)
+	NX-401 (NXSL GetNodeParents result is empty)
+	NX-402 (NXSL Access to zone information)
+	NX-407 (Broken creation of double link and link with bend points on map)
+	NX-409 (Add actions to show switch FDB and routing tables)
+	NX-410 (Incorrect process command line handling on Linux)
+	NX-411 (Wrong integer DCI presentation in "Last Values")
+	NX-413 (Cannot replace existing image in image library)
+	NX-416 (Hide misleading error message (unknown symbol))
+	NX-417 (File Manager do not handle symlinks)
+	NX-418 (Oracle SQL query failed when saving line chart with lot of elements)
+	NX-419 (DCI proxy node ignored by instance discovery)
+	NX-421 (Link state based on two objects)
+	NX-423 (Limit amount of items displayed in Alarm browser)
+	NX-425 (Show object comments in Android Console)
 
 
 *
@@ -2648,11 +3131,9 @@
 - Information source for interface peers (CDP, STP, etc.) shown in console
 - New NXSL function inList
 - New NXSL operator abort
-- New methods in NXSL class Node: enableAgent, enableConfigurationPoll,
-  enableIcmp, enableSnmp, enableStatusPoll, enableTopologyPoll
+- New methods in NXSL class Node: enableAgent, enableConfigurationPoll, enableIcmp, enableSnmp, enableStatusPoll, enableTopologyPoll
 - Fixed server crash if SNMP proxy unavailable
-- New MIBs: AIRESPACE-REF-MIB, AIRESPACE-SWITCHING-MIB, 
-     AIRESPACE-WIRELESS-MIB, FROGFOOT-RESOURCES-MIB, MIKROTIK-MIB
+- New MIBs: AIRESPACE-REF-MIB, AIRESPACE-SWITCHING-MIB, AIRESPACE-WIRELESS-MIB, FROGFOOT-RESOURCES-MIB, MIKROTIK-MIB
 - SMS driver for websms.ru service
 - Macro expansion supported in pattern in agent parameters File.Size and File.Count
 - Attribute "instance" added to NXSL class "DCI"
@@ -2663,18 +3144,28 @@
 - Added driver for Ubiquity Networks wireless access points
 - Added driver for Cisco Wireless Controller 4400 (former Airespace)
 - Wireless controller and access point support improved
-- Log monitoring subagent sends Windows event source, severity, and code
-  to the server as part of NetXMS event
+- Log monitoring subagent sends Windows event source, severity, and code to the server as part of NetXMS event
 - DB/2 driver and monitoring subagent included into Windows installation package
 - Management console:
-   - DCI values can be shown on network map links
-   - DCI value can be shown on map as immage, that checnges depending on DCI value
-   - DCI value can be shown on map as a text
-   - Colored background for DCIs with active thresholds in DCI summary tables
-   - IP route visualisation improved
-   - On table DCI threshold property page columns can be chosen from dropdown
+	- DCI values can be shown on network map links
+	- DCI value can be shown on map as immage, that checnges depending on DCI value
+	- DCI value can be shown on map as a text
+	- Colored background for DCIs with active thresholds in DCI summary tables
+	- IP route visualisation improved
+	- On table DCI threshold property page columns can be chosen from dropdown
 - Reporting server rewritten from scratch
-- Fixed issues: NX-46, NX-287, NX-361, NX-367, NX-368, NX-377, NX-383, NX-384, NX-385, NX-395, NX-397
+- Fixed issues:
+	NX-46 (Use Spanning Tree data for network discovery)
+	NX-287 (Manually added elements on automatic maps)
+	NX-361 (Access to alarm log denied despite having "View alarms" Object Access Right)
+	NX-367 (VPN connectors not shown on topology map)
+	NX-368 (Deadlock in java web client - on disconnection)
+	NX-377 (Linux agent cuts decimal part off of FileSystem.UsedPerc and FreePerc DCIs)
+	NX-383 (Ability to return "DCI collection error" from transformation script)
+	NX-384 ("L" extension in the custom schedule)
+	NX-385 (Traps from unmanaged nodes sould be ignored)
+	NX-395 (First octet of cluster network address is replaced by 255)
+	NX-397 (Legend of combined graphs on perfomance tab doesn't have appropriate units)
 
 
 *
@@ -2682,7 +3173,7 @@
 *
 
 - Improved layer 2 topology discovery performance
-- Special handling of incorrect LLDP data provided by some D-Link switches 
+- Special handling of incorrect LLDP data provided by some D-Link switches
 - Optimizations in NXCP processing
 - Added driver for Cisco Small Business switches
 - Improved file retrieve from agent
@@ -2691,19 +3182,31 @@
 - Fixed Oracle DB initialization error
 - New macro %K (alarm key) in event actions
 - Management console:
-   - Implemented alarm sounds
-   - Fixed "broken pipe" errors
-   - Macros with alarm data in object tools 
-   - Added option "Manage image library" in user access rights property page
-   - Fixed image upload in web console
+	- Implemented alarm sounds
+	- Fixed "broken pipe" errors
+	- Macros with alarm data in object tools
+	- Added option "Manage image library" in user access rights property page
+	- Fixed image upload in web console
 - Added support for sticky acknowledge in nxalarm tool
 - Fixed bug causing excessive memory usage by AIX agent
 - Fixed bug with interface status detection if agent runs in Solaris zone
 - Fixed agent crash if HTTPS service status requested
 - Android Console:
-	- Fix bug missing hide notification alarm in status bar 
-	- Implemented "Font size in graph/dashboard sessions" (Feature NX-188) 
-- Fixed issues: NX-82, NX-188, NX-294, NX-297, NX-300, NX-311, NX-314, NX-318, NX-335, NX-346, NX-347, NX-360
+	- Fix bug missing hide notification alarm in status bar
+	- Implemented "Font size in graph/dashboard sessions" (Feature NX-188)
+- Fixed issues:
+	NX-82 (Sound notifications for alarms (as in Legacy Console))
+	NX-188 (Customize font size in graph/dashboard sessions)
+	NX-294 (Graphs: add log. scale to Dashboard and Performance graphs)
+	NX-297 (Charts: make periods configurable for Performance tabs & Dashboards)
+	NX-300 (SnmpCheckCommSettings slows down server startup?)
+	NX-311 (Add every new discovered node to container)
+	NX-314 (Show unmanaged nodes without interfaces in Entire Network)
+	NX-318 (Windows DCI parameter "System.Memory.Physical.Free" reports available memory amount, not free memory amount)
+	NX-335 (File download with tail should detect that connection with agent is broken)
+	NX-346 (DCI selection dialog should save position)
+	NX-347 (Multiple selection in DCI selection dialog)
+	NX-360 (Show Server.TotalEventsProcessed in GUI, automatically collect Events per second DCI on management node)
 
 
 *
@@ -2712,7 +3215,7 @@
 
 - Support for MetaSystem UPS in UPS subagent
 - Timed (temporary) alarm acknowledgement
-- New subagent DBQuery - replacement for ODBCQuery 
+- New subagent DBQuery - replacement for ODBCQuery
 - DCI access functions in NXSL works correctly with table DCIs
 - Fixed bugs with instance discovery DCIs created from templates
 - New property "runtimeFlags" in NXSL class "Node"
@@ -2722,22 +3225,40 @@
 - New NXSL function FindAllDCIs
 - Driver for Allied Telesis switches improved
 - Management console:
-   - Fixed bug with red zone display in "last value" dashboard element
-   - Edit and delete for alarm comments are working now
-   - Fixed Y axis range can be set for line and bar charts
-   - In alarm menue are not shown incompatible for selected alarm statuses.
-   - Alarm status flow can be changed to strict (terminate status can be set only 
-     after alarm is resolved). To change flow set "StrictAlarmStatusFlow" parameter to 1.
-   - SNMP MIB loaded into memory on first access
+	- Fixed bug with red zone display in "last value" dashboard element
+	- Edit and delete for alarm comments are working now
+	- Fixed Y axis range can be set for line and bar charts
+	- In alarm menue are not shown incompatible for selected alarm statuses.
+	- Alarm status flow can be changed to strict (terminate status can be set only after alarm is resolved). To change flow set "StrictAlarmStatusFlow" parameter to 1.
+	- SNMP MIB loaded into memory on first access
 - Android Agent:
 	- Implemented "Connection notification" in status bar (feature NX-323)
-	- Fix bug in resetting switch preference (settings) 
+	- Fix bug in resetting switch preference (settings)
 - Android Console:
-	- Fix bug in resetting switch preference (settings) 
+	- Fix bug in resetting switch preference (settings)
 	- Implemented "Entire network" root (feature NX-324)
 	- Manage last alarm from status bar: acknowledge, resolve, terminate (only for Android >= 4.1)
-- Fixed issues: NX-52, NX-61, NX-205, NX-208, NX-268, NX-271, NX-285, NX-317, NX-321, NX-323, NX-324, NX-325,
-                NX-326, NX-328, NX-329, NX-332, NX-339, NX-342, NX-344, NX-345
+- Fixed issues:
+	NX-52 (Timed alarm acknowledgement)
+	NX-61 (Add "disable" option to object tools)
+	NX-205 ("index" in NXSL can't find last char)
+	NX-208 (PVS-Studio)
+	NX-268 (Enable "Move to another group" for multiple selected items)
+	NX-271 (Filtering script is not propagated when Instance Discovery DCI applied from template)
+	NX-285 (Timeout is too short on log query)
+	NX-317 (configure PID file custom location does not work)
+	NX-321 (SMS Sending to Multiple Phone Number)
+	NX-323 (Report mobile agent  connection problems in notification bar)
+	NX-324 (Entire Network browser)
+	NX-325 (Fixed upper limit for line charts)
+	NX-326 (Generate event on peer change)
+	NX-328 (File.* should resolve environment variables)
+	NX-329 (New DCI — zombies count)
+	NX-332 (Coredump after Ctrl+C)
+	NX-339 (Agent registration not working)
+	NX-342 (Load MIB file into memory only on first access)
+	NX-344 (User should not see log items from objects he has no access to)
+	NX-345 (ImageLibrary should have ACL option)
 
 
 *
@@ -2753,7 +3274,13 @@
 	- Stacked line charts implemented
 	- Authentication by certificates supported by Java console
 	- Russian translation improved
-- Fixed issues: NX-2, NX-51, NX-261, NX-313, NX-316, NX-319
+- Fixed issues:
+	NX-2 (New threshold type: script)
+	NX-51 (Add certificate authentication to Java console)
+	NX-261 ("No storage" option for table DCIs)
+	NX-313 (Can't compile internal libexpat)
+	NX-316 (Linux subagent should ignore rootfs record in /etc/mtab)
+	NX-319 (Node removal from template process fails)
 
 
 *
@@ -2785,8 +3312,29 @@
 	- "Nodes" tab in object details view for subnets and containers
 	- "Address Map" tab in object details view for subnets
 	- Czech and Russian localization
-- Fixed issues: NX-68, NX-117, NX-177, NX-224, NX-232, NX-246, NX-247, NX-248, NX-249, NX-250, NX-254,
-                NX-257, NX-260, NX-263, NX-265, $401, NX-284, #414, NX-286, NX-288, NX-301, NX-302
+- Fixed issues:
+	NX-68 (Add support for DB/2 as backend database)
+	NX-117 (SNMP Trap Monitor broken)
+	NX-177 (Export and import event processing policy)
+	NX-224 (Device discovery from SNMP traps)
+	NX-232 (Custom tooltip for alarm list with more details)
+	NX-246 (Legend not working correctly using Text Gauges)
+	NX-247 (shared lib suffix is always ".so", should ".dylib" on OS X)
+	NX-248 (Cannot Connect to Postgres running on alternative port (not 5432))
+	NX-249 (PDH error 800007D5 (No data to return) in agent's log)
+	NX-250 (Driver for Allied Telesis switches)
+	NX-254 (Oracle agent crashes after Oracle service restart)
+	NX-257 (Wrong configure.ac and no sql files as result)
+	NX-260 (Copy to clipboard and export to CSV for data collection configuration)
+	NX-263 (Delete installer files after agent upgrade)
+	NX-265 (Option to create interface DCIs in bits instead of bytes)
+	NX-401 (NXSL GetNodeParents result is empty)
+	NX-284 (NXSL function to get n last DCI values from database)
+	NX-414 (Oracle monitoring agent should print more diagnostics)
+	NX-286 (Status indicators with full color range)
+	NX-288 (Configurable ICMP ping timeout at status poll)
+	NX-301 (Remove server dependency for an existing log file)
+	NX-302 (NetXMS server accepts directories as configuration files)
 
 
 *
@@ -2800,12 +3348,27 @@
 - New NXSL functions: chr, ord
 - HTTPS support in port checker subagent
 - Added MIBs for Nortel/Trapeze Wireless security switches
-- New MIBs: BAY-STACK-NOTIFICATIONS-MIB, SUN-HW-CTRL-MIB, SUN-HW-TRAP-MIB, 
-            SUN-PLATFORM-MIB
+- New MIBs: BAY-STACK-NOTIFICATIONS-MIB, SUN-HW-CTRL-MIB, SUN-HW-TRAP-MIB, SUN-PLATFORM-MIB
 - Management console:
 	- New dashboard elements: status map and table value
-- Fixed issues: NX-168, NX-219, NX-221, NX-222, NX-226, #311, NX-229, NX-230, NX-234, NX-235,
-                NX-236, NX-237, NX-238, NX-239, #339, NX-240, NX-242
+- Fixed issues:
+	NX-168 (User-defined constants in NXSL scripts)
+	NX-219 (Map object permanently selected when the grid is shown)
+	NX-221 (Add HTTPS support to portcheck subagent)
+	NX-222 (Templates with table DCIs not exported correctly)
+	NX-226 (Include nxpush into agent deb package)
+	NX-311 (Add every new discovered node to container)
+	NX-229 (UNICODE build fails on Solaris)
+	NX-230 (Status map as dashboard element)
+	NX-234 (EncryptionContext persists between connects)
+	NX-235 (Filtering script for automatic network maps)
+	NX-236 (Server crash on Solaris)
+	NX-237 (SNMP trap template for Nortel/Avaya switches)
+	NX-238 (Unable to move icon on map when grid is shown)
+	NX-239 ([Patch included] EncryptionContext is not thread safe)
+	NX-339 (Agent registration not working)
+	NX-240 (add "reset password" feature to nxdbmgr)
+	NX-242 (Wrong CPU utilization data on Ubuntu Server 12.04 LTS)
 
 
 *
@@ -2838,7 +3401,18 @@
 	- Single sign-on support using CAS
 	- Configuration file nxmc.properties can be placed outside of war file
 	- Workbench layout and user preferences saved between sessions
-- Fixed issues: NX-33, NX-34, NX-161, NX-164, #262, NX-204, NX-206, NX-207, NX-209, NX-212, NX-214
+- Fixed issues:
+	NX-33 (Tables support in NXSL)
+	NX-34 ("Test" button on DCI transformation property page is not working)
+	NX-161 (Cluster DCIs in dashboards)
+	NX-164 (Support for SNMP tables)
+	NX-262 (GPS tracking)
+	NX-204 (Map object status based on objects on map)
+	NX-206 (NXSL function to retrieve last raw DCI value)
+	NX-207 (Add ability to use custom attribute values in object tools)
+	NX-209 (Situation attributes not shown in console)
+	NX-212 (Support for SNMP devices without standard MIBs)
+	NX-214 (UI option to configure interface "exclude from topology" flag)
 
 
 *
@@ -2872,7 +3446,18 @@
 	- Auto login option for web console
 	- Last values of selected DCIs can be shown in object tooltips
 	  on network maps
-- Fixed issues: NX-59, NX-165, NX-190, NX-193, NX-194, NX-195, NX-196, NX-200, NX-201, #268, NX-202
+- Fixed issues:
+	NX-59 (Implement data export from log viewer)
+	NX-165 (Unable to unselect group box)
+	NX-190 (Add support for per-VLAN forwarding databases on Cisco Catalyst switches)
+	NX-193 (Implement MIB selection dialog similar to legacy console)
+	NX-194 (Configurable default value for data collection interval and retention time)
+	NX-195 (Incorrect selection in object tree after console start)
+	NX-196 (Implement uniform handling of Windows security log on all Windows versions)
+	NX-200 (Agent reply with uninitialized buffer when ExetnalParameter can't start)
+	NX-201 (Portcheck: Unicode build do not recode "MAIL FROM" into multibyte)
+	NX-268 (Enable "Move to another group" for multiple selected items)
+	NX-202 (FreeBSD subagent incorrectly not supporting swap/vm data collection (patch))
 
 
 *
@@ -2883,8 +3468,7 @@
 - nxshell: Python-based client-side scripting
 - Array initializers in NXSL
 - NXSL function PostEvent can use event names instead of event codes
-- New NXSL functions: AgentReadParameter, CreateDCI, ManageObject, 
-  SetInterfaceExpectedState, UnmanageObject
+- New NXSL functions: AgentReadParameter, CreateDCI, ManageObject, SetInterfaceExpectedState, UnmanageObject
 - Management console:
 	- Network map functionality in web console now in sync with desktop version
 	- Alarm details view improved
@@ -2907,7 +3491,17 @@
 	- Fixed bug in automatic connection on first start when agent was disabled
 	- Override for connection schedule on detecting change of connectivity (selectable)
 - New MIBs added: LLDP-EXT-DOT1-MIB, LLDP-EXT-DOT3-MIB
-- Fixed issues: NX-163, NX-170, NX-172, NX-174, NX-176, NX-178, NX-179, NX-181, NX-182, NX-184
+- Fixed issues:
+	NX-163 (Extended alarm message)
+	NX-170 (Possibility to set default icon type for network map)
+	NX-172 (CreateDCI function in NXSL)
+	NX-174 (Custom Schedule not saved)
+	NX-176 (Adding image to map fails)
+	NX-178 (Could not create the view: Task already scheduled or cancelled)
+	NX-179 (Container source for alarm log)
+	NX-181 (Basic device info not resent)
+	NX-182 (UI hangs after password change on login)
+	NX-184 (Server complaint about too big packet when agent reply with huge list of supported DCIs)
 
 
 *
@@ -2937,8 +3531,26 @@
 	- Show number of pending alarms in home screen
 - API for creating embedded application agents
 - Initial (alpha) version of mobile agent for Android devices
-- Fixed issues: NX-5, NX-23, NX-25, NX-103, NX-121, NX-129, NX-130, NX-139, NX-142, NX-144, NX-145,
-                NX-147, NX-153, NX-154, NX-155, NX-156, NX-159, NX-160, NX-162
+- Fixed issues:
+	NX-5 (MS SQL DB driver should find available native client)
+	NX-23 (Option to create DCI directly from MIB browser)
+	NX-25 (Show OID textual convention in MIB browser)
+	NX-103 (Alarm details view)
+	NX-121 ("Reload image library" is loaded over and over after changing something in the image library)
+	NX-129 (AIX: Unable to retrieve interface status via agent)
+	NX-130 (AIX agent does not return all IP addresses configured on interface)
+	NX-139 ("Snap to grid" feature for network maps)
+	NX-142 (Poll count for status change for network service objects)
+	NX-144 (Compilation warnings on Solaris 10)
+	NX-145 (Do not collect unnecessary information from nodes during network discovery)
+	NX-147 (Improve automatic event correlation based on network topology)
+	NX-153 (Map background set to geo map causes NPE in web UI)
+	NX-154 (Node remains unreachable after IP address change)
+	NX-155 (Accept traps from agents in different zones)
+	NX-156 (Bug in auto connection on connectivity change with scheduler disabled)
+	NX-159 (Option menu in Alarms activity doesn't work)
+	NX-160 (Implement basic style in UI)
+	NX-162 (Typing OID in MIB explorer not selecting elements in MIB tree)
 
 
 *
@@ -2961,8 +3573,7 @@
 - New parameter Icmp.PingStdDev in PING subagent
 - Cisco Catalyst 3550 supported by CATALYST driver
 - Intervals of less than a minute can be defined with custom DCI schedules
-- Agent parameters File.xxx (File.Size, etc) now support strftime style macros
-  for current date/time (similar to file name in log parser)
+- Agent parameters File.xxx (File.Size, etc) now support strftime style macros for current date/time (similar to file name in log parser)
 - Android client:
 	- Restructured settings activity
 	- Alarm status icon notification configurable by settings (independent from playing the sound assigned to the category)
@@ -2975,7 +3586,13 @@
 		- Enable daily scheduler: if off, the above values are applied to the whole day. If on they will be applied only to the specified interval (for the whole week).
 		- Daily on: start daily time to apply scheduler values
 		- Daily off: stop daily time to apply scheduler values
-- Fixed issues: NX-29, NX-93, NX-101, NX-106, NX-111, NX-138
+- Fixed issues:
+	NX-29 (Local commands with arguments works only with "Command generates output" option)
+	NX-93 (Truncated object tooltip texts in network maps)
+	NX-101 (Add support for Cisco Catalyst 3550)
+	NX-106 (Status indicator in dashboard causes web console to crash)
+	NX-111 (Local commands with arguments works only with "Command generates output" option)
+	NX-138 (netxmsd crash in script processing)
 
 
 *
@@ -2989,8 +3606,7 @@
 - Agent on Windows is in UNICODE
 - UNICODE build supported on Linux and FreeBSD
 - ifXTable used when possible for interface traffic DCIs creation
-- Server can be configured to use DNS host names instead of FQDN for newly
-  discovered nodes
+- Server can be configured to use DNS host names instead of FQDN for newly discovered nodes
 - Script hooks for configuration poll
 - Management console:
 	- Configurable date and time format
@@ -3005,20 +3621,18 @@
 	- Object tools execution on multiple objects
 	- Implemented "Clear collected data" action for DCIs
 	- Fixed missing scrollbar issue in VLAN view
-- Added commands "get" and "set" to nxdbmgr to manager server configuration
-  variables
+- Added commands "get" and "set" to nxdbmgr to manager server configuration variables
 - New NXSL function: RenameObject
 - Web interface look is more consistent with desktop client
 - Fixed critical bug in NXSL interpreter (incorrect execution of operation --)
 - Android client:
-	- Added: nodes and dashboards container status in home screen reflect 
-          children status (icon changes on WARNING, MINOR, MAJOR, and CRITICAL). 
-	- Added: interfaces tab under node info activity 
+	- Added: nodes and dashboards container status in home screen reflect children status (icon changes on WARNING, MINOR, MAJOR, and CRITICAL).
+	- Added: interfaces tab under node info activity
 	- Added: handle alarm sticky acnowledge action and state.
-	- Added: sort of alarm list in node info tab. 
+	- Added: sort of alarm list in node info tab.
 	- Added: multiple selection for actions on alarms list.
 	- Added: sort by node name on alarm list.
-	- Fixed bug: added protection to null pointers 
+	- Fixed bug: added protection to null pointers
 	- Fixed bug: hidden wrong menu item in alarms tab
 
 
@@ -3048,11 +3662,11 @@
 - AIX Subagent:
 	- New parameters available: System.CPU.PhysicalAverage.*
 - Fixed bugs:
-	- Config file with CRLF loaded incorrectly on UNIX
-	- Unable to bind object in WebUI
-	- Graph colors can be ignored in dashboards
-	- Object deletion may not be immediately reflected in console
-	- Unable to upload file into image library from Web UI
+	NX-? (Config file with CRLF loaded incorrectly on UNIX)
+	NX-? (Unable to bind object in WebUI)
+	NX-? (Graph colors can be ignored in dashboards)
+	NX-? (Object deletion may not be immediately reflected in console)
+	NX-? (Unable to upload file into image library from Web UI)
 
 
 *
@@ -3080,68 +3694,11 @@
 - Agent now allows to define management server address as subnet
 - Additional I/O parameters in Solaris agent
 - Fixed bugs with static agent build
-- Fixed issues: #333, NX-240, #343, #353
-
-
-*
-* 1.2.2
-*
-
-- New alarm state - "Resolved"
-- Added drivers for Cisco ESW and Dell PowerConnect switches
-- Added MIBs for Dell PowerConnect switches
-- New event processing macros: %g and %I
-- Management console:
-	- In port view ports are colored according to physical port state
-	- Interface IP shown in connection point search results
-	- Interface IP and MAC shown in "Interfaces" tab
-	- Added "Status Map" view
-	- Added option to hide unsupported DCIs from "Last Values" view
-	- Added option to indicate data collection errors in "Last Values" view
-	- Added "copy to clipboard" function in log viewers and monitors
-- Android client:
-	- Dashboards implemented
-	- Node status/configuration/topology poll implemented
-- NXSL:
-	- Global variables can be declared in script code
-	- New functions: GetConfigurationVariable, GetObjectParents, GetObjectChildren
-	- New attribute "guid" in classes Interface, NetObj, and Node
-- AIX Subagent:
-	- New parameters available: System.CPU.PhysicalAverage.*
-- Fixed bugs:
-	- Config file with CRLF loaded incorrectly on UNIX
-	- Unable to bind object in WebUI
-	- Graph colors can be ignored in dashboards
-	- Object deletion may not be immediately reflected in console
-	- Unable to upload file into image library from Web UI
-
-
-*
-* 1.2.1
-*
-
-- Implemented dashboard export/import
-- New NXSL functions for direct SNMP access
-- New NXSL functions for getting min, max, and average DCI value for period
-- Fixed memory leak in NXSL functions gmtime and localtime
-- Fixed memory leak in configuration poller
-- Added driver for HP E-series (ProCurve) switches
-- Implemented "sticky" alarm acknowledgements
-- Added option to disable automatic node unbinding from containers
-- Added option to disable automatic template removal
-- Added events for automatic container binding and unbinding
-- Added events for automatic template apply and remove
-- Java console:
-	- Configuration export implemented
-	- Added object status indication bar in object browser
-	- Added filtering by IP address and comments in object browser
-- Web UI:
-	- Windows installer improved
-	- Line charts improved
-- Agent now allows to define management server address as subnet
-- Additional I/O parameters in Solaris agent
-- Fixed bugs with static agent build
-- Fixed issues: #333, NX-240, #343, #353
+- Fixed issues:
+	NX-333 (Add windows service descriptions for both server and agent)
+	NX-240 (add "reset password" feature to nxdbmgr)
+	NX-343 (Relative time filters in logs)
+	NX-353 (When disabling and enabling back dci in template it doesn't propogate)
 
 
 *
@@ -3175,10 +3732,11 @@
 	- All functionality from Java console implemented
 	- Windows installer for web interface
 	- Resolved issue: NetXMS session not closed when web session is expired
-- Resolved issue: Internal libexpat failed to compile on debian5
-- Resolved issue: Build failed on Solaris 11
-- Resolved issue: Incorrect interface status reported by agent on FreeBSD
-- Resolved issue: Database upgrade problems if SQLite used as backend database
+- Fixed issues:
+	NX-? (Internal libexpat failed to compile on debian5)
+	NX-? (Build failed on Solaris 11)
+	NX-? (Incorrect interface status reported by agent on FreeBSD)
+	NX-? (Database upgrade problems if SQLite used as backend database)
 
 
 *
@@ -3207,17 +3765,10 @@
 	- Resolved issue: Reports not working on Windows
 	- Resolved issue: extra new line characters in local command output
 - New format specifiers in nxalarm: %x and %X
-- New MIBs added: BAY-STACK-ADAC-MIB, BAY-STACK-ARP-INSPECTION-MIB,
-  BAY-STACK-DHCP-SNOOPING-MIB, BAY-STACK-ECMP-MIB, BAY-STACK-ERROR-MESSAGE-MIB,
-  BAY-STACK-LACP-EXT-MIB, BAY-STACK-MULTICAST-FLOODING-MIB, 
-  BAY-STACK-OSPF-EXT-MIB, BAY-STACK-PETH-EXT-MIB, BAY-STACK-RADIUS-MIB,
-  BAY-STACK-SOURCE-GUARD-MIB, BAY-STACK-STATS-MIB, BAY-STACK-VRRP-EXT-MIB,
-  FOUNDRY-CAR-MIB, FOUNDRY-SN-AGENT-MIB, FOUNDRY-SN-IP-MIB,
-  FOUNDRY-SN-OSPF-GROUP-MIB, FOUNDRY-SN-ROOT-MIB, 
-  FOUNDRY-SN-SW-L4-SWITCH-GROUP-MIB, FOUNDRY-SN-SWITCH-GROUP-MIB,
-  FOUNDRY-SN-TRAP-MIB, FOUNDRY-SN-VSRP-MIB
-- Resolved issue: Subnet objects not placed correctly under zones
-- Resolved issue: No retention time for alarm history
+- New MIBs added: BAY-STACK-ADAC-MIB, BAY-STACK-ARP-INSPECTION-MIB, BAY-STACK-DHCP-SNOOPING-MIB, BAY-STACK-ECMP-MIB, BAY-STACK-ERROR-MESSAGE-MIB, BAY-STACK-LACP-EXT-MIB, BAY-STACK-MULTICAST-FLOODING-MIB, BAY-STACK-OSPF-EXT-MIB, BAY-STACK-PETH-EXT-MIB, BAY-STACK-RADIUS-MIB, BAY-STACK-SOURCE-GUARD-MIB, BAY-STACK-STATS-MIB, BAY-STACK-VRRP-EXT-MIB, FOUNDRY-CAR-MIB, FOUNDRY-SN-AGENT-MIB, FOUNDRY-SN-IP-MIB, FOUNDRY-SN-OSPF-GROUP-MIB, FOUNDRY-SN-ROOT-MIB, FOUNDRY-SN-SW-L4-SWITCH-GROUP-MIB, FOUNDRY-SN-SWITCH-GROUP-MIB, FOUNDRY-SN-TRAP-MIB, FOUNDRY-SN-VSRP-MIB
+- Fixed issues:
+	NX-? (Subnet objects not placed correctly under zones)
+	NX-? (No retention time for alarm history)
 
 
 *
@@ -3240,8 +3791,7 @@
 * 1.1.8
 *
 
-- New node properties: "disable topology polling" and
-  "disable discovery polling"
+- New node properties: "disable topology polling" and "disable discovery polling"
 - Changes and improvements in Java console:
 	- Implemented embedded web page element type in dashboards
 	- Implemented alarm viewer element type in dashboards
@@ -3255,8 +3805,7 @@
 	- Implemented agent package management and deployment
 - Added common driver for Cisco Catalyst switches with CISCO-STACK-MIB support
 - Implemented event identification by name in sendEvent API
-- RADIUS authentication now supports passwords up to 128 characters long 
-  (was up to 16)
+- RADIUS authentication now supports passwords up to 128 characters long (was up to 16)
 - Fixed server crash on Windows 2008 R2
 - New MIBs added: CISCO-STACK-MIB, FDDI-SMT73-MIB
 
@@ -3270,18 +3819,19 @@
 - New MIBs added: JUNIPER-IVE-MIB
 - New NXSL functions: GetInterfaceObject
 - Many small improvements in management console
-- Fixed issues: NX-236, NX-237, NX-238
+- Fixed issues:
+	NX-236 (Server crash on Solaris)
+	NX-237 (SNMP trap template for Nortel/Avaya switches)
+	NX-238 (Unable to move icon on map when grid is shown)
 
 
 *
 * 1.1.6
 *
 
-- Added possibility to run different subagents under different
-  user accounts
+- Added possibility to run different subagents under different user accounts
 - Improved work with 802.1x capable switches
-- New MIBs added: EF-6000-MIB, ES-1000-MIB, IBM-6611-APPN-MIB, IBM-MIB,
-  IBMCPU-MIB
+- New MIBs added: EF-6000-MIB, ES-1000-MIB, IBM-6611-APPN-MIB, IBM-MIB, IBMCPU-MIB
 - Fixed interoperability problems with IBM AS/400 SNMP agent
 - AIX support improved
 - Fixed serious memory leaks in server
@@ -3308,17 +3858,15 @@
 - Implemented named parameters for events
 - Added integration script for HP EVA disk arrays
 - Added driver for Netscreen firewalls
-- Usage of DNS names instead of IP address for defining primary
-  communication address is now supported (for better support of nodes with
-  dynamic IPs)
-- New MIBs added: ATM-TC-MIB, CISCO-BRIDGE-EXT-MIB, CISCO-IF-EXTENSION-MIB,
-  CISCO-L2L3-INTERFACE-CONFIG-MIB, CISCO-PRIVATE-VLAN-MIB,
-  CISCO-VLAN-IFTABLE-RELATIONSHIP-MIB, DVMRP-MIB, IGMP-MIB, IPV6-TC,
-  RAPID-CITY-BAY-STACK, RC-MLT-MIB
+- Usage of DNS names instead of IP address for defining primary communication address is now supported (for better support of nodes with dynamic IPs)
+- New MIBs added: ATM-TC-MIB, CISCO-BRIDGE-EXT-MIB, CISCO-IF-EXTENSION-MIB, CISCO-L2L3-INTERFACE-CONFIG-MIB, CISCO-PRIVATE-VLAN-MIB, CISCO-VLAN-IFTABLE-RELATIONSHIP-MIB, DVMRP-MIB, IGMP-MIB, IPV6-TC, RAPID-CITY-BAY-STACK, RC-MLT-MIB
 - Mobile client for Android introduced
 - Many small improvements in management console
 - Fixed some problems with database export/import
-- Fixed issues: #328, NX-231, NX-232
+- Fixed issues:
+	NX-328 (File.* should resolve environment variables)
+	NX-231 (Deadlock during template import)
+	NX-232 (Custom tooltip for alarm list with more details)
 
 
 *
@@ -3353,12 +3901,9 @@
 - Added driver for Cisco Catalyst 2900XL, 2950, and 3500XL series switches
 - New threshold function: SUM
 - New NXSL functions: SetCustomAttribute
-- Added support for zoning (dividing network into independent parts with
-  possibly overlapped address ranges)
+- Added support for zoning (dividing network into independent parts with possibly overlapped address ranges)
 - OpenStreetMap integration for geolocation display
-- New MIBs added: CISCO-CLUSTER-MIB, CISCO-HSRP-EXT-MIB, CISCO-HSRP-MIB,
-  CISCO-MAC-NOTIFICATION-MIB, CISCO-STACKMAKER-MIB, CISCO-STP-EXTENSIONS-MIB,
-  CISCO-SWITCH-CGMP-MIB, CISCO-VLAN-MEMBERSHIP-MIB, EMBEDDED-NGX-MIB
+- New MIBs added: CISCO-CLUSTER-MIB, CISCO-HSRP-EXT-MIB, CISCO-HSRP-MIB, CISCO-MAC-NOTIFICATION-MIB, CISCO-STACKMAKER-MIB, CISCO-STP-EXTENSIONS-MIB, CISCO-SWITCH-CGMP-MIB, CISCO-VLAN-MEMBERSHIP-MIB, EMBEDDED-NGX-MIB
 - nxpush now supports node identification by DNS name or IP address
 - Configurable dashboards introduced
 
@@ -3384,7 +3929,10 @@
 - Added VRRP support
 - Added new object tools type: server command
 - New MIBs added: VRRP-MIB
-- Fixed issues: #320, #321, #322
+- Fixed issues:
+	NX-320 (Selected object information on "IP neighborhoods" view is not changed while object is not reselected)
+	NX-321 (SMS Sending to Multiple Phone Number)
+	NX-322 (Export all to CSV - get all data before export)
 
 
 *
@@ -3395,13 +3943,11 @@
 - MIB compiler improved
 - SNMP tools improved
 - Added automatic conversion of non-printable strings in SNMP traps
-- New MIBs added: APPLICATION-MIB, JVM-MANAGEMENT-MIB, APACHE2-MIB,
-  SYSAPPL-MIB, RADIUS-AUTH-CLIENT-MIB, RADIUS-DYNAUTH-CLIENT-MIB,
-  RADIUS-AUTH-SERVER-MIB, RADIUS-DYNAUTH-SERVER-MIB, RDBMS-MIB, 
-  RADIUS-ACCT-CLIENT-MIB, MSSQLSERVER-MIB, RADIUS-ACCT-SERVER-MIB,
-  BAY-STACK-MIB, S5-AGENT-MIB
+- New MIBs added: APPLICATION-MIB, JVM-MANAGEMENT-MIB, APACHE2-MIB, SYSAPPL-MIB, RADIUS-AUTH-CLIENT-MIB, RADIUS-DYNAUTH-CLIENT-MIB, RADIUS-AUTH-SERVER-MIB, RADIUS-DYNAUTH-SERVER-MIB, RDBMS-MIB, RADIUS-ACCT-CLIENT-MIB, MSSQLSERVER-MIB, RADIUS-ACCT-SERVER-MIB, BAY-STACK-MIB, S5-AGENT-MIB
 - Fixed broken static agent build
-- Fixed issues: #313, #318
+- Fixed issues:
+	NX-313 (Can't compile internal libexpat)
+	NX-318 (Windows DCI parameter "System.Memory.Physical.Free" reports available memory amount, not free memory amount)
 
 
 *
@@ -3412,7 +3958,11 @@
 	- now possible to create scripts without explicit main()
 	- named parameters added
 	- New functions: GetNodeParents, PostEvent
-- Fixed issues: #311, #312, #316, #317
+- Fixed issues:
+	NX-311 (Add every new discovered node to container)
+	NX-312 (nxdbmgr should check existence and permissions on idata tables)
+	NX-316 (Linux subagent should ignore rootfs record in /etc/mtab)
+	NX-317 (configure PID file custom location does not work)
 
 
 *
@@ -3420,10 +3970,11 @@
 *
 
 - Implemented automatic alarm termination using regular expressions
-- Added support for ODBC connection strings in ODBCQUERY subagent and
-  ODBC database driver
+- Added support for ODBC connection strings in ODBCQUERY subagent and ODBC database driver
 - Added server configuration parameter ProcessAffinityMask
-- Fixed issues: NX-226, NX-227
+- Fixed issues:
+	NX-226 (Include nxpush into agent deb package)
+	NX-227 (Create "nxdownload" utility)
 
 
 *
@@ -3432,7 +3983,10 @@
 
 - Implemented adding existing nodes to cluster and removing nodes from cluster
 - LogWatch subagent improved
-- Fixed issues: NX-223, NX-224, NX-225
+- Fixed issues:
+	NX-223 (Platform specific Object tools)
+	NX-224 (Device discovery from SNMP traps)
+	NX-225 (Quidway switches support)
 
 
 *
@@ -3442,11 +3996,13 @@
 - New NXSL operators: += -= *= /= .= %= &= |= ^=
 - New NXSL functions: index, rindex
 - MIB compiler improved
-- New MIBs added to default distribution:
-	ASTERISK-MIB, DIGIUM-MIB, NetWare-Server-MIB, NETWORK-APPLIANCE-MIB
-- Windows console: fixed problem with saving Object Browser and maps in
-  desktop layout 
-- Fixed issues: #279, NX-220, NX-221, NX-222
+- New MIBs added to default distribution: ASTERISK-MIB, DIGIUM-MIB, NetWare-Server-MIB, NETWORK-APPLIANCE-MIB
+- Windows console: fixed problem with saving Object Browser and maps in desktop layout
+- Fixed issues:
+	NX-279 (Editors in NXMC do not support Undo)
+	NX-220 (Increase event/alarm message limit)
+	NX-221 (Add HTTPS support to portcheck subagent)
+	NX-222 (Templates with table DCIs not exported correctly)
 
 
 *
@@ -3456,24 +4012,27 @@
 - Built-in syslog server improved
 - Windows console improved
 - Created separate installation package for Windows console
-- Fixed issues: #282, #288, NX-217
+- Fixed issues:
+	NX-282 (command line option "-D" should override "DebugLevel" from config)
+	NX-288 (Configurable ICMP ping timeout at status poll)
+	NX-217 (netxms segfault)
 
 
 *
 * 1.0.3
 *
 
-- Windows console: 
+- Windows console:
 	- DCI thresholds, average, and trendlines can be shown on graphs
 	- Fixed history graph performance issue
 	- Fixed GDI resource leak
 - HP-UX platform subagent improved
-- New agent parameters for Linux: System.Memory.Physical.Available and
-  System.Memory.Physical.AvailablePerc
-- Agent parameters Disk.* renamed to FileSystem.* (old names still recognized
-  by agent for backward compatibility)
+- New agent parameters for Linux: System.Memory.Physical.Available and System.Memory.Physical.AvailablePerc
+- Agent parameters Disk.* renamed to FileSystem.* (old names still recognized by agent for backward compatibility)
 - Fixed various inconsistencies in parameters between different systems
-- Fixed issues: NX-219, #302
+- Fixed issues:
+	NX-219 (Map object permanently selected when the grid is shown)
+	NX-302 (NetXMS server accepts directories as configuration files)
 
 
 *
@@ -3482,7 +4041,8 @@
 
 - Windows console: implemented custom graphs on Performance tab in Object Browser
 - Solaris platform subagent improved
-- Fixed issues: #298
+- Fixed issues:
+	NX-298 (Option to show 95% line on chart)
 
 
 *
@@ -3493,16 +4053,17 @@
 - New NXSL functions: log, log10, and exp
 - Windows console: added logarithmic scale option on graphs
 - MIB compiler improved
-- Fixed issues: NX-210, NX-215, NX-216
+- Fixed issues:
+	NX-210 (Save network map as PDF)
+	NX-215 (Topology discovery not working on some Cisco devices)
+	NX-216 (Map decorations with color based on object status)
 
 
 *
 * 1.0.0
 *
 
-- System configuration (events, SNMP traps, templates, event processing rules)
-  can be exported and imported in XML format - this solves various problems
-  with old NXMP files
+- System configuration (events, SNMP traps, templates, event processing rules) can be exported and imported in XML format - this solves various problems with old NXMP files
 - NXSL improvements:
 	- New functions: GetDCIObject, GetInterfaceName, FindNodeObject, trace
 	- Added built-in constants TRUE and FALSE
@@ -3510,7 +4071,12 @@
 - Improved SNMPv3 support
 - Windows management console: implemented object search by comments
 - Linux: DRBD monitoring rewritten
-- Fixed issues: NX-37, #278, #283, NX-211, NX-213
+- Fixed issues:
+	NX-37 (Implement "clear data" function for DCI)
+	NX-278 (EPP Editor – replace flat list with tree or groups)
+	NX-283 (Copy chart to clipboard and/or file)
+	NX-211 (Infrastructure tree synchronization with Active Directory structure)
+	NX-213 (DCI data aggregation)
 
 
 *
@@ -3519,11 +4085,18 @@
 
 - Added external audit logging via syslog
 - Added support for secondary RADIUS server
-- Added size and age filters to agent parameters File.Size and File.Count 
+- Added size and age filters to agent parameters File.Size and File.Count
 - PortCheck subagent: connection timeout made configurable
 - NXSL: added functions trim(), ltrim(), and rtrim()
 - Expat XML parser bundled with NetXMS source package
-- Fixed issues: #267, #268, #269, #270, #272, #273, #274
+- Fixed issues:
+	NX-267 (Show server hostname in window title)
+	NX-268 (Enable "Move to another group" for multiple selected items)
+	NX-269 (Data Collection configuration - add toggle switch to hide items from template)
+	NX-270 (DCIs added by instance discovery should be deleted when "root" DCI is removed)
+	NX-272 (EPP Editor suggestion: change command names)
+	NX-273 (EPP Editor "wizard" - ability to create pair of matching create alarm/terminate alarm in one action)
+	NX-274 (EPP Editor - ability to collapse alarm/terminate pairs into single record)
 
 
 *
@@ -3531,7 +4104,8 @@
 *
 
 - Fixed various database upgrade issues in 0.2.29
-- Fixed issues: #266
+- Fixed issues:
+	NX-266 (New object tool filter - custom attribute)
 
 
 *
@@ -3547,11 +4121,17 @@
 *
 
 - Added encryption support for SNMP version 3
-- Fixed compatibility issues with NetXMS SNMP version 3 implementation and 
-  Cisco devices
+- Fixed compatibility issues with NetXMS SNMP version 3 implementation and Cisco devices
 - Automatic network discovery improved
 - LOGSCAN subagent removed (superseded by LOGWATCH subagent)
-- Fixed issues: NX-182, #259, NX-201, #261, #262, #263, #264
+- Fixed issues:
+	NX-182 (UI hangs after password change on login)
+	NX-259 (Can't list parameters from external subagent, when there are too many of them)
+	NX-201 (Portcheck: Unicode build do not recode "MAIL FROM" into multibyte)
+	NX-261 ("No storage" option for table DCIs)
+	NX-262 (GPS tracking)
+	NX-263 (Delete installer files after agent upgrade)
+	NX-264 (System allows to save multiple graphs with same name)
 
 
 *
@@ -3561,7 +4141,16 @@
 - Added support for SNMP version 3 (without encryption)
 - Log monitoring improved
 - Built-in scripting language (NXSL) improved
-- Fixed issues: #223, NX-194, NX-195, NX-197, NX-198, NX-199, #255, NX-200, #258
+- Fixed issues:
+	NX-223 (Platform specific Object tools)
+	NX-194 (Configurable default value for data collection interval and retention time)
+	NX-195 (Incorrect selection in object tree after console start)
+	NX-197 (Nevar izveidot NODE ar to pašu IP)
+	NX-198 (Nevar nomainīt IP adresi)
+	NX-199 (Primary IP address for node incorrectly changed)
+	NX-255 (Unable to edit newly created DCI)
+	NX-200 (Agent reply with uninitialized buffer when ExetnalParameter can't start)
+	NX-258 (DCI threshold deactivation event not generated)
 
 
 *
@@ -3585,9 +4174,17 @@
 - Removed inconsistencies in some parameters' behavior on different platforms
 - DCI transformation scripts now can be tested from console
 - Network maps improved
-- Added support for matching Windows event log records by event source,
-  severity, and event code
-- Fixed issues: NX-163, #217, NX-187, NX-188, NX-189, NX-190, NX-191, #244, NX-192
+- Added support for matching Windows event log records by event source, severity, and event code
+- Fixed issues:
+	NX-163 (Extended alarm message)
+	NX-217 (netxms segfault)
+	NX-187 (Graphs with a lot of data are not rendered (black screen))
+	NX-188 (Customize font size in graph/dashboard sessions)
+	NX-189 (Force reconnection after changing configuration parameters)
+	NX-190 (Add support for per-VLAN forwarding databases on Cisco Catalyst switches)
+	NX-191 (Alarms activity crashes in presence of long list of alarms)
+	NX-244 (Support for discovery of non-responding (firewalled) hosts)
+	NX-192 (Overview tab scrolling)
 
 
 *
@@ -3596,7 +4193,7 @@
 
 - Critical bugfixes:
 	- Compilation errors on FreeBSD
-	- Errors in database schema if doing fresh install 
+	- Errors in database schema if doing fresh install
 
 
 *
@@ -3619,7 +4216,16 @@
 	- Implemented editing of predefned graphs
 	- Implemented cut/copy/paste in event policy editor
 - Java API introduced
-- Fixed issues: #31, NX-49, NX-113, #218, #228, NX-183, NX-184, NX-185, NX-186
+- Fixed issues:
+	NX-31 (Object tools by template)
+	NX-49 (Add option to create interfaces for discovered nodes in "unmanaged" state)
+	NX-113 (Object tools autodetection)
+	NX-218 (NXSL functions for managing status calculation/propagation)
+	NX-228 (Ability to use DCI for node status calculation)
+	NX-183 ("Responsible Persons" for node/container)
+	NX-184 (Server complaint about too big packet when agent reply with huge list of supported DCIs)
+	NX-185 (Implement "copy to clipboard" functionality in web UI)
+	NX-186 (SNMP agent unreachable)
 
 
 *
@@ -3627,12 +4233,21 @@
 *
 
 - Scripts now can be used to form event's message (via %[..] macro)
-- Scripts in event processing policy now has access to node properties
-  via $node variable and to event properties via $event variable
+- Scripts in event processing policy now has access to node properties via $node variable and to event properties via $event variable
 - Implemented XML encoding for NXCP messages
 - Added support of custom object attributes
 - Minor map improvements
-- Fixed issues: NX-162, NX-167, #216, NX-173, #221, NX-174, NX-176, NX-177, NX-180, NX-181
+- Fixed issues:
+	NX-162 (Typing OID in MIB explorer not selecting elements in MIB tree)
+	NX-167 (Multiple parameters on one chart in performance tab cannot be set in template)
+	NX-216 (Map decorations with color based on object status)
+	NX-173 (Ability to run NXSL script from console for any node object)
+	NX-221 (Add HTTPS support to portcheck subagent)
+	NX-174 (Custom Schedule not saved)
+	NX-176 (Adding image to map fails)
+	NX-177 (Export and import event processing policy)
+	NX-180 (Configure should fail if iconv is not available)
+	NX-181 (Basic device info not resent)
 
 
 *
@@ -3642,15 +4257,24 @@
 - Multiple network maps implemented
 - Added parameter ListenAddress to all services (server, web server, agent)
 - New possible value for UseInterfaceAliases - concatenate name with alias
-- Added possibility to create custom message in event matching script and
-  use it in alarms and actions
+- Added possibility to create custom message in event matching script and use it in alarms and actions
 - WMI subagent added
 - SNMP sysDescr and agent's uname now polled and displayed
 - New features in Windows console:
 	- Possibility to use non-local timezone in Windows console
 	- Default graph settings can be changed
 - AIX subagent: implemented System.CPU.LoadAvg* and System.Uptime parameters
-- Fixed issues: #193, NX-160, NX-164, NX-170, #209, #211, #212, #213, #214, #215
+- Fixed issues:
+	NX-193 (Implement MIB selection dialog similar to legacy console)
+	NX-160 (Implement basic style in UI)
+	NX-164 (Support for SNMP tables)
+	NX-170 (Possibility to set default icon type for network map)
+	NX-209 (Situation attributes not shown in console)
+	NX-211 (Infrastructure tree synchronization with Active Directory structure)
+	NX-212 (Support for SNMP devices without standard MIBs)
+	NX-213 (DCI data aggregation)
+	NX-214 (UI option to configure interface "exclude from topology" flag)
+	NX-215 (Topology discovery not working on some Cisco devices)
 
 
 *
@@ -3668,8 +4292,7 @@
 - Added UNICODE support in client part on Linux/UNIX
 - Implemented macros in template DCIs (expanded when template applies to node)
 - Added event storm detection
-- Added possibility to specify multiple SNMP community strings for discovery
-  and configuration polls
+- Added possibility to specify multiple SNMP community strings for discovery and configuration polls
 - NetXMS server now can understand interface aliases (description in Cisco terms)
 - Added optional synchronization of node names with DNS
 - New command line tool for managing alarms - nxalarm
@@ -3679,7 +4302,15 @@
 - NXSL:
 	- Implemented condition operator (?:)
 	- New built-in functions: gmtime(), localtime(), left(), right()
-- Fixed issues: NX-155, NX-156, NX-157, NX-158, NX-161, NX-164, NX-165, NX-169
+- Fixed issues:
+	NX-155 (Accept traps from agents in different zones)
+	NX-156 (Bug in auto connection on connectivity change with scheduler disabled)
+	NX-157 (Autoscale values in "last values" tab)
+	NX-158 (Add "Connectivity" tab to object details view)
+	NX-161 (Cluster DCIs in dashboards)
+	NX-164 (Support for SNMP tables)
+	NX-165 (Unable to unselect group box)
+	NX-169 (Use layer 2 topology information for event correlation)
 
 
 *
@@ -3687,13 +4318,19 @@
 *
 
 - Added SMS driver and subagent to send SMS via remote NetXMS agent
-- Added parameters Net.RemoteShareStatus and Net.RemoteShareStatusText
-  to WINNT subagent
-- Added possibility to disable status, configuration, or routing table
-  polls for specific host
-- Added possibility to define number of consecutive status polls with same
-  result needed to change status of interface or network service object
-- Fixed issues: #77, #134, NX-118, NX-146, NX-149, NX-150, NX-151, NX-152, NX-153
+- Added parameters Net.RemoteShareStatus and Net.RemoteShareStatusText to WINNT subagent
+- Added possibility to disable status, configuration, or routing table polls for specific host
+- Added possibility to define number of consecutive status polls with same result needed to change status of interface or network service object
+- Fixed issues:
+	NX-77 (Average DCI queue time is high after adding table DCI)
+	NX-134 (Test config and rollback to previous version is agent can't start)
+	NX-118 (FreeBSD agent crash on Net.Interface.BytesIn(1))
+	NX-146 (Find node by IP address)
+	NX-149 (Interfaces tab for subnets)
+	NX-150 (Setup first interface name and mac on node creation)
+	NX-151 (Action groups)
+	NX-152 (Automatic database unlock in clustered environment)
+	NX-153 (Map background set to geo map causes NPE in web UI)
 
 
 *
@@ -3705,8 +4342,22 @@
 	- Improved non-English Windows support
 	- Added new parameter: System.IO.DiskTime
 - New MIB added: FIBRE-CHANNEL-FE-MIB
-- Fixed issues: NX-5, #129, NX-130, NX-131, NX-132, NX-134, NX-135, NX-137, NX-139, NX-140,
-                NX-141, NX-142, NX-143, NX-144, NX-145
+- Fixed issues:
+	NX-5 (MS SQL DB driver should find available native client)
+	NX-129 (AIX: Unable to retrieve interface status via agent)
+	NX-130 (AIX agent does not return all IP addresses configured on interface)
+	NX-131 (Add DB optimization option to nxdbmgr)
+	NX-132 (not able to store history in version 1.2.2)
+	NX-134 (Test config and rollback to previous version is agent can't start)
+	NX-135 (Open node by name in Alarm Browser)
+	NX-137 (Агент перестал собирать ExternalParameter)
+	NX-139 ("Snap to grid" feature for network maps)
+	NX-140 (UDP ping)
+	NX-141 (Implement support for UNICODE logs in log monitoring subagent)
+	NX-142 (Poll count for status change for network service objects)
+	NX-143 (Large numbers shown on charts as -1)
+	NX-144 (Compilation warnings on Solaris 10)
+	NX-145 (Do not collect unnecessary information from nodes during network discovery)
 
 
 *
@@ -3717,8 +4368,19 @@
 - ODBCQUERY subagent improved
 - Web interface improved
 - Object browser in Windows console improved
-- Fixed issues: NX-95, NX-101, NX-102, NX-105, #138, NX-108, NX-123, NX-124, NX-125,
-                NX-126, NX-128, NX-129
+- Fixed issues:
+	NX-95 (Templates for node attributes)
+	NX-101 (Add support for Cisco Catalyst 3550)
+	NX-102 (Alarm categories)
+	NX-105 (\ in file name processed as formatting character by logger)
+	NX-138 (netxmsd crash in script processing)
+	NX-108 (Support WinPerf on non-English Windows)
+	NX-123 (Implement "alarm tools" similar to object tools)
+	NX-124 (after Windows Firewall activated without exceptions NetXMS server crashes)
+	NX-125 (Cannot use SNMP OIDs longer then 255 characters)
+	NX-126 (Fails to retrieve interface list from node)
+	NX-128 (USB UPS monitoring support under Linux)
+	NX-129 (AIX: Unable to retrieve interface status via agent)
 
 
 *
@@ -3726,8 +4388,7 @@
 *
 
 - Implemented user authentification by certificates
-- Management packs fully functional - templates, events, and SNMP traps
-  can be exported and imported
+- Management packs fully functional - templates, events, and SNMP traps can be exported and imported
 - Cluster monitoring improved
 - Node names resolution working
 - Implemented OCI based driver for Oracle database
@@ -3743,7 +4404,18 @@
 	- Added possibility to hide unmanaged leaf objects
 	- Container objects can be placed above all others
 	- Other small UI improvements
-- Fixed issues: NX-63, NX-79, NX-93, NX-110, NX-114, NX-115, NX-116, NX-117, NX-119, NX-120, NX-122
+- Fixed issues:
+	NX-63 (Context menu in EPP editor shown only when clicking on rule number, not on the rule itself)
+	NX-79 (Command line tools should return proper error code)
+	NX-93 (Truncated object tooltip texts in network maps)
+	NX-110 (Disable account problems)
+	NX-114 (Custom Overview page)
+	NX-115 (Ability to change date formatting)
+	NX-116 (Sort network interfaces by number instead of name)
+	NX-117 (SNMP Trap Monitor broken)
+	NX-119 (Add support for number of drops on interface counters)
+	NX-120 (Tables support in NXSL)
+	NX-122 (Hub with over 150 interfaces)
 
 
 *
@@ -3756,20 +4428,24 @@
 - IPSO agent improved
 - Added Extended Checksum subagent
 - Added ODBC Query subagent
-- New agent parameters: Process.CountEx(), File.Time.Access(),
-  File.Time.Change(), and File.Time.Modify()
+- New agent parameters: Process.CountEx(), File.Time.Access(), File.Time.Change(), and File.Time.Modify()
 - Parameters File.Size() and File.Count() improved
-- Parameters Process.XXX improved 
+- Parameters Process.XXX improved
 - NXSL improved: implemented switch ... case statement and break statement
 - Windows console:
-	- Now able to download and install update from web server pointed
-	  by NetXMS management server
+	- Now able to download and install update from web server pointed by NetXMS management server
 	- Object browser improved
-	- Graphs improved: implemented printing and "copy to clipboard"
-	  function
+	- Graphs improved: implemented printing and "copy to clipboard" function
 	- Added server history in login dialog
 	- Added option "hide empty values" in last DCI values view
-- Fixed issues: NX-78, NX-96, NX-103, NX-104, NX-107, NX-109, NX-112
+- Fixed issues:
+	NX-78 (Cannot build static agent)
+	NX-96 ("Execute Script" option in popup-menu for node/container)
+	NX-103 (Alarm details view)
+	NX-104 (Object Tools URL Caption)
+	NX-107 (SMTP authentication support (for notifications))
+	NX-109 (LogWatch: ability to pass event source, facility, etc. with generated message)
+	NX-112 (Show thresholds on graph is broken)
 
 
 *
@@ -3779,14 +4455,12 @@
 - Alarm system improved (three state alarms, helpdesk status, etc.)
 - Added new DCI data source: push agents
 - Threshold state now saved across NetXMS server restarts
-- Added possibility to specify custom threshold rearm event instead of
-  SYS_THRESHOLD_REARMED
+- Added possibility to specify custom threshold rearm event instead of SYS_THRESHOLD_REARMED
 - Added threshold processing option "Always process all thresholds"
 - Implemented "data collection error" threshold checking function
 - Implemented "mean absolute deviation" threshold checking function
 - Added possibility to set confirmation messages for object tools
-- Object tools "Shutdown system", "Restart system", "Restart agent"
-  asks confirmation by default
+- Object tools "Shutdown system", "Restart system", "Restart agent" asks confirmation by default
 - Implemented agent traps and added trap sending API for subagents
 - Object comments added
 - Network discovery configuration simplified
@@ -3799,8 +4473,24 @@
 - Server ported to AIX and HP-UX
 - Agent ported to HP-UX
 - Agent for AIX improved
-- Fixed issues: NX-77, NX-82, NX-83, NX-84, NX-85, NX-86, NX-88, NX-89, NX-90, NX-92,
-                NX-94, NX-97, NX-98, NX-99, NX-100, #133, NX-106
+- Fixed issues:
+	NX-77 (Average DCI queue time is high after adding table DCI)
+	NX-82 (Sound notifications for alarms (as in Legacy Console))
+	NX-83 (NetXMS daemons not added to autostart after installation from deb package)
+	NX-84 (Use ifXTable when creating interface DCIs when possible)
+	NX-85 (Autostart demons NetXMS)
+	NX-86 (Implement custom time intervals for line charts)
+	NX-88 (Support for swipe in node info tabs)
+	NX-89 (Scheduler for passive mode)
+	NX-90 (Reorganize settings activity)
+	NX-92 (DCI value in last values tab not properly rendered with long description)
+	NX-94 (Request poll count for node before status change)
+	NX-97 (Instance name with number in the end processed incorrectly)
+	NX-98 (autoconf 2.69 complains abouti "INCLUDES")
+	NX-99 (Macros in file names in File.xxx parameters)
+	NX-100 (Define multiple files in log parser)
+	NX-133 (DCI not Polling Values for System.CPU.Usage5)
+	NX-106 (Status indicator in dashboard causes web console to crash)
 
 
 *
@@ -3809,17 +4499,14 @@
 
 - Implemented central (stored on server) agent configs
 - Agent ported to IPSO
-- Added installer command line options for unattended installation of
-  Windows agent
+- Added installer command line options for unattended installation of Windows agent
 - New MIBs added: S5-ETH-MULTISEG-TOPOLOGY-MIB, BN-IF-EXTENSIONS-MIB
 - Server startup and shutdown procedures improved
 - Added detection of lost database connections and automatic reconnect
 - Native operating system read/write locks used whenever possible
-- Added possibility to use alarm message text in actions (if action executed by
-  the same event processing rule as alarm)
+- Added possibility to use alarm message text in actions (if action executed by the same event processing rule as alarm)
 - Better handling of interface names of Nortel ethernet switches
-- SNMP trap varbinds now can be mapped to event parameters not only by OID,
-  but also by position in trap PDU
+- SNMP trap varbinds now can be mapped to event parameters not only by OID, but also by position in trap PDU
 - Windows binaries built against OpenSSL 0.9.8b
 - Windows console:
 	- DCI history data viewer improved
@@ -3827,8 +4514,26 @@
 - nxsnmpset utility improved
 - nxevent: added -e command line option to turn on session encryption
 - Implemented parameter UPS.Load for BCM/XCP compatible devices
-- Fixed issues: #4, #20, NX-23, NX-42, NX-52, NX-53, NX-64, NX-65, NX-66, NX-67, NX-68, NX-69, NX-70,
-                NX-71, NX-72, NX-73, NX-74, NX-75, NX-76
+- Fixed issues:
+	NX-4 (Object deletion may not be immediately reflected in console)
+	NX-20 (nxdbmgr option for changing/resetting server configuration variables)
+	NX-23 (Option to create DCI directly from MIB browser)
+	NX-42 (Bulk change of flags for nodes (e.g. disable SNMP))
+	NX-52 (Timed alarm acknowledgement)
+	NX-53 (Monitors (event log, syslog, etc.) as dashboard elements)
+	NX-64 (Potential crash on business service deletion)
+	NX-65 (Internal optimization for object references)
+	NX-66 (Improve line charts in web UI)
+	NX-67 (Configurable management server address in nxmc servlet)
+	NX-68 (Add support for DB/2 as backend database)
+	NX-69 (Driver for Cisco Nexus)
+	NX-70 (Add ability to see current state of network discovery in console)
+	NX-71 (Show data source data in dashboard editor)
+	NX-72 (Debian package netxms-agent require librealine but do not list it as required package)
+	NX-73 (Node name in Object Browser shortened for no reason)
+	NX-74 (New node options - "expected capabilities")
+	NX-75 (Generate user manual PDF from Wiki)
+	NX-76 (MIB explorer - double click in walk results)
 
 
 *
@@ -3845,7 +4550,8 @@
 	- Redesigned to improve stability and performance
 	- Added parameter UPS.OnlineStatus
 	- Fixed problem with occasional APC UPS disconnections
-- Fixed issues: NX-62
+- Fixed issues:
+	NX-62 (Errors when changing node's IP address)
 
 
 *
@@ -3853,15 +4559,23 @@
 *
 
 - Basic network maps implemented
-- Non-standart (other than 4701) ports now can be used for client-server
-  communications
+- Non-standart (other than 4701) ports now can be used for client-server communications
 - Copy/move/delete of saved desktop configurations implemented
 - SNMP walk function improved
 - Implemented "User must change password on next logon" function
-- UPS subagent: added support for BSMXCP protocol (used by Powerware,
-  HP and Compaq UPSes)
+- UPS subagent: added support for BSMXCP protocol (used by Powerware, HP and Compaq UPSes)
 - Fixed Alarm Viewer crash
-- Fixed issues: #28, NX-11, NX-28, NX-55, NX-56, NX-57, NX-58, NX-59, NX-60, NX-61
+- Fixed issues:
+	NX-28 (Disable account problems)
+	NX-11 (Scripts for automatic object icon selection)
+	NX-28 (Disable account problems)
+	NX-55 (Button "Test" is not working on DCI transformation property page)
+	NX-56 (Groups in event editor)
+	NX-57 (Proxy agent support in command line SNMP tools)
+	NX-58 (Refactor Image Library)
+	NX-59 (Implement data export from log viewer)
+	NX-60 (Implement object search by ID, IP address, primary host name)
+	NX-61 (Add "disable" option to object tools)
 
 
 *
@@ -3875,7 +4589,13 @@
 - Windows console: graphs improved
 - Added possibility to log all incoming SNMP traps
 - Fixed problems with very long opening time of event log
-- Fixed issues: NX-34, NX-47, NX-48, NX-51, #78, NX-54
+- Fixed issues:
+	NX-34 ("Test" button on DCI transformation property page is not working)
+	NX-47 (Check and update section 10.7 (agent parameters) in user manual)
+	NX-48 (Add second resolution to custom poll schedule)
+	NX-51 (Add certificate authentication to Java console)
+	NX-54 (Add new policy type for distributing log parsers)
+	NX-78 (Cannot build static agent)
 
 
 *
@@ -3888,7 +4608,13 @@
 - Added startup scripts for Gentoo Linux
 - Windows console: agent configuration editor improved
 - Alarm Viewer: repeated alarm sounds added
-- Fixed issues: NX-39, NX-43, NX-44, NX-45, NX-46, NX-50
+- Fixed issues:
+	NX-39 (NXSL script started from debug console via exec must redirect print output to console)
+	NX-43 (Autodiscovery: enable user to set default settings for discovered nodes)
+	NX-44 (Apply policy to node by clicking on node and selecting policies from list)
+	NX-45 (Policy templates for applying policy groups)
+	NX-46 (Use Spanning Tree data for network discovery)
+	NX-50 (Allow per-DCI SNMP version settings)
 
 
 *
@@ -3903,7 +4629,7 @@
 	- Fixed inconsistencies in object access control configuration
 	- Now can play sounds when new alarm arrives
 	- Added voice notifications for alarms (using SAPI)
-- Alarm viewer: 
+- Alarm viewer:
 	- The same audio notification options added
 	- Current time display added
 - Added support for Windows authentication in Microsoft SQL driver
@@ -3911,7 +4637,12 @@
 - Added support for transactions in database manager
 - Fixed bugs in server's SMTP sender
 - Fixed bug in SMS driver
-- Fixed issues: NX-33, NX-36, NX-38, NX-40, NX-41
+- Fixed issues:
+	NX-33 (Tables support in NXSL)
+	NX-36 (SNMP trap forwarding by agent in SNMP proxy mode)
+	NX-38 (Predefined graphs cannot be deleted)
+	NX-40 (Add NXSL function RenameObject)
+	NX-41 (Tool execution on container or group of nodes)
 
 
 *
@@ -3924,7 +4655,11 @@
 - PING subagent: added "PacketRate" configuration parameter
 - Fixed some portability issues for 64bit platforms
 - Fixed build problems with version 0.2.6
-- Fixed issues: NX-29, NX-31, #59, NX-35
+- Fixed issues:
+	NX-29 (Local commands with arguments works only with "Command generates output" option)
+	NX-31 (Object tools by template)
+	NX-35 (Intermittent SQL failures on SQLite)
+	NX-59 (Implement data export from log viewer)
 
 
 *
@@ -3936,8 +4671,7 @@
 - Implemented retrieving of only last N records from event log
 - Implemented "Select DCI" function for templates
 - Implemented own MIB compiler, removing last dependency from Net-SNMP library
-- MIBs now transferred to client in compiled form, reducing network traffic
-  and making console startup faster
+- MIBs now transferred to client in compiled form, reducing network traffic and making console startup faster
 - Implemented correct translation of SNMPv1 trap id to SNMPv2 trap id
 - Added advanced DCI collection scheduling
 - Core agent:
@@ -3953,13 +4687,19 @@
 - Port checker subagent ported to AIX
 - Added possibility to build statically linked agents
 - Event configuration improved
-- New MIBs added: BGP4, PowerNet (APC), PRINTER,
-  Synoptics (now part of Nortel Networks), UPS
+- New MIBs added: BGP4, PowerNet (APC), PRINTER, Synoptics (now part of Nortel Networks), UPS
 - Windows console:
 	- Improved handling of large number of objects
 	- Status and configuration poll windows improved
 - Database checker improved
-- Fixed issues: #12, NX-22, NX-24, NX-25, NX-26, NX-27, NX-30
+- Fixed issues:
+	NX-12 (Use dot1qTpFdbTable instead of dot1dTpFdbTable for FDB retrieval when possible)
+	NX-22 (Configurable date/time format in console)
+	NX-24 (Copy OID name to clipboard from MIB browser)
+	NX-25 (Show OID textual convention in MIB browser)
+	NX-26 (Show some last values in overview page)
+	NX-27 (Object Tools URL Caption)
+	NX-30 (Show thresholds on graph is broken)
 
 
 *
@@ -3976,7 +4716,11 @@
 	- Added possibility to copy DCIs to template
 - Fixed bug in core agent causing incorrect update of configuration file
 - Fixed incorrect interface aliases detection in Linux subagent
-- Fixed issues: #36, NX-15, NX-18, NX-21
+- Fixed issues:
+	NX-15 (Peer information not cleared from interface)
+	NX-18 (Different layouts in port view based on driver information)
+	NX-21 (Nodes without IP address on interface added to the tree root)
+	NX-36 (SNMP trap forwarding by agent in SNMP proxy mode)
 
 
 *
@@ -3988,7 +4732,12 @@
 - Built-in action Agent.Restart added to core agent
 - Configurable object tools introduced (not fully implemented yet)
 - Fixed bug causing occasional server crash
-- Fixed issues: #5, NX-13, NX-14, NX-16, NX-17
+- Fixed issues:
+	NX-5 (MS SQL DB driver should find available native client)
+	NX-13 (Agentless WMI access)
+	NX-14 (Script validation before save in script editor)
+	NX-16 (Do not activate disabled DCIs after template change)
+	NX-17 (Web interface crashes in IE9)
 
 
 *
@@ -4002,11 +4751,12 @@
 - Database Manager: implemented forced check/unlock flag
 - Maximum number of sessions in agent made configurable
 - Agent ported to Windows 95/98/Me
-- Windows console: added possibility to specify loopback address (127.0.0.1)
-  as bind address for network service
-- Fixed bug causing random fails of connections from server to agent and
-  from console to server
-- Fixed issues: #29, NX-9, NX-10
+- Windows console: added possibility to specify loopback address (127.0.0.1) as bind address for network service
+- Fixed bug causing random fails of connections from server to agent and from console to server
+- Fixed issues:
+	NX-9 (Unable to bind object in WebUI)
+	NX-10 (Implement copy to clipboard in all log viewers/monitors)
+	NX-29 (Local commands with arguments works only with "Command generates output" option)
 
 
 *
@@ -4016,15 +4766,15 @@
 - Implemented communication session encryption
 - Added support for multiple database connections for better performance
 - Added generation of SYS_NODE_DOWN and SYS_NODE_UP events
-- Added possibility to edit server's configuration parameters from
-  administrator's console
+- Added possibility to edit server's configuration parameters from administrator's console
 - Object status calculation algorithm changed
 - Fixed incorrect 32 bit integer varbinds parsing in libnxsnmp
 - Fixed bug with new interface detection
 - Windows console: added simple export of collected DCI data
-- Core agent: added configuration option SessionIdleTimeout for automatic
-  disconnect of idle or broken sessions
-- Fixed issues: NX-8, #30
+- Core agent: added configuration option SessionIdleTimeout for automatic disconnect of idle or broken sessions
+- Fixed issues:
+	NX-8 (Config file with CRLF loaded incorrectly on UNIX (OS X only?))
+	NX-30 (Show thresholds on graph is broken)
 
 
 *
@@ -4037,8 +4787,7 @@
 - Server will not collect data from unmanaged nodes
 - Added PostgreSQL support under Windows
 - NetWare platform subagent improved
-- Linux subagent: Implemented all Net.Interface.* parameters except
-  Net.Interface.Speed
+- Linux subagent: Implemented all Net.Interface.* parameters except Net.Interface.Speed
 - Fixed crash in Microsoft SQL driver caused by unsuccessful connection
 - More SNMP MIBs added
 - Fixed issue #27 (poller threads deadlock)
@@ -4095,7 +4844,8 @@
 - Network discovery polling mechanism redesigned
 - Fixed bug in "show pollers" console command handler
 - Fixed occasional appearance of invalid objects at the root of object tree
-- Fixed issue #14 (Error handling multiline SMTP responces)
+- Fixed issues:
+	NX-14 (Error handling multiline SMTP responces)
 
 
 *
@@ -4103,12 +4853,9 @@
 *
 
 - Data collection templates fully functional
-- Added possibility to use server name instead of IP address in
-  agent configuration
+- Added possibility to use server name instead of IP address in agent configuration
 - Added diff() method for DCI thresholds
-- Added possibility to set server config file via environment variable
-  NETXMSD_CONFIG on UNIX or registry key HKLM\Software\NetXMS\Server\ConfigFile
-  on Windows
+- Added possibility to set server config file via environment variable NETXMSD_CONFIG on UNIX or registry key HKLM\Software\NetXMS\Server\ConfigFile on Windows
 - Fixed deadlock in status poller
 - Fixed incorrect socket handling in AgentConnection class
 - Fixed sorting bug in Windows console alarm browser
@@ -4122,9 +4869,8 @@
 - Added support for object database caching on client side
 - Polling performance increased
 - Fix: SYS_SERVICE_DOWN event was generated in place of SYS_SERVICE_UNKNOWN
-- nxadm completely rewritten, and now allows to execute any command
-  available on server console in standalone mode
-- Windows console: 
+- nxadm completely rewritten, and now allows to execute any command available on server console in standalone mode
+- Windows console:
 	- Implemented desktop configuration save and restore
 	- Added possibility to change graph's time frame
 	- Added support for multiple DCIs on one graph
@@ -4137,30 +4883,28 @@
 *
 
 - Templates can be manually applied
-- Fixed issue #0000021 (agent crash on multiprocessor Solaris systems)
-- Fixed issue #0000022 (server can crash after unsuccessfull interface
-  configuration poll)
 - Fixed bug in filling DCI cache with values from database
-- Server now can save and restore last DCI poll time and raw value
-  across restarts
+- Server now can save and restore last DCI poll time and raw value across restarts
+- Fixed issues:
+	NX-21 (agent crash on multiprocessor Solaris systems)
+	NX-22 (server can crash after unsuccessfull interface configuration poll)
 
 
 *
 * 0.1.16
 *
 
-- Added System.CPU.Usage(*), System.CPU.Usage5(*) and System.CPU.Usage15(*)
-  parameters to WinPerf subagent
-- Fixed issue NX-1 (unable to modify network service port number)
+- Added System.CPU.Usage(*), System.CPU.Usage5(*) and System.CPU.Usage15(*) parameters to WinPerf subagent
 - Fixed server crash sometimes caused by DCI deletion
-- Fixed issue NX-3 (server crash after DCI copy)
 - Fixed memory leaks in DCI cache management
 - Added interface for processing SNMP traps by server modules
 - Added internal parameters AgentStatus and ChildStatus(*)
-- Fixed issue NX-4 (incorrect aliases handling by FreeBSD subagent)
 - Some GUI improvements
-- Parameters Net.Interface.AdminStatus(*) and Net.Interface.Link(*) added
-  to FreeBSD subagent
+- Parameters Net.Interface.AdminStatus(*) and Net.Interface.Link(*) added to FreeBSD subagent
+- Fixed issues:
+	NX-1 (unable to modify network service port number)
+	NX-3 (server crash after DCI copy)
+	NX-4 (incorrect aliases handling by FreeBSD subagent)
 
 
 *
@@ -4171,12 +4915,9 @@
 - Fixed server crash at forced poll time
 - Fixed critical bug in upgrade script starter under UNIX
 - Added support of HDD temperature monitoring under Windows and Linux
-- Added PhysicalDisk.Model, PhysicalDisk.SerialNumber and
-  PhysicalDisk.Firmware parameters under Windows
-- Added parameters System.CPU.Count, System.CPU.Usage*, System.KStat(*)
-  and System.Memory.Physical.* to Solaris subagent
-- Parameters System.Memory.Swap.* removed from Windows agent because they
-  are meaningless under Windows
+- Added PhysicalDisk.Model, PhysicalDisk.SerialNumber and PhysicalDisk.Firmware parameters under Windows
+- Added parameters System.CPU.Count, System.CPU.Usage*, System.KStat(*) and System.Memory.Physical.* to Solaris subagent
+- Parameters System.Memory.Swap.* removed from Windows agent because they are meaningless under Windows
 - Added parameter Disk.Used(*) to NetWare subagent
 
 
@@ -4188,19 +4929,18 @@
 - Fixed bug in loading of NetworkService objects from database
 - Fixed bug in interface status detection via NetXMS agent
 - Added support for NAT'ed nodes (correct interface polling, etc.)
-- Backslash (\) character is no longer works as escape character
-  inside parameter arguments enclosed in quotes
-- Windows console: object tree works correctly for users without rights
-  on root objects
+- Backslash (\) character is no longer works as escape character inside parameter arguments enclosed in quotes
+- Windows console: object tree works correctly for users without rights on root objects
 - Windows console: implemented user deletion from access lists
 - Implemented action delete
 - Windows agent deployment packages now built with InnoSetup
 - "Last Values" view added to Windows console
-- Fixed issue #0000008
 - Added interface for SMS drivers
 - Optimized access to collected DCI data in database
 - Added support for System.CPU.LoadAvg to Solaris subagent
 - Added support for all Net.Interface.* parameters to Solaris subagent
+- Fixed issues:
+	NX-8 (Config file with CRLF loaded incorrectly on UNIX (OS X only?))
 
 
 *
@@ -4215,31 +4955,27 @@
 * 0.1.12
 *
 
-- Added new object class - NetworkService, for simplified network service
-  health checking
-- Server internal synchronization mechanisms improved to increase
-  stability and performance
+- Added new object class - NetworkService, for simplified network service health checking
+- Server internal synchronization mechanisms improved to increase stability and performance
 - Fixed deadlock sometimes caused by retrieving DCI collected data
-- Added parameters System.Hostname, System.Uname and System.Uptime to
-  Solaris subagent
+- Added parameters System.Hostname, System.Uname and System.Uptime to Solaris subagent
 - Object status now recalculated after binding change
 - Implemented primary IP address selection for nodes
 - Added OSPF support detection
 - Fixed bug with StartupDelay parameter handling in core agent
 - Fixed communication problems on FreeBSD
-- Bug #0000003 fixed
-- Bug fixed: objects was not marked as modified when platform name or agent
-  version changes
+- Bug fixed: objects was not marked as modified when platform name or agent version changes
 - Windows console: implemented cell edit by double click in policy editor
 - Implemented external command execution under UNIX
+- Fixed issues:
+	NX-3 (Object status indicator in console not always updated correctly)
 
 
 *
 * 0.1.11
 *
 
-- Fixed incorrect behavior of Process.Count() parameter under Linux and
-  FreeBSD
+- Fixed incorrect behavior of Process.Count() parameter under Linux and FreeBSD
 
 
 *
@@ -4263,8 +4999,7 @@
 - Initial version of web interface created (for Microsoft IIS)
 - Microsoft SQL driver improved
 - Added file upload to agents (as preparation for centralized agent update)
-- Client library redesigned to support multiple connections within
-  one process
+- Client library redesigned to support multiple connections within one process
 - Windows console: added automatic refresh in graphs
 - Very basic Solaris subagent added
 
@@ -4273,35 +5008,25 @@
 * 0.1.8
 *
 
-- Added support for System.CPU.Count and System.ProcessList parameters
-  under Windows
-- Created our own SNMP library (currently SNMP versions 1 and 2c are
-  supported). Server is no longer needs net-snmp library. 
+- Added support for System.CPU.Count and System.ProcessList parameters under Windows
+- Created our own SNMP library (currently SNMP versions 1 and 2c are supported). Server is no longer needs net-snmp library.
 - Component locks moved to RAM from SQL database
 - Added support for SNMP traps
 - Removed access right "View server configuration" as unneeded
 - Windows console: Added sorting to event selection dialog
-- Windows console: Objects in object browser are now sorted with respect
-  to IP addresses when object name is an IP address
-- Windows console: Fixed bug with MDI window position restoration when
-  window is maximized
-- Windows console: Fixed bug with duplication of child window title in
-  parent's title when child is maximized
-- Windows console: Status icons now placed over object icons in
-  object browser
+- Windows console: Objects in object browser are now sorted with respect to IP addresses when object name is an IP address
+- Windows console: Fixed bug with MDI window position restoration when window is maximized
+- Windows console: Fixed bug with duplication of child window title in parent's title when child is maximized
+- Windows console: Status icons now placed over object icons in object browser
 - Windows console: Policy editor drawing code improved
 - Added StartupDelay parameter to agent's configuration file
 - Windows console: Added "Save policy" function to policy editor
-- Fixed deadlock in Queue::GetOrBlock() which sometimes cause communication
-  failures between client and server
-- Server now can detect that SNMP variable is not supported by agent and
-  change DCI status to "Not supported" accordingly
+- Fixed deadlock in Queue::GetOrBlock() which sometimes cause communication failures between client and server
+- Server now can detect that SNMP variable is not supported by agent and change DCI status to "Not supported" accordingly
 - Added interface status polling via SNMP
 - Agent: Fixed bug in interface operational status detection under Windows
-- Added server version checking in client connection procedure. If versions
-  mismatch, client will not connect to server.
-- Windows console: when searching object in object browser, '*' characters
-  assumed at the beginning and the end of search string
+- Added server version checking in client connection procedure. If versions mismatch, client will not connect to server.
+- Windows console: when searching object in object browser, '*' characters assumed at the beginning and the end of search string
 - Added parameter File.Count(*) to core agent
 - Added possibility to change status of many DCIs status at once
 
@@ -4325,8 +5050,7 @@
 - Added support for data collection item duplication within same node
 - Now possible to copy DCIs to many nodes at once
 - Fixed memory management bugs in Windows console DCI editor
-- Added "instance" field to DCI which can be used as information text in
-  user-defined data collection events and alarms
+- Added "instance" field to DCI which can be used as information text in user-defined data collection events and alarms
 - Client library do cleanup after NXCDisconnect()
 - User system rights now ORed with its group(s) system rights
 - Added database checking/upgrade utility (nxdbmgr)
@@ -4336,14 +5060,12 @@
 * 0.1.5
 *
 
-- Object access mutexes changed to read/write locks in server to 
-  improve performance
+- Object access mutexes changed to read/write locks in server to improve performance
 - Algorithm of placing nodes into subnets improved
 - System no longer needs network mask when creating new node manually
 - Detection of incorrect network masks on interfaces added
 - Windows console: fixed bug in object browser which cause console to crash
-- Added internal statistics collection for average data collector queue length
-  and average database writer queue length
+- Added internal statistics collection for average data collector queue length and average database writer queue length
 - All IP addresses now stored in database as text
 - Added external event sender (nxevent)
 - Fixed bug with user password change (new password was not saved to database)
@@ -4383,5 +5105,4 @@
 * 0.1.1
 *
 
-- First version number given to system: a lot of things works, and lot
-  of things have to be done.
+- First version number given to system: a lot of things works, and lot of things have to be done.
