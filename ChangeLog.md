@@ -183,7 +183,9 @@
 -   Internal metrics for monitoring notification channels
 -   Improved titles in dashboard elements
 -   Ignore IP addresses found during network discovery on interfaces marked as excluded from topology
--   Added `AgentTunnels.Certificates.ReissueInterval` and `AgentTunnels.Certificates.ValidityPeriod` server configuration variables
+-   New server configuration variables:
+    -   `AgentTunnels.Certificates.ReissueInterval`
+    -   `AgentTunnels.Certificates.ValidityPeriod`
 -   Fixed DCI creation from NXSL
 -   Added $dci variable to DCI script
 -   Added option to configure column data type for external table
@@ -771,7 +773,9 @@
 # 3.7.144
 
 -   Target for event processing policy remote action can be given as node object ID
--   Added agent parameters `Agent.TCPProxy.IsEnabled` and `Agent.TCPProxy.ConnectionRequests`
+-   New agent metrics:
+    -   `Agent.TCPProxy.IsEnabled`
+    -   `Agent.TCPProxy.ConnectionRequests`
 -   Fixed bug in agent action execution from event processing policy
 -   Fixed incorrect boolean values handling in NXSL
 -   Fixed bug in "Find switch port" tool
@@ -1271,7 +1275,7 @@
 
 -   New attribute `primaryHostName` in NXSL class `Node`
 -   Fixed memory leak in log parser subagent
--   Fixed incorrect value reported by internal parameter `Server.MemoryUsage.DataCollectionCache`
+-   Internal metric `Server.MemoryUsage.DataCollectionCache` fixed
 -   Fixed broken Windows Event Log monitoring in logwatch subagent
 
 ## Fixed issues
@@ -2599,7 +2603,7 @@
 -   NX-638 (Make detach LDAP user as a separate command. Open change password dialog after detach.)
 -   NX-641 (Agent should create FileStore directory if not exist)
 -   NX-643 (SNMP non-UTF8 collected data breaks SQL operations)
--   NX-644 (Increase size limit for configuration parameters (was: Изменение параметра LdapSearchFilter))
+-   NX-644 (Increase size limit for configuration parameters)
 -   NX-645 (Case-insensitive user names)
 -   NX-650 (Update list of internal parameters in selection dialog)
 -   NX-654 (DCI container value not shown for network map on a dashboard if this network map is not opened)
@@ -4607,7 +4611,9 @@
 -   Data collection templates fully functional
 -   Added possibility to use server name instead of IP address in agent configuration
 -   Added diff() method for DCI thresholds
--   Added possibility to set server config file via environment variable NETXMSD_CONFIG on UNIX or registry key HKLM\\Software\\NetXMS\\Server\\ConfigFile on Windows
+-   Added possibility to set server config file via:
+    -   environment variable `NETXMSD_CONFIG` on UNIX
+    -   registry key `HKLM\Software\NetXMS\Server\ConfigFile` on Windows
 -   Fixed deadlock in status poller
 -   Fixed incorrect socket handling in AgentConnection class
 -   Fixed sorting bug in Windows console alarm browser

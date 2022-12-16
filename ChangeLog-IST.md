@@ -10,5 +10,7 @@
 # 3.7
 
 -   Added virtual instance column to single-row tables
--   Added parameters `IST.RTTS.Overall.ApprovalPercentage` and `IST.RTTS.Overall.DenialPercentage`
+-   New metrics added:
+    -   `IST.RTTS.Overall.ApprovalPercentage`
+    -   `IST.RTTS.Overall.DenialPercentage`
 -   Added event generation for each received IST syslog record
