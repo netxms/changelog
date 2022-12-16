@@ -611,7 +611,7 @@
 -   NX-673 (Performance Tab - missing "Stacked" and "Translucent")
 -   NX-1510 (Special handling for user initiated agent restart to avoid node down or agent unreachable events)
 -   NX-1589 (Error in database initialization on MS SQL 2017)
--   NX-1682 (SYS_SCRIPT_ERROR event is not happening when instance discovery filter script or transformation script has no closing bracket)
+-   NX-1682 (`SYS_SCRIPT_ERROR` event is not happening when instance discovery filter script or transformation script has no closing bracket)
 -   NX-1705 (DNS Lookup on Status Poll Change)
 -   NX-1783 (When upgrading, agent installer asks for server IP, but does not update it in nxagentd.conf)
 -   NX-1952 (Update IP address on interface to address resolved by DNS for nodes without agent)
@@ -640,7 +640,7 @@
 -   NX-1006 (Node with all status poll sources disabled creates a down alarm)
 -   NX-1057 (Ability to execute set of SQL commands on server start)
 -   NX-1473 (System Description for Agents that are also running SNMP should be Agent's description, not SNMP's)
--   NX-1851 (nxdbmgr not checking for situation when DCI present in items, but not in object_properties)
+-   NX-1851 (nxdbmgr not checking for situation when DCI present in `items`, but not in `object_properties`)
 -   NX-1882 (Add option for negative mask in `File.Count`, `File.FolderCount`, and `File.Size`)
 -   NX-1947 (Server repeats `SYS_IF_DOWN` after `SYS_NODE_UP` even if interface was already down before `SYS_NODE_DOWN`)
 -   NX-1976 (Add interface names to automatically generated IP topology maps)
@@ -3831,7 +3831,7 @@
     -   Fixed GDI resource leak
 -   HP-UX platform subagent improved
 -   New agent parameters for Linux: `System.Memory.Physical.Available` and `System.Memory.Physical.AvailablePerc`
--   Agent parameters Disk._ renamed to FileSystem._ (old names still recognized by agent for backward compatibility)
+-   Agent parameters `Disk.*` renamed to `FileSystem.*` (old names still recognized by agent for backward compatibility)
 -   Fixed various inconsistencies in parameters between different systems
 
 ## Fixed issues
@@ -4267,7 +4267,7 @@
 -   NX-98 (autoconf 2.69 complains abouti "INCLUDES")
 -   NX-99 (Macros in file names in `File.xxx` parameters)
 -   NX-100 (Define multiple files in log parser)
--   NX-133 (DCI not Polling Values for `System.CPU.Usage`5)
+-   NX-133 (DCI not Polling Values for `System.CPU.Usage5`)
 -   NX-106 (Status indicator in dashboard causes web console to crash)
 
 # 0.2.13
@@ -4666,7 +4666,7 @@
 -   Fixed critical bug in upgrade script starter under UNIX
 -   Added support of HDD temperature monitoring under Windows and Linux
 -   Added `PhysicalDisk.Model`, `PhysicalDisk.SerialNumber` and `PhysicalDisk.Firmware` parameters under Windows
--   Added parameters `System.CPU.Count`, `System.CPU.Usage`\_, `System.KStat(*)` and `System.Memory.Physical.*` to Solaris subagent
+-   Added parameters `System.CPU.Count`, `System.CPU.Usage`, `System.KStat(*)` and `System.Memory.Physical.*` to Solaris subagent
 -   Parameters `System.Memory.Swap.*` removed from Windows agent because they are meaningless under Windows
 -   Added parameter `Disk.Used(*)` to NetWare subagent
 
