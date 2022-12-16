@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.11.1"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y pandoc texlive texlive-xetex
+
+      - name: Generate PDF
+        run: |
+          tools/prepare_md.py | pandoc -f markdown+smart --pdf-engine=xelatex -H tools/header.tex tools/default.yaml - -V date="$(date "+%e %B %Y")" -V title="NetXMS EE Changelog" -V meta-title="NetXMS EE Changelog" -o Changelog-EE.pdf
+          tools/prepare_md.py --oss | pandoc -f markdown+smart --pdf-engine=xelatex -H tools/header.tex tools/default.yaml - -V date="$(date "+%e %B %Y")" -o Changelog.pdf
+
+      - name: Push PDF back to the repository
+        run: |
+          git config --global user.name 'Alex Kirhenshtein'
+          git config --global user.email 'alkk@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+          git checkout "${GITHUB_REF:11}"
+          git add Changelog-EE.pdf Changelog.pdf
+          git commit -am "Automatic commit"
+          git push

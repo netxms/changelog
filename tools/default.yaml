@@ -1,0 +1,16 @@
+---
+geometry: margin=1in
+indent: true
+toc: true
+mainfont: DejaVu Serif
+monofont: DejaVu Sans Mono
+fontsize: 12pt
+colorlinks: true
+include-before: |
+  \newpage
+author: Raden Solutions
+author-meta: Raden Solutions
+title: NetXMS Changelog
+title-meta: NetXMS Changelog
+---
+
