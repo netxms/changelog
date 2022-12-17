@@ -5,6 +5,7 @@
 -   Set and delete custom attributes in EPP rule
 -   Added agent's metric `File.Type`
 -   Column display names in object queries can be set using column metadata
+-   New agent metric File.Content
 -   Fixed object query result sorting on hidden columns
 
 ## Fixed issues
