@@ -7,12 +7,14 @@
 -   Column display names in object queries can be set using column metadata
 -   New agent metric File.Content
 -   New dashboard element "File Monitor"
+-   Functionality of PortCheck and ECS subagents merged into NETSVC subagent
 -   Fixed object query result sorting on hidden columns
 
 ## Fixed issues
 
 -   NX-2075 (EPP rule to have both IF and IF NOT conditions for objects)
 -   NX-2180 (Clusters cannot change zones)
+-   NX-2192 (Merge PortCheck and ECS subagents functionality into NETSVC subagent)
 -   NX-2311 (Add macros to display DCI values with multipliers and measurement units)
 -   NX-2312 (Named capture groups in log parser)
 -   NX-2320 (Configuration import ends with timeout for large configuration files)
