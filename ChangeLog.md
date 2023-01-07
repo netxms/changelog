@@ -23,6 +23,7 @@
 -   NX-2331 (Display DCI and policy count for templates in object details)
 -   NX-2332 (Add new EPP action that allows to specify NXSL script inline)
 -   NX-2336 (F-strings in NXSL)
+-   NX-2360 (Network equipment may get discovered by a broadcast address)
 
 # 4.2.461
 
