@@ -3,9 +3,8 @@
 -   New format strings in NXSL (Python f-string style)
 -   Inline action scripts in EPP
 -   Set and delete custom attributes in EPP rule
--   Added agent's metric `File.Type`
 -   Column display names in object queries can be set using column metadata
--   New agent metric File.Content
+-   New agent metrics File.Type and File.Content
 -   New dashboard element "File Monitor"
 -   Functionality of PortCheck and ECS subagents merged into NETSVC subagent
 -   Fixed object query result sorting on hidden columns
@@ -23,6 +22,8 @@
 -   NX-2331 (Display DCI and policy count for templates in object details)
 -   NX-2332 (Add new EPP action that allows to specify NXSL script inline)
 -   NX-2336 (F-strings in NXSL)
+-   NX-2337 (Side areas in new UI)
+-   NX-2339 (New syntax for calling external processes)
 -   NX-2352 (File manager's chmod does not work with environment variables)
 -   NX-2360 (Network equipment may get discovered by a broadcast address)
 
