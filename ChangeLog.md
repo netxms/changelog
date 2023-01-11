@@ -7,7 +7,10 @@
 -   New agent metrics File.Type and File.Content
 -   New dashboard element "File Monitor"
 -   Functionality of PortCheck and ECS subagents merged into NETSVC subagent
+-   In dbquery subagent configuration database connections can be configured as separate sections
+-   Database driver options can be configured in dbquery subagent
 -   Fixed object query result sorting on hidden columns
+-   Server configuration parameter DBDrvParam is deprecated and replaced with DBDriverOptions
 
 ## Fixed issues
 
