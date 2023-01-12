@@ -17,6 +17,7 @@
 -   NX-2075 (EPP rule to have both IF and IF NOT conditions for objects)
 -   NX-2180 (Clusters cannot change zones)
 -   NX-2192 (Merge PortCheck and ECS subagents functionality into NETSVC subagent)
+-   NX-2305 (Add wrapper to get information from smartctl)
 -   NX-2311 (Add macros to display DCI values with multipliers and measurement units)
 -   NX-2312 (Named capture groups in log parser)
 -   NX-2320 (Configuration import ends with timeout for large configuration files)
