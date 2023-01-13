@@ -31,6 +31,7 @@
 -   NX-2339 (New syntax for calling external processes)
 -   NX-2352 (File manager's chmod does not work with environment variables)
 -   NX-2360 (Network equipment may get discovered by a broadcast address)
+-   NX-2367 (netxms-dbdrv-mariadb uses character set utf8mb3 instead of utf8mb4 as connection encoding)
 -   NX-2368 (NetXMS Agent Windows Service recovery to restart on failure)
 
 # 4.2.461
