@@ -14,6 +14,7 @@
 
 ## Fixed issues
 
+-   NX-1915 (Ability to copy shared secret from Network Configuration)
 -   NX-2075 (EPP rule to have both IF and IF NOT conditions for objects)
 -   NX-2180 (Clusters cannot change zones)
 -   NX-2192 (Merge PortCheck and ECS subagents functionality into NETSVC subagent)
