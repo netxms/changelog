@@ -28,6 +28,7 @@
 -   NX-2330 (Add option to set/delete custom attributes from EPP rule)
 -   NX-2331 (Display DCI and policy count for templates in object details)
 -   NX-2332 (Add new EPP action that allows to specify NXSL script inline)
+-   MX-2335 (MQTT DCIs on objects of Sensor class)
 -   NX-2336 (F-strings in NXSL)
 -   NX-2337 (Side areas in new UI)
 -   NX-2339 (New syntax for calling external processes)
