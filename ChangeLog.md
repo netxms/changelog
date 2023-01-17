@@ -36,6 +36,7 @@
 -   NX-2336 (F-strings in NXSL)
 -   NX-2337 (Side areas in new UI)
 -   NX-2339 (New syntax for calling external processes)
+-   NX-2350 (Use Container for Seed Node)
 -   NX-2352 (File manager's chmod does not work with environment variables)
 -   NX-2360 (Network equipment may get discovered by a broadcast address)
 -   NX-2367 (netxms-dbdrv-mariadb uses character set utf8mb3 instead of utf8mb4 as connection encoding)
