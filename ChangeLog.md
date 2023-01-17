@@ -19,6 +19,7 @@
 -   NX-2075 (EPP rule to have both IF and IF NOT conditions for objects)
 -   NX-2180 (Clusters cannot change zones)
 -   NX-2192 (Merge PortCheck and ECS subagents functionality into NETSVC subagent)
+-   NX-2270 (After adding device overview to pinboard it is not displayed properly on the pinboard)
 -   NX-2289 (Filtering on Container object Thresholds tab)
 -   NX-2301 (Show interfaces in object tree when searching for node)
 -   NX-2303 (Add OAuth 2.0 Bearer Access Token in libcurl build on Windows)
