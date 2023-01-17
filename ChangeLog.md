@@ -9,6 +9,7 @@
 -   Functionality of PortCheck and ECS subagents merged into NETSVC subagent
 -   In dbquery subagent configuration database connections can be configured as separate sections
 -   Database driver options can be configured in dbquery subagent
+-   SMTP driver supports authentication
 -   Fixed object query result sorting on hidden columns
 -   Server configuration parameter DBDrvParam is deprecated and replaced with DBDriverOptions
 
@@ -25,6 +26,7 @@
 -   NX-2312 (Named capture groups in log parser)
 -   NX-2320 (Configuration import ends with timeout for large configuration files)
 -   NX-2324 (Telegram notifications should stay in queue if there is no connection to the Internet)
+-   NX-2327 (SMTP driver with authentication support)
 -   NX-2328 (Improved algorithm for managing thread pool size)
 -   NX-2330 (Add option to set/delete custom attributes from EPP rule)
 -   NX-2331 (Display DCI and policy count for templates in object details)
