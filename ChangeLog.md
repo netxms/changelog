@@ -20,6 +20,7 @@
 -   NX-2180 (Clusters cannot change zones)
 -   NX-2192 (Merge PortCheck and ECS subagents functionality into NETSVC subagent)
 -   NX-2289 (Filtering on Container object Thresholds tab)
+-   NX-2301 (Show interfaces in object tree when searching for node)
 -   NX-2303 (Add OAuth 2.0 Bearer Access Token in libcurl build on Windows)
 -   NX-2305 (Add wrapper to get information from smartctl)
 -   NX-2311 (Add macros to display DCI values with multipliers and measurement units)
