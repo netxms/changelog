@@ -15,6 +15,7 @@
 
 ## Fixed issues
 
+-   NX-1291 (Different font size on different dashboard gauge entries)
 -   NX-1915 (Ability to copy shared secret from Network Configuration)
 -   NX-2075 (EPP rule to have both IF and IF NOT conditions for objects)
 -   NX-2180 (Clusters cannot change zones)
