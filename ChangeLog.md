@@ -10,11 +10,13 @@
 -   In dbquery subagent configuration database connections can be configured as separate sections
 -   Database driver options can be configured in dbquery subagent
 -   SMTP driver supports authentication
+-   Correctly read LLDP information from devices that support only LLDP-V2 MIB
 -   Fixed object query result sorting on hidden columns
 -   Server configuration parameter DBDrvParam is deprecated and replaced with DBDriverOptions
 
 ## Fixed issues
 
+-   NX-538 (ESXi not detected as LLDP)
 -   NX-1291 (Different font size on different dashboard gauge entries)
 -   NX-1915 (Ability to copy shared secret from Network Configuration)
 -   NX-2075 (EPP rule to have both IF and IF NOT conditions for objects)
