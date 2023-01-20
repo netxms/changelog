@@ -33,6 +33,7 @@
 -   NX-2324 (Telegram notifications should stay in queue if there is no connection to the Internet)
 -   NX-2327 (SMTP driver with authentication support)
 -   NX-2328 (Improved algorithm for managing thread pool size)
+-   NX-2329 (Time based filter in EPP rules)
 -   NX-2330 (Add option to set/delete custom attributes from EPP rule)
 -   NX-2331 (Display DCI and policy count for templates in object details)
 -   NX-2332 (Add new EPP action that allows to specify NXSL script inline)
