@@ -1,4 +1,4 @@
-# 4.3-CURRENT
+# 4.3.0
 
 -   New format strings in NXSL (Python f-string style)
 -   Inline action scripts in EPP
