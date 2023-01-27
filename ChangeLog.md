@@ -1,3 +1,9 @@
+# 4.3.1-SNAPSHOT
+
+## Fixed issues
+
+-   NX-2345 (Copy to Clipboard and Save as image... buttons no longer exist in WebUI in line chart window)
+
 # 4.3.0
 
 -   New format strings in NXSL (Python f-string style)
