@@ -3,6 +3,7 @@
 ## Fixed issues
 
 -   NX-2345 (Copy to Clipboard and Save as image... buttons no longer exist in WebUI in line chart window)
+-   NX-2374 (Template auto unbind grace period handled incorrectly)
 
 # 4.3.0
 
