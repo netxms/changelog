@@ -1,9 +1,11 @@
 # 4.3.1-SNAPSHOT
 
 -   Fixed database schema upgrade on Microsoft SQL Server
+-   Cosmetic fixes in Windows agent installer
 
 ## Fixed issues
 
+-   NX-808 (NXSL error message should include module name)
 -   NX-2345 (Copy to Clipboard and Save as image... buttons no longer exist in WebUI in line chart window)
 -   NX-2374 (Template auto unbind grace period handled incorrectly)
 
