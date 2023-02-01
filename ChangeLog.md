@@ -1,6 +1,8 @@
 # 4.3.1-SNAPSHOT
 
 -   Fixed database schema upgrade on Microsoft SQL Server
+-   Fixed issues with network service checks using netsvc subagent as a replacement for portcheck subagent
+-   Multiple small fixes and improvements in new management client application
 -   Cosmetic fixes in Windows agent installer
 
 ## Fixed issues
