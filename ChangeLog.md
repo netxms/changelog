@@ -2,6 +2,7 @@
 
 -   Fixed database schema upgrade on Microsoft SQL Server
 -   Fixed issues with network service checks using netsvc subagent as a replacement for portcheck subagent
+-   Dashboard element "Availability Chart" is working again
 -   Multiple small fixes and improvements in new management client application
 -   Cosmetic fixes in Windows agent installer
 
@@ -70,6 +71,7 @@
 
 ## Fixed issues
 
+-   NX-2056 (Create DCI status indicator dashboard element)
 -   NX-2326 (Add parameter in log parser events that contains file name)
 -   NX-2346 (Unexpected SNMPv3 authentication failures)
 -   NX-2349 (NXSL `$node->executeAgentCommand()` crashing server)
