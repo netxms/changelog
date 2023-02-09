@@ -1,14 +1,17 @@
-# 4.3.1-SNAPSHOT
+# 4.3.1
 
 -   Fixed database schema upgrade on Microsoft SQL Server
 -   Fixed issues with network service checks using netsvc subagent as a replacement for portcheck subagent
+-   Fixed bug in external table provider command execution
 -   Dashboard element "Availability Chart" is working again
--   Multiple small fixes and improvements in new management client application
+-   Driver for Mikrotik devices correctly handles server settings for using ifXTable and interface aliases
+-   Multiple fixes and improvements in new management client application
 -   Cosmetic fixes in Windows agent installer
 
 ## Fixed issues
 
 -   NX-808 (NXSL error message should include module name)
+-   NX-2222 (Interface alias duplicated in UI if Objects.Interfaces.UseAliases set to "concatenate name with alias")
 -   NX-2345 (Copy to Clipboard and Save as image... buttons no longer exist in WebUI in line chart window)
 -   NX-2374 (Template auto unbind grace period handled incorrectly)
 
