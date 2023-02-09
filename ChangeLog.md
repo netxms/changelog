@@ -4,7 +4,8 @@
 -   Fixed issues with network service checks using netsvc subagent as a replacement for portcheck subagent
 -   Fixed bug in external table provider command execution
 -   Dashboard element "Availability Chart" is working again
--   Driver for Mikrotik devices correctly handles server settings for using ifXTable and interface aliases
+-   Mikrotik driver correctly handles server settings for using ifXTable and interface aliases
+-   Fixed VLAN configuration reading bug in Juniper driver
 -   Multiple fixes and improvements in new management client application
 -   Cosmetic fixes in Windows agent installer
 
