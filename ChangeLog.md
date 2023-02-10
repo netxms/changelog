@@ -3,6 +3,7 @@
 -   Fixed database schema upgrade on Microsoft SQL Server
 -   Fixed issues with network service checks using netsvc subagent as a replacement for portcheck subagent
 -   Fixed bug in external table provider command execution
+-   Fixed server crash during execution of object tool of type "server command"
 -   Dashboard element "Availability Chart" is working again
 -   Mikrotik driver correctly handles server settings for using ifXTable and interface aliases
 -   Fixed VLAN configuration reading bug in Juniper driver
