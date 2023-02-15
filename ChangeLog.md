@@ -1,3 +1,7 @@
+# 4.3.2-SNAPSHOT
+
+-   Fixed stacked line charts in new UI
+
 # 4.3.1
 
 -   Fixed database schema upgrade on Microsoft SQL Server
