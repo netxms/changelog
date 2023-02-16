@@ -1,6 +1,7 @@
 # 4.3.2-SNAPSHOT
 
 -   Fixed stacked line charts in new UI
+-   Fixed timeout inconsistencies in netsvc subagent
 
 # 4.3.1
 
