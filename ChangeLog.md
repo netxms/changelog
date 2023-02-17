@@ -3,6 +3,11 @@
 -   Fixed stacked line charts in new UI
 -   Fixed timeout inconsistencies in netsvc subagent
 
+
+## Fixed issues
+
+-   NX-2379 (REST API to force poll DCI)
+
 # 4.3.1
 
 -   Fixed database schema upgrade on Microsoft SQL Server
