@@ -3,9 +3,9 @@
 -   Fixed stacked line charts in new UI
 -   Fixed timeout inconsistencies in netsvc subagent
 
-
 ## Fixed issues
 
+-   NX-2377 (Copy-paste of rules not working in EPP editor)
 -   NX-2379 (REST API to force poll DCI)
 
 # 4.3.1
