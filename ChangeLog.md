@@ -5,7 +5,10 @@
 
 ## Fixed issues
 
+-   NX-677 (Dashboard editor: accelerators are duplicated in Line chart -> Data sources)
 -   NX-2377 (Copy-paste of rules not working in EPP editor)
+-   NX-2348 (Show active threshold event name in Last Values)
+-   NX-2376 (Agent restart is not working correctly on RedHat based Linux OS)
 -   NX-2379 (REST API to force poll DCI)
 
 # 4.3.1
@@ -144,6 +147,7 @@
 -   NX-648 (DCI units and binary prefix)
 -   NX-702 (DCI option - "Store only if value changes")
 -   NX-708 (Add map option to make all labels non-transparent)
+-   NX-826 (Show chart title in dashboard elements editor)
 -   NX-1279 (WebUI does not support ServerName/ServerColor options)
 -   NX-1474 (Execute server script - replace error message box with alternative way)
 -   NX-1527 (Option to hide DCIs from templates or created by instance discovery)
