@@ -2,6 +2,7 @@
 
 -   Fixed stacked line charts in new UI
 -   Fixed timeout inconsistencies in netsvc subagent
+-   Added web API calls for managing alarm comments
 
 ## Fixed issues
 
