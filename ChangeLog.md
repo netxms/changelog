@@ -11,6 +11,7 @@
 -   NX-2348 (Show active threshold event name in Last Values)
 -   NX-2376 (Agent restart is not working correctly on RedHat based Linux OS)
 -   NX-2379 (REST API to force poll DCI)
+-   NX-2383 (Ignore systemd synthetic records when resolving node IP address to hostname)
 
 # 4.3.1
 
