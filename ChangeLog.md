@@ -1,8 +1,9 @@
-# 4.3.2-SNAPSHOT
+# 4.3.2
 
 -   Fixed stacked line charts in new UI
 -   Fixed timeout inconsistencies in netsvc subagent
 -   Added web API calls for managing alarm comments
+-   More functionality migrated to new management client
 
 ## Fixed issues
 
