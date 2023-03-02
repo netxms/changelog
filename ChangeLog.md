@@ -1,3 +1,9 @@
+# 4.4.0-SNAPSHOT
+
+## Fixed issues
+
+-   NX-696 (Condition status reset to UNKNOWN on change)
+
 # 4.3.2
 
 -   Fixed stacked line charts in new UI
