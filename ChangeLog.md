@@ -6,6 +6,10 @@
 -   NX-1014 (Correct names of "Remove" menu items to "Remove from node" or "Remove from template")
 -   NX-1613 (Object state icon not shown in Template -> Remove)
 
+# 4.3.3-SNAPSHOT
+
+-   Improved database migration procedure when TimescaleDB is target (GitHub issue 83)
+
 # 4.3.2
 
 -   Fixed stacked line charts in new UI
