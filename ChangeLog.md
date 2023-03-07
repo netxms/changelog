@@ -2,6 +2,7 @@
 
 ## Fixed issues
 
+-   NX-457 (Support for multiple tile providers)
 -   NX-696 (Condition status reset to UNKNOWN on change)
 -   NX-1014 (Correct names of "Remove" menu items to "Remove from node" or "Remove from template")
 -   NX-1613 (Object state icon not shown in Template -> Remove)
