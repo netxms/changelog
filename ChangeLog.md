@@ -10,6 +10,7 @@
 # 4.3.3-SNAPSHOT
 
 -   Improved database migration procedure when TimescaleDB is target (GitHub issue 83)
+-   Fixed bug in hanfling "verify-peer" option for network service metrics
 
 # 4.3.2
 
