@@ -11,6 +11,7 @@
 
 -   Improved database migration procedure when TimescaleDB is target (GitHub issue 83)
 -   Fixed bug in hanfling "verify-peer" option for network service metrics
+-   Fixed server crash when doing RADIUS authentication using MS-CHAP
 
 # 4.3.2
 
