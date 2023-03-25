@@ -13,6 +13,10 @@
 -   Improved database migration procedure when TimescaleDB is target (GitHub issue 83)
 -   Fixed bug in hanfling "verify-peer" option for network service metrics
 -   Fixed server crash when doing RADIUS authentication using MS-CHAP
+-   Fixed columns for 'Find switch port' search result. 
+-   Added additional information to debug message about event with incorrect source id. 
+-   Added ZoneUIN for Cluster's overview page.
+-   Fixed visualization issue with expanded section in log parser editor.
 
 # 4.3.2
 
