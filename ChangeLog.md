@@ -19,7 +19,7 @@
 -   Fixed columns for 'Find switch port' search result
 -   Added additional information to debug message about event with incorrect source id
 -   Added ZoneUIN for Cluster's overview page
--   Fixed visualization issue with expanded section in log parser editor
+-   Small fixes and adjustments to new management client
 -   Close DCI config view message not shown on DCI copy
 
 ## Fixed issues
