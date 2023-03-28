@@ -21,6 +21,7 @@
 -   Added ZoneUIN for Cluster's overview page
 -   Small fixes and adjustments to new management client
 -   Close DCI config view message not shown on DCI copy
+-   Dashboard element "Table Value" works in context dashboards
 
 ## Fixed issues
 
