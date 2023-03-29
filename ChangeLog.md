@@ -11,10 +11,10 @@
 -   NX-1613 (Object state icon not shown in Template -> Remove)
 -   NX-2364 (Add option to request 2FA authorization less frequently)
 
-# 4.3.3-SNAPSHOT
+# 4.3.3
 
 -   Improved database migration procedure when TimescaleDB is target (GitHub issue 83)
--   Fixed bug in hanfling "verify-peer" option for network service metrics
+-   Fixed bug in handling "verify-peer" option for network service metrics
 -   Fixed server crash when doing RADIUS authentication using MS-CHAP
 -   Fixed columns for 'Find switch port' search result
 -   Added additional information to debug message about event with incorrect source id
