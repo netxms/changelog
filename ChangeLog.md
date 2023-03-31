@@ -14,6 +14,12 @@
 -   NX-1613 (Object state icon not shown in Template -> Remove)
 -   NX-2364 (Add option to request 2FA authorization less frequently)
 
+# 4.3.4-SNAPSHOT
+
+## Fixed issues
+
+-   NX-2396 (Web Service Definition timeout not displayed correctly)
+
 # 4.3.3
 
 -   Improved database migration procedure when TimescaleDB is target (GitHub issue 83)
