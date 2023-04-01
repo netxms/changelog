@@ -12,6 +12,7 @@
 -   NX-1014 (Correct names of "Remove" menu items to "Remove from node" or "Remove from template")
 -   NX-1598 (Rename column "submap_id" in table "object_properties")
 -   NX-1613 (Object state icon not shown in Template -> Remove)
+-   NX-2317 (Add parameters to threshold activation events with additional information on triggered threshold)
 -   NX-2364 (Add option to request 2FA authorization less frequently)
 
 # 4.3.4-SNAPSHOT
