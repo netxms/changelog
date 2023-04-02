@@ -14,6 +14,7 @@
 -   NX-1613 (Object state icon not shown in Template -> Remove)
 -   NX-2317 (Add parameters to threshold activation events with additional information on triggered threshold)
 -   NX-2364 (Add option to request 2FA authorization less frequently)
+-   NX-2370 (Use libedit for shell-style tools)
 
 # 4.3.4-SNAPSHOT
 
