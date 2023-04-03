@@ -21,6 +21,7 @@
 ## Fixed issues
 
 -   NX-2396 (Web Service Definition timeout not displayed correctly)
+-   NX-2395 (Output of PATCH Web Service call is ignored)
 
 # 4.3.3
 
