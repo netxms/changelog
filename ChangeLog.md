@@ -18,6 +18,8 @@
 
 # 4.3.4-SNAPSHOT
 
+-   Multiple fixes and improvements in new management client application
+
 ## Fixed issues
 
 -   NX-2396 (Web Service Definition timeout not displayed correctly)
@@ -77,6 +79,8 @@
 # 4.3.0
 
 -   New format strings in NXSL (Python f-string style)
+-   Intoduced two dots option to concatinate string in NXSL
+-   NXSL keywords replaced: "sub" changed to "function" and "use" changed to "import"
 -   Inline action scripts in EPP
 -   Set and delete custom attributes in EPP rule
 -   Column display names in object queries can be set using column metadata
