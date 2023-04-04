@@ -18,12 +18,14 @@
 
 # 4.3.4-SNAPSHOT
 
+-   Fixed bug in ICMP ping implementation introduced in 4.3.3
 -   Multiple fixes and improvements in new management client application
 
 ## Fixed issues
 
--   NX-2396 (Web Service Definition timeout not displayed correctly)
+-   NX-2386 (Object Category custom node icon covers object browser status icon)
 -   NX-2395 (Output of PATCH Web Service call is ignored)
+-   NX-2396 (Web Service Definition timeout not displayed correctly)
 
 # 4.3.3
 
