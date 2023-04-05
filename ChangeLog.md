@@ -16,13 +16,14 @@
 -   NX-2364 (Add option to request 2FA authorization less frequently)
 -   NX-2370 (Use libedit for shell-style tools)
 
-# 4.3.4-SNAPSHOT
+# 4.3.4
 
 -   Fixed bug in ICMP ping implementation introduced in 4.3.3
 -   Multiple fixes and improvements in new management client application
 
 ## Fixed issues
 
+-   NX-2137 (File delivery policy times out of big files when saved)
 -   NX-2386 (Object Category custom node icon covers object browser status icon)
 -   NX-2395 (Output of PATCH Web Service call is ignored)
 -   NX-2396 (Web Service Definition timeout not displayed correctly)
