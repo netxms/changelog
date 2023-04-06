@@ -20,6 +20,7 @@
 
 -   Fixed bug in ICMP ping implementation introduced in 4.3.3
 -   Added agent configuration option for setting file mode creation mask (umask)
+-   Bundled SQLite updated to version 3.41.2
 -   Multiple fixes and improvements in new management client application
 
 ## Fixed issues
