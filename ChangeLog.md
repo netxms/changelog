@@ -19,6 +19,7 @@
 # 4.3.4
 
 -   Fixed bug in ICMP ping implementation introduced in 4.3.3
+-   Added agent configuration option for setting file mode creation mask (umask)
 -   Multiple fixes and improvements in new management client application
 
 ## Fixed issues
