@@ -3,6 +3,7 @@
 -   "Trusted devices" in two-factor authentication
 -   Scrollable dashboards
 -   Arguments can be passed to script called via script macro
+-   Indirect function calls in NXSL
 
 ## Fixed issues
 
