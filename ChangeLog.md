@@ -19,6 +19,10 @@
 -   NX-2364 (Add option to request 2FA authorization less frequently)
 -   NX-2370 (Use libedit for shell-style tools)
 
+# 4.3.5-SNAPSHOT
+
+-   Fixed bug in X.509 certificate subject and issuer decoding
+
 # 4.3.4
 
 -   Fixed bug in ICMP ping implementation introduced in 4.3.3
