@@ -23,6 +23,10 @@
 
 -   Fixed bug in X.509 certificate subject and issuer decoding
 
+## Fixed issues
+
+-   NX-2404 (Integer division by zero in NXSL crashes server)
+
 # 4.3.4
 
 -   Fixed bug in ICMP ping implementation introduced in 4.3.3
