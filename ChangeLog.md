@@ -22,6 +22,7 @@
 # 4.3.5-SNAPSHOT
 
 -   Fixed bug in X.509 certificate subject and issuer decoding
+-   Agent tunnel listener will not start if server certificate is not loaded
 
 ## Fixed issues
 
