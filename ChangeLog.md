@@ -28,6 +28,7 @@
 ## Fixed issues
 
 -   NX-2404 (Integer division by zero in NXSL crashes server)
+-   NX-2406 (Entering maintenance mode on cluster does not trigger maintenance mode on nodes within cluster)
 
 # 4.3.4
 
