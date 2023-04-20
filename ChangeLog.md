@@ -19,7 +19,7 @@
 -   NX-2364 (Add option to request 2FA authorization less frequently)
 -   NX-2370 (Use libedit for shell-style tools)
 
-# 4.3.5-SNAPSHOT
+# 4.3.5
 
 -   Fixed bug in X.509 certificate subject and issuer decoding
 -   Agent tunnel listener will not start if server certificate is not loaded
@@ -27,6 +27,8 @@
 
 ## Fixed issues
 
+-   NX-2272 (Session is not closed if user cancel 2FA auth initialization)
+-   NX-2276 (Warn user when adding too wide mask to active discovery)
 -   NX-2388 (Modify default templates - filesystem with type "ahafs" should be excluded from discovery)
 -   NX-2404 (Integer division by zero in NXSL crashes server)
 -   NX-2406 (Entering maintenance mode on cluster does not trigger maintenance mode on nodes within cluster)
