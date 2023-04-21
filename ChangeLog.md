@@ -24,6 +24,8 @@
 -   Fixed bug in X.509 certificate subject and issuer decoding
 -   Agent tunnel listener will not start if server certificate is not loaded
 -   Fixed WEB service configuration import with multiple headers 
+-   Fixed login issues in new web UI
+-   Small fixes and improvements in new management client application
 
 ## Fixed issues
 
