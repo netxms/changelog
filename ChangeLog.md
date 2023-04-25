@@ -18,6 +18,7 @@
 -   NX-2317 (Add parameters to threshold activation events with additional information on triggered threshold)
 -   NX-2364 (Add option to request 2FA authorization less frequently)
 -   NX-2370 (Use libedit for shell-style tools)
+-   NX-2391 (Not possible to set correct zone for cluster)
 
 # 4.3.5
 
