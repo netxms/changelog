@@ -20,6 +20,10 @@
 -   NX-2370 (Use libedit for shell-style tools)
 -   NX-2391 (Not possible to set correct zone for cluster)
 
+# 4.3.6-SNAPSHOT
+
+-   Fixed bug in flood notification processing in Telegram driver
+
 # 4.3.5
 
 -   Fixed bug in X.509 certificate subject and issuer decoding
