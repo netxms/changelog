@@ -4,6 +4,8 @@
 -   Scrollable dashboards
 -   Arguments can be passed to script called via script macro
 -   Indirect function calls in NXSL
+-   Interface table in agents
+-   Linux agent can report interface aliases
 
 ## Fixed issues
 
@@ -22,6 +24,7 @@
 
 # 4.3.6-SNAPSHOT
 
+-   Correctly handle FDB record type "secure"
 -   Fixed bug in flood notification processing in Telegram driver
 
 # 4.3.5
