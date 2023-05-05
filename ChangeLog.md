@@ -29,6 +29,7 @@
 -   Fixed bug in handling /32 addresses during network discovery
 -   Fixed bug in flood notification processing in Telegram driver
 -   Fixed server crash caused by timeout during file transfer to agent
+-   Fixed bug in SNMP codepage handling
 -   Small fixes and improvements in new management client application
 
 # 4.3.5
