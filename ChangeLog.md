@@ -22,7 +22,7 @@
 -   NX-2370 (Use libedit for shell-style tools)
 -   NX-2391 (Not possible to set correct zone for cluster)
 
-# 4.3.6-SNAPSHOT
+# 4.3.6
 
 -   Correctly handle FDB record type "secure"
 -   Improved driver for Cambium devices
@@ -30,6 +30,7 @@
 -   Fixed bug in flood notification processing in Telegram driver
 -   Fixed server crash caused by timeout during file transfer to agent
 -   Fixed bug in SNMP codepage handling
+-   Fixed bar gauge dashboard element drawing issue
 -   Small fixes and improvements in new management client application
 
 # 4.3.5
