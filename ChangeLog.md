@@ -22,6 +22,12 @@
 -   NX-2370 (Use libedit for shell-style tools)
 -   NX-2391 (Not possible to set correct zone for cluster)
 
+# 4.3.7-SNAPSHOT
+
+## Fixed issues
+
+-   NX-2418 (Log file monitoring does not work properly with symlinks)
+
 # 4.3.6
 
 -   Correctly handle FDB record type "secure"
