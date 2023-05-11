@@ -6,6 +6,7 @@
 -   Indirect function calls in NXSL
 -   Interface table in agents
 -   Linux agent can report interface aliases
+-   Improved dashboard elements "Pie Chart" and "Gauge"
 
 ## Fixed issues
 
