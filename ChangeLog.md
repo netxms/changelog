@@ -29,6 +29,7 @@
 ## Fixed issues
 
 -   NX-2418 (Log file monitoring does not work properly with symlinks)
+-   NX-2421 (Invalid time format in log parser configuration can cause agent crash)
 
 # 4.3.6
 
