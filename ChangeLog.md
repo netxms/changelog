@@ -19,6 +19,7 @@
 -   NX-1598 (Rename column "submap_id" in table "object_properties")
 -   NX-1613 (Object state icon not shown in Template -> Remove)
 -   NX-2294 (Add server setting to prefer IPv4 address when resolving node hostname)
+-   NX-2295 (Use System.ActiveUserSessions agent list to display "User sessions" in management client)
 -   NX-2317 (Add parameters to threshold activation events with additional information on triggered threshold)
 -   NX-2364 (Add option to request 2FA authorization less frequently)
 -   NX-2370 (Use libedit for shell-style tools)
