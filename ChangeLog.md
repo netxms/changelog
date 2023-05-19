@@ -28,8 +28,11 @@
 
 # 4.3.7-SNAPSHOT
 
+-   Small fixes and improvements in new management client application
+
 ## Fixed issues
 
+-   NX-2253 (Actual repeat count should be passed to event in log file monitoring when reset repeat count is true)
 -   NX-2418 (Log file monitoring does not work properly with symlinks)
 -   NX-2421 (Invalid time format in log parser configuration can cause agent crash)
 
