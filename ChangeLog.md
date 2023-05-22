@@ -28,6 +28,7 @@
 
 # 4.3.7-SNAPSHOT
 
+-   Fixed bug in reading topology information from LLDPv2 MIB
 -   Small fixes and improvements in new management client application
 
 ## Fixed issues
