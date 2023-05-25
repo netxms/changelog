@@ -27,7 +27,7 @@
 -   NX-2370 (Use libedit for shell-style tools)
 -   NX-2391 (Not possible to set correct zone for cluster)
 
-# 4.3.7-SNAPSHOT
+# 4.3.7
 
 -   Fixed bug in reading topology information from LLDPv2 MIB
 -   Small fixes and improvements in new management client application
