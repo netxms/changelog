@@ -26,6 +26,7 @@
 -   NX-2364 (Add option to request 2FA authorization less frequently)
 -   NX-2370 (Use libedit for shell-style tools)
 -   NX-2391 (Not possible to set correct zone for cluster)
+-   NX-2424 (Add information about user login failure (2FA issue, etc) to audit log)
 
 # 4.3.7
 
