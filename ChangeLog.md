@@ -8,6 +8,7 @@
 -   Linux agent can report interface aliases
 -   Improved dashboard elements "Pie Chart" and "Gauge"
 -   New macro {node-name} in DCI performance view configuration
+-   Added Query table columns for SNMP Table DCI
 
 ## Fixed issues
 
