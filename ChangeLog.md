@@ -2,6 +2,7 @@
 
 -   "Trusted devices" in two-factor authentication
 -   Scrollable dashboards
+-   Native Modbus TCP support
 -   Arguments can be passed to script called via script macro
 -   Indirect function calls in NXSL
 -   Interface table in agents
@@ -17,6 +18,7 @@
 -   NX-875 (More info on per-node basis on polls for that node)
 -   NX-935 (Scrollbar in Dashboards)
 -   NX-1014 (Correct names of "Remove" menu items to "Remove from node" or "Remove from template")
+-   NX-1232 (Tool for simplified SNMP tables configuration)
 -   NX-1598 (Rename column "submap_id" in table "object_properties")
 -   NX-1613 (Object state icon not shown in Template -> Remove)
 -   NX-2244 (Have ability in the UI to jump to specific DCI from check)
