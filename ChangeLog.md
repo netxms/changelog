@@ -10,6 +10,9 @@
 -   Improved dashboard elements "Pie Chart" and "Gauge"
 -   New macro {node-name} in DCI performance view configuration
 -   Added Query table columns for SNMP Table DCI
+-   Spanning Tree port state for interfaces collected at status poll
+-   System event for STP port state change
+-   Improved configuration import
 
 ## Fixed issues
 
@@ -29,6 +32,7 @@
 -   NX-2364 (Add option to request 2FA authorization less frequently)
 -   NX-2370 (Use libedit for shell-style tools)
 -   NX-2391 (Not possible to set correct zone for cluster)
+-   NX-2397 (Cluster that is in another zone still belongs to the zone with Zone UIN=0)
 -   NX-2420 (Add explicit option for log parser to follow symlinks)
 -   NX-2424 (Add information about user login failure (2FA issue, etc) to audit log)
 
