@@ -24,6 +24,7 @@
 -   NX-1232 (Tool for simplified SNMP tables configuration)
 -   NX-1598 (Rename column "submap_id" in table "object_properties")
 -   NX-1613 (Object state icon not shown in Template -> Remove)
+-   NX-2067 (Add a hotkey to save policies. Ctrl+S)
 -   NX-2244 (Have ability in the UI to jump to specific DCI from check)
 -   NX-2294 (Add server setting to prefer IPv4 address when resolving node hostname)
 -   NX-2295 (Use System.ActiveUserSessions agent list to display "User sessions" in management client)
