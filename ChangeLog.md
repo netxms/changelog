@@ -36,6 +36,7 @@
 -   NX-2373 (Make DCI comments available in alarms generated from threshold violation events)
 -   NX-2384 (Store and display event message in active threshold)
 -   NX-2391 (Not possible to set correct zone for cluster)
+-   NX-2392 (ARP table view for nodes)
 -   NX-2397 (Cluster that is in another zone still belongs to the zone with Zone UIN=0)
 -   NX-2420 (Add explicit option for log parser to follow symlinks)
 -   NX-2424 (Add information about user login failure (2FA issue, etc) to audit log)
