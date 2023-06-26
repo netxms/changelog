@@ -32,6 +32,7 @@
 -   NX-2357 (Create events for invalid object identifiers in EPP rules)
 -   NX-2364 (Add option to request 2FA authorization less frequently)
 -   NX-2370 (Use libedit for shell-style tools)
+-   NX-2372 (Show DCI comments in Data Collection / Last Values view)
 -   NX-2373 (Make DCI comments available in alarms generated from threshold violation events)
 -   NX-2391 (Not possible to set correct zone for cluster)
 -   NX-2397 (Cluster that is in another zone still belongs to the zone with Zone UIN=0)
