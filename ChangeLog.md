@@ -1,4 +1,4 @@
-# 4.4.0-SNAPSHOT
+# 4.4.0
 
 -   "Trusted devices" in two-factor authentication
 -   Scrollable dashboards
