@@ -1,3 +1,7 @@
+# 4.4.1
+
+-   Fixed "Invert values" in new console
+
 # 4.4.0
 
 -   "Trusted devices" in two-factor authentication
