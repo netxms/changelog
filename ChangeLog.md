@@ -1,10 +1,18 @@
+# 4.5.0
+
+## Fixed issues
+
+-   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
+
 # 4.4.1
 
 -   Fixed incorrect display of line chart series with "Invert values" option
+-   Fixed database upgrade procedure (zone GUID update)
 
 ## Fixed issues
 
 -   NX-2419 (When log file monitoring with wildcards is used, data right after file creation might be skipped)
+-   NX-2434 (Add option to set user, password as a parameters for IMAP and SMTP)
 
 # 4.4.0
 
