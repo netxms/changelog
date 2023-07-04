@@ -1,6 +1,10 @@
 # 4.4.1
 
--   Fixed "Invert values" in new console
+-   Fixed incorrect display of line chart series with "Invert values" option
+
+## Fixed issues
+
+-   NX-2419 (When log file monitoring with wildcards is used, data right after file creation might be skipped)
 
 # 4.4.0
 
