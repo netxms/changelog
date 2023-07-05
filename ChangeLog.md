@@ -9,6 +9,7 @@
 -   Fixed incorrect display of line chart series with "Invert values" option
 -   Fixed database upgrade procedure (zone UIN update)
 -   Fixed memory leak in subagent "netsvc"
+-   Added workaround for "unexpected eof" OpenSSL error reported by web service calls to some servers
 
 ## Fixed issues
 
