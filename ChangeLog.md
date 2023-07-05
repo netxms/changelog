@@ -7,11 +7,13 @@
 # 4.4.1
 
 -   Fixed incorrect display of line chart series with "Invert values" option
--   Fixed database upgrade procedure (zone GUID update)
+-   Fixed database upgrade procedure (zone UIN update)
+-   Fixed memory leak in subagent "netsvc"
 
 ## Fixed issues
 
 -   NX-2419 (When log file monitoring with wildcards is used, data right after file creation might be skipped)
+-   NX-2428 (Cannot import configuration if threshold activation or deactivation event tags are missing or empty)
 -   NX-2434 (Add option to set user, password as a parameters for IMAP and SMTP)
 
 # 4.4.0
