@@ -6,6 +6,7 @@
 
 # 4.4.1
 
+-   Server saves SNMPv3 context engine ID alongside authoritative engine ID to avoid unnecessary engine ID discovery
 -   Fixed incorrect display of line chart series with "Invert values" option
 -   Fixed database upgrade procedure (zone UIN update)
 -   Fixed memory leak in subagent "netsvc"
@@ -58,6 +59,7 @@
 -   NX-2392 (ARP table view for nodes)
 -   NX-2397 (Cluster that is in another zone still belongs to the zone with Zone UIN=0)
 -   NX-2420 (Add explicit option for log parser to follow symlinks)
+-   NX-2422 (Keep separate session for each node in MIB explorer in new Management Client)
 -   NX-2424 (Add information about user login failure (2FA issue, etc) to audit log)
 
 # 4.3.7
