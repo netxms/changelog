@@ -17,6 +17,7 @@
 -   NX-2419 (When log file monitoring with wildcards is used, data right after file creation might be skipped)
 -   NX-2428 (Cannot import configuration if threshold activation or deactivation event tags are missing or empty)
 -   NX-2434 (Add option to set user, password as a parameters for IMAP and SMTP)
+-   NX-2435 (0 is not shown on Y scale in graphs)
 
 # 4.4.0
 
