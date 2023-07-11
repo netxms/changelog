@@ -10,6 +10,7 @@
 -   Fixed incorrect display of line chart series with "Invert values" option
 -   Fixed database upgrade procedure (zone UIN update)
 -   Fixed memory leak in subagent "netsvc"
+-   Fixed bug in NXSL function FormatMetricPrefix
 -   Added workaround for "unexpected eof" OpenSSL error reported by web service calls to some servers
 
 ## Fixed issues
