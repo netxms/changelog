@@ -7,6 +7,7 @@
 # 4.4.1
 
 -   Server saves SNMPv3 context engine ID alongside authoritative engine ID to avoid unnecessary engine ID discovery
+-   NXSL function GetDCIValues can be used to retrieve raw DCI values
 -   Fixed incorrect display of line chart series with "Invert values" option
 -   Fixed database upgrade procedure (zone UIN update)
 -   Fixed memory leak in subagent "netsvc"
