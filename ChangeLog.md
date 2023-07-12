@@ -17,6 +17,7 @@
 
 -   NX-2407 (Add the ability to duplicate server action in action manager)
 -   NX-2414 (nxdbmgr should ignore data for deleted DCIs if there's record in dci_delete_list for that DCI)
+-   NX-2415 (Legend text color is ignored in the nxmc console)
 -   NX-2419 (When log file monitoring with wildcards is used, data right after file creation might be skipped)
 -   NX-2428 (Cannot import configuration if threshold activation or deactivation event tags are missing or empty)
 -   NX-2434 (Add option to set user, password as a parameters for IMAP and SMTP)
