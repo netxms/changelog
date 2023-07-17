@@ -1,4 +1,4 @@
-# 4.5.0
+# 4.5.0-SNAPSHOT
 
 ## Fixed issues
 
@@ -6,15 +6,19 @@
 
 # 4.4.1
 
+-   Improved support for LLDP-V2-MIB
+-   Server can use both LLDP-MIB and LLDP-V2-MIB if supported by device
 -   Server saves SNMPv3 context engine ID alongside authoritative engine ID to avoid unnecessary engine ID discovery
 -   NXSL function GetDCIValues can be used to retrieve raw DCI values
 -   Added method "enableWinPerfCountersCache" to NXSL class "Node"
+-   Custom timeouts for external metric providers in agent
 -   Fixed incorrect display of line chart series with "Invert values" option
 -   Fixed database upgrade procedure (zone UIN update)
 -   Fixed memory leak in subagent "netsvc"
 -   Fixed bug in NXSL function FormatMetricPrefix
 -   Added workaround for "unexpected eof" OpenSSL error reported by web service calls to some servers
--   Small fixes in asset management
+-   Minor fixes in asset management
+-   Minor fixes and improvements in new management client application
 
 ## Fixed issues
 
