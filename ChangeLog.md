@@ -1,8 +1,12 @@
-# 4.5.0-SNAPSHOT
+# 5.0.0-SNAPSHOT
 
 ## Fixed issues
 
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
+
+# 4.4.2-SNAPSHOT
+
+-   Fixed bugs in TCP proxy session closure handling (server and agent side)
 
 # 4.4.1
 
