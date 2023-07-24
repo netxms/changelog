@@ -2,6 +2,7 @@
 
 ## Fixed issues
 
+-   NX-2323 (Make parameters in all events named)
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
 
 # 4.4.2-SNAPSHOT
