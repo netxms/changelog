@@ -8,6 +8,7 @@
 # 4.4.2-SNAPSHOT
 
 -   Fixed bugs in TCP proxy session closure handling (server and agent side)
+-   Fixed bug in parsing XML content returned by web service
 
 # 4.4.1
 
