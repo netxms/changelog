@@ -9,6 +9,8 @@
 
 -   Fixed bugs in TCP proxy session closure handling (server and agent side)
 -   Fixed bug in parsing XML content returned by web service
+-   Added "Change expected interface state" to new console
+-   Added "Clone" network map to new console
 
 # 4.4.1
 
