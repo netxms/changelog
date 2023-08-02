@@ -1,5 +1,9 @@
 # 5.0.0-SNAPSHOT
 
+-   New method "join" in NXSL arrays
+-   Many NXSL function deprecated in favor of object methods
+-   Improved NXSL classes and functions for date/time handling
+
 ## Fixed issues
 
 -   NX-2323 (Make parameters in all events named)
