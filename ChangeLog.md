@@ -11,10 +11,11 @@
 
 # 4.4.2-SNAPSHOT
 
+-   Improved Cambium device driver
 -   Fixed bugs in TCP proxy session closure handling (server and agent side)
 -   Fixed bug in parsing XML content returned by web service
--   Added "Change expected interface state" to new console
--   Added "Clone" network map to new console
+-   Context action "Change expected interface state" implemented in new GUI client
+-   Context action "Clone network map" implemented in new GUI client
 
 # 4.4.1
 
