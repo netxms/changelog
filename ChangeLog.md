@@ -12,6 +12,7 @@
 # 4.4.2-SNAPSHOT
 
 -   Improved Cambium device driver
+-   Added driver for Hirschmann switches
 -   Fixed bugs in TCP proxy session closure handling (server and agent side)
 -   Fixed bug in parsing XML content returned by web service
 -   Context action "Change expected interface state" implemented in new GUI client
