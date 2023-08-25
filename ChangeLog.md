@@ -3,11 +3,13 @@
 -   New method "join" in NXSL arrays
 -   Many NXSL function deprecated in favor of object methods
 -   Improved NXSL classes and functions for date/time handling
+-   Add option to check Alarm details from alarm log view
 
 ## Fixed issues
 
 -   NX-2323 (Make parameters in all events named)
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
+-   NX-2292 (Automatic maps should not include nodes that are connected through a node that was excluded by filter script)
 
 # 4.4.2-SNAPSHOT
 
@@ -17,6 +19,8 @@
 -   Fixed bug in parsing XML content returned by web service
 -   Context action "Change expected interface state" implemented in new GUI client
 -   Context action "Clone network map" implemented in new GUI client
+-   Fixed Teplate apply/remove in new GUI client
+-   Fixed crash when network map uses physical link with non existing rack
 
 # 4.4.1
 
