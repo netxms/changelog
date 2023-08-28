@@ -23,6 +23,10 @@
 -   Fixed server crash when network map uses physical link with non existing rack
 -   Fixed audit log writing on object move
 
+## Fixed issues
+
+-   NX-2442 (Maintenance predefined time)
+
 # 4.4.1
 
 -   Improved support for LLDP-V2-MIB
