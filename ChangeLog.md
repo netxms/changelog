@@ -21,6 +21,7 @@
 -   Context action "Clone network map" implemented in new GUI client
 -   Fixed template apply/remove in new GUI client
 -   Fixed server crash when network map uses physical link with non existing rack
+-   Fixed audit log writing on object move
 
 # 4.4.1
 
