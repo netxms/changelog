@@ -13,6 +13,7 @@
 
 # 4.4.2-SNAPSHOT
 
+-   Server checks interface speed during status poll and generates event if it changes
 -   Improved Cambium device driver
 -   Added driver for Hirschmann switches
 -   Fixed bugs in TCP proxy session closure handling (server and agent side)
@@ -25,6 +26,7 @@
 
 ## Fixed issues
 
+-   NX-2432 (Query interface speed when status poll detects that interface goes up)
 -   NX-2442 (Maintenance predefined time)
 
 # 4.4.1
