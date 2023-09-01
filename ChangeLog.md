@@ -28,6 +28,7 @@
 
 -   NX-2432 (Query interface speed when status poll detects that interface goes up)
 -   NX-2442 (Maintenance predefined time)
+-   NX-2451 (GetDCIValue() should return same data type as set in DCI properties)
 
 # 4.4.1
 
