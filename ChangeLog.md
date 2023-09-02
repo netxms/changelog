@@ -16,10 +16,12 @@
 -   Server checks interface speed during status poll and generates event if it changes
 -   Improved Cambium device driver
 -   Added driver for Hirschmann switches
--   Fixed bugs in TCP proxy session closure handling (server and agent side)
--   Fixed bug in parsing XML content returned by web service
+-   Implemented implicit import for constants in NXSL
+-   NXSL implicit import does not add non-referenced functions and constants from imported module
 -   Context action "Change expected interface state" implemented in new GUI client
 -   Context action "Clone network map" implemented in new GUI client
+-   Fixed bugs in TCP proxy session closure handling (server and agent side)
+-   Fixed bug in parsing XML content returned by web service
 -   Fixed template apply/remove in new GUI client
 -   Fixed server crash when network map uses physical link with non existing rack
 -   Fixed audit log writing on object move
