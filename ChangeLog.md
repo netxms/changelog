@@ -28,6 +28,7 @@
 
 ## Fixed issues
 
+-   NX-2410 (Notification driver is locked during retry waiting period)
 -   NX-2432 (Query interface speed when status poll detects that interface goes up)
 -   NX-2441 (Auto-focus on Two-Factor input on WebUI)
 -   NX-2442 (Maintenance predefined time)
