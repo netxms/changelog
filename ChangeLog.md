@@ -11,7 +11,7 @@
 -   NX-2323 (Make parameters in all events named)
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
 
-# 4.4.2-SNAPSHOT
+# 4.4.2
 
 -   Server checks interface speed during status poll and generates event if it changes
 -   Improved Cambium device driver
@@ -20,6 +20,7 @@
 -   NXSL implicit import does not add non-referenced functions and constants from imported module
 -   Context action "Change expected interface state" implemented in new GUI client
 -   Context action "Clone network map" implemented in new GUI client
+-   Masked credentials in "Network Credentials" view
 -   Fixed bugs in TCP proxy session closure handling (server and agent side)
 -   Fixed bug in parsing XML content returned by web service
 -   Fixed template apply/remove in new GUI client
@@ -32,7 +33,10 @@
 -   NX-2432 (Query interface speed when status poll detects that interface goes up)
 -   NX-2441 (Auto-focus on Two-Factor input on WebUI)
 -   NX-2442 (Maintenance predefined time)
+-   NX-2449 (Unexpected SYS_DUPLICATE_IP_ADDRESS generation)
+-   NX-2450 (microhttpd presence is not detected correctly)
 -   NX-2451 (GetDCIValue() should return same data type as set in DCI properties)
+-   NX-2452 (Agent on Windows returns only one software inventory record when multiple versions of same software are installed)
 
 # 4.4.1
 
