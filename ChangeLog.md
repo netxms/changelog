@@ -13,7 +13,14 @@
 
 # 4.4.3-SNAPSHOT
 
+-   Use compact JSON format when saving events to database
+-   Improved event processing performance
 -   Improved NXSL function "random"
+-   Fixed server crash during execution of delayed EPP action
+-   Fixed server crash when processing interfaces with 8 byte MAC address
+-   Fixed session disconnect handling in new management client application
+-   Improved debug logging
+-   Minor fixes and improvements in new management client application
 
 # 4.4.2
 
