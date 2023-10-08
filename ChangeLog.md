@@ -4,6 +4,7 @@
 -   Many NXSL function deprecated in favor of object methods
 -   Improved NXSL classes and functions for date/time handling
 -   Add option to check Alarm details from alarm log view
+-   Log parser rules can define metrics that are populated from match data
 
 ## Fixed issues
 
