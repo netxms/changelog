@@ -23,6 +23,10 @@
 -   Improved debug logging
 -   Minor fixes and improvements in new management client application
 
+## Fixed issues
+
+-   NX-2469 (Empty "Parameters" line should be interpreted as no arguments in Execute Script)
+
 # 4.4.2
 
 -   Server checks interface speed during status poll and generates event if it changes
