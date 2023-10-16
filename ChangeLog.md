@@ -25,6 +25,7 @@
 
 ## Fixed issues
 
+-   NX-2463 (Add metric to measure execution time of background queries in dbquery subagent)
 -   NX-2469 (Empty "Parameters" line should be interpreted as no arguments in Execute Script)
 
 # 4.4.2
