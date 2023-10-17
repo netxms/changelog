@@ -14,6 +14,8 @@
 
 # 4.4.3-SNAPSHOT
 
+-   Package deployment can be scheduled
+-   Server-side macro expansion in package deployment command
 -   Use compact JSON format when saving events to database
 -   Improved event processing performance
 -   Improved NXSL function "random"
