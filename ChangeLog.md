@@ -12,7 +12,7 @@
 -   NX-2323 (Make parameters in all events named)
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
 
-# 4.4.3-SNAPSHOT
+# 4.4.3
 
 -   Package deployment can be scheduled
 -   Server-side macro expansion in package deployment command
@@ -23,6 +23,8 @@
 -   Fixed server crash during execution of delayed EPP action
 -   Fixed server crash when processing interfaces with 8 byte MAC address
 -   Fixed session disconnect handling in new management client application
+-   Fixed bug in physical disk information reading on Windows
+-   Fixed bug in SSH key store
 -   Improved debug logging
 -   Minor fixes and improvements in new management client application
 
@@ -30,7 +32,9 @@
 
 -   NX-2463 (Add metric to measure execution time of background queries in dbquery subagent)
 -   NX-2467 (Allow to execute same action multiple times in one EPP rule)
+-   NX-2468 (NetworkService.Status SMTP call to curl_easy_perform failed (56: Command failed: 502))
 -   NX-2469 (Empty "Parameters" line should be interpreted as no arguments in Execute Script)
+-   NX-2471 (Add agent list and table to list physical disks)
 -   NX-2475 (netsvc: ServiceCheck.SMTP() uses VRFY command, which is disabled on most servers)
 
 # 4.4.2
