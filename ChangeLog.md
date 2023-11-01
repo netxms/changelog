@@ -32,6 +32,7 @@
 
 -   NX-1063 (Interface icon is incorrect)
 -   NX-2224 (Command history in nxadm)
+-   NX-2446 (Increase timeout for agent tunnel binding)
 -   NX-2463 (Add metric to measure execution time of background queries in dbquery subagent)
 -   NX-2467 (Allow to execute same action multiple times in one EPP rule)
 -   NX-2468 (NetworkService.Status SMTP call to curl_easy_perform failed (56: Command failed: 502))
