@@ -8,6 +8,7 @@
 
 ## Fixed issues
 
+-   NX-1935 (Introduce hook script on map regeneration with ability to set link names)
 -   NX-2292 (Automatic maps should not include nodes that are connected through a node that was excluded by filter script)
 -   NX-2323 (Make parameters in all events named)
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
@@ -20,6 +21,7 @@
 -   Improved event processing performance
 -   Improved NXSL function "random"
 -   New event processing macros %d (DCI description), %D (DCI comments), %L (object alias), and %C (object comments)
+-   Added driver for FortiGate devices
 -   Fixed server crash during execution of delayed EPP action
 -   Fixed server crash when processing interfaces with 8 byte MAC address
 -   Fixed session disconnect handling in new management client application
