@@ -30,6 +30,7 @@
 
 ## Fixed issues
 
+-   NX-1063 (Interface icon is incorrect)
 -   NX-2224 (Command history in nxadm)
 -   NX-2463 (Add metric to measure execution time of background queries in dbquery subagent)
 -   NX-2467 (Allow to execute same action multiple times in one EPP rule)
