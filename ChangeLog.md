@@ -15,6 +15,9 @@
 
 # 4.4-SNAPSHOT
 
+-   New methods in NXSL class "InetAddress": contains, equals, inRange, sameSubnet
+-   Constructor for NXSL class "InetAddress" accepts mask length as second argument
+
 ## Fixed issues
 
 -   NX-2478 (Named function parameters does not work for entry points)
