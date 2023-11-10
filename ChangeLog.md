@@ -6,6 +6,7 @@
 -   New NXSL operation "?." (safe dereference)
 -   Add option to check Alarm details from alarm log view
 -   Log parser rules can define metrics that are populated from match data
+-   Special NXSL return codes for data collection and transformation scripts (DataCollection::ERROR, DataCollection::NOT_SUPPORTED, DataCollection::NO_SUCH_INSTANCE)
 
 ## Fixed issues
 
