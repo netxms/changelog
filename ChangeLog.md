@@ -1,5 +1,6 @@
 # 5.0.0-SNAPSHOT
 
+-   Major overhaul of sensor objects
 -   New method "join" in NXSL arrays
 -   Many NXSL function deprecated in favor of object methods
 -   Improved NXSL classes and functions for date/time handling
@@ -7,9 +8,11 @@
 -   Add option to check Alarm details from alarm log view
 -   Log parser rules can define metrics that are populated from match data
 -   Special NXSL return codes for data collection and transformation scripts (DataCollection::ERROR, DataCollection::NOT_SUPPORTED, DataCollection::NO_SUCH_INSTANCE)
+-   Desktop client can reconnect automatically after short connectivity loss
 
 ## Fixed issues
 
+-   NX-797 (Automatic reconnect of management console)
 -   NX-1935 (Introduce hook script on map regeneration with ability to set link names)
 -   NX-2292 (Automatic maps should not include nodes that are connected through a node that was excluded by filter script)
 -   NX-2323 (Make parameters in all events named)
