@@ -23,6 +23,7 @@
 -   New methods in NXSL class "InetAddress": contains, equals, inRange, sameSubnet
 -   Constructor for NXSL class "InetAddress" accepts mask length as second argument
 -   Fixed incorrect ICMP polling if ICMP proxy set on node level
+-   nxencpasswd can read password from terminal
 
 ## Fixed issues
 
