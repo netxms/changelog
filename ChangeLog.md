@@ -28,6 +28,7 @@
 
 ## Fixed issues
 
+-   NX-2431 (Implement agent list Net.IP.RoutingTable for AIX)
 -   NX-2478 (Named function parameters does not work for entry points)
 
 # 4.4.3
