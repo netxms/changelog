@@ -25,6 +25,7 @@
 -   Fixed incorrect ICMP polling if ICMP proxy set on node level
 -   nxencpasswd can read password from terminal
 -   GUI clients built with patched version of simple-xml (fixes CVE-2017-1000190)
+-   Fixed deadlock after login in legacy web UI
 
 ## Fixed issues
 
