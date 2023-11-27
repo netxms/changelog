@@ -18,11 +18,16 @@
 -   NX-2323 (Make parameters in all events named)
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
 
-# 4.4-SNAPSHOT
+# 4.4.4
 
 -   New methods in NXSL class "InetAddress": contains, equals, inRange, sameSubnet
 -   Constructor for NXSL class "InetAddress" accepts mask length as second argument
 -   Fixed incorrect ICMP polling if ICMP proxy set on node level
+-   Improved topology discovery on TP-Link devices
+-   Improved driver for DLink devices
+-   Added driver for TP-Link devices
+-   Added driver for Eltex devices
+-   Added driver for Q-tech devices
 -   nxencpasswd can read password from terminal
 -   GUI clients built with patched version of simple-xml (fixes CVE-2017-1000190)
 -   Fixed deadlock after login in legacy web UI
