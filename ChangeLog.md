@@ -19,6 +19,18 @@
 -   NX-2323 (Make parameters in all events named)
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
 
+# 4.4.5
+
+-   Fixed server crash on polling TP-Link switches
+-   Fixed bug in dashboard element "status indicator"
+-   Fixed bug in status map view
+-   Fixed bug in database manager check function
+-   Java components switched to logback 1.3.13 (fixes CVE-2023-6378)
+
+## Fixed issues
+
+-   NX-2479 (Misleading error messages when loading properties for root objects)
+
 # 4.4.4
 
 -   New methods in NXSL class "InetAddress": contains, equals, inRange, sameSubnet
