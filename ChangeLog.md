@@ -22,14 +22,19 @@
 
 # 4.4.5
 
+-   Improved SNMP proxy performance under heavy load
+-   Added limit on number of nested NXSL VMs (to prevent accidential infinite loop of script execution)
 -   Fixed server crash on polling TP-Link switches
 -   Fixed bug in dashboard element "status indicator"
 -   Fixed bug in status map view
 -   Fixed bug in database manager check function
+-   Fixed "Failed to register resource" error in web UI
+-   Fixed database import/migration to TimescaleDB
 -   Java components switched to logback 1.3.13 (fixes CVE-2023-6378)
 
 ## Fixed issues
 
+-   NX-2465 (List of saved queries in Tools->Find Object is not updated when query list is altered in Configuration)
 -   NX-2479 (Misleading error messages when loading properties for root objects)
 
 # 4.4.4
