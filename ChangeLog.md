@@ -18,7 +18,9 @@
 -   NX-2292 (Automatic maps should not include nodes that are connected through a node that was excluded by filter script)
 -   NX-2323 (Make parameters in all events named)
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
+-   NX-2412 (Separate access right for editing agent configuration file)
 -   NX-2444 (On demand background external metrics)
+-   NX-2481 (Add ability to manually poll network map generation)
 
 # 4.4.5
 
