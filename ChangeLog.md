@@ -1,10 +1,8 @@
 # 5.0.0-SNAPSHOT
 
 -   Major overhaul of sensor objects
--   New method "join" in NXSL arrays
 -   Many NXSL function deprecated in favor of object methods
 -   Improved NXSL classes and functions for date/time handling
--   New NXSL operation "?." (safe dereference)
 -   Add option to check Alarm details from alarm log view
 -   Log parser rules can define metrics that are populated from match data
 -   Special NXSL return codes for data collection and transformation scripts (DataCollection::ERROR, DataCollection::NOT_SUPPORTED, DataCollection::NO_SUCH_INSTANCE)
@@ -18,9 +16,17 @@
 -   NX-2292 (Automatic maps should not include nodes that are connected through a node that was excluded by filter script)
 -   NX-2323 (Make parameters in all events named)
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
--   NX-2412 (Separate access right for editing agent configuration file)
 -   NX-2444 (On demand background external metrics)
 -   NX-2481 (Add ability to manually poll network map generation)
+
+# 4.5.0-SNAPSHOT
+
+-   New NXSL operation "?." (safe dereference)
+-   New method "join" in NXSL arrays
+
+## Fixed issues
+
+-   NX-2412 (Separate access right for editing agent configuration file)
 
 # 4.4.5
 
