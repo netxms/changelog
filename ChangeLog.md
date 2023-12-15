@@ -23,10 +23,12 @@
 
 -   New NXSL operation "?." (safe dereference)
 -   New method "join" in NXSL arrays
+-   Updated drivers for Eltex and TP-Link switches
 
 ## Fixed issues
 
 -   NX-2412 (Separate access right for editing agent configuration file)
+-   NX-2440 (Wildcard imports in NXSL)
 
 # 4.4.5
 
