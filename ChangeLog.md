@@ -27,8 +27,10 @@
 
 ## Fixed issues
 
+-   NX-1409 (Implement separate access right for editing object comments)
 -   NX-2412 (Separate access right for editing agent configuration file)
 -   NX-2440 (Wildcard imports in NXSL)
+-   NX-2487 (Any changes to object from UI or via Java API wipe out responsible users list)
 
 # 4.4.5
 
