@@ -25,6 +25,7 @@
 -   New method "join" in NXSL arrays
 -   Additional argument in NXSL method createSNMPTransport to control if it should fail when node is marked as unreachable via SNMP
 -   Updated drivers for Eltex and TP-Link switches
+-   Added agent metric Agent.LocalDatabase.FileSize
 -   Fixed internal metrics PollTime.\*
 
 ## Fixed issues
