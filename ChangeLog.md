@@ -5,7 +5,7 @@
 -   Improved NXSL classes and functions for date/time handling
 -   Add option to check Alarm details from alarm log view
 -   Log parser rules can define metrics that are populated from match data
--   Special NXSL return codes for data collection and transformation scripts (DataCollection::ERROR, DataCollection::NOT_SUPPORTED, DataCollection::NO_SUCH_INSTANCE)
+-   Special NXSL return codes for data collection and transformation scripts (DataCollection::ERROR, DataCollection::NOT\_SUPPORTED, DataCollection::NO\_SUCH\_INSTANCE)
 -   Desktop client can reconnect automatically after short connectivity loss
 
 ## Fixed issues
@@ -24,6 +24,7 @@
 -   New NXSL operation "?." (safe dereference)
 -   New method "join" in NXSL arrays
 -   Updated drivers for Eltex and TP-Link switches
+-   Fixed internal metrics PollTime.\*
 
 ## Fixed issues
 
