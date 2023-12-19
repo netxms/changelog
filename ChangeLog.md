@@ -23,6 +23,7 @@
 
 -   New NXSL operation "?." (safe dereference)
 -   New method "join" in NXSL arrays
+-   Additional argument in NXSL method createSNMPTransport to control if it should fail when node is marked as unreachable via SNMP
 -   Updated drivers for Eltex and TP-Link switches
 -   Fixed internal metrics PollTime.\*
 
