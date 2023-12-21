@@ -21,6 +21,7 @@
 
 # 4.5.0-SNAPSHOT
 
+-   XPath can be used for querying XML-based web services
 -   New NXSL operation "?." (safe dereference)
 -   New method "join" in NXSL arrays
 -   Additional argument in NXSL method createSNMPTransport to control if it should fail when node is marked as unreachable via SNMP
@@ -33,6 +34,7 @@
 -   NX-1409 (Implement separate access right for editing object comments)
 -   NX-2412 (Separate access right for editing agent configuration file)
 -   NX-2440 (Wildcard imports in NXSL)
+-   NX-2485 (XPath support in web service queries)
 -   NX-2487 (Any changes to object from UI or via Java API wipe out responsible users list)
 
 # 4.4.5
