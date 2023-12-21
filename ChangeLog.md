@@ -24,6 +24,7 @@
 -   XPath can be used for querying XML-based web services
 -   New NXSL operation "?." (safe dereference)
 -   New method "join" in NXSL arrays
+-   Server-side custom attributes (not visible by clients)
 -   Additional argument in NXSL method createSNMPTransport to control if it should fail when node is marked as unreachable via SNMP
 -   Updated drivers for Eltex and TP-Link switches
 -   Added agent metric Agent.LocalDatabase.FileSize
