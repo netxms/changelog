@@ -19,6 +19,10 @@
 -   NX-2444 (On demand background external metrics)
 -   NX-2481 (Add ability to manually poll network map generation)
 
+# 4.5.1-SNAPSHOT
+
+-   Chart height in performance view automatically adjusted to accomodate large legend
+
 # 4.5.0
 
 -   XPath can be used for querying XML-based web services
@@ -33,9 +37,9 @@
 ## Fixed issues
 
 -   NX-1409 (Implement separate access right for editing object comments)
+-   NX-2275 (Option for ignoring interfaces in NOT PRESENT state)
 -   NX-2412 (Separate access right for editing agent configuration file)
 -   NX-2440 (Wildcard imports in NXSL)
--   NX-2275 (Option for ignoring interfaces in NOT PRESENT state)
 -   NX-2485 (XPath support in web service queries)
 -   NX-2487 (Any changes to object from UI or via Java API wipe out responsible users list)
 
