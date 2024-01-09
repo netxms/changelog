@@ -22,6 +22,7 @@
 
 # 4.5.1-SNAPSHOT
 
+-   Driver for Edgecore enterprise switches
 -   Chart height in performance view automatically adjusted to accomodate large legend
 
 # 4.5.0
