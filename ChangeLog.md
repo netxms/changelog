@@ -25,6 +25,7 @@
 -   Driver for Edgecore enterprise switches
 -   Chart height in performance view automatically adjusted to accomodate large legend
 -   New NXSL class "MacAddress"
+-   Context object views can be hidden
 
 # 4.5.0
 
