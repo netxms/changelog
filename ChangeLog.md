@@ -26,6 +26,7 @@
 -   Chart height in performance view automatically adjusted to accomodate large legend
 -   New NXSL class "MacAddress"
 -   Context object views can be hidden
+-   Configurable timeout for client session first packet
 
 # 4.5.0
 
