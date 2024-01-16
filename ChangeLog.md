@@ -28,6 +28,10 @@
 -   Context object views can be hidden
 -   Configurable timeout for client session first packet
 
+## Fixed issues
+
+-   NX-2493 (Activation / Deactivation event not shown in threshold editor)
+
 # 4.5.0
 
 -   XPath can be used for querying XML-based web services
