@@ -23,6 +23,7 @@
 # 4.5.1-SNAPSHOT
 
 -   Driver for Edgecore enterprise switches
+-   Driver for HPE Aruba Networking switches and wireless controllers
 -   Chart height in performance view automatically adjusted to accomodate large legend
 -   New NXSL class "MacAddress"
 -   Context object views can be hidden
