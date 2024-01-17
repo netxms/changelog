@@ -30,6 +30,7 @@
 
 ## Fixed issues
 
+-   NX-2491 (Add alarm category attribute to NXSL alarm class)
 -   NX-2493 (Activation / Deactivation event not shown in threshold editor)
 
 # 4.5.0
