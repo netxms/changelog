@@ -26,6 +26,7 @@
 -   Driver for HPE Aruba Networking switches and wireless controllers
 -   Chart height in performance view automatically adjusted to accomodate large legend
 -   New NXSL class "MacAddress"
+-   Attribute "state" of NXSL class "AccessPoint" renamed to "apState" (to avoid conflict with attribute "state" from parent class)
 -   Context object views can be hidden
 -   Configurable timeout for client session first packet
 
