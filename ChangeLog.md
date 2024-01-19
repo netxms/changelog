@@ -6,6 +6,7 @@
 -   Add option to check Alarm details from alarm log view
 -   Log parser rules can define metrics that are populated from match data
 -   Special NXSL return codes for data collection and transformation scripts (DataCollection::ERROR, DataCollection::NOT\_SUPPORTED, DataCollection::NO\_SUCH\_INSTANCE)
+-   "Stop" function in script executor view
 -   Desktop client can reconnect automatically after short connectivity loss
 -   New agent metric File.Hash.SHA256
 
