@@ -9,6 +9,7 @@
 -   "Stop" function in script executor view
 -   Desktop client can reconnect automatically after short connectivity loss
 -   New agent metric File.Hash.SHA256
+-   New agent list and table Net.IP.Neighbors
 
 ## Fixed issues
 
@@ -21,7 +22,7 @@
 -   NX-2444 (On demand background external metrics)
 -   NX-2481 (Add ability to manually poll network map generation)
 
-# 4.5.1-SNAPSHOT
+# 4.5.1
 
 -   Driver for Edgecore enterprise switches
 -   Driver for HPE Aruba Networking switches and wireless controllers
@@ -30,7 +31,12 @@
 -   Attribute "state" of NXSL class "AccessPoint" renamed to "apState" (to avoid conflict with attribute "state" from parent class)
 -   Context object views can be hidden
 -   Configurable timeout for client session first packet
+-   Improved VLAN handling by generic driver
+-   Updated Eltex driver
 -   Fix missing object synchronization for ad-hock maps (drill down)
+-   Fixed server crash when interface list cannot be read from SNMP device and option to ignore interfaces in NOT PRESENT state is on
+-   Fixed bug in EPP rule copying
+-   Fixed line numbering bug in desktop UI script editor
 
 ## Fixed issues
 
