@@ -22,6 +22,17 @@
 -   NX-2444 (On demand background external metrics)
 -   NX-2481 (Add ability to manually poll network map generation)
 
+# 4.5.2
+
+-   Fixed server crash on client session disconnect
+-   Fixed updated issues in new web UI
+-   Cosmetic fixes in UI
+
+## Fixed issues
+
+-   NX-2490 (Server tries to read from tdata_xxxx table when TimescaleDB is used as backend)
+-   NX-2502 (nxagentd uses UDP port 4700 to exchange hearthbeat messages and listens on address 0.0.0.0)
+
 # 4.5.1
 
 -   Driver for Edgecore enterprise switches
