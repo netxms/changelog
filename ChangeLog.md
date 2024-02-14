@@ -22,6 +22,16 @@
 -   NX-2444 (On demand background external metrics)
 -   NX-2481 (Add ability to manually poll network map generation)
 
+# 4.5.3
+
+-   Fixed server crash during passive network discovery
+-   Fixed bug in dashboard chart data source editor
+-   Fixed bug in TCP proxy session setup
+
+## Fixed issues
+
+-   NX-2509 (productVersion does not display value correctly with Ethernet-IP)
+
 # 4.5.2
 
 -   Fixed server crash on client session disconnect
