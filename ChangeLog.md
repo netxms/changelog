@@ -10,6 +10,7 @@
 -   Desktop client can reconnect automatically after short connectivity loss
 -   New agent metric File.Hash.SHA256
 -   New agent list and table Net.IP.Neighbors
+-   Index property displayed in MIB browser
 
 ## Fixed issues
 
