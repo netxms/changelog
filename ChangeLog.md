@@ -23,6 +23,10 @@
 -   NX-2444 (On demand background external metrics)
 -   NX-2481 (Add ability to manually poll network map generation)
 
+# 4.5.4-SNAPSHOT
+
+-   Improved Juniper driver
+
 # 4.5.3
 
 -   Fixed server crash during passive network discovery
