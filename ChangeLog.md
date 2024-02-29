@@ -1,5 +1,6 @@
 # 5.0.0-SNAPSHOT
 
+-   Reworked monitoring of wireless access points and controllers
 -   Major overhaul of sensor objects
 -   Many NXSL function deprecated in favor of object methods
 -   Improved NXSL classes and functions for date/time handling
@@ -11,6 +12,8 @@
 -   New agent metric File.Hash.SHA256
 -   New agent list and table Net.IP.Neighbors
 -   Index property displayed in MIB browser
+-   Root object can be set for object query
+-   Improved SNMP trap processing performance
 
 ## Fixed issues
 
@@ -26,6 +29,9 @@
 # 4.5.4-SNAPSHOT
 
 -   Improved Juniper driver
+-   Improved integration with ticketing system Redmine
+-   Fixed build errors on Solaris 11.4 with Solaris Studio 12.6
+-   Fixed memory leak in web UI (server side)
 
 # 4.5.3
 
