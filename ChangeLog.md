@@ -36,6 +36,11 @@
 -   Fixed build errors on Solaris 11.4 with Solaris Studio 12.6
 -   Fixed memory leak in web UI (server side)
 
+## Fixed issues
+
+-   NX-2492 (Custom attribute inheritance conflict not detected)
+-   NX-2515 (Inherited object custom attributes not deleted from children)
+
 # 4.5.3
 
 -   Fixed server crash during passive network discovery
