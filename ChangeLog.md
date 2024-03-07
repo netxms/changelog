@@ -29,12 +29,13 @@
 -   NX-2444 (On demand background external metrics)
 -   NX-2481 (Add ability to manually poll network map generation)
 
-# 4.5.4-SNAPSHOT
+# 4.5.4
 
 -   Improved Juniper driver
 -   Improved integration with ticketing system Redmine
 -   Fixed build errors on Solaris 11.4 with Solaris Studio 12.6
 -   Fixed memory leak in web UI (server side)
+-   Fixed some server performance issues
 
 ## Fixed issues
 
