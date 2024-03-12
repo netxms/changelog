@@ -29,6 +29,11 @@
 -   NX-2444 (On demand background external metrics)
 -   NX-2481 (Add ability to manually poll network map generation)
 
+# 4.5.5-SNAPSHOT
+
+-   Fixed scheduled file upload
+-   Fixed policy apply on object selection change
+
 # 4.5.4
 
 -   Improved Juniper driver
