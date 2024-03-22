@@ -33,6 +33,8 @@
 
 -   Fixed scheduled file upload
 -   Fixed policy apply on object selection change
+-   Fixed custom attribute conflict propagation and conflict removal
+-   Updated ocupa subagent dependency versions
 
 # 4.5.4
 
