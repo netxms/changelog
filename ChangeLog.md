@@ -17,6 +17,7 @@
 -   Index property displayed in MIB browser
 -   Root object can be set for object query
 -   Improved SNMP trap processing performance
+-   New log parser file option "removeEscapeSequences"
 
 ## Fixed issues
 
@@ -29,12 +30,14 @@
 -   NX-2444 (On demand background external metrics)
 -   NX-2481 (Add ability to manually poll network map generation)
 
-# 4.5.5-SNAPSHOT
+# 4.5.5
 
 -   Fixed scheduled file upload
 -   Fixed policy apply on object selection change
 -   Fixed custom attribute conflict propagation and conflict removal
--   Updated ocupa subagent dependency versions
+-   Updated OPC UA subagent dependencies
+-   New agent metrics System.CurrentTime.ISO8601.Local, System.CurrentTime.ISO8601.UTC, and System.TimeZoneOffset
+-   Bundled zlib updated to latest version
 
 # 4.5.4
 
