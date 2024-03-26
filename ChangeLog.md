@@ -35,6 +35,7 @@
 -   Fixed scheduled file upload
 -   Fixed policy apply on object selection change
 -   Fixed custom attribute conflict propagation and conflict removal
+-   Fixed agent crash on empty output from external table provider
 -   Updated OPC UA subagent dependencies
 -   New agent metrics System.CurrentTime.ISO8601.Local, System.CurrentTime.ISO8601.UTC, and System.TimeZoneOffset
 -   Bundled zlib updated to latest version
