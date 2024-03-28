@@ -37,13 +37,14 @@
 -   Fixed policy apply on object selection change
 -   Fixed custom attribute conflict propagation and conflict removal
 -   Fixed agent crash on empty output from external table provider
+-   Fixed bug in pin/popup agent file view
 -   Updated OPC UA subagent dependencies
 -   New agent metrics System.CurrentTime.ISO8601.Local, System.CurrentTime.ISO8601.UTC, and System.TimeZoneOffset
 -   Bundled zlib updated to latest version
 -   Print exception trace replaced by error logging
 -   Disable walk action on root object in mib browser
 -   Business service polls can be disabled or will not be executed if object is unmanaged
--   Added peer certififcate verification for notification channels 
+-   Added peer certificate verification for notification channels 
 
 # 4.5.4
 
