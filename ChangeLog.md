@@ -19,6 +19,7 @@
 -   Improved SNMP trap processing performance
 -   New log parser file option "removeEscapeSequences"
 -   Added peer certififcate verification issue tracker integration
+-   Housekeeper scripts (NXSL and SQL)
 
 ## Fixed issues
 
@@ -45,6 +46,11 @@
 -   Disable walk action on root object in mib browser
 -   Business service polls can be disabled or will not be executed if object is unmanaged
 -   Added peer certificate verification for notification channels 
+
+## Fixed issues
+
+-   NX-2511 (In repeating events, you can specify no more than 5 characters, sometimes more is needed)
+-   NX-2516 (CURLAUTH_NEGOTIATE in not available in libCURL 7.29.0)
 
 # 4.5.4
 
