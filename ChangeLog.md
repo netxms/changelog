@@ -32,6 +32,17 @@
 -   NX-2444 (On demand background external metrics)
 -   NX-2481 (Add ability to manually poll network map generation)
 
+# 4.5.6
+
+-   Fixed bug in background task scheduler
+-   Fixed bug in reporting access control
+-   Fixed minor memory leak in server
+-   Fixed event storm detection event generation
+-   Improved housekeeper throttling logic
+-   User-defined scripts for housekeeper
+-   Object context menu available in alarm view
+-   Call for DCI status change added to web API
+
 # 4.5.5
 
 -   Fixed scheduled file upload
