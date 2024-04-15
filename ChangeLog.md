@@ -25,7 +25,9 @@
 
 -   NX-797 (Automatic reconnect of management console)
 -   NX-1790 (Drag-n-dropped object are positioned to wrong place when map is scrolled down or right)
+-   NX-1870 (Representation of float DCI that gets string data as input)
 -   NX-1935 (Introduce hook script on map regeneration with ability to set link names)
+-   NX-2076 (Raw value should be always displayed as string)
 -   NX-2292 (Automatic maps should not include nodes that are connected through a node that was excluded by filter script)
 -   NX-2323 (Make parameters in all events named)
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
@@ -38,6 +40,8 @@
 -   Fixed bug in reporting access control
 -   Fixed minor memory leak in server
 -   Fixed event storm detection event generation
+-   Fixed incorrect notification popup size calculation in user agent
+-   Fixed bug in NXSL function CreateUserAgentNotification
 -   Improved housekeeper throttling logic
 -   User-defined scripts for housekeeper
 -   Object context menu available in alarm view
