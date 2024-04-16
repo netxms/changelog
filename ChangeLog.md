@@ -20,6 +20,10 @@
 -   New log parser file option "removeEscapeSequences"
 -   Added peer certififcate verification issue tracker integration
 -   Housekeeper scripts (NXSL and SQL)
+-   Improved REST API
+-   Introduces new Collector class
+-   Added network map link styling script
+-   Added Delegate access to give user access to see an object on network maps without giving read access to the object 
 
 ## Fixed issues
 
@@ -27,9 +31,11 @@
 -   NX-1790 (Drag-n-dropped object are positioned to wrong place when map is scrolled down or right)
 -   NX-1870 (Representation of float DCI that gets string data as input)
 -   NX-1935 (Introduce hook script on map regeneration with ability to set link names)
+-   NX-2006 (Remove example event templates (code 4000-4011) from database)
 -   NX-2076 (Raw value should be always displayed as string)
 -   NX-2292 (Automatic maps should not include nodes that are connected through a node that was excluded by filter script)
 -   NX-2323 (Make parameters in all events named)
+-   NX-2343 (Several changes in NXSL syntax in v 5.0)
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
 -   NX-2444 (On demand background external metrics)
 -   NX-2481 (Add ability to manually poll network map generation)
