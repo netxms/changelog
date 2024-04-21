@@ -39,6 +39,7 @@
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
 -   NX-2444 (On demand background external metrics)
 -   NX-2481 (Add ability to manually poll network map generation)
+-   NX-2523 (New agent metric Process.MemoryUsage (percentage of memory used by process))
 
 # 4.5.6
 
