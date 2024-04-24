@@ -40,6 +40,7 @@
 -   NX-2444 (On demand background external metrics)
 -   NX-2455 (Ability to check TLS.Certificate.\* for protocols with STARTTLS command)
 -   NX-2481 (Add ability to manually poll network map generation)
+-   NX-2507 (Add ability to cancel timers from NXSL)
 -   NX-2523 (New agent metric Process.MemoryUsage (percentage of memory used by process))
 -   NX-2525 (Add the ability to specify multiplier values in threshold)
 
