@@ -36,6 +36,7 @@
 -   NX-2292 (Automatic maps should not include nodes that are connected through a node that was excluded by filter script)
 -   NX-2323 (Make parameters in all events named)
 -   NX-2343 (Several changes in NXSL syntax in v 5.0)
+-   NX-2375 (Use "varchar(max)" instead of "text" on Microsoft SQL Server)
 -   NX-2403 (Add support for AES-192 and AES-256 in SNMPv3)
 -   NX-2444 (On demand background external metrics)
 -   NX-2455 (Ability to check TLS.Certificate.\* for protocols with STARTTLS command)
