@@ -44,6 +44,7 @@
 -   NX-2507 (Add ability to cancel timers from NXSL)
 -   NX-2523 (New agent metric Process.MemoryUsage (percentage of memory used by process))
 -   NX-2525 (Add the ability to specify multiplier values in threshold)
+-   NX-2526 (When editing a template with a DCI without instance to use instance - DCI becomes unsupported)
 
 # 4.5.6
 
