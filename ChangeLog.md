@@ -43,6 +43,7 @@
 -   NX-2481 (Add ability to manually poll network map generation)
 -   NX-2507 (Add ability to cancel timers from NXSL)
 -   NX-2523 (New agent metric Process.MemoryUsage (percentage of memory used by process))
+-   NX-2524 (Option to disable threshold without deleting it)
 -   NX-2525 (Add the ability to specify multiplier values in threshold)
 -   NX-2526 (When editing a template with a DCI without instance to use instance - DCI becomes unsupported)
 
