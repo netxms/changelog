@@ -24,6 +24,7 @@
 -   Housekeeper scripts (NXSL and SQL)
 -   Improved REST API
 -   Introduces new object class "Collector"
+-   Downtime log controlled by EPP
 
 ## Fixed issues
 
