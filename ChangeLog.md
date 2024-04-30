@@ -1,11 +1,13 @@
-# 5.0.0-SNAPSHOT
+# 5.0.0
 
 -   Improved network maps
+-   Added network map link styling script
+-   Delegate access option that allows read access to network maps without full read access to objects on a map
 -   Reworked monitoring of wireless access points and controllers
 -   Major overhaul of sensor objects
 -   Many NXSL function deprecated in favor of object methods
 -   Improved NXSL classes and functions for date/time handling
--   Add option to check Alarm details from alarm log view
+-   Add option to check alarm details from alarm log view
 -   Log parser rules can define metrics that are populated from match data
 -   Special NXSL return codes for data collection and transformation scripts (DataCollection::ERROR, DataCollection::NOT\_SUPPORTED, DataCollection::NO\_SUCH\_INSTANCE)
 -   New NXSL function FindAccessPointByMACAddress
@@ -21,9 +23,7 @@
 -   Added peer certififcate verification issue tracker integration
 -   Housekeeper scripts (NXSL and SQL)
 -   Improved REST API
--   Introduces new Collector class
--   Added network map link styling script
--   Added Delegate access to give user access to see an object on network maps without giving read access to the object 
+-   Introduces new object class "Collector"
 
 ## Fixed issues
 
@@ -42,6 +42,7 @@
 -   NX-2455 (Ability to check TLS.Certificate.\* for protocols with STARTTLS command)
 -   NX-2481 (Add ability to manually poll network map generation)
 -   NX-2507 (Add ability to cancel timers from NXSL)
+-   NX-2520 (Remove "Channel name" selector from "Send notification" dialog)
 -   NX-2523 (New agent metric Process.MemoryUsage (percentage of memory used by process))
 -   NX-2524 (Option to disable threshold without deleting it)
 -   NX-2525 (Add the ability to specify multiplier values in threshold)
