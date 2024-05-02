@@ -20,7 +20,7 @@
 -   Root object can be set for object query
 -   Improved SNMP trap processing performance
 -   New log parser file option "removeEscapeSequences"
--   Added peer certififcate verification issue tracker integration
+-   Added peer certificate verification in ticketing system connectors
 -   Housekeeper scripts (NXSL and SQL)
 -   Improved REST API
 -   Introduces new object class "Collector"
