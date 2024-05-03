@@ -1,3 +1,8 @@
+# 5.0.1
+
+-   Fixed bug in database upgrade procedure
+-   Added CSV export in alarm viewer and agent tunnel manager
+
 # 5.0.0
 
 -   Improved network maps
