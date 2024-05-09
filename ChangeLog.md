@@ -1,3 +1,7 @@
+# 5.0.3
+
+-   Notification channel driver "Shell" escapes single quote character during exec-type command line expansion
+
 # 5.0.2
 
 -   Fixed bug in database upgrade procedure
