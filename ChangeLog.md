@@ -1,6 +1,7 @@
 # 5.0.3
 
 -   Notification channel driver "Shell" escapes single quote character during exec-type command line expansion
+-   Priority inclusion rules in UI element filter
 
 # 5.0.2
 
