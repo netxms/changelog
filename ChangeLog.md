@@ -4,6 +4,13 @@
 -   Priority inclusion rules in UI element filter
 -   Macro expansion in API call executeLibraryScript works for all object classes
 -   Improved handling of large number of simultaneous ICMP ping requests
+-   Fixed bug in database upgrade procedure
+-   Fixed deadlock in web UI
+
+## Fixed issues
+
+-   NX-2521 (ICMP.PacketLoss internal DCI collects 0 after server restart)
+-   NX-2529 (Option to enable/disable Version Number on Web interface)
 
 # 5.0.2
 
@@ -97,7 +104,7 @@
 ## Fixed issues
 
 -   NX-2511 (In repeating events, you can specify no more than 5 characters, sometimes more is needed)
--   NX-2516 (CURLAUTH_NEGOTIATE in not available in libCURL 7.29.0)
+-   NX-2516 (CURLAUTH\_NEGOTIATE in not available in libCURL 7.29.0)
 
 # 4.5.4
 
