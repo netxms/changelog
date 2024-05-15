@@ -2,6 +2,8 @@
 
 -   Notification channel driver "Shell" escapes single quote character during exec-type command line expansion
 -   Priority inclusion rules in UI element filter
+-   Macro expansion in API call executeLibraryScript works for all object classes
+-   Improved handling of large number of simultaneous ICMP ping requests
 
 # 5.0.2
 
