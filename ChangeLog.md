@@ -1,6 +1,7 @@
 # 5.0.4
 
 -   New SNMP DCI option "Interpret raw value as IPv6 address"
+-   Fixed server crash when accessing alarm category list from NXSL
 
 ## Fixed issues
 
