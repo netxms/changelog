@@ -2,6 +2,8 @@
 
 -   New SNMP DCI option "Interpret raw value as IPv6 address"
 -   Fixed server crash when accessing alarm category list from NXSL
+-   Fixed drawing issues of line charts with logarithmic scale
+-   Fixed incorrect line numbers in NXSL error messages
 
 ## Fixed issues
 
