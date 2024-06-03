@@ -4,6 +4,7 @@
 -   Fixed server crash when accessing alarm category list from NXSL
 -   Fixed drawing issues of line charts with logarithmic scale
 -   Fixed incorrect line numbers in NXSL error messages
+-   Fixed bug in "Go to object" action in UI
 
 ## Fixed issues
 
