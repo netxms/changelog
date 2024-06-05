@@ -1,10 +1,12 @@
 # 5.0.4
 
 -   New SNMP DCI option "Interpret raw value as IPv6 address"
+-   Added driver for GE MDS Orbit devices
 -   Fixed server crash when accessing alarm category list from NXSL
 -   Fixed drawing issues of line charts with logarithmic scale
 -   Fixed incorrect line numbers in NXSL error messages
 -   Fixed bug in "Go to object" action in UI
+-   Fixed bug in D-Link driver
 
 ## Fixed issues
 
