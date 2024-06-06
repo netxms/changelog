@@ -2,18 +2,19 @@
 
 -   New SNMP DCI option "Interpret raw value as IPv6 address"
 -   Added driver for GE MDS Orbit devices
+-   Added driver for EtherWan switches
+-   Added "move object" item to object context menu
+-   Seed node propery page removed for custom network maps
 -   Fixed server crash when accessing alarm category list from NXSL
 -   Fixed drawing issues of line charts with logarithmic scale
 -   Fixed incorrect line numbers in NXSL error messages
 -   Fixed bug in "Go to object" action in UI
 -   Fixed bug in D-Link driver
 -   Fixed interface utilization information sychronization 
--   Added move object menu item
 -   Fixed network map color source selection
 -   Fixed historical line chart pop-out on web
 -   Fixed save of network map object position
 -   Fixed tables display glitch on Windows
--   Seed node propery page removed for custom network maps
 -   Fixed "Objects.NetworkMaps.UpdateInterval" configuration variable type
 
 ## Fixed issues
