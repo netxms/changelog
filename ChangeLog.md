@@ -4,6 +4,8 @@
 -   Added driver for GE MDS Orbit devices
 -   Added driver for EtherWan switches
 -   Added driver for Siemens RuggedCom switches
+-   Mikrotik driver reports RSSI for wireless clients
+-   RSSI is displayed in "Wireless Stations" view
 -   Added "move object" item to object context menu
 -   Seed node propery page removed for custom network maps
 -   Fixed server crash when accessing alarm category list from NXSL
@@ -16,7 +18,7 @@
 -   Fixed historical line chart pop-out on web
 -   Fixed save of network map object position
 -   Fixed tables display glitch on Windows
--   Fixed "Objects.NetworkMaps.UpdateInterval" configuration variable type
+-   Fixed data type of configuration variable "Objects.NetworkMaps.UpdateInterval"
 
 ## Fixed issues
 
