@@ -3,6 +3,7 @@
 -   New SNMP DCI option "Interpret raw value as IPv6 address"
 -   Added driver for GE MDS Orbit devices
 -   Added driver for EtherWan switches
+-   Added driver for Siemens RuggedCom switches
 -   Added "move object" item to object context menu
 -   Seed node propery page removed for custom network maps
 -   Fixed server crash when accessing alarm category list from NXSL
