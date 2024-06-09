@@ -7,6 +7,7 @@
 -   Mikrotik driver reports RSSI for wireless clients
 -   RSSI is displayed in "Wireless Stations" view
 -   Added "move object" item to object context menu
+-   Optional context selector for dashboards in dashboard perspective
 -   Seed node propery page removed for custom network maps
 -   Fixed server crash when accessing alarm category list from NXSL
 -   Fixed drawing issues of line charts with logarithmic scale
@@ -83,6 +84,7 @@
 -   NX-1870 (Representation of float DCI that gets string data as input)
 -   NX-1935 (Introduce hook script on map regeneration with ability to set link names)
 -   NX-2006 (Remove example event templates (code 4000-4011) from database)
+-   NX-2038 (Optimize network discovery - separate information gathering and decision making)
 -   NX-2076 (Raw value should be always displayed as string)
 -   NX-2292 (Automatic maps should not include nodes that are connected through a node that was excluded by filter script)
 -   NX-2323 (Make parameters in all events named)
