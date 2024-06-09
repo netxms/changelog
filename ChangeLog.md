@@ -23,6 +23,7 @@
 
 ## Fixed issues
 
+-   NX-2489 (Read list of performance counters only when needed)
 -   NX-2536 (SNMP DCI "interpret raw value as MAC address" does not support EUI-64)
 
 # 5.0.3
