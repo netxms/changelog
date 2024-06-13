@@ -1,3 +1,10 @@
+# 5.1.0-SNAPSHOT
+
+## Fixed issues
+
+-   NX-2488 (Use caching when using web service requests in NXSL)
+-   NX-2517 (Linux agent can crash if some CPUs are disabled)
+
 # 5.0.4
 
 -   New SNMP DCI option "Interpret raw value as IPv6 address"
