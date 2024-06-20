@@ -1,5 +1,7 @@
 # 5.1.0-SNAPSHOT
 
+-   Only read access is needed for dashboard context object for scripting dashboard elements
+
 ## Fixed issues
 
 -   NX-2488 (Use caching when using web service requests in NXSL)
