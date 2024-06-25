@@ -6,10 +6,15 @@
 
 -   NX-2488 (Use caching when using web service requests in NXSL)
 -   NX-2517 (Linux agent can crash if some CPUs are disabled)
+-   NX-2541 (All EPP actions should be executed asynchronously)
 
 # 5.0.5
 
 -   L2 network map seeds with no SNMP or L2 data will not prevent network map from update
+-   Server performance improvements
+-   Server actions of types "agent command" and "SSH command" executed asynchronously (partial fix for NX-2541)
+
+## Fixed issues
 
 # 5.0.4
 
