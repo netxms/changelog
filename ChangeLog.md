@@ -16,6 +16,7 @@
 -   Server actions of types "agent command" and "SSH command" executed asynchronously (partial fix for NX-2541)
 -   Fixed server crash during LDAP synchronization
 -   Subnets bound to containers correctly displayed in infrastructure perspective
+-   Predefined maps with default size and background image resized automatically to be no less than image size
 
 ## Fixed issues
 
