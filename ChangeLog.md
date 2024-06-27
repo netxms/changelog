@@ -14,6 +14,8 @@
 -   L2 network map seeds with no SNMP or L2 data will not prevent network map from update
 -   Server performance improvements
 -   Server actions of types "agent command" and "SSH command" executed asynchronously (partial fix for NX-2541)
+-   Fixed server crash during LDAP synchronization
+-   Subnets bound to containers correctly displayed in infrastructure perspective
 
 ## Fixed issues
 
