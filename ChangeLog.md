@@ -6,8 +6,15 @@
 
 -   NX-2458 (Add option to nest context dashboard in dashboard)
 -   NX-2488 (Use caching when using web service requests in NXSL)
+-   NX-2512 (Not able to import columns for table DCI with origin=script)
 -   NX-2517 (Linux agent can crash if some CPUs are disabled)
 -   NX-2541 (All EPP actions should be executed asynchronously)
+
+# 5.0.6
+
+-   Fixed incorrect client IP address reported iby Windows agent in table System.ActiveUserSessions
+-   Fixed bug in output of nxget -U
+-   Fixed web UI crash when opening dashboard in kiosk mode
 
 # 5.0.5
 
