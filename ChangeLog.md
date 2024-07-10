@@ -16,6 +16,10 @@
 -   Fixed bug in output of nxget -U
 -   Fixed web UI crash when opening dashboard in kiosk mode
 
+## Fixed issues
+
+-   NX-2550 (Errors in desktop client log (Widget is disposed))
+
 # 5.0.5
 
 -   L2 network map seeds with no SNMP or L2 data will not prevent network map from update
@@ -24,8 +28,6 @@
 -   Fixed server crash during LDAP synchronization
 -   Subnets bound to containers correctly displayed in infrastructure perspective
 -   Predefined maps with default size and background image resized automatically to be no less than image size
-
-## Fixed issues
 
 # 5.0.4
 
