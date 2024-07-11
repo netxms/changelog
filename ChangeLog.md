@@ -1,6 +1,8 @@
 # 5.1.0-SNAPSHOT
 
+-   New automatic map type "hybrid topology"
 -   Only read access is needed for dashboard context object for scripting dashboard elements
+-   Reading of FDB moved to network device drivers to allow better handling of devices not following standards
 
 ## Fixed issues
 
