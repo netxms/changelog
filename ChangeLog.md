@@ -14,6 +14,7 @@
 
 # 5.0.6
 
+-   Topic support in notification channel driver for Telegram
 -   Fixed incorrect client IP address reported iby Windows agent in table System.ActiveUserSessions
 -   Fixed bug in output of nxget -U
 -   Fixed web UI crash when opening dashboard in kiosk mode
