@@ -14,6 +14,7 @@
 
 # 5.0.6
 
+-   Added notification channel driver for Mattermost
 -   Topic support in notification channel driver for Telegram
 -   Fixed incorrect client IP address reported iby Windows agent in table System.ActiveUserSessions
 -   Fixed bug in output of nxget -U
