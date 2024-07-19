@@ -11,6 +11,7 @@
 -   NX-2512 (Not able to import columns for table DCI with origin=script)
 -   NX-2517 (Linux agent can crash if some CPUs are disabled)
 -   NX-2541 (All EPP actions should be executed asynchronously)
+-   NX-2545 (Exporting a template with big file in a policy causes nxmc to close)
 
 # 5.0.7
 
