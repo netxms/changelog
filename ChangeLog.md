@@ -12,11 +12,17 @@
 -   NX-2517 (Linux agent can crash if some CPUs are disabled)
 -   NX-2541 (All EPP actions should be executed asynchronously)
 
+# 5.0.7
+
+## Fixed issues
+
+-   NX-2557 (Exception in WebUI)
+
 # 5.0.6
 
 -   Added notification channel driver for Mattermost
 -   Topic support in notification channel driver for Telegram
--   Fixed incorrect client IP address reported iby Windows agent in table System.ActiveUserSessions
+-   Fixed incorrect client IP address reported by Windows agent in table System.ActiveUserSessions
 -   Fixed bug in output of nxget -U
 -   Fixed web UI crash when opening dashboard in kiosk mode
 
