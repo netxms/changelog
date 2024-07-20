@@ -3,9 +3,11 @@
 -   New automatic map type "hybrid topology"
 -   Only read access is needed for dashboard context object for scripting dashboard elements
 -   Reading of FDB moved to network device drivers to allow better handling of devices not following standards
+-   Peer information on interfaces can be set and cleared manually
 
 ## Fixed issues
 
+-   NX-1973 (Add ability to manually specify a peer for an interface)
 -   NX-2458 (Add option to nest context dashboard in dashboard)
 -   NX-2488 (Use caching when using web service requests in NXSL)
 -   NX-2512 (Not able to import columns for table DCI with origin=script)
@@ -13,7 +15,9 @@
 -   NX-2541 (All EPP actions should be executed asynchronously)
 -   NX-2545 (Exporting a template with big file in a policy causes nxmc to close)
 
-# 5.0.7
+# 5.0.7-SNAPSHOT
+
+-   Fixed incorrect Windows Remote Desktop session color depth reported by agent
 
 ## Fixed issues
 
