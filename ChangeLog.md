@@ -4,20 +4,29 @@
 -   Only read access is needed for dashboard context object for scripting dashboard elements
 -   Reading of FDB moved to network device drivers to allow better handling of devices not following standards
 -   Peer information on interfaces can be set and cleared manually
+-   Added down since nxsl parameter to access point
+-   Vlans view merged in to the Ports view
+-   New console usability improvments
+-   Added option to show physical links on L2 ad-hoc map
+-   L2 predefined map will not cache results, only ad-hock map results are cached
+-   Unreachable node will be tested for all protocols in each configuration poll  
 
 ## Fixed issues
 
+-   NX-1118 (Add "hide link labels" option for network map dashboard elements)
 -   NX-1973 (Add ability to manually specify a peer for an interface)
 -   NX-2458 (Add option to nest context dashboard in dashboard)
 -   NX-2488 (Use caching when using web service requests in NXSL)
 -   NX-2512 (Not able to import columns for table DCI with origin=script)
 -   NX-2517 (Linux agent can crash if some CPUs are disabled)
+-   NX-2535 (Replace drop down with radio buttons in EPP rule Downtime Control)
 -   NX-2541 (All EPP actions should be executed asynchronously)
 -   NX-2545 (Exporting a template with big file in a policy causes nxmc to close)
 
 # 5.0.7-SNAPSHOT
 
 -   Fixed incorrect Windows Remote Desktop session color depth reported by agent
+-   Fixed buffer overflow for IPv6 IP addresses print in log
 
 ## Fixed issues
 
