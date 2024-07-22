@@ -9,6 +9,7 @@
 -   New console usability improvments
 -   Added option to show physical links on L2 ad-hoc map
 -   L2 predefined map will not cache results, only ad-hock map results are cached
+-   More accurate ad-hoc IP topology maps
 -   Unreachable node will be tested for all protocols in each configuration poll  
 
 ## Fixed issues
