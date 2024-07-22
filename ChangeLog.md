@@ -13,6 +13,7 @@
 
 ## Fixed issues
 
+-   NX-968 (Remove Peer from unmanaged interface)
 -   NX-1118 (Add "hide link labels" option for network map dashboard elements)
 -   NX-1973 (Add ability to manually specify a peer for an interface)
 -   NX-2458 (Add option to nest context dashboard in dashboard)
