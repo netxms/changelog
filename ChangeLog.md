@@ -35,6 +35,7 @@
 ## Fixed issues
 
 -   NX-2549 (Exception in AlarmNotifier)
+-   NX-2553 (New agent action - show running configuration)
 -   NX-2557 (Exception in WebUI)
 
 # 5.0.6
