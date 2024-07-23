@@ -22,6 +22,7 @@
 -   NX-2512 (Not able to import columns for table DCI with origin=script)
 -   NX-2517 (Linux agent can crash if some CPUs are disabled)
 -   NX-2535 (Replace drop down with radio buttons in EPP rule Downtime Control)
+-   NX-2540 (Add $map object for use in map filter script)
 -   NX-2541 (All EPP actions should be executed asynchronously)
 -   NX-2544 (New agent metrics for counting online and offline CPUs)
 -   NX-2545 (Exporting a template with big file in a policy causes nxmc to close)
