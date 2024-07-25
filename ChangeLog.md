@@ -30,6 +30,7 @@
 
 # 5.0.7-SNAPSHOT
 
+-   Server configuration option to enable agent tunnel binding using only tunnel's source IP address
 -   Fixed incorrect Windows Remote Desktop session color depth reported by agent
 -   Fixed buffer overflow for IPv6 IP addresses print in log
 -   Fixed top level object display issues in "Infrastructure" perspective
