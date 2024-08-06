@@ -40,6 +40,7 @@
 
 ## Fixed issues
 
+-   NX-387 (Tool to read current (loaded) agent config)
 -   NX-2549 (Exception in AlarmNotifier)
 -   NX-2553 (New agent action - show running configuration)
 -   NX-2557 (Exception in WebUI)
@@ -148,6 +149,7 @@
 
 ## Fixed issues
 
+-   NX-480 (Returning "Unsupported" from a script DCI)
 -   NX-797 (Automatic reconnect of management console)
 -   NX-1790 (Drag-n-dropped object are positioned to wrong place when map is scrolled down or right)
 -   NX-1870 (Representation of float DCI that gets string data as input)
