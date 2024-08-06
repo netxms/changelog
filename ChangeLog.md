@@ -11,9 +11,12 @@
 -   L2 predefined map will not cache results, only ad-hock map results are cached
 -   More accurate ad-hoc IP topology maps
 -   Unreachable node will be tested for all protocols in each configuration poll  
+-   Improved web UI login pages
+-   Fixed session agent compatibility issues on Windows 11
 
 ## Fixed issues
 
+-   NX-253 (Configurable label for Y axis on line charts)
 -   NX-968 (Remove Peer from unmanaged interface)
 -   NX-1118 (Add "hide link labels" option for network map dashboard elements)
 -   NX-1973 (Add ability to manually specify a peer for an interface)
