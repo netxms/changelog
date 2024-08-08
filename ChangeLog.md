@@ -42,6 +42,7 @@
 ## Fixed issues
 
 -   NX-387 (Tool to read current (loaded) agent config)
+-   NX-937 (Copy DCI value from object overview)
 -   NX-2549 (Exception in AlarmNotifier)
 -   NX-2553 (New agent action - show running configuration)
 -   NX-2557 (Exception in WebUI)
