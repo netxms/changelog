@@ -19,6 +19,7 @@
 -   NX-253 (Configurable label for Y axis on line charts)
 -   NX-968 (Remove Peer from unmanaged interface)
 -   NX-1118 (Add "hide link labels" option for network map dashboard elements)
+-   NX-1617 (Show comments window only if comment present)
 -   NX-1973 (Add ability to manually specify a peer for an interface)
 -   NX-2458 (Add option to nest context dashboard in dashboard)
 -   NX-2488 (Use caching when using web service requests in NXSL)
