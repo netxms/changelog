@@ -172,6 +172,13 @@
 -   NX-2525 (Add the ability to specify multiplier values in threshold)
 -   NX-2526 (When editing a template with a DCI without instance to use instance - DCI becomes unsupported)
 
+# 4.5.7
+
+-   Fixed incorrect LLDP topology information reading on some devices
+-   Fixed background color issue in user agent's notification popup
+-   Fixed memory leak in FreeBSD subagent
+-   Fixed server clock widget in UI for time zones with non-whole hour difference from UTC
+
 # 4.5.6
 
 -   Fixed bug in background task scheduler
