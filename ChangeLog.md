@@ -17,6 +17,7 @@
 ## Fixed issues
 
 -   NX-253 (Configurable label for Y axis on line charts)
+-   NX-834 (DCI Table scroll position in dashboard is reset during refresh)
 -   NX-968 (Remove Peer from unmanaged interface)
 -   NX-1118 (Add "hide link labels" option for network map dashboard elements)
 -   NX-1288 (Fix selection colors in syslog monitor)
