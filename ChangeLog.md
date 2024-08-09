@@ -19,6 +19,8 @@
 -   NX-253 (Configurable label for Y axis on line charts)
 -   NX-968 (Remove Peer from unmanaged interface)
 -   NX-1118 (Add "hide link labels" option for network map dashboard elements)
+-   NX-1288 (Fix selection colors in syslog monitor)
+-   NX-1465 (When MIB browser opened, unfold tree and select longest match of device's SNMP object ID)
 -   NX-1617 (Show comments window only if comment present)
 -   NX-1973 (Add ability to manually specify a peer for an interface)
 -   NX-2458 (Add option to nest context dashboard in dashboard)
@@ -27,10 +29,12 @@
 -   NX-2517 (Linux agent can crash if some CPUs are disabled)
 -   NX-2533 (NXSL global variable that contains object tool input field values)
 -   NX-2535 (Replace drop down with radio buttons in EPP rule Downtime Control)
+-   NX-2538 (Add ability to use IPv4 style netmask in network discovery target properties)
 -   NX-2540 (Add $map object for use in map filter script)
 -   NX-2541 (All EPP actions should be executed asynchronously)
 -   NX-2544 (New agent metrics for counting online and offline CPUs)
 -   NX-2545 (Exporting a template with big file in a policy causes nxmc to close)
+-   NX-2552 (Exception in desktop UI)
 
 # 5.0.7-SNAPSHOT
 
@@ -44,6 +48,7 @@
 -   NX-387 (Tool to read current (loaded) agent config)
 -   NX-937 (Copy DCI value from object overview)
 -   NX-2549 (Exception in AlarmNotifier)
+-   NX-2551 (Desktop UI show same warning in alarm viewer multiple times)
 -   NX-2553 (New agent action - show running configuration)
 -   NX-2557 (Exception in WebUI)
 
