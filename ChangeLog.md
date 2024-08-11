@@ -1,6 +1,7 @@
 # 5.1.0-SNAPSHOT
 
 -   New automatic map type "hybrid topology"
+-   New object class "Circuit"
 -   Only read access is needed for dashboard context object for scripting dashboard elements
 -   Reading of FDB moved to network device drivers to allow better handling of devices not following standards
 -   Peer information on interfaces can be set and cleared manually
@@ -11,6 +12,7 @@
 -   L2 predefined map will not cache results, only ad-hock map results are cached
 -   More accurate ad-hoc IP topology maps
 -   Unreachable node will be tested for all protocols in each configuration poll  
+-   Use inetCidrRouteTable, ipCidrRouteTable, and ipForwardTable in addition to ipRouteTable to get routing information via SNMP
 -   Improved web UI login pages
 -   Fixed session agent compatibility issues on Windows 11
 
@@ -20,7 +22,9 @@
 -   NX-834 (DCI Table scroll position in dashboard is reset during refresh)
 -   NX-968 (Remove Peer from unmanaged interface)
 -   NX-1118 (Add "hide link labels" option for network map dashboard elements)
+-   NX-1200 (New object group - Circuits)
 -   NX-1288 (Fix selection colors in syslog monitor)
+-   NX-1414 (Support for ipCidrRouteTable)
 -   NX-1465 (When MIB browser opened, unfold tree and select longest match of device's SNMP object ID)
 -   NX-1617 (Show comments window only if comment present)
 -   NX-1973 (Add ability to manually specify a peer for an interface)
