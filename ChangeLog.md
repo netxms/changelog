@@ -27,6 +27,7 @@
 -   NX-1414 (Support for ipCidrRouteTable)
 -   NX-1465 (When MIB browser opened, unfold tree and select longest match of device's SNMP object ID)
 -   NX-1617 (Show comments window only if comment present)
+-   NX-1958 (Support custom font for Label in Dashboard)
 -   NX-1973 (Add ability to manually specify a peer for an interface)
 -   NX-2034 (Use RENAME COLUMN on SQLite newer than 3.25.0)
 -   NX-2353 (Add hotkey to start search in "Search IP address" view)
