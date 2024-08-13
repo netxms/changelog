@@ -31,6 +31,7 @@
 -   NX-1973 (Add ability to manually specify a peer for an interface)
 -   NX-2034 (Use RENAME COLUMN on SQLite newer than 3.25.0)
 -   NX-2353 (Add hotkey to start search in "Search IP address" view)
+-   NX-2439 (Implement agent table System.InstalledProducts for ArchLinux)
 -   NX-2458 (Add option to nest context dashboard in dashboard)
 -   NX-2488 (Use caching when using web service requests in NXSL)
 -   NX-2512 (Not able to import columns for table DCI with origin=script)
