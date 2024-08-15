@@ -45,7 +45,7 @@
 -   NX-2545 (Exporting a template with big file in a policy causes nxmc to close)
 -   NX-2552 (Exception in desktop UI)
 
-# 5.0.7-SNAPSHOT
+# 5.0.7
 
 -   Server configuration option to enable agent tunnel binding using only tunnel's source IP address
 -   Fixed incorrect Windows Remote Desktop session color depth reported by agent
