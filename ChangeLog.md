@@ -60,6 +60,7 @@
 -   NX-2551 (Desktop UI show same warning in alarm viewer multiple times)
 -   NX-2553 (New agent action - show running configuration)
 -   NX-2557 (Exception in WebUI)
+-   NX-2559 (Line colors and time frame not saved when double-clicking graphs in Performance tab)
 
 # 5.0.6
 
