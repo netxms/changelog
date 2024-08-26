@@ -46,6 +46,12 @@
 -   NX-2552 (Exception in desktop UI)
 -   NX-2566 (List of packages is not read correctly on linux systems where alien is installed)
 
+# 5.0.8-SNAPSHOT
+
+## Fixed issues
+
+-   NX-2567 (ExternalMetricProvider does not work on Windows)
+
 # 5.0.7
 
 -   Server configuration option to enable agent tunnel binding using only tunnel's source IP address
