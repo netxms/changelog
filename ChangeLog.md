@@ -49,6 +49,8 @@
 # 5.0.8-SNAPSHOT
 
 -   Fixed error in web console on package deployment
+-   Implemented refresh for Event Processing Policy view
+-   Fixed Arp Cache view refresh when data is not available
 
 ## Fixed issues
 
