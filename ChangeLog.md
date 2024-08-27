@@ -48,6 +48,8 @@
 
 # 5.0.8-SNAPSHOT
 
+-   Fixed error in web console on package deployment
+
 ## Fixed issues
 
 -   NX-2567 (ExternalMetricProvider does not work on Windows)
