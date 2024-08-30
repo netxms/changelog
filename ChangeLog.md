@@ -51,6 +51,7 @@
 -   Fixed error in web console on package deployment
 -   Implemented refresh for Event Processing Policy view
 -   Fixed Arp Cache view refresh when data is not available
+-   Implemented find mac in Web APIs
 
 ## Fixed issues
 
