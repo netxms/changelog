@@ -46,7 +46,7 @@
 -   NX-2552 (Exception in desktop UI)
 -   NX-2566 (List of packages is not read correctly on linux systems where alien is installed)
 
-# 5.0.8-SNAPSHOT
+# 5.0.8
 
 -   Fixed error in web console on package deployment
 -   Implemented refresh for Event Processing Policy view
@@ -56,6 +56,7 @@
 ## Fixed issues
 
 -   NX-2567 (ExternalMetricProvider does not work on Windows)
+-   NX-2570 (Use monotonic clock instead of system time for calculating agent uptime)
 
 # 5.0.7
 
