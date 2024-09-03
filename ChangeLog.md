@@ -52,9 +52,11 @@
 -   Implemented refresh for Event Processing Policy view
 -   Fixed Arp Cache view refresh when data is not available
 -   Implemented find mac in Web APIs
+-   New method "print" in NXSL class "Table"
 
 ## Fixed issues
 
+-   NX-1311 (Table DCIs ignoring table configuration)
 -   NX-2567 (ExternalMetricProvider does not work on Windows)
 -   NX-2570 (Use monotonic clock instead of system time for calculating agent uptime)
 
