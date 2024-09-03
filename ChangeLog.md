@@ -60,6 +60,7 @@
 -   NX-1311 (Table DCIs ignoring table configuration)
 -   NX-2567 (ExternalMetricProvider does not work on Windows)
 -   NX-2570 (Use monotonic clock instead of system time for calculating agent uptime)
+-   NX-2572 (Problem creating PostgreSQL database during installation on Windows)
 
 # 5.0.7
 
