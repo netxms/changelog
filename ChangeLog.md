@@ -52,7 +52,8 @@
 -   Implemented refresh for Event Processing Policy view
 -   Fixed Arp Cache view refresh when data is not available
 -   Implemented find mac in Web APIs
--   New method "print" in NXSL class "Table"
+-   NXSL function "trace" handles objects and arrays in a same way as "print"
+-   New methods "print" and "trace" in NXSL class "Table"
 
 ## Fixed issues
 
