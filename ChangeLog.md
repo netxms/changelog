@@ -54,6 +54,8 @@
 -   Implemented find mac in Web APIs
 -   NXSL function "trace" handles objects and arrays in a same way as "print"
 -   New methods "print" and "trace" in NXSL class "Table"
+-   Added workaround for incorrect LLDP information returned by Alpha Bridge switches
+-   Fixed bug in network map link styling script processing
 
 ## Fixed issues
 
