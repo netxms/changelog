@@ -41,6 +41,7 @@
 -   NX-2538 (Add ability to use IPv4 style netmask in network discovery target properties)
 -   NX-2540 (Add $map object for use in map filter script)
 -   NX-2541 (All EPP actions should be executed asynchronously)
+-   NX-2542 (Add syslog metadata to generated events)
 -   NX-2544 (New agent metrics for counting online and offline CPUs)
 -   NX-2545 (Exporting a template with big file in a policy causes nxmc to close)
 -   NX-2552 (Exception in desktop UI)
