@@ -46,6 +46,7 @@
 -   NX-2545 (Exporting a template with big file in a policy causes nxmc to close)
 -   NX-2552 (Exception in desktop UI)
 -   NX-2566 (List of packages is not read correctly on linux systems where alien is installed)
+-   NX-2586 (Export all to CSV not working in data collection configuration view)
 
 # 5.0.8
 
