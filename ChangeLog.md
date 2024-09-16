@@ -36,6 +36,7 @@
 -   NX-2488 (Use caching when using web service requests in NXSL)
 -   NX-2512 (Not able to import columns for table DCI with origin=script)
 -   NX-2517 (Linux agent can crash if some CPUs are disabled)
+-   NX-2531 (Ability to disable server actions in EPP)
 -   NX-2533 (NXSL global variable that contains object tool input field values)
 -   NX-2535 (Replace drop down with radio buttons in EPP rule Downtime Control)
 -   NX-2538 (Add ability to use IPv4 style netmask in network discovery target properties)
@@ -46,6 +47,7 @@
 -   NX-2545 (Exporting a template with big file in a policy causes nxmc to close)
 -   NX-2552 (Exception in desktop UI)
 -   NX-2566 (List of packages is not read correctly on linux systems where alien is installed)
+-   NX-2584 (Change network map edit mode to network map lock mode)
 -   NX-2586 (Export all to CSV not working in data collection configuration view)
 
 # 5.0.8
