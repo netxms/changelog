@@ -14,6 +14,7 @@
 -   Unreachable node will be tested for all protocols in each configuration poll  
 -   Use inetCidrRouteTable, ipCidrRouteTable, and ipForwardTable in addition to ipRouteTable to get routing information via SNMP
 -   Improved web UI login pages
+-   Separate "Comments" view for objects
 -   Fixed session agent compatibility issues on Windows 11
 
 ## Fixed issues
