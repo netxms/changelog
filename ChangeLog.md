@@ -33,6 +33,7 @@
 -   NX-2353 (Add hotkey to start search in "Search IP address" view)
 -   NX-2439 (Implement agent table System.InstalledProducts for ArchLinux)
 -   NX-2458 (Add option to nest context dashboard in dashboard)
+-   NX-2461 (Smart algorithm for processing counter32/64 roll-over)
 -   NX-2488 (Use caching when using web service requests in NXSL)
 -   NX-2512 (Not able to import columns for table DCI with origin=script)
 -   NX-2517 (Linux agent can crash if some CPUs are disabled)
