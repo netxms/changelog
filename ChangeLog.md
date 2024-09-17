@@ -15,6 +15,7 @@
 -   Use inetCidrRouteTable, ipCidrRouteTable, and ipForwardTable in addition to ipRouteTable to get routing information via SNMP
 -   Improved web UI login pages
 -   Separate "Comments" view for objects
+-   New attributes in NXSL class "InetAddress" ("isSubnetBase", "isSubnetBroadcast", "subnet")
 -   Fixed session agent compatibility issues on Windows 11
 
 ## Fixed issues
