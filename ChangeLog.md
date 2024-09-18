@@ -7,7 +7,6 @@
 -   Peer information on interfaces can be set and cleared manually
 -   Added down since nxsl parameter to access point
 -   Vlans view merged in to the Ports view
--   New console usability improvments
 -   Added option to show physical links on L2 ad-hoc map
 -   L2 predefined map will not cache results, only ad-hock map results are cached
 -   More accurate ad-hoc IP topology maps
@@ -15,7 +14,9 @@
 -   Use inetCidrRouteTable, ipCidrRouteTable, and ipForwardTable in addition to ipRouteTable to get routing information via SNMP
 -   Improved web UI login pages
 -   Separate "Comments" view for objects
+-   Templates perspective can be configured to show nodes under assigned templates
 -   New attributes in NXSL class "InetAddress" ("isSubnetBase", "isSubnetBroadcast", "subnet")
+-   Other UI usability improvements
 -   Fixed session agent compatibility issues on Windows 11
 
 ## Fixed issues
