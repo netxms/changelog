@@ -56,6 +56,7 @@
 -   NX-2580 (Configurable default time range for ad-hoc line charts)
 -   NX-2584 (Change network map edit mode to network map lock mode)
 -   NX-2586 (Export all to CSV not working in data collection configuration view)
+-   NX-2597 (Log PATH and LD\_LIBRARY\_PATH values on agent startup)
 
 # 5.0.8
 
