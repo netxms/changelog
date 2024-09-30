@@ -40,6 +40,7 @@
 -   NX-2488 (Use caching when using web service requests in NXSL)
 -   NX-2512 (Not able to import columns for table DCI with origin=script)
 -   NX-2517 (Linux agent can crash if some CPUs are disabled)
+-   NX-2528 (Markdown Support in Object Comment Sections)
 -   NX-2531 (Ability to disable server actions in EPP)
 -   NX-2533 (NXSL global variable that contains object tool input field values)
 -   NX-2535 (Replace drop down with radio buttons in EPP rule Downtime Control)
