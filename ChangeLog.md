@@ -18,6 +18,7 @@
 -   New attributes in NXSL class "InetAddress" ("isSubnetBase", "isSubnetBroadcast", "subnet")
 -   Other UI usability improvements
 -   Fixed session agent compatibility issues on Windows 11
+-   Optional DCI event "all thresholds deactivated"
 
 ## Fixed issues
 
