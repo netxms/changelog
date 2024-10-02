@@ -19,6 +19,7 @@
 -   Other UI usability improvements
 -   Fixed session agent compatibility issues on Windows 11
 -   Optional DCI event "all thresholds deactivated"
+-   DCI data type after transformation can be configured separately from input data type
 
 ## Fixed issues
 
@@ -35,6 +36,7 @@
 -   NX-1973 (Add ability to manually specify a peer for an interface)
 -   NX-2034 (Use RENAME COLUMN on SQLite newer than 3.25.0)
 -   NX-2353 (Add hotkey to start search in "Search IP address" view)
+-   NX-2371 (Separate data types for raw and transformed DCI values)
 -   NX-2439 (Implement agent table System.InstalledProducts for ArchLinux)
 -   NX-2458 (Add option to nest context dashboard in dashboard)
 -   NX-2461 (Smart algorithm for processing counter32/64 roll-over)
