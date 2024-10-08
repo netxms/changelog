@@ -20,6 +20,7 @@
 -   Fixed session agent compatibility issues on Windows 11
 -   Optional DCI event "all thresholds deactivated"
 -   DCI data type after transformation can be configured separately from input data type
+-   New scheduled task handler Agent.ExecuteCommand
 
 ## Fixed issues
 
