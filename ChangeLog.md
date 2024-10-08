@@ -61,6 +61,7 @@
 -   NX-2580 (Configurable default time range for ad-hoc line charts)
 -   NX-2584 (Change network map edit mode to network map lock mode)
 -   NX-2586 (Export all to CSV not working in data collection configuration view)
+-   NX-2596 (Unable to create zone via Web API)
 -   NX-2597 (Log PATH and LD\_LIBRARY\_PATH values on agent startup)
 -   NX-2602 (Audit log not available in context menu for some objects)
 -   NX-2613 (Show gray "Any" in "source objects" list, if it's empty)
