@@ -16,6 +16,8 @@
 -   Separate "Comments" view for objects
 -   Templates perspective can be configured to show nodes under assigned templates
 -   New attributes in NXSL class "InetAddress" ("isSubnetBase", "isSubnetBroadcast", "subnet")
+-   New NXSL function "CalculateDowntime"
+-   New method "calculateDowntime" in NXSL class "NetObj"
 -   Other UI usability improvements
 -   Fixed session agent compatibility issues on Windows 11
 -   Optional DCI event "all thresholds deactivated"
