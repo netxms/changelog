@@ -63,10 +63,14 @@
 -   NX-2580 (Configurable default time range for ad-hoc line charts)
 -   NX-2584 (Change network map edit mode to network map lock mode)
 -   NX-2586 (Export all to CSV not working in data collection configuration view)
+-   NX-2593 (Add option to use properties file for NXShell)
 -   NX-2596 (Unable to create zone via Web API)
 -   NX-2597 (Log PATH and LD\_LIBRARY\_PATH values on agent startup)
+-   NX-2598 (Generate event when all thresholds of a DCI are rearmed)
 -   NX-2602 (Audit log not available in context menu for some objects)
+-   NX-2606 (no id ranges possible in Configuration->Windows event log parser)
 -   NX-2613 (Show gray "Any" in "source objects" list, if it's empty)
+-   NX-2617 (Show info in EPP rule that "Accept correlated events" is checked)
 
 # 5.0.8
 
