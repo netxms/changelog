@@ -71,6 +71,7 @@
 -   NX-2606 (no id ranges possible in Configuration->Windows event log parser)
 -   NX-2613 (Show gray "Any" in "source objects" list, if it's empty)
 -   NX-2617 (Show info in EPP rule that "Accept correlated events" is checked)
+-   NX-2618 (Server crash when file upload task configuration is invalid)
 
 # 5.0.8
 
