@@ -23,6 +23,8 @@
 -   Optional DCI event "all thresholds deactivated"
 -   DCI data type after transformation can be configured separately from input data type
 -   New scheduled task handler Agent.ExecuteCommand
+-   Improved network map multi link spacing
+-   Fixed network map object lable sacling zoom in/zoom out
 
 ## Fixed issues
 
