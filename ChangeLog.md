@@ -74,6 +74,7 @@
 -   NX-2613 (Show gray "Any" in "source objects" list, if it's empty)
 -   NX-2617 (Show info in EPP rule that "Accept correlated events" is checked)
 -   NX-2618 (Server crash when file upload task configuration is invalid)
+-   NX-2619 (SQL insert into nodes failed)
 -   NX-2620 (System.ProcessList truncates the full process name or path)
 
 # 5.0.8
