@@ -24,6 +24,7 @@
 -   DCI data type after transformation can be configured separately from input data type
 -   New scheduled task handler Agent.ExecuteCommand
 -   Improved network map multi link spacing
+-   New action System.TerminateUserSession in Windows agent
 -   Fixed network map object lable sacling zoom in/zoom out
 
 ## Fixed issues
