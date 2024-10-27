@@ -77,6 +77,7 @@
 -   NX-2618 (Server crash when file upload task configuration is invalid)
 -   NX-2619 (SQL insert into nodes failed)
 -   NX-2620 (System.ProcessList truncates the full process name or path)
+-   NX-2621 (Add "Line chart" item in context menu of map link)
 
 # 5.0.8
 
