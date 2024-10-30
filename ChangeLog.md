@@ -12,6 +12,7 @@
 -   More accurate ad-hoc IP topology maps
 -   Unreachable node will be tested for all protocols in each configuration poll  
 -   Use inetCidrRouteTable, ipCidrRouteTable, and ipForwardTable in addition to ipRouteTable to get routing information via SNMP
+-   EtherNet/IP added as DCI data source
 -   Improved web UI login pages
 -   Separate "Comments" view for objects
 -   Templates perspective can be configured to show nodes under assigned templates
