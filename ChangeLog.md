@@ -1,4 +1,4 @@
-# 5.1.0-SNAPSHOT
+# 5.1.0
 
 -   New automatic map type "hybrid topology"
 -   New object class "Circuit"
