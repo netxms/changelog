@@ -1,3 +1,11 @@
+# 5.1.1
+
+-   Fixed server crash on receiving SNMP trap
+
+## Fixed issues
+
+-   NX-2629 (Can not clone an object tool)
+
 # 5.1.0
 
 -   New automatic map type "hybrid topology"
@@ -10,7 +18,7 @@
 -   Added option to show physical links on L2 ad-hoc map
 -   L2 predefined map will not cache results, only ad-hock map results are cached
 -   More accurate ad-hoc IP topology maps
--   Unreachable node will be tested for all protocols in each configuration poll  
+-   Unreachable node will be tested for all protocols in each configuration poll
 -   Use inetCidrRouteTable, ipCidrRouteTable, and ipForwardTable in addition to ipRouteTable to get routing information via SNMP
 -   EtherNet/IP added as DCI data source
 -   Improved web UI login pages
@@ -26,7 +34,7 @@
 -   New scheduled task handler Agent.ExecuteCommand
 -   Improved network map multi link spacing
 -   New action System.TerminateUserSession in Windows agent
--   Fixed network map object lable sacling zoom in/zoom out
+-   Fixed network map object label scaling on zoom in/out
 
 ## Fixed issues
 
