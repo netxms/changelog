@@ -1,6 +1,7 @@
 # 5.1.1
 
 -   Fixed server crash on receiving SNMP trap
+-   Fixed bug in database initialization script
 
 ## Fixed issues
 
