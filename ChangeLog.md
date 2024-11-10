@@ -2,6 +2,7 @@
 
 -   Fixed server crash on receiving SNMP trap
 -   Fixed bug in database initialization script
+-   Fixed task scheduler performance issues
 
 ## Fixed issues
 
