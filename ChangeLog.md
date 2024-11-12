@@ -1,5 +1,8 @@
 # 5.1.1
 
+-   Added driver for Huawei LAN switches
+-   Updated driver for Dell switches
+-   Updated driver for Qtech switches
 -   Fixed server crash on receiving SNMP trap
 -   Fixed bug in database initialization script
 -   Fixed task scheduler performance issues
