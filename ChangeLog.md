@@ -1,5 +1,7 @@
 # 5.1.1
 
+-   Improved server performance
+-   Improved wireless controller bridge for HFCL
 -   Added driver for Huawei LAN switches
 -   Updated driver for Dell switches
 -   Updated driver for Qtech switches
