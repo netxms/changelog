@@ -7,6 +7,7 @@
 -   Updated driver for Dell switches
 -   Updated driver for Qtech switches
 -   Added internal metrics Server.ObjectCount.AccessPoints and Server.ObjectCount.Interfaces
+-   New NXSL functions Math::Average, Math::MeanAbsoluteDeviation, and Math::StandardDeviation
 -   nxdbmgr can do in-place conversion from standard PostgreSQL schema to TimescaleDB
 -   Fixed server crash on receiving SNMP trap
 -   Fixed bug in database initialization script
