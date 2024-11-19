@@ -2,9 +2,11 @@
 
 -   Improved server performance
 -   Improved wireless controller bridge for HFCL
+-   MS SQL database driver no longer requires SQL Server Native Client (can use SQL Server ODBC driver v13, v17, or v18 instead)
 -   Added driver for Huawei LAN switches
 -   Updated driver for Dell switches
 -   Updated driver for Qtech switches
+-   Added internal metrics Server.ObjectCount.AccessPoints and Server.ObjectCount.Interfaces
 -   Fixed server crash on receiving SNMP trap
 -   Fixed bug in database initialization script
 -   Fixed task scheduler performance issues
@@ -12,6 +14,11 @@
 ## Fixed issues
 
 -   NX-2629 (Can not clone an object tool)
+-   NX-2630 (Not all the Markdowns are functioning)
+-   NX-2633 (Text not fully displayed in button)
+-   NX-2637 (Circuit class functionality)
+-   NX-2639 (Incorrect log message for Mattermost driver)
+-   NX-2642 (Add alarm\_state\_changes and certificate\_action\_log tables to nxdbmgr -Z all)
 
 # 5.1.0
 
