@@ -17,6 +17,7 @@
 
 -   NX-2629 (Can not clone an object tool)
 -   NX-2630 (Not all the Markdowns are functioning)
+-   NX-2631 (In-place migration from standard PostgreSQL to TimescaleDB)
 -   NX-2632 (Inconsistency in asset management schema enum field definition)
 -   NX-2633 (Text not fully displayed in button)
 -   NX-2637 (Circuit class functionality)
