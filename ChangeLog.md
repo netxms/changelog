@@ -10,6 +10,7 @@
 -   Fixed server crash on receiving SNMP trap
 -   Fixed bug in database initialization script
 -   Fixed task scheduler performance issues
+-   Removed "Delete" button form object upper bar
 
 ## Fixed issues
 
