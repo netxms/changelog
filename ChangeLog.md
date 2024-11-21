@@ -22,6 +22,7 @@
 
 ## Fixed issues
 
+-   NX-2587 (No line numbering in DCI instance discovery filter script)
 -   NX-2629 (Can not clone an object tool)
 -   NX-2630 (Not all the Markdowns are functioning)
 -   NX-2631 (In-place migration from standard PostgreSQL to TimescaleDB)
