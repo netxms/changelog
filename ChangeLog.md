@@ -1,3 +1,9 @@
+# 5.1.2
+
+## Fixed issues
+
+-   NX-2647 (On node deletion interfaces under circuit objects are not deleted)
+
 # 5.1.1
 
 -   Improved server performance
