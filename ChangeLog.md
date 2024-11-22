@@ -2,6 +2,7 @@
 
 ## Fixed issues
 
+-   NX-2640 (Add more detailed stats on pollers to debug console)
 -   NX-2647 (On node deletion interfaces under circuit objects are not deleted)
 
 # 5.1.1
