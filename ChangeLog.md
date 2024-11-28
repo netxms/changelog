@@ -1,5 +1,7 @@
 # 5.1.2
 
+-   Optimized memory usage in InfluxDB driver
+
 ## Fixed issues
 
 -   NX-2640 (Add more detailed stats on pollers to debug console)
