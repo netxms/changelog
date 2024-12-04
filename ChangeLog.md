@@ -1,6 +1,7 @@
 # 5.1.2
 
 -   Optimized memory usage in InfluxDB driver
+-   Added "Client.MinVersion" server configuraitn option 
 
 ## Fixed issues
 
