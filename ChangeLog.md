@@ -5,6 +5,7 @@
 -   Optimized memory usage in InfluxDB driver
 -   Server startup time improved
 -   Added server configuration option "Client.MinVersion"
+-   Improved Markdown viewer
 
 ## Fixed issues
 
@@ -12,6 +13,7 @@
 -   NX-2647 (On node deletion interfaces under circuit objects are not deleted)
 -   NX-2649 (Issues with "move to another container" context menu on interfaces)
 -   NX-2673 (Table DCI column querying not working, if metric has no leading dot)
+-   NX-2676 (Issues with comment tab creation and modification on object)
 
 # 5.1.1
 
