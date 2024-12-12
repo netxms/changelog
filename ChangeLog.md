@@ -1,13 +1,17 @@
 # 5.1.2
 
+-   Server performance and memory usage optimization when polling multiple SNMP devices
+-   Limit routing table scans during SNMP device configuration poll
 -   Optimized memory usage in InfluxDB driver
--   Added "Client.MinVersion" server configuraitn option 
+-   Server startup time improved
+-   Added server configuration option "Client.MinVersion"
 
 ## Fixed issues
 
 -   NX-2640 (Add more detailed stats on pollers to debug console)
 -   NX-2647 (On node deletion interfaces under circuit objects are not deleted)
 -   NX-2649 (Issues with "move to another container" context menu on interfaces)
+-   NX-2673 (Table DCI column querying not working, if metric has no leading dot)
 
 # 5.1.1
 
