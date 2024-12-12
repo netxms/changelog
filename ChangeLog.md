@@ -12,6 +12,7 @@
 -   NX-2640 (Add more detailed stats on pollers to debug console)
 -   NX-2647 (On node deletion interfaces under circuit objects are not deleted)
 -   NX-2649 (Issues with "move to another container" context menu on interfaces)
+-   NX-2657 (IllegalStateException in nxmc log)
 -   NX-2673 (Table DCI column querying not working, if metric has no leading dot)
 -   NX-2676 (Issues with comment tab creation and modification on object)
 
