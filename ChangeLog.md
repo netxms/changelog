@@ -9,6 +9,7 @@
 
 ## Fixed issues
 
+-   NX-2635 (Predefined graphs perspective not working in web UI)
 -   NX-2640 (Add more detailed stats on pollers to debug console)
 -   NX-2647 (On node deletion interfaces under circuit objects are not deleted)
 -   NX-2649 (Issues with "move to another container" context menu on interfaces)
