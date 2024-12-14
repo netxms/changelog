@@ -15,6 +15,7 @@
 -   NX-2650 (Add new hotkey in "execute server script" for "clear output+run script")
 -   NX-2657 (IllegalStateException in nxmc log)
 -   NX-2660 (Add method to read little-endian 4 byte float value from ByteStream)
+-   NX-2661 (Issues with loading image of DCI image element of map)
 -   NX-2669 (Add internal table with node's interfaces)
 -   NX-2672 (Kiosk mode issues)
 -   NX-2673 (Table DCI column querying not working, if metric has no leading dot)
