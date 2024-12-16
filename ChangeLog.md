@@ -2,10 +2,12 @@
 
 -   NXSL math functions Min, Max, Average, MeanAbsoluteDeviation, and StandardDeviation accepts variadic arguments
 -   New NXSL function Math::Sum
+-   New NXSL array method indexOf
 
 ## Fixed issues
 
--   NX-2680 ( Add NXSL function Math::Sum)
+-   NX-2680 (Add NXSL function Math::Sum)
+-   NX-2681 ( Add array method "indexOf")
 
 # 5.1.2
 
