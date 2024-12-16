@@ -1,3 +1,12 @@
+# 5.2.0
+
+-   NXSL math functions Min, Max, Average, MeanAbsoluteDeviation, and StandardDeviation accepts variadic arguments
+-   New NXSL function Math::Sum
+
+## Fixed issues
+
+-   NX-2680 ( Add NXSL function Math::Sum)
+
 # 5.1.2
 
 -   Server performance and memory usage optimization when polling multiple SNMP devices
