@@ -17,6 +17,7 @@
 -   Server startup time improved
 -   Added server configuration option "Client.MinVersion"
 -   Improved Markdown viewer
+-   InfluxDB driver options for validation and correction of DCI values being sent
 
 ## Fixed issues
 
@@ -25,6 +26,7 @@
 -   NX-2647 (On node deletion interfaces under circuit objects are not deleted)
 -   NX-2649 (Issues with "move to another container" context menu on interfaces)
 -   NX-2650 (Add new hotkey in "execute server script" for "clear output+run script")
+-   NX-2653 (Can not pin Data Collection tab which is in edit mode)
 -   NX-2657 (IllegalStateException in nxmc log)
 -   NX-2660 (Add method to read little-endian 4 byte float value from ByteStream)
 -   NX-2661 (Issues with loading image of DCI image element of map)
