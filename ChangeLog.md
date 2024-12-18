@@ -9,6 +9,10 @@
 -   NX-2680 (Add NXSL function Math::Sum)
 -   NX-2681 ( Add array method "indexOf")
 
+# 5.1.3
+
+-   Image attributes in Markdown viewer
+
 # 5.1.2
 
 -   Server performance and memory usage optimization when polling multiple SNMP devices
