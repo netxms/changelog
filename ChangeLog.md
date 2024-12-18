@@ -11,6 +11,7 @@
 
 # 5.1.3
 
+-   Server checks for other possible SNMP credentials during configuration poll if node marked as SNMP unreachable
 -   Image attributes in Markdown viewer
 
 # 5.1.2
