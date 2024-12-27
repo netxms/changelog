@@ -1,13 +1,15 @@
 # 5.2.0
 
+-   User-defined tags on data collection items
 -   NXSL math functions Min, Max, Average, MeanAbsoluteDeviation, and StandardDeviation accepts variadic arguments
 -   New NXSL function Math::Sum
 -   New NXSL array method indexOf
 
 ## Fixed issues
 
+-   NX-2667 (Context dashboard should be able to pick DCIs from child objects by specific DCI tag)
 -   NX-2680 (Add NXSL function Math::Sum)
--   NX-2681 ( Add array method "indexOf")
+-   NX-2681 (Add array method "indexOf")
 
 # 5.1.3
 
