@@ -18,6 +18,10 @@
 -   Server checks for other possible SNMP credentials during configuration poll if node marked as SNMP unreachable
 -   Image attributes in Markdown viewer
 
+## Fixed issues
+
+-   NX-2685 (nxshell asks for password while using properties file)
+
 # 5.1.2
 
 -   Server performance and memory usage optimization when polling multiple SNMP devices
