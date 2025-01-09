@@ -15,8 +15,10 @@
 
 # 5.1.3
 
+-   Fixed critical bug in SNMP trap receiver
 -   Server checks for other possible SNMP credentials during configuration poll if node marked as SNMP unreachable
 -   Image attributes in Markdown viewer
+-   Fixed bug in counter reset detection
 
 ## Fixed issues
 
