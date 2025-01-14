@@ -13,6 +13,11 @@
 -   NX-2680 (Add NXSL function Math::Sum)
 -   NX-2681 (Add array method "indexOf")
 
+5.1.4
+
+-   Agent uses Windows Installer API instead of launching msiexec.exe for installing .msi and .msp packages
+-   New Windows agent metric System.IsRestartPending
+
 # 5.1.3
 
 -   Fixed critical bug in SNMP trap receiver
