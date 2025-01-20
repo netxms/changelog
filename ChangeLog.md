@@ -21,6 +21,7 @@
 ## Fixed issues
 
 -   NX-2690 (Migration from Timescale to regular Postgres fails on win\_event\_log table)
+-   NX-2696 (View options in Data Collection does not show actual state of Use Multipliers checkbox)
 
 # 5.1.3
 
