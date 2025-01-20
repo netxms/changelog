@@ -18,6 +18,10 @@
 -   Agent uses Windows Installer API instead of launching msiexec.exe for installing .msi and .msp packages
 -   New Windows agent metric System.IsRestartPending
 
+## Fixed issues
+
+-   NX-2690 (Migration from Timescale to regular Postgres fails on win\_event\_log table)
+
 # 5.1.3
 
 -   Fixed critical bug in SNMP trap receiver
