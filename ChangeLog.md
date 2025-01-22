@@ -2,6 +2,7 @@
 
 -   User-defined tags on data collection items
 -   Network maps can be shown in object's context in a same way as dashboards
+-   Improved package deployment
 -   NXSL math functions Min, Max, Average, MeanAbsoluteDeviation, and StandardDeviation accepts variadic arguments
 -   New NXSL function Math::Sum
 -   New NXSL array method indexOf
@@ -12,6 +13,7 @@
 -   NX-2667 (Context dashboard should be able to pick DCIs from child objects by specific DCI tag)
 -   NX-2680 (Add NXSL function Math::Sum)
 -   NX-2681 (Add array method "indexOf")
+-   NX-2686 (Put DCI to ERROR state if it's transformation script has compilation error)
 
 5.1.4
 
