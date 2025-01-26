@@ -19,6 +19,7 @@
 
 -   Agent uses Windows Installer API instead of launching msiexec.exe for installing .msi and .msp packages
 -   New Windows agent metric System.IsRestartPending
+-   Improved server performance when launching multiple external actions
 
 ## Fixed issues
 
