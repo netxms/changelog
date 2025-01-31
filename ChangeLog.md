@@ -21,9 +21,11 @@
 -   Agent uses Windows Installer API instead of launching msiexec.exe for installing .msi and .msp packages
 -   New Windows agent metric System.IsRestartPending
 -   Improved server performance when launching multiple external actions
+-   Fixed incorrect parsing of 32 bit agent installer names when adding package to package manager
 
 ## Fixed issues
 
+-   NX-2645 (Remember perspective splitter position)
 -   NX-2690 (Migration from Timescale to regular Postgres fails on win\_event\_log table)
 -   NX-2696 (View options in Data Collection does not show actual state of Use Multipliers checkbox)
 
