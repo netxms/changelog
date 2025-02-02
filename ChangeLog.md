@@ -14,6 +14,7 @@
 -   NX-2680 (Add NXSL function Math::Sum)
 -   NX-2681 (Add array method "indexOf")
 -   NX-2686 (Put DCI to ERROR state if it's transformation script has compilation error)
+-   NX-2689 (Add event ID (if available) to notification log)
 -   NX-2695 (Fit rack image into the view both vertically and horizontally)
 
 5.1.4
