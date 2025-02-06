@@ -9,6 +9,7 @@
 
 ## Fixed issues
 
+-   NX-74 (New node options - "expected capabilities")
 -   NX-2662 (Show map in tab on object)
 -   NX-2667 (Context dashboard should be able to pick DCIs from child objects by specific DCI tag)
 -   NX-2680 (Add NXSL function Math::Sum)
