@@ -23,6 +23,7 @@
 -   Agent uses Windows Installer API instead of launching msiexec.exe for installing .msi and .msp packages
 -   New Windows agent metric System.IsRestartPending
 -   Improved server performance when launching multiple external actions
+-   MIB Explorer added to "Tools" perspective
 -   Fixed incorrect parsing of 32 bit agent installer names when adding package to package manager
 
 ## Fixed issues
