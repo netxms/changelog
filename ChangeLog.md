@@ -34,6 +34,7 @@
 -   NX-2684 (Remove hardcoded license id from the nxlicmgr)
 -   NX-2690 (Migration from Timescale to regular Postgres fails on win\_event\_log table)
 -   NX-2696 (View options in Data Collection does not show actual state of Use Multipliers checkbox)
+-   NX-2699 (Show value of os.name in nxmc's About dialog)
 
 # 5.1.3
 
