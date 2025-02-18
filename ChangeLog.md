@@ -27,6 +27,7 @@
 -   Improved server performance when launching multiple external actions
 -   MIB Explorer added to "Tools" perspective
 -   Fixed incorrect parsing of 32 bit agent installer names when adding package to package manager
+-   Changed IPv4 address parser - now it only accepts canonical form (4 decimal numbers separated by dots)
 
 ## Fixed issues
 
