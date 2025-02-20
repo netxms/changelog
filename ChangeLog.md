@@ -19,6 +19,7 @@
 -   NX-2686 (Put DCI to ERROR state if it's transformation script has compilation error)
 -   NX-2689 (Add event ID (if available) to notification log)
 -   NX-2695 (Fit rack image into the view both vertically and horizontally)
+-   NX-2707 (Add method "createSensor" to container object classes in NXSL)
 
 5.1.4
 
