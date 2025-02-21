@@ -6,6 +6,7 @@
 -   NXSL math functions Min, Max, Average, MeanAbsoluteDeviation, and StandardDeviation accepts variadic arguments
 -   New NXSL function Math::Sum
 -   New NXSL array method indexOf
+-   Simplified loops over numeric ranges in NXSL using class \"Range\"
 -   Script entry point can be given for script DCI
 -   Dot can be used as script entry point separator instead of slash
 
