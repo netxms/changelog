@@ -9,10 +9,14 @@
 -   Simplified loops over numeric ranges in NXSL using class \"Range\"
 -   Script entry point can be given for script DCI
 -   Dot can be used as script entry point separator instead of slash
+-   Fixed direction and arrow size for Network Map links
+-   Reworked Network Map link label location calculation for multi link connection
 
 ## Fixed issues
 
 -   NX-74 (New node options - "expected capabilities")
+-   NX-1301 (Automatic traffic DCI linking to interface)
+-   NX-1302 ("Traffic" overlay for maps)
 -   NX-2662 (Show map in tab on object)
 -   NX-2667 (Context dashboard should be able to pick DCIs from child objects by specific DCI tag)
 -   NX-2680 (Add NXSL function Math::Sum)
