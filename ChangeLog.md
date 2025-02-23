@@ -11,6 +11,7 @@
 -   Dot can be used as script entry point separator instead of slash
 -   Fixed direction and arrow size for Network Map links
 -   Reworked Network Map link label location calculation for multi link connection
+-   Configurable values for RADIUS authentication request attributes Service-Type and NAS-Identifier
 
 ## Fixed issues
 
