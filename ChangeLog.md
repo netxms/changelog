@@ -35,6 +35,7 @@
 -   MIB Explorer added to "Tools" perspective
 -   Fixed incorrect parsing of 32 bit agent installer names when adding package to package manager
 -   Changed IPv4 address parser - now it only accepts canonical form (4 decimal numbers separated by dots)
+-   Correct handling of network mask /31 on peer-to-peer interfaces
 
 ## Fixed issues
 
