@@ -45,6 +45,7 @@
 -   NX-2696 (View options in Data Collection does not show actual state of Use Multipliers checkbox)
 -   NX-2699 (Show value of os.name in nxmc's About dialog)
 -   NX-2701 (Automatic DB unlock fails because GetLocalIpAddr() may return different address)
+-   NX-2705 (NXSL split string with trim option)
 
 # 5.1.3
 
