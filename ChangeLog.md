@@ -17,6 +17,7 @@
 
 -   NX-74 (New node options - "expected capabilities")
 -   NX-1301 (Automatic traffic DCI linking to interface)
+-   NX-2654 (Add agent running config object tool via db migration script)
 -   NX-1302 ("Traffic" overlay for maps)
 -   NX-2662 (Show map in tab on object)
 -   NX-2667 (Context dashboard should be able to pick DCIs from child objects by specific DCI tag)
@@ -36,6 +37,10 @@
 -   Fixed incorrect parsing of 32 bit agent installer names when adding package to package manager
 -   Changed IPv4 address parser - now it only accepts canonical form (4 decimal numbers separated by dots)
 -   Correct handling of network mask /31 on peer-to-peer interfaces
+-   Node sub objects like Interface will not be shown on Infrastructure perspective if they do not have parent shown in the same tree
+-   Added dBm and rpm DCI units to no multipliers list
+-   Fixed tab priority for multiple built in views
+-   Fixed problem when newly added DCI were not shown on Network Map (links, DCI containers)
 
 ## Fixed issues
 
