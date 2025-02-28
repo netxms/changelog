@@ -52,6 +52,7 @@
 -   NX-2699 (Show value of os.name in nxmc's About dialog)
 -   NX-2701 (Automatic DB unlock fails because GetLocalIpAddr() may return different address)
 -   NX-2705 (NXSL split string with trim option)
+-   NX-2711 (scheduled_tasks column is out of range for type integer)
 
 # 5.1.3
 
