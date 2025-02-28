@@ -41,6 +41,7 @@
 -   Added dBm and rpm DCI units to no multipliers list
 -   Fixed tab priority for multiple built in views
 -   Fixed problem when newly added DCI were not shown on Network Map (links, DCI containers)
+-   Fixed broken autobind during node configuration poll
 
 ## Fixed issues
 
