@@ -28,7 +28,7 @@
 -   NX-2695 (Fit rack image into the view both vertically and horizontally)
 -   NX-2707 (Add method "createSensor" to container object classes in NXSL)
 
-5.1.4
+# 5.1.4
 
 -   Agent uses Windows Installer API instead of launching msiexec.exe for installing .msi and .msp packages
 -   New Windows agent metric System.IsRestartPending
