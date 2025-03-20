@@ -30,6 +30,7 @@
 -   NX-2707 (Add method "createSensor" to container object classes in NXSL)
 -   NX-2714 (Status of interface not propagated to circuit)
 -   NX-2716 (Agent metric that reports server's access level to that agent)
+-   NX-2726 (Web API call causes server crash)
 
 # 5.1.4
 
