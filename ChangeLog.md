@@ -7,6 +7,7 @@
 -   New NXSL function Math::Sum
 -   New NXSL array method indexOf
 -   Simplified loops over numeric ranges in NXSL using class \"Range\"
+-   Unicode escape sequences in NXSL string literals
 -   Script entry point can be given for script DCI
 -   Dot can be used as script entry point separator instead of slash
 -   Fixed direction and arrow size for Network Map links
@@ -27,6 +28,7 @@
 -   NX-2686 (Put DCI to ERROR state if it's transformation script has compilation error)
 -   NX-2689 (Add event ID (if available) to notification log)
 -   NX-2695 (Fit rack image into the view both vertically and horizontally)
+-   NX-2703 (Support Unicode escape sequences in NXSL string literals)
 -   NX-2707 (Add method "createSensor" to container object classes in NXSL)
 -   NX-2712 (Scripted thresholds triggers activation event repeatedly)
 -   NX-2714 (Status of interface not propagated to circuit)
