@@ -28,6 +28,7 @@
 -   NX-2689 (Add event ID (if available) to notification log)
 -   NX-2695 (Fit rack image into the view both vertically and horizontally)
 -   NX-2707 (Add method "createSensor" to container object classes in NXSL)
+-   NX-2712 (Scripted thresholds triggers activation event repeatedly)
 -   NX-2714 (Status of interface not propagated to circuit)
 -   NX-2716 (Agent metric that reports server's access level to that agent)
 -   NX-2721 (Add $ipAddress variable of class InetAddress in Hook::AcceptNewNode script)
