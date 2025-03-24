@@ -37,6 +37,7 @@
 -   NX-2721 (Add $ipAddress variable of class InetAddress in Hook::AcceptNewNode script)
 -   NX-2725 (NetXMS does not fallback to secondary proxy nodes)
 -   NX-2726 (Web API call causes server crash)
+-   NX-2728 (Update interface configuration when a node with an agent is rebooted)
 
 # 5.1.4
 
