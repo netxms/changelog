@@ -23,6 +23,7 @@
 -   NX-1302 ("Traffic" overlay for maps)
 -   NX-2662 (Show map in tab on object)
 -   NX-2667 (Context dashboard should be able to pick DCIs from child objects by specific DCI tag)
+-   NX-2668 (Change all server configuration variables related to polling intervals to be modifiable without server restart)
 -   NX-2680 (Add NXSL function Math::Sum)
 -   NX-2681 (Add array method "indexOf")
 -   NX-2686 (Put DCI to ERROR state if it's transformation script has compilation error)
