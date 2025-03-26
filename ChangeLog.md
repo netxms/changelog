@@ -10,10 +10,10 @@
 -   Unicode escape sequences in NXSL string literals
 -   Script entry point can be given for script DCI
 -   Dot can be used as script entry point separator instead of slash
+-   Fan-out diver for ClickHouse
 -   Fixed direction and arrow size for Network Map links
 -   Reworked Network Map link label location calculation for multi link connection
 -   Configurable values for RADIUS authentication request attributes Service-Type and NAS-Identifier
--   Fixed bug in NXSL script conversion to V5 format
 
 ## Fixed issues
 
@@ -31,13 +31,24 @@
 -   NX-2695 (Fit rack image into the view both vertically and horizontally)
 -   NX-2703 (Support Unicode escape sequences in NXSL string literals)
 -   NX-2707 (Add method "createSensor" to container object classes in NXSL)
--   NX-2712 (Scripted thresholds triggers activation event repeatedly)
--   NX-2714 (Status of interface not propagated to circuit)
 -   NX-2716 (Agent metric that reports server's access level to that agent)
 -   NX-2721 (Add $ipAddress variable of class InetAddress in Hook::AcceptNewNode script)
 -   NX-2725 (NetXMS does not fallback to secondary proxy nodes)
--   NX-2726 (Web API call causes server crash)
 -   NX-2728 (Update interface configuration when a node with an agent is rebooted)
+
+# 5.1.5
+
+-   VNC detection during configuration poll can be disabled
+-   System access rights included into user ACL report
+-   Fixed bugs in NXSL script conversion to V5 format
+-   Fixed file handle leak in SSH subagent
+-   Fixed bug in configuration export
+
+## Fixed issues
+
+-   NX-2712 (Scripted thresholds triggers activation event repeatedly)
+-   NX-2714 (Status of interface not propagated to circuit)
+-   NX-2726 (Web API call causes server crash)
 
 # 5.1.4
 
