@@ -14,6 +14,7 @@
 -   Fixed direction and arrow size for Network Map links
 -   Reworked Network Map link label location calculation for multi link connection
 -   Configurable values for RADIUS authentication request attributes Service-Type and NAS-Identifier
+-   Fixed incorrect data and occasional server crashes in network discovery filter script
 
 ## Fixed issues
 
