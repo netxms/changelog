@@ -14,6 +14,7 @@
 -   Fixed direction and arrow size for Network Map links
 -   Reworked Network Map link label location calculation for multi link connection
 -   Configurable values for RADIUS authentication request attributes Service-Type and NAS-Identifier
+-   SM-CLP protocol support reworked and switched to SSH as a transport
 -   Fixed incorrect data and occasional server crashes in network discovery filter script
 
 ## Fixed issues
@@ -22,6 +23,8 @@
 -   NX-1301 (Automatic traffic DCI linking to interface)
 -   NX-2654 (Add agent running config object tool via db migration script)
 -   NX-1302 ("Traffic" overlay for maps)
+-   NX-2568 (Add case-insensitive versions of threshold operations "like" and "not like")
+-   NX-2624 (Review SMCLP data source and switch it to SSH)
 -   NX-2662 (Show map in tab on object)
 -   NX-2667 (Context dashboard should be able to pick DCIs from child objects by specific DCI tag)
 -   NX-2668 (Change all server configuration variables related to polling intervals to be modifiable without server restart)
