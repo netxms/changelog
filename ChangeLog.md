@@ -15,6 +15,7 @@
 -   Reworked Network Map link label location calculation for multi link connection
 -   Configurable values for RADIUS authentication request attributes Service-Type and NAS-Identifier
 -   SM-CLP protocol support reworked and switched to SSH as a transport
+-   Updated set of standard templates
 -   Fixed incorrect data and occasional server crashes in network discovery filter script
 
 ## Fixed issues
