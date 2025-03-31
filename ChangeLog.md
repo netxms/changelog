@@ -12,7 +12,7 @@
 -   NXSL math functions Min, Max, Average, MeanAbsoluteDeviation, and StandardDeviation accepts variadic arguments
 -   New NXSL function Math::Sum
 -   New NXSL array method indexOf
--   Simplified loops over numeric ranges in NXSL using class \"Range\"
+-   Simplified loops over numeric ranges in NXSL using class "Range"
 -   Unicode escape sequences in NXSL string literals
 -   Script entry point can be given for script DCI
 -   Dot can be used as script entry point separator instead of slash
@@ -87,7 +87,7 @@
 -   NX-2699 (Show value of os.name in nxmc's About dialog)
 -   NX-2701 (Automatic DB unlock fails because GetLocalIpAddr() may return different address)
 -   NX-2705 (NXSL split string with trim option)
--   NX-2711 (scheduled_tasks column is out of range for type integer)
+-   NX-2711 (scheduled\_tasks column is out of range for type integer)
 
 # 5.1.3
 
@@ -229,7 +229,7 @@
 -   NX-2597 (Log PATH and LD\_LIBRARY\_PATH values on agent startup)
 -   NX-2598 (Generate event when all thresholds of a DCI are rearmed)
 -   NX-2602 (Audit log not available in context menu for some objects)
--   NX-2606 (no id ranges possible in Configuration->Windows event log parser)
+-   NX-2606 (no id ranges possible in Configuration-\>Windows event log parser)
 -   NX-2613 (Show gray "Any" in "source objects" list, if it's empty)
 -   NX-2617 (Show info in EPP rule that "Accept correlated events" is checked)
 -   NX-2618 (Server crash when file upload task configuration is invalid)
@@ -472,7 +472,7 @@
 
 ## Fixed issues
 
--   NX-2490 (Server tries to read from tdata_xxxx table when TimescaleDB is used as backend)
+-   NX-2490 (Server tries to read from tdata\_xxxx table when TimescaleDB is used as backend)
 -   NX-2502 (nxagentd uses UDP port 4700 to exchange hearthbeat messages and listens on address 0.0.0.0)
 
 # 4.5.1
@@ -530,7 +530,7 @@
 
 ## Fixed issues
 
--   NX-2465 (List of saved queries in Tools->Find Object is not updated when query list is altered in Configuration)
+-   NX-2465 (List of saved queries in Tools-\>Find Object is not updated when query list is altered in Configuration)
 -   NX-2479 (Misleading error messages when loading properties for root objects)
 
 # 4.4.4
@@ -576,7 +576,7 @@
 -   NX-2446 (Increase timeout for agent tunnel binding)
 -   NX-2463 (Add metric to measure execution time of background queries in dbquery subagent)
 -   NX-2467 (Allow to execute same action multiple times in one EPP rule)
--   NX-2468 (NetworkService.Status SMTP call to curl_easy_perform failed (56: Command failed: 502))
+-   NX-2468 (NetworkService.Status SMTP call to curl\_easy\_perform failed (56: Command failed: 502))
 -   NX-2469 (Empty "Parameters" line should be interpreted as no arguments in Execute Script)
 -   NX-2471 (Add agent list and table to list physical disks)
 -   NX-2475 (netsvc: ServiceCheck.SMTP() uses VRFY command, which is disabled on most servers)
@@ -603,7 +603,7 @@
 -   NX-2432 (Query interface speed when status poll detects that interface goes up)
 -   NX-2441 (Auto-focus on Two-Factor input on WebUI)
 -   NX-2442 (Maintenance predefined time)
--   NX-2449 (Unexpected SYS_DUPLICATE_IP_ADDRESS generation)
+-   NX-2449 (Unexpected SYS\_DUPLICATE\_IP\_ADDRESS generation)
 -   NX-2450 (microhttpd presence is not detected correctly)
 -   NX-2451 (GetDCIValue() should return same data type as set in DCI properties)
 -   NX-2452 (Agent on Windows returns only one software inventory record when multiple versions of same software are installed)
@@ -627,7 +627,7 @@
 ## Fixed issues
 
 -   NX-2407 (Add the ability to duplicate server action in action manager)
--   NX-2414 (nxdbmgr should ignore data for deleted DCIs if there's record in dci_delete_list for that DCI)
+-   NX-2414 (nxdbmgr should ignore data for deleted DCIs if there's record in dci\_delete\_list for that DCI)
 -   NX-2415 (Legend text color is ignored in the nxmc console)
 -   NX-2419 (When log file monitoring with wildcards is used, data right after file creation might be skipped)
 -   NX-2428 (Cannot import configuration if threshold activation or deactivation event tags are missing or empty)
@@ -658,7 +658,7 @@
 -   NX-935 (Scrollbar in Dashboards)
 -   NX-1014 (Correct names of "Remove" menu items to "Remove from node" or "Remove from template")
 -   NX-1232 (Tool for simplified SNMP tables configuration)
--   NX-1598 (Rename column "submap_id" in table "object_properties")
+-   NX-1598 (Rename column "submap\_id" in table "object\_properties")
 -   NX-1613 (Object state icon not shown in Template -> Remove)
 -   NX-2067 (Add a hotkey to save policies. Ctrl+S)
 -   NX-2244 (Have ability in the UI to jump to specific DCI from check)
@@ -1029,9 +1029,9 @@
 -   NX-2239 (Node SSH polling)
 -   NX-2240 (Changes to DCI comments in template are not synchronized with DCIs created from that template)
 -   NX-2242 (On Windows, if agent action calls .cmd file and that file produces output, execution fails)
--   NX-2252 (`TLS.Certificate.*` 500 internal error to some domains when nginx enabled ssl_reject_handshake on)
+-   NX-2252 (`TLS.Certificate.*` 500 internal error to some domains when nginx enabled ssl\_reject\_handshake on)
 -   NX-2254 (LDAP synchronization error events generated for any LDAP user login error)
--   NX-2255 (SQL issues with server_action_execution_log)
+-   NX-2255 (SQL issues with server\_action\_execution\_log)
 -   NX-2256 (Have two separate certificates on server - for TLS connection and to issue agent certificates)
 -   NX-2257 (`PostgreSQL.Version` returns 0.0 if database is not connected)
 
@@ -1202,7 +1202,7 @@
 -   NX-1032 (Threshold violations are not shown for table DCIs)
 -   NX-1551 (Multiple execution completion dialogs after executing object tool on container)
 -   NX-1587 (Fix MySQL error: The `INFORMATION_SCHEMA.GLOBAL_STATUS` feature is disabled;
-    see the documentation for [show_compatibility_56](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_show_compatibility_56))
+    see the documentation for [show\_compatibility\_56](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_show_compatibility_56))
 -   NX-2122 (Table DCI last values are not loaded on server start)
 -   NX-2152 (Map should zoom in relation to mouse cursor, not center of map view)
 -   NX-2175 (Add hint to SNMP Trap Transformation Script editor)
@@ -1836,7 +1836,7 @@
 ## Fixed issues
 
 -   NX-1916 (Device could be marked as supporting ENTITY MIB when it is in fact not supported)
--   NX-1921 (SQL query failed into alarm_events: 22001 ERROR: value too long for type character varying(2000))
+-   NX-1921 (SQL query failed into alarm\_events: 22001 ERROR: value too long for type character varying(2000))
 -   NX-1922 (Spelling mistakes in Java API)
 -   NX-1920 (Save deleted DCIs between restarts to delete it's data on housekeeper after restart)
 
@@ -3038,7 +3038,7 @@
 -   NX-876 (Long running queries should be logged)
 -   NX-880 (Use multipliers in agent tables DCIs)
 -   NX-934 (Copy DCI name (not description) from last value view)
--   NX-956 (Scheduled file upload server->agent doesn't work with default file destination(empty destination file name))
+-   NX-956 (Scheduled file upload server-\>agent doesn't work with default file destination(empty destination file name))
 -   NX-960 (DCI summary tables with no menu path should not show in right click menus)
 -   NX-980 (execute script from object tool)
 -   NX-989 (Create agent DCIs that will provide status fo agent log file, local database)
@@ -3054,7 +3054,7 @@
 -   NX-1033 (Add filter to FDB view)
 -   NX-1034 (Refacrot Ping subagnet (Create `ICMP.Targets` table and `ICMP.Target` list with only IPs))
 -   NX-1038 (Already created scheduled task cannot be modifyed from shcedule to one time execution)
--   NX-1051 (java api User object missing ldap_dn + ldap_unique_id)
+-   NX-1051 (java api User object missing ldap\_dn + ldap\_unique\_id)
 
 # 2.0.6
 
@@ -3705,7 +3705,7 @@
 -   NX-441 (Implement "Command generates output" option for agent action type object tools)
 -   NX-444 (Add script function DeleteCustomAttribute())
 -   NX-447 (Unable to use 'DCI summary tables' with multiple 'Dummy' type DCIs)
--   NX-448 ('network_map_links' DB table columns too small)
+-   NX-448 ('network\_map\_links' DB table columns too small)
 -   NX-449 (Process events in Windows event log created between system boot and agent start)
 -   NX-450 (Threshold violations shown for disabled DCIs)
 -   NX-456 (IP Mask is not shown in interface list)
