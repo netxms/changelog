@@ -1,5 +1,11 @@
 # 5.2.0
 
+## Fixed issues
+
+-   NX-2723 (Add Web API endpoint for object maintenance)
+
+# 5.2.0
+
 -   User-defined tags on data collection items
 -   Network maps can be shown in object's context in a same way as dashboards
 -   Improved package deployment
