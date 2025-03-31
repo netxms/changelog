@@ -7,6 +7,7 @@
 
 -   NX-2729 (Display hints for hook scripts in script library)
 -   NX-2723 (Add Web API endpoint for object maintenance)
+-   NX-2600 (Threshold for missing table instanced is never deactivated)
 
 # 5.2.0
 
