@@ -1,7 +1,11 @@
 # 5.2.1
 
+-   Fixed NXSL EventPost function to accept all event source objects
+-   Added option to set in maintenance all objects under Wireless Domain
+
 ## Fixed issues
 
+-   NX-2729 (Display hints for hook scripts in script library)
 -   NX-2723 (Add Web API endpoint for object maintenance)
 
 # 5.2.0
