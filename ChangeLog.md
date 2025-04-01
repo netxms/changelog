@@ -1,13 +1,14 @@
 # 5.2.1
 
--   Fixed NXSL EventPost function to accept all event source objects
+-   NXSL function PostEvent accepts any event source object
 -   Added option to set in maintenance all objects under Wireless Domain
 
 ## Fixed issues
 
--   NX-2729 (Display hints for hook scripts in script library)
+-   NX-2600 (Threshold for missing table instances never deactivated)
 -   NX-2723 (Add Web API endpoint for object maintenance)
--   NX-2600 (Threshold for missing table instanced is never deactivated)
+-   NX-2729 (Display hints for hook scripts in script library)
+-   NX-2734 (When exporting event processing policy rule, automatically add referenced actions)
 
 # 5.2.0
 
