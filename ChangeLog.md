@@ -2,6 +2,7 @@
 
 -   NXSL function PostEvent accepts any event source object
 -   Added option to set in maintenance all objects under Wireless Domain
+-   Fixed bug in driver for Cambium CnPilot devices
 
 ## Fixed issues
 
