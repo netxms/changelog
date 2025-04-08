@@ -12,6 +12,7 @@
 -   NX-2723 (Add Web API endpoint for object maintenance)
 -   NX-2729 (Display hints for hook scripts in script library)
 -   NX-2734 (When exporting event processing policy rule, automatically add referenced actions)
+-   NX-2735 (Cannot delete user from object access control list)
 -   NX-2740 (Modbus DCI becomes unsupported when proxy is unreachable)
 
 # 5.2.0
