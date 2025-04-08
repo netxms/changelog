@@ -2,6 +2,7 @@
 
 -   NXSL function PostEvent accepts any event source object
 -   Added option to set in maintenance all objects under Wireless Domain
+-   InfluxDB and Clickhouse drivers can be configured to use custom attributes of DCI's template
 -   Fixed bug in driver for Cambium CnPilot devices
 -   Fixed database connection leak during package deployment
 
