@@ -1,3 +1,9 @@
+# 5.2.2
+
+## Fixed issues
+
+-   NX-2733 Do not show zone column in discovery targets if zoning is off
+
 # 5.2.1
 
 -   NXSL function PostEvent accepts any event source object
