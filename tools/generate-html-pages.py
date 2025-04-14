@@ -180,6 +180,34 @@ def save_html_files(versions, output_dir="changelog-html"):
 
         print(f"Generated {filename}")
 
+def parse_version(version_str):
+    # Extract numeric parts from version string
+    parts = []
+    for part in version_str.split('.'):
+        # Extract only leading numeric characters from each part
+        numeric_part = ''
+        for char in part:
+            if char.isdigit():
+                numeric_part += char
+            else:
+                break
+        if numeric_part:
+            parts.append(int(numeric_part))
+        else:
+            parts.append(0)
+    return parts
+
+def version_compare(version1, version2):
+    v1_parts = parse_version(version1)
+    v2_parts = parse_version(version2)
+
+    # Pad shorter version with zeros
+    max_length = max(len(v1_parts), len(v2_parts))
+    v1_parts.extend([0] * (max_length - len(v1_parts)))
+    v2_parts.extend([0] * (max_length - len(v2_parts)))
+
+    return v1_parts > v2_parts
+
 def main():
     with open('ChangeLog.md') as f:
         content = f.read()
@@ -191,7 +219,7 @@ def main():
 
     output_dir = "changelog-html"
     print("Sorting versions...")
-    versions.sort(key=lambda x: x["version"], reverse=True)
+    versions.sort(key=lambda x: parse_version(x["version"]), reverse=True)
 
     print("Generating HTML files...")
     save_html_files(versions)
