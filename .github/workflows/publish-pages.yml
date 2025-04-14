@@ -17,6 +17,7 @@ jobs:
         with:
           python-version: "3.13"
       - run: |
+          pip install markdown
           python3 tools/generate-html-pages.py
 
       - name: upload pages

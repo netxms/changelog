@@ -3,6 +3,8 @@
 import re
 import os
 import html
+import markdown
+from datetime import datetime
 
 def parse_changelog(content):
     version_blocks = re.split(r'^(?=# \d|\d)', content, flags=re.MULTILINE)
@@ -82,30 +84,63 @@ def generate_html(version_data):
             right: 30px;
             align-items: flex-end;
         }}
+        code {{
+            background-color: #f8f9fa;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+            font-size: 0.9em;
+            color: #e83e8c;
+        }}
+        pre {{
+            background-color: #f8f9fa;
+            padding: 1em;
+            border-radius: 4px;
+            border: 1px solid #e9ecef;
+            overflow-x: auto;
+            margin: 1em 0;
+        }}
+        pre code {{
+            background-color: transparent;
+            padding: 0;
+            border-radius: 0;
+            color: #212529;
+            font-size: 0.95em;
+            line-height: 1.5;
+            display: block;
+            white-space: pre;
+        }}
+        p {{
+            margin: 0.5em 0;
+        }}
+        li p {{
+            margin: 0;
+        }}
+        li pre {{
+            margin: 0.5em 0;
+        }}
     </style>
 </head>
 <body>
     <img class="logo" src="https://netxms.com/assets/images/logo-netxms-changelog.svg" width="32px" />
     <h1>Version {version}</h1>
-
 """
 
+    md = markdown.Markdown(extensions=['fenced_code', 'codehilite'])
+
     if changes:
-        html_content += "    <h2>Changes</h2>\n    <ul>\n"
+        html_content += "\n    <h2>Changes</h2>\n    <ul>\n"
         for change in changes:
-            html_content += f"        <li>{html.escape(change)}</li>\n"
+            html_content += f"        <li>{md.convert(change).strip()}</li>\n"
         html_content += "    </ul>\n"
 
     if fixed_issues:
-        html_content += "    <h2>Fixed Issues</h2>\n    <ul>\n"
+        html_content += "\n    <h2>Fixed Issues</h2>\n    <ul>\n"
         for issue in fixed_issues:
-            html_content += f"        <li>{html.escape(issue)}</li>\n"
+            html_content += f"        <li>{md.convert(issue).strip()}</li>\n"
         html_content += "    </ul>\n"
 
-    html_content += """</body>
-</html>
-"""
-
+    html_content += "</body>\n</html>\n"
     return html_content
 
 def generate_index_html(versions, output_dir="changelog-html"):
