@@ -1,5 +1,7 @@
 # 5.2.2
 
+-   Fixed insert into notification_log table for timescale
+
 ## Fixed issues
 
 -   NX-2733 Do not show zone column in discovery targets if zoning is off
