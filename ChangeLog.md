@@ -1,10 +1,11 @@
 # 5.2.2
 
--   Fixed insert into notification_log table for timescale
+-   Fixed insert into table "notification\_log" for TimescaleDB
 
 ## Fixed issues
 
--   NX-2733 Do not show zone column in discovery targets if zoning is off
+-   NX-2733 (Do not show zone column in discovery targets if zoning is off)
+-   NX-2755 (NXSL Interface utilization values returned as int, without decimal point)
 
 # 5.2.1
 
