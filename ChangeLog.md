@@ -1,6 +1,7 @@
-# 5.3.
+# 5.3.0
 
 ## Fixed issues
+
 -   NX-2710 (Traffic graphs for interface on overview)
 
 # 5.2.2
