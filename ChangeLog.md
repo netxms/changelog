@@ -1,10 +1,18 @@
+# 5.3.
+
+## Fixed issues
+-   NX-2710 (Traffic graphs for interface on overview)
+
 # 5.2.2
 
 -   Fixed insert into table "notification\_log" for TimescaleDB
+-   Improved client performance, by disabling alarm refresh if tab is not active
+-   Fixed missing DCI on network map links when new DCI's are added on alreay opened map
 
 ## Fixed issues
 
 -   NX-2733 (Do not show zone column in discovery targets if zoning is off)
+-   NX-2751 (Delete scheduled tasks on node deletion)
 -   NX-2755 (NXSL Interface utilization values returned as int, without decimal point)
 
 # 5.2.1
