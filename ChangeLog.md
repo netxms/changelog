@@ -9,6 +9,7 @@
 -   Fixed insert into table "notification\_log" for TimescaleDB
 -   Improved client performance, by disabling alarm refresh if tab is not active
 -   Fixed missing DCI on network map links when new DCI's are added on alreay opened map
+-   Added job progress indication within views
 
 ## Fixed issues
 
