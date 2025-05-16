@@ -24,6 +24,8 @@
 -   InfluxDB and Clickhouse drivers can be configured to use custom attributes of DCI's template
 -   Fixed bug in driver for Cambium CnPilot devices
 -   Fixed database connection leak during package deployment
+-   Fixed NXSL get web service document functions 
+-   Added Grafana Infinity plugin web API endpoints
 
 ## Fixed issues
 
