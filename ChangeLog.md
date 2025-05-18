@@ -15,6 +15,8 @@
 
 -   NX-2733 (Do not show zone column in discovery targets if zoning is off)
 -   NX-2751 (Delete scheduled tasks on node deletion)
+-   NX-2752 (Add ICMP response time jitter internal DCI for ICMP response statistic collection)
+-   NX-2754 (Separate error code for situation when TCP proxy is not enabled in agent config)
 -   NX-2755 (NXSL Interface utilization values returned as int, without decimal point)
 -   NX-2764 (Add PostgreSQL 17 support in monitoring subagent (pgi\_stat\_checkpointer))
 
