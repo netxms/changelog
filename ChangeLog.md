@@ -19,6 +19,7 @@
 -   NX-2754 (Separate error code for situation when TCP proxy is not enabled in agent config)
 -   NX-2755 (NXSL Interface utilization values returned as int, without decimal point)
 -   NX-2764 (Add PostgreSQL 17 support in monitoring subagent (pgi\_stat\_checkpointer))
+-   NX-2765 (Increase command length in package manager)
 
 # 5.2.1
 
