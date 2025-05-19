@@ -14,6 +14,7 @@
 ## Fixed issues
 
 -   NX-2733 (Do not show zone column in discovery targets if zoning is off)
+-   NX-2742 (Add NXSL node object method for enabling/disabling SM-CLP polling)
 -   NX-2751 (Delete scheduled tasks on node deletion)
 -   NX-2752 (Add ICMP response time jitter internal DCI for ICMP response statistic collection)
 -   NX-2754 (Separate error code for situation when TCP proxy is not enabled in agent config)
