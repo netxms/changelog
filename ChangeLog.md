@@ -4,6 +4,10 @@
 
 -   NX-2710 (Traffic graphs for interface on overview)
 
+# 5.2.3
+
+-   Default timeout for service checks via netsvc subagent set to 1 second
+
 # 5.2.2
 
 -   Fixed insert into table "notification\_log" for TimescaleDB
