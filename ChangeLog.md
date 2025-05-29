@@ -3,7 +3,7 @@
 ## Fixed issues
 
 -   NX-2710 (Traffic graphs for interface on overview)
--   #140 (SQL errors after converting database to TimescaleDB)
+-   \#140 (SQL errors after converting database to TimescaleDB)
 
 # 5.2.3
 
