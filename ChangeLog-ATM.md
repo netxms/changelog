@@ -1,3 +1,7 @@
+# 5.1
+
+-   Fixed journal sync for current day for preallocated files
+
 # 4.2
 
 -   Improved transaction emulation tool
