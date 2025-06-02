@@ -13,6 +13,7 @@
 ## Fixed issues
 
 -   NX-2766 (Template macros are not expanded in instance data filed in DCIs Instance discovery)
+-   NX-2768 (Changes to VNC properties not logged to audit log)
 -   NX-2781 (Send all parameters of default email notification channel to reporting server)
 
 # 5.2.2
