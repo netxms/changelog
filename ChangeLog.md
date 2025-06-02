@@ -8,14 +8,12 @@
 # 5.2.3
 
 -   Default timeout for service checks via netsvc subagent set to 1 second
-
-# 5.2.3
-
 -   Fixed alarm severity text for Grafana API
 
 ## Fixed issues
 
 -   NX-2766 (Template macros are not expanded in instance data filed in DCIs Instance discovery)
+-   NX-2781 (Send all parameters of default email notification channel to reporting server)
 
 # 5.2.2
 
