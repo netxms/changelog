@@ -9,6 +9,7 @@
 
 -   Default timeout for service checks via netsvc subagent set to 1 second
 -   Fixed alarm severity text for Grafana API
+-   Force plain text web service requests are cached separately
 
 ## Fixed issues
 
