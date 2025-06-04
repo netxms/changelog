@@ -3,19 +3,20 @@
 ## Fixed issues
 
 -   NX-2710 (Traffic graphs for interface on overview)
--   \#140 (SQL errors after converting database to TimescaleDB)
+-   NX-2774 (Allow to specify column for instance-name for instance discovery from a table)
 
 # 5.2.3
 
 -   Default timeout for service checks via netsvc subagent set to 1 second
 -   Fixed alarm severity text for Grafana API
--   Force plain text web service requests are cached separately
+-   Forced plain text web service requests are cached separately
 
 ## Fixed issues
 
 -   NX-2766 (Template macros are not expanded in instance data filed in DCIs Instance discovery)
 -   NX-2768 (Changes to VNC properties not logged to audit log)
 -   NX-2781 (Send all parameters of default email notification channel to reporting server)
+-   \#140 (SQL errors after converting database to TimescaleDB)
 
 # 5.2.2
 
