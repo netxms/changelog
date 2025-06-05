@@ -15,6 +15,7 @@
 
 -   NX-2766 (Template macros are not expanded in instance data filed in DCIs Instance discovery)
 -   NX-2768 (Changes to VNC properties not logged to audit log)
+-   NX-2770 (Object query result view pinning does not work)
 -   NX-2777 (No favicon in new Web UI)
 -   NX-2781 (Send all parameters of default email notification channel to reporting server)
 -   \#140 (SQL errors after converting database to TimescaleDB)
