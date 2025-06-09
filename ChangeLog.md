@@ -5,6 +5,10 @@
 -   NX-2710 (Traffic graphs for interface on overview)
 -   NX-2774 (Allow to specify column for instance-name for instance discovery from a table)
 
+# 5.2.4
+
+-   Fixed bug in loading NXSL "stdlib" script
+
 # 5.2.3
 
 -   Default timeout for service checks via netsvc subagent set to 1 second
