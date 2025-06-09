@@ -9,6 +9,10 @@
 
 -   Fixed bug in loading NXSL "stdlib" script
 
+## Fixed issues
+
+-   NX-2737 (Switch from obsolete SQLite shared cache mode to WAL mode)
+
 # 5.2.3
 
 -   Default timeout for service checks via netsvc subagent set to 1 second
