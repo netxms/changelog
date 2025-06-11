@@ -7,6 +7,7 @@
 
 # 5.2.4
 
+-   System event is generated when responsible user for object added or removed
 -   Fixed bug in loading NXSL "stdlib" script
 
 ## Fixed issues
