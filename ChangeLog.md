@@ -8,6 +8,7 @@
 # 5.2.4
 
 -   System event is generated when responsible user for object added or removed
+-   Support for custom OUI database entries
 -   Fixed bug in loading NXSL "stdlib" script
 
 ## Fixed issues
