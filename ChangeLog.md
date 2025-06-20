@@ -14,6 +14,7 @@
 ## Fixed issues
 
 -   NX-2737 (Switch from obsolete SQLite shared cache mode to WAL mode)
+-   NX-2790 (Interface Overview view should have node name when interface is under a circuit)
 
 # 5.2.3
 
