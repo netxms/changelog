@@ -1,5 +1,7 @@
 # 5.3.0
 
+-   Any NXSL object can be converted to JSON 
+
 ## Fixed issues
 
 -   NX-2710 (Traffic graphs for interface on overview)
