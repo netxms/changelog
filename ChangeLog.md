@@ -17,6 +17,7 @@
 ## Fixed issues
 
 -   NX-2737 (Switch from obsolete SQLite shared cache mode to WAL mode)
+-   NX-2783 (Network discovery view shows "Invalid thread access" error on web)
 -   NX-2788 (Changing Objects.Nodes.SyncNamesWithDNS requires server restart, while it should not)
 -   NX-2790 (Interface Overview view should have node name when interface is under a circuit)
 -   NX-2797 (Hide passwords in server configuration variables view)
