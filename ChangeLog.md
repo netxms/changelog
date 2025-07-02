@@ -12,6 +12,7 @@
 -   System event is generated when responsible user for object added or removed
 -   Support for custom OUI database entries
 -   Fixed bug in loading NXSL "stdlib" script
+-   Add BOM sequence skipp for extractors (web service extractor as well)
 
 ## Fixed issues
 
@@ -99,7 +100,9 @@
 -   NX-2654 (Add agent running config object tool via db migration script)
 -   NX-1302 ("Traffic" overlay for maps)
 -   NX-2568 (Add case-insensitive versions of threshold operations "like" and "not like")
+-   NX-2575 (Create Json parameter provider)
 -   NX-2624 (Review SMCLP data source and switch it to SSH)
+-   NX-2626 (Parse json that comes as mqtt payload)
 -   NX-2662 (Show map in tab on object)
 -   NX-2667 (Context dashboard should be able to pick DCIs from child objects by specific DCI tag)
 -   NX-2668 (Change all server configuration variables related to polling intervals to be modifiable without server restart)
