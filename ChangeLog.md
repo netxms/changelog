@@ -6,6 +6,7 @@
 
 -   NX-2710 (Traffic graphs for interface on overview)
 -   NX-2774 (Allow to specify column for instance-name for instance discovery from a table)
+-   NX-2791 (Keep timestamp of when interface peer information was last updated)
 
 # 5.2.4
 
