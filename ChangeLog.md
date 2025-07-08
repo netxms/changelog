@@ -15,6 +15,8 @@
 -   Fixed bug in loading NXSL "stdlib" script
 -   Add BOM sequence skipp for extractors (web service extractor as well)
 -   Network map fixes: refresh while drag, jumping labels on links and not saved object location after 'align to grid' action
+-   NXSL function JsonParse sets global variables $jsonErrorMessage, $jsonErrorLine, and $jsonErrorColumn after parsing error
+-   NXSL function JsonParse accepts optional second argument to control interpretation of integers as floating point numbers
 
 ## Fixed issues
 
@@ -24,6 +26,7 @@
 -   NX-2790 (Interface Overview view should have node name when interface is under a circuit)
 -   NX-2795 (Selection on map is frequently lost)
 -   NX-2797 (Hide passwords in server configuration variables view)
+-   NX-2802 (Show units for server configuration variables)
 
 # 5.2.3
 
