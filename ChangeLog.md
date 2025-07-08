@@ -14,6 +14,7 @@
 -   Support for custom OUI database entries
 -   Fixed bug in loading NXSL "stdlib" script
 -   Add BOM sequence skipp for extractors (web service extractor as well)
+-   Network map fixes: refresh while drag, jumping labels on links and not saved object location after 'align to grid' action
 
 ## Fixed issues
 
@@ -21,6 +22,7 @@
 -   NX-2783 (Network discovery view shows "Invalid thread access" error on web)
 -   NX-2788 (Changing Objects.Nodes.SyncNamesWithDNS requires server restart, while it should not)
 -   NX-2790 (Interface Overview view should have node name when interface is under a circuit)
+-   NX-2795 (Selection on map is frequently lost)
 -   NX-2797 (Hide passwords in server configuration variables view)
 
 # 5.2.3
