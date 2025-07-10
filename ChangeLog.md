@@ -13,10 +13,11 @@
 -   System event is generated when responsible user for object added or removed
 -   Support for custom OUI database entries
 -   Fixed bug in loading NXSL "stdlib" script
--   Add BOM sequence skipp for extractors (web service extractor as well)
+-   Add BOM sequence skip for structured data extractors (including web service extractor)
 -   Network map fixes: refresh while drag, jumping labels on links and not saved object location after 'align to grid' action
 -   NXSL function JsonParse sets global variables $jsonErrorMessage, $jsonErrorLine, and $jsonErrorColumn after parsing error
 -   NXSL function JsonParse accepts optional second argument to control interpretation of integers as floating point numbers
+-   Configurable data collection scheduling mode that requires connectivity before scheduling DCI for collection
 
 ## Fixed issues
 
@@ -27,6 +28,7 @@
 -   NX-2795 (Selection on map is frequently lost)
 -   NX-2797 (Hide passwords in server configuration variables view)
 -   NX-2802 (Show units for server configuration variables)
+-   NX-2806 (Data collection scheduling mode that requires connectivity before scheduling DCI for collection)
 -   NX-2807 (EPP export does not escape < and > in XML attributes)
 
 # 5.2.3
