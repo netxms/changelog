@@ -27,6 +27,7 @@
 -   NX-2795 (Selection on map is frequently lost)
 -   NX-2797 (Hide passwords in server configuration variables view)
 -   NX-2802 (Show units for server configuration variables)
+-   NX-2807 (EPP export does not escape < and > in XML attributes)
 
 # 5.2.3
 
