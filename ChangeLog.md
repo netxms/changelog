@@ -1,11 +1,13 @@
 # 5.3.0
 
+-   Event processing rules with empty filters are skipped (instead of "match all" behavior)
 -   Any NXSL object can be converted to JSON 
 -   Agent configuration file options can be passed from command line
 
 ## Fixed issues
 
 -   NX-2710 (Traffic graphs for interface on overview)
+-   NX-2743 (Do not execute EPP rule if it has no filters)
 -   NX-2774 (Allow to specify column for instance-name for instance discovery from a table)
 -   NX-2791 (Keep timestamp of when interface peer information was last updated)
 
