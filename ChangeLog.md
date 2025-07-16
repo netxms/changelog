@@ -1,6 +1,7 @@
 # 5.3.0
 
 -   Any NXSL object can be converted to JSON 
+-   Agent configuration file options can be passed from command line
 
 ## Fixed issues
 
