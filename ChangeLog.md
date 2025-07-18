@@ -4,6 +4,8 @@
 -   Any NXSL object can be converted to JSON 
 -   Agent configuration file options can be passed from command line
 -   Removed unused 'Objects.Security.ReadAccessViaMap' server configuration variable
+-   Fixed unique constraint failure for network_map_deleted_nodes table
+-   Added SNMP Walk button to MIB Explorer with the option to walk OIDs not present in NetXMS MIB database 
 
 ## Fixed issues
 
@@ -11,6 +13,7 @@
 -   NX-2743 (Do not execute EPP rule if it has no filters)
 -   NX-2774 (Allow to specify column for instance-name for instance discovery from a table)
 -   NX-2791 (Keep timestamp of when interface peer information was last updated)
+-   NX-2792 (New way to create links on custom map that would set link interfaces from topology)
 -   NX-2803 (Repeat interface and network service events when node goes out of maintenance)
 
 # 5.2.4
