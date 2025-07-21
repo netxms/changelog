@@ -15,6 +15,8 @@
 -   NX-2791 (Keep timestamp of when interface peer information was last updated)
 -   NX-2792 (New way to create links on custom map that would set link interfaces from topology)
 -   NX-2803 (Repeat interface and network service events when node goes out of maintenance)
+-   NX-2814 (Auto link objects should allow object linking even if non object elements are selected)
+-   NX-2815 (Leave disabled "Link objects" option in menu when multiple objects are selected)
 
 # 5.2.4
 
