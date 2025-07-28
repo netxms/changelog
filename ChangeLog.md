@@ -6,6 +6,7 @@
 -   Removed unused 'Objects.Security.ReadAccessViaMap' server configuration variable
 -   Fixed unique constraint failure for network_map_deleted_nodes table
 -   Added SNMP Walk button to MIB Explorer with the option to walk OIDs not present in NetXMS MIB database 
+-   New AIX agent metrics: System.Memory.Physical.Client, System.Memory.Physical.ClientPerc, System.Memory.Physical.Computational, System.Memory.Physical.ComputationalPerc
 -   Fixed bug in calculation of physical CPU usage on AIX
 
 ## Fixed issues
