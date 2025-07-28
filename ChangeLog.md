@@ -11,6 +11,7 @@
 
 ## Fixed issues
 
+-   NX-1979 (Ability to set DCI into maintenance mode)
 -   NX-2710 (Traffic graphs for interface on overview)
 -   NX-2743 (Do not execute EPP rule if it has no filters)
 -   NX-2774 (Allow to specify column for instance-name for instance discovery from a table)
