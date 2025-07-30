@@ -127,7 +127,7 @@
 -   NX-2624 (Review SMCLP data source and switch it to SSH)
 -   NX-2626 (Parse json that comes as mqtt payload)
 -   NX-2662 (Show map in tab on object)
--   NX-2667 (Context dashboard should be able to pick DCIs from child objects by specific DCI tag)
+-   NX-2667 (Context dashboard should be able to pick DCIs by DCI tag)
 -   NX-2668 (Change all server configuration variables related to polling intervals to be modifiable without server restart)
 -   NX-2680 (Add NXSL function Math::Sum)
 -   NX-2681 (Add array method "indexOf")
