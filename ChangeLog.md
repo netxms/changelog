@@ -19,6 +19,7 @@
 -   NX-2792 (New way to create links on custom map that would set link interfaces from topology)
 -   NX-2803 (Repeat interface and network service events when node goes out of maintenance)
 -   NX-2810 (Log parser metrics work correctly if only one file is given to the parser)
+-   NX-2811 (Data collection edit mode displayed incorrectly when going from a template to a node)
 -   NX-2814 (Auto link objects should allow object linking even if non object elements are selected)
 -   NX-2815 (Leave disabled "Link objects" option in menu when multiple objects are selected)
 -   NX-2823 ( Drill-down dashboard not opening)
