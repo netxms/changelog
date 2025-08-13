@@ -20,6 +20,7 @@
 -   NX-2803 (Repeat interface and network service events when node goes out of maintenance)
 -   NX-2814 (Auto link objects should allow object linking even if non object elements are selected)
 -   NX-2815 (Leave disabled "Link objects" option in menu when multiple objects are selected)
+-   NX-2823 ( Drill-down dashboard not opening)
 -   NX-2824 (Use float for delta per second or minute calculation)
 
 # 5.2.4
