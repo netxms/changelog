@@ -2,13 +2,9 @@
 
 -   Event processing rules with empty filters are skipped (instead of "match all" behavior)
 -   Any NXSL object can be converted to JSON 
--   Agent configuration file options can be passed from command line
 -   Removed unused 'Objects.Security.ReadAccessViaMap' server configuration variable
--   Fixed unique constraint failure for network_map_deleted_nodes table
+-   Fixed unique constraint failure for network\_map\_deleted\_nodes table
 -   Added SNMP Walk button to MIB Explorer with the option to walk OIDs not present in NetXMS MIB database 
--   New AIX agent metrics: System.Memory.Physical.Client, System.Memory.Physical.ClientPerc, System.Memory.Physical.Computational, System.Memory.Physical.ComputationalPerc
--   Fixed bug in calculation of physical CPU usage on AIX
--   Fixed bug with not created file_integrity agent database table
 
 ## Fixed issues
 
@@ -23,8 +19,24 @@
 -   NX-2811 (Data collection edit mode displayed incorrectly when going from a template to a node)
 -   NX-2814 (Auto link objects should allow object linking even if non object elements are selected)
 -   NX-2815 (Leave disabled "Link objects" option in menu when multiple objects are selected)
--   NX-2823 ( Drill-down dashboard not opening)
+-   NX-2823 (Drill-down dashboard not opening)
 -   NX-2824 (Use float for delta per second or minute calculation)
+
+# 5.2.5
+
+-   Agent configuration file options can be passed from command line
+-   New AIX agent metrics: System.Memory.Physical.Client, System.Memory.Physical.ClientPerc, System.Memory.Physical.Computational, System.Memory.Physical.ComputationalPerc
+-   User ACL reports generated in XLSX format
+-   Improved driver for Ubiquity AirMax devices
+-   Running configuration logged after log rotation
+-   Fixed incorrect object status calculation after restarting server with resolved alarms
+-   Fixed bug in network map display in dashboard widget
+-   Fixed bug in calculation of physical CPU usage on AIX
+-   Fixed missing agent database table file\_integrity
+
+## Fixed issues
+
+-   NX-2794 (Add more info to log message: Potential node x.x.x.x in zone x rejected (IP address is known as cluster resource address))
 
 # 5.2.4
 
