@@ -37,6 +37,7 @@
 ## Fixed issues
 
 -   NX-2794 (Add more info to log message: Potential node x.x.x.x in zone x rejected (IP address is known as cluster resource address))
+-   NX-2819 (DCI data recalculation not working for TimescaleDB)
 
 # 5.2.4
 
