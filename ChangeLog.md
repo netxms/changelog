@@ -5,6 +5,8 @@
 -   Removed unused 'Objects.Security.ReadAccessViaMap' server configuration variable
 -   Fixed unique constraint failure for network\_map\_deleted\_nodes table
 -   Added SNMP Walk button to MIB Explorer with the option to walk OIDs not present in NetXMS MIB database 
+-   Integration with HashiCorp Vault for secure credential management
+-   Server database password can be provided via external command
 
 ## Fixed issues
 
