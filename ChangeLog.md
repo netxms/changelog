@@ -41,6 +41,7 @@
 -   NX-2794 (Add more info to log message: Potential node x.x.x.x in zone x rejected (IP address is known as cluster resource address))
 -   NX-2819 (DCI data recalculation not working for TimescaleDB)
 -   NX-2822 (Alarms not appearing if nxmc has reconnected)
+-   NX-2825 (Tables missing PK, this breaks master-master replication (at least in Postgres))
 
 # 5.2.4
 
