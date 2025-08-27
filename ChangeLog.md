@@ -7,6 +7,7 @@
 -   Added SNMP Walk button to MIB Explorer with the option to walk OIDs not present in NetXMS MIB database 
 -   Integration with HashiCorp Vault for secure credential management
 -   Server database password can be provided via external command
+-   Subagent for monitoring Redis database
 
 ## Fixed issues
 
