@@ -15,6 +15,7 @@
 -   NX-2710 (Traffic graphs for interface on overview)
 -   NX-2743 (Do not execute EPP rule if it has no filters)
 -   NX-2774 (Allow to specify column for instance-name for instance discovery from a table)
+-   NX-2778 (Logwatch should save file position in agent DB)
 -   NX-2791 (Keep timestamp of when interface peer information was last updated)
 -   NX-2792 (New way to create links on custom map that would set link interfaces from topology)
 -   NX-2803 (Repeat interface and network service events when node goes out of maintenance)
@@ -22,6 +23,7 @@
 -   NX-2811 (Data collection edit mode displayed incorrectly when going from a template to a node)
 -   NX-2814 (Auto link objects should allow object linking even if non object elements are selected)
 -   NX-2815 (Leave disabled "Link objects" option in menu when multiple objects are selected)
+-   NX-2817 (Rename MapLinkStyle:: constants)
 -   NX-2823 (Drill-down dashboard not opening)
 -   NX-2824 (Use float for delta per second or minute calculation)
 
