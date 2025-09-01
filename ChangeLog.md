@@ -36,6 +36,7 @@
 -   Improved driver for Ubiquity AirMax devices
 -   Running configuration logged after log rotation
 -   Configurable maximum size for cached routing tables
+-   New metric USB.ConnectedCount in WinNT subagent
 -   Fixed incorrect object status calculation after restarting server with resolved alarms
 -   Fixed bug in network map display in dashboard widget
 -   Fixed bug in calculation of physical CPU usage on AIX
