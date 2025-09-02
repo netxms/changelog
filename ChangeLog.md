@@ -42,10 +42,13 @@
 -   Fixed bug in network map display in dashboard widget
 -   Fixed bug in calculation of physical CPU usage on AIX
 -   Fixed missing agent database table file\_integrity
+-   Fixed process matching by user name in process information metrics in WinNT subagent
+-   Fixed incorrect detection of Windows Server 2025
 
 ## Fixed issues
 
 -   NX-2794 (Add more info to log message: Potential node x.x.x.x in zone x rejected (IP address is known as cluster resource address))
+-   NX-2800 (Agent crash on Windows ARM systems)
 -   NX-2819 (DCI data recalculation not working for TimescaleDB)
 -   NX-2822 (Alarms not appearing if nxmc has reconnected)
 -   NX-2825 (Tables missing PK, this breaks master-master replication (at least in Postgres))
