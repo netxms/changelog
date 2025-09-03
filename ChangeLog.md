@@ -2,6 +2,7 @@
 
 -   Event processing rules with empty filters are skipped (instead of "match all" behavior)
 -   Any NXSL object can be converted to JSON 
+-   Optional function calls in NXSL
 -   Removed unused 'Objects.Security.ReadAccessViaMap' server configuration variable
 -   Fixed unique constraint failure for network\_map\_deleted\_nodes table
 -   Added SNMP Walk button to MIB Explorer with the option to walk OIDs not present in NetXMS MIB database 
