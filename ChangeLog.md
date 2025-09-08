@@ -9,6 +9,7 @@
 -   Integration with HashiCorp Vault for secure credential management
 -   Server database password can be provided via external command
 -   Subagent for monitoring Redis database
+-   Added lock for datbase inline upgrade
 
 ## Fixed issues
 
