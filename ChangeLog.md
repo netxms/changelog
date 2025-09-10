@@ -31,6 +31,14 @@
 -   NX-2823 (Drill-down dashboard not opening)
 -   NX-2824 (Use float for delta per second or minute calculation)
 
+# 5.2.6
+
+-   Added database manager lock to prevent starting background upgrade when it is already running
+
+## Fixed issues
+
+-   NX-2832 (Filter not working in Business Service Checks view)
+
 # 5.2.5
 
 -   Agent configuration file options can be passed from command line
