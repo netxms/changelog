@@ -59,6 +59,7 @@
 
 ## Fixed issues
 
+-   NX-2750 (Node state is calculated incorrectly)
 -   NX-2794 (Add more info to log message: Potential node x.x.x.x in zone x rejected (IP address is known as cluster resource address))
 -   NX-2800 (Agent crash on Windows ARM systems)
 -   NX-2819 (DCI data recalculation not working for TimescaleDB)
