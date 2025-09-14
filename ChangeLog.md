@@ -39,6 +39,7 @@
 ## Fixed issues
 
 -   NX-2832 (Filter not working in Business Service Checks view)
+-   NX-2833 (Line chart stacking does not work for data sources with Invert values on)
 
 # 5.2.5
 
