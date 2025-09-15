@@ -36,6 +36,7 @@
 # 5.2.6
 
 -   Added database manager lock to prevent starting background upgrade when it is already running
+-   Post-upgrade welcome page can be disabled in client preferences
 
 ## Fixed issues
 
