@@ -37,6 +37,7 @@
 
 -   Added database manager lock to prevent starting background upgrade when it is already running
 -   Post-upgrade welcome page can be disabled in client preferences
+-   Fixed bug in handling of duplicate samples sent by agent in cache mode
 
 ## Fixed issues
 
