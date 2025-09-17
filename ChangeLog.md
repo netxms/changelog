@@ -38,11 +38,13 @@
 -   Added database manager lock to prevent starting background upgrade when it is already running
 -   Post-upgrade welcome page can be disabled in client preferences
 -   Fixed bug in handling of duplicate samples sent by agent in cache mode
+-   Fixed bug in upgrading PostgreSQL database with duplicate data records
 
 ## Fixed issues
 
 -   NX-2832 (Filter not working in Business Service Checks view)
 -   NX-2833 (Line chart stacking does not work for data sources with Invert values on)
+-   NX-2835 (Add option to disable welcome screen message)
 
 # 5.2.5
 
