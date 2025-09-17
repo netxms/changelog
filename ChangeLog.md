@@ -32,6 +32,7 @@
 -   NX-2817 (Rename MapLinkStyle:: constants)
 -   NX-2823 (Drill-down dashboard not opening)
 -   NX-2824 (Use float for delta per second or minute calculation)
+-   NX-2826 (Automatic dashboard creation from template)
 
 # 5.2.6
 
