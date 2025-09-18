@@ -18,6 +18,7 @@
 -   NX-2655 (Add an option to select sort column and ASC\\DES for Table DCI on Dashboard)
 -   NX-2710 (Traffic graphs for interface on overview)
 -   NX-2743 (Do not execute EPP rule if it has no filters)
+-   NX-2757 (Add view deactivation on perspective change)
 -   NX-2758 (NXSL function to find all DCIs of a node that have specific related object)
 -   NX-2774 (Allow to specify column for instance-name for instance discovery from a table)
 -   NX-2778 (Logwatch should save file position in agent DB)
