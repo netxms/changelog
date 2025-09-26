@@ -20,6 +20,7 @@
 -   NX-2743 (Do not execute EPP rule if it has no filters)
 -   NX-2757 (Add view deactivation on perspective change)
 -   NX-2758 (NXSL function to find all DCIs of a node that have specific related object)
+-   NX-2763 (Dashboard charts ignore multiplier setting in DCI)
 -   NX-2774 (Allow to specify column for instance-name for instance discovery from a table)
 -   NX-2778 (Logwatch should save file position in agent DB)
 -   NX-2779 (Add instance value as event parameter)
