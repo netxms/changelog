@@ -35,6 +35,7 @@
 -   NX-2823 (Drill-down dashboard not opening)
 -   NX-2824 (Use float for delta per second or minute calculation)
 -   NX-2826 (Automatic dashboard creation from template)
+-   NX-2837 (Cannot read threshold summary: incompatible operation in Thresholds view on rack)
 
 # 5.2.6
 
