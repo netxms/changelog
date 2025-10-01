@@ -10,6 +10,7 @@
 -   Server database password can be provided via external command
 -   Subagent for monitoring Redis database
 -   Added lock for datbase inline upgrade
+-   Fixed incorrect behavior of NXSL functions Math::Min and Math::Max when first argument is an array
 
 ## Fixed issues
 
