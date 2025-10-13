@@ -11,6 +11,7 @@
 -   Subagent for monitoring Redis database
 -   Added lock for datbase inline upgrade
 -   Fixed incorrect behavior of NXSL functions Math::Min and Math::Max when first argument is an array
+-   Fixed server crash on zero period query for business service uptime
 
 ## Fixed issues
 
@@ -39,6 +40,7 @@
 -   NX-2836 (Unbind not working from Agent Tunnels view)
 -   NX-2837 (Cannot read threshold summary: incompatible operation in Thresholds view on rack)
 -   NX-2839 (DCI "Query" button fails silently on error)
+-   NX-2842 (Pinned line chart changes time period also for original chart)
 
 # 5.2.6
 
