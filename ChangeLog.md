@@ -1,4 +1,4 @@
-# 5.3.0
+# 6.0.0
 
 -   Event processing rules with empty filters are skipped (instead of "match all" behavior)
 -   Any NXSL object can be converted to JSON 
@@ -40,7 +40,9 @@
 -   NX-2836 (Unbind not working from Agent Tunnels view)
 -   NX-2837 (Cannot read threshold summary: incompatible operation in Thresholds view on rack)
 -   NX-2839 (DCI "Query" button fails silently on error)
+-   NX-2841 (Add ability to monitor and control systemd services on Linux)
 -   NX-2842 (Pinned line chart changes time period also for original chart)
+-   NX-2850 (Tab keyboard button not working in script editor in WEB UI)
 
 # 5.2.6
 
