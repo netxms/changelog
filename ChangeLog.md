@@ -8,10 +8,7 @@
 -   Added SNMP Walk button to MIB Explorer with the option to walk OIDs not present in NetXMS MIB database 
 -   Integration with HashiCorp Vault for secure credential management
 -   Server database password can be provided via external command
--   Subagent for monitoring Redis database
--   Added lock for datbase inline upgrade
--   Fixed incorrect behavior of NXSL functions Math::Min and Math::Max when first argument is an array
--   Fixed server crash on zero period query for business service uptime
+-   Added lock for database inline upgrade
 
 ## Fixed issues
 
@@ -37,11 +34,21 @@
 -   NX-2823 (Drill-down dashboard not opening)
 -   NX-2824 (Use float for delta per second or minute calculation)
 -   NX-2826 (Automatic dashboard creation from template)
--   NX-2836 (Unbind not working from Agent Tunnels view)
--   NX-2837 (Cannot read threshold summary: incompatible operation in Thresholds view on rack)
 -   NX-2839 (DCI "Query" button fails silently on error)
 -   NX-2841 (Add ability to monitor and control systemd services on Linux)
 -   NX-2842 (Pinned line chart changes time period also for original chart)
+
+# 5.2.7
+
+-   Subagent for monitoring Redis database
+-   Fixed bug that cause completed system scheduled tasks not being deleted from database
+-   Fixed incorrect behavior of NXSL functions Math::Min and Math::Max when first argument is an array
+-   Fixed server crash on zero period query for business service uptime
+
+## Fixed issues
+
+-   NX-2836 (Unbind not working from Agent Tunnels view)
+-   NX-2837 (Cannot read threshold summary: incompatible operation in Thresholds view on rack)
 -   NX-2850 (Tab keyboard button not working in script editor in WEB UI)
 
 # 5.2.6
