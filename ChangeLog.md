@@ -24,6 +24,7 @@
 -   NX-2774 (Allow to specify column for instance-name for instance discovery from a table)
 -   NX-2778 (Logwatch should save file position in agent DB)
 -   NX-2779 (Add instance value as event parameter)
+-   NX-2789 (Add separate boolean attributes to represent state bits in NXSL network object classes)
 -   NX-2791 (Keep timestamp of when interface peer information was last updated)
 -   NX-2792 (New way to create links on custom map that would set link interfaces from topology)
 -   NX-2803 (Repeat interface and network service events when node goes out of maintenance)
