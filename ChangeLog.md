@@ -15,6 +15,7 @@
 
 -   NX-660 (Scroll network map by dragging on empty space)
 -   NX-1979 (Ability to set DCI into maintenance mode)
+-   NX-2246 (Add report retention and housekeeper in reporting server)
 -   NX-2573 (Event template editor window is not resizable)
 -   NX-2655 (Add an option to select sort column and ASC\\DES for Table DCI on Dashboard)
 -   NX-2710 (Traffic graphs for interface on overview)
