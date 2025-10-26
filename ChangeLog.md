@@ -51,6 +51,7 @@
 
 ## Fixed issues
 
+-   NX-2652 (Improve overview page for interfaces)
 -   NX-2836 (Unbind not working from Agent Tunnels view)
 -   NX-2837 (Cannot read threshold summary: incompatible operation in Thresholds view on rack)
 -   NX-2850 (Tab keyboard button not working in script editor in WEB UI)
