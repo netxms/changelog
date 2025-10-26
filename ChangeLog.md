@@ -51,6 +51,7 @@
 
 ## Fixed issues
 
+-   NX-2594 (Possible server deadlock in network discovery)
 -   NX-2652 (Improve overview page for interfaces)
 -   NX-2836 (Unbind not working from Agent Tunnels view)
 -   NX-2837 (Cannot read threshold summary: incompatible operation in Thresholds view on rack)
