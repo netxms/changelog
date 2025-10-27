@@ -1,6 +1,7 @@
 # 6.0.0
 
 -   Event processing rules with empty filters are skipped (instead of "match all" behavior)
+-   Instance discovery for push DCIs
 -   Any NXSL object can be converted to JSON 
 -   Optional function calls in NXSL
 -   New NXSL operator "has" for simplified bit field tests
