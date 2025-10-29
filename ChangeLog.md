@@ -58,6 +58,7 @@
 -   NX-2837 (Cannot read threshold summary: incompatible operation in Thresholds view on rack)
 -   NX-2850 (Tab keyboard button not working in script editor in WEB UI)
 -   NX-2853 (Add option to merge separators for agent external table)
+-   NX-2856 (Business service availability report crash server process)
 
 # 5.2.6
 
