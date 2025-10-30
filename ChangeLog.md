@@ -42,6 +42,7 @@
 -   NX-2839 (DCI "Query" button fails silently on error)
 -   NX-2841 (Add ability to monitor and control systemd services on Linux)
 -   NX-2842 (Pinned line chart changes time period also for original chart)
+-   NX-2844 (Header with DCI name, [DCI metric] and units in DCI history view)
 
 # 5.2.7
 
