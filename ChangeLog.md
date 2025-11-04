@@ -47,14 +47,17 @@
 # 5.2.7
 
 -   Subagent for monitoring Redis database
+-   Optimizations in server process memory usage
 -   Fixed bug that cause completed system scheduled tasks not being deleted from database
 -   Fixed incorrect behavior of NXSL functions Math::Min and Math::Max when first argument is an array
 -   Fixed server crash on zero period query for business service uptime
+-   Fixed incorrect VLAN list retrieval on some Juniper switches
 
 ## Fixed issues
 
 -   NX-2594 (Possible server deadlock in network discovery)
 -   NX-2652 (Improve overview page for interfaces)
+-   NX-2813 (duplicate key value violates unique constraint "interface\_vlan\_list\_pkey")
 -   NX-2836 (Unbind not working from Agent Tunnels view)
 -   NX-2837 (Cannot read threshold summary: incompatible operation in Thresholds view on rack)
 -   NX-2850 (Tab keyboard button not working in script editor in WEB UI)
