@@ -16,6 +16,7 @@
 
 -   NX-660 (Scroll network map by dragging on empty space)
 -   NX-1979 (Ability to set DCI into maintenance mode)
+-   NX-2202 (Add access to alarm's related event list from NXSL)
 -   NX-2246 (Add report retention and housekeeper in reporting server)
 -   NX-2573 (Event template editor window is not resizable)
 -   NX-2655 (Add an option to select sort column and ASC\\DES for Table DCI on Dashboard)
@@ -60,7 +61,7 @@
 -   NX-2813 (duplicate key value violates unique constraint "interface\_vlan\_list\_pkey")
 -   NX-2836 (Unbind not working from Agent Tunnels view)
 -   NX-2837 (Cannot read threshold summary: incompatible operation in Thresholds view on rack)
-    NX-2838 (Agent metrics to read Windows Registry entries)
+-   NX-2838 (Agent metrics to read Windows Registry entries)
 -   NX-2850 (Tab keyboard button not working in script editor in WEB UI)
 -   NX-2853 (Add option to merge separators for agent external table)
 -   NX-2856 (Business service availability report crash server process)
