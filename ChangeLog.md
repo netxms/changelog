@@ -15,6 +15,7 @@
 ## Fixed issues
 
 -   NX-660 (Scroll network map by dragging on empty space)
+-   NX-1443 (Merge threshold/table threshold rules in default EPP)
 -   NX-1979 (Ability to set DCI into maintenance mode)
 -   NX-2202 (Add access to alarm's related event list from NXSL)
 -   NX-2246 (Add report retention and housekeeper in reporting server)
