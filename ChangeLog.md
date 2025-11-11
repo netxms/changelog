@@ -24,6 +24,7 @@
 -   NX-2496 (Add methods to Tunnel class for binding new tunnels)
 -   NX-2573 (Event template editor window is not resizable)
 -   NX-2655 (Add an option to select sort column and ASC\\DES for Table DCI on Dashboard)
+-   NX-2709 (Automatically add scripts mentioned in macros in configuration export view)
 -   NX-2710 (Traffic graphs for interface on overview)
 -   NX-2736 (NXSL function to return DCI values as (timestamp, value) tuples)
 -   NX-2743 (Do not execute EPP rule if it has no filters)
