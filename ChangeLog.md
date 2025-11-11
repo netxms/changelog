@@ -11,6 +11,7 @@
 -   Integration with HashiCorp Vault for secure credential management
 -   Server database password can be provided via external command
 -   Added lock for database inline upgrade
+-   New internal table Server.Queues
 
 ## Fixed issues
 
@@ -21,6 +22,7 @@
 -   NX-2202 (Add access to alarm's related event list from NXSL)
 -   NX-2246 (Add report retention and housekeeper in reporting server)
 -   NX-2398 (Add method for node and interface setPollCountForStatusChange)
+-   NX-2447 (Add ability to instance-discover notification channels and server queues)
 -   NX-2462 (Add "value with multipliers and units" column in DCI history view)
 -   NX-2496 (Add methods to Tunnel class for binding new tunnels)
 -   NX-2573 (Event template editor window is not resizable)
