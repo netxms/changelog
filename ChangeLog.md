@@ -20,6 +20,7 @@
 -   NX-2202 (Add access to alarm's related event list from NXSL)
 -   NX-2246 (Add report retention and housekeeper in reporting server)
 -   NX-2398 (Add method for node and interface setPollCountForStatusChange)
+-   NX-2462 (Add "value with multipliers and units" column in DCI history view)
 -   NX-2496 (Add methods to Tunnel class for binding new tunnels)
 -   NX-2573 (Event template editor window is not resizable)
 -   NX-2655 (Add an option to select sort column and ASC\\DES for Table DCI on Dashboard)
