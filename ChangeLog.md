@@ -48,6 +48,7 @@
 -   NX-2824 (Use float for delta per second or minute calculation)
 -   NX-2826 (Automatic dashboard creation from template)
 -   NX-2839 (DCI "Query" button fails silently on error)
+-   NX-2840 (Add parameterized metrics for structured metric provider)
 -   NX-2841 (Add ability to monitor and control systemd services on Linux)
 -   NX-2842 (Pinned line chart changes time period also for original chart)
 -   NX-2844 (Header with DCI name, [DCI metric] and units in DCI history view)
