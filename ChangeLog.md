@@ -16,6 +16,7 @@
 ## Fixed issues
 
 -   NX-660 (Scroll network map by dragging on empty space)
+-   NX-753 (Interface speed mismatch or under-utilization detection)
 -   NX-1443 (Merge threshold/table threshold rules in default EPP)
 -   NX-1979 (Ability to set DCI into maintenance mode)
 -   NX-2160 (Option to not show default columns in Find Object -> Query results)
