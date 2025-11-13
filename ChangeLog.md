@@ -37,6 +37,7 @@
 -   NX-2736 (NXSL function to return DCI values as (timestamp, value) tuples)
 -   NX-2743 (Do not execute EPP rule if it has no filters)
 -   NX-2747 (Add threshold id to event parameters)
+-   NX-2756 (Events are not correlated across server restarts)
 -   NX-2757 (Add view deactivation on perspective change)
 -   NX-2758 (NXSL function to find all DCIs of a node that have specific related object)
 -   NX-2763 (Dashboard charts ignore multiplier setting in DCI)
