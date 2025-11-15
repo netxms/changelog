@@ -5,6 +5,7 @@
 -   Any NXSL object can be converted to JSON 
 -   Optional function calls in NXSL
 -   New NXSL operator "has" for simplified bit field tests
+-   Changed NXSL variable lookup priority (local variables now have higher priority)
 -   Removed unused 'Objects.Security.ReadAccessViaMap' server configuration variable
 -   Fixed unique constraint failure for network\_map\_deleted\_nodes table
 -   Added SNMP Walk button to MIB Explorer with the option to walk OIDs not present in NetXMS MIB database 
@@ -61,6 +62,7 @@
 -   NX-2841 (Add ability to monitor and control systemd services on Linux)
 -   NX-2842 (Pinned line chart changes time period also for original chart)
 -   NX-2844 (Header with DCI name, [DCI metric] and units in DCI history view)
+-   NX-2869 (Local variable should have priority over object attributes in object query)
 
 # 5.2.7
 
