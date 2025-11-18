@@ -13,6 +13,8 @@
 -   Server database password can be provided via external command
 -   Added lock for database inline upgrade
 -   New internal table Server.Queues
+-   Drivers for Planet LAN switches
+-   Drivers for Planet industrial switches
 
 ## Fixed issues
 
