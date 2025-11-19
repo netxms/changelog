@@ -33,6 +33,7 @@
 -   NX-2496 (Add methods to Tunnel class for binding new tunnels)
 -   NX-2497 (Add option "go to DCI" for alarms that are related to a DCI)
 -   NX-2573 (Event template editor window is not resizable)
+-   NX-2588 (Show unsupported DCIs by default)
 -   NX-2638 (After disabling a DCI in template there's no message with apply button is displayed)
 -   NX-2655 (Add an option to select sort column and ASC\\DES for Table DCI on Dashboard)
 -   NX-2656 (Improve UX of the notification popup - X should close message, not the whole dialog)
