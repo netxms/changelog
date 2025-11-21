@@ -6,6 +6,7 @@
 -   Optional function calls in NXSL
 -   New NXSL operator "has" for simplified bit field tests
 -   Changed NXSL variable lookup priority (local variables now have higher priority)
+-   NXSL functions and string methods for fuzzy matching
 -   Removed unused 'Objects.Security.ReadAccessViaMap' server configuration variable
 -   Fixed unique constraint failure for network\_map\_deleted\_nodes table
 -   Added SNMP Walk button to MIB Explorer with the option to walk OIDs not present in NetXMS MIB database 
