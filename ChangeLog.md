@@ -71,6 +71,7 @@
 -   NX-2842 (Pinned line chart changes time period also for original chart)
 -   NX-2844 (Header with DCI name, [DCI metric] and units in DCI history view)
 -   NX-2869 (Local variable should have priority over object attributes in object query)
+-   NX-2871 (Add SYS_IF_UNMANAGED event)
 
 # 5.2.7
 
