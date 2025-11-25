@@ -6,6 +6,7 @@
 -   Optional function calls in NXSL
 -   New NXSL operator "has" for simplified bit field tests
 -   Changed NXSL variable lookup priority (local variables now have higher priority)
+-   New NXSL keyword "local" for explicit creation of local variable
 -   NXSL functions and string methods for fuzzy matching
 -   Removed unused 'Objects.Security.ReadAccessViaMap' server configuration variable
 -   Fixed unique constraint failure for network\_map\_deleted\_nodes table
@@ -71,7 +72,8 @@
 -   NX-2842 (Pinned line chart changes time period also for original chart)
 -   NX-2844 (Header with DCI name, [DCI metric] and units in DCI history view)
 -   NX-2869 (Local variable should have priority over object attributes in object query)
--   NX-2871 (Add SYS_IF_UNMANAGED event)
+-   NX-2870 (NXSL keyword to explicitly declare variable as local)
+-   NX-2871 (Add SYS\_IF\_UNMANAGED event)
 
 # 5.2.7
 
