@@ -76,6 +76,7 @@
 -   NX-2869 (Local variable should have priority over object attributes in object query)
 -   NX-2870 (NXSL keyword to explicitly declare variable as local)
 -   NX-2871 (Add SYS\_IF\_UNMANAGED event)
+-   NX-2876 (Incorrect value for System.CPU.Count on Windows machines with more than 64 logical processors)
 
 # 5.2.7
 
