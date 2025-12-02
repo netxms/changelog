@@ -40,7 +40,6 @@
 -   NX-2612 (EPP rule import does not warn that a rule is referring missing event)
 -   NX-2638 (After disabling a DCI in template there's no message with apply button is displayed)
 -   NX-2655 (Add an option to select sort column and ASC\\DES for Table DCI on Dashboard)
--   NX-2656 (Improve UX of the notification popup - X should close message, not the whole dialog)
 -   NX-2709 (Automatically add scripts mentioned in macros in configuration export view)
 -   NX-2710 (Traffic graphs for interface on overview)
 -   NX-2722 (Add attributes of class User to Alarm and AlarmComment class)
@@ -66,7 +65,6 @@
 -   NX-2823 (Drill-down dashboard not opening)
 -   NX-2824 (Use float for delta per second or minute calculation)
 -   NX-2826 (Automatic dashboard creation from template)
--   NX-2827 (Allow editing of tools added to Object Tools dashboard element)
 -   NX-2839 (DCI "Query" button fails silently on error)
 -   NX-2840 (Add parameterized metrics for structured metric provider)
 -   NX-2841 (Add ability to monitor and control systemd services on Linux)
@@ -76,6 +74,18 @@
 -   NX-2869 (Local variable should have priority over object attributes in object query)
 -   NX-2870 (NXSL keyword to explicitly declare variable as local)
 -   NX-2871 (Add SYS\_IF\_UNMANAGED event)
+
+# 5.2.8
+
+-   Structure of idata and tdata tables on PostgreSQL reverted to previous schema
+-   nxadm command line option to check if server process is running and has completed initialization
+-   Fixed bug in reading physical disk information on Windows
+-   Fixed command injection vulnerability in PhysicalDisk.* metrics
+
+## Fixed issues
+
+-   NX-2656 (Improve UX of the notification popup - X should close message, not the whole dialog)
+-   NX-2827 (Allow editing of tools added to Object Tools dashboard element)
 -   NX-2876 (Incorrect value for System.CPU.Count on Windows machines with more than 64 logical processors)
 
 # 5.2.7
