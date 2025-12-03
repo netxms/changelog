@@ -85,7 +85,10 @@
 ## Fixed issues
 
 -   NX-2656 (Improve UX of the notification popup - X should close message, not the whole dialog)
+-   NX-2801 (New version of JQ library on Windows)
 -   NX-2827 (Allow editing of tools added to Object Tools dashboard element)
+-   NX-2872 (%d format string incorrectly handled in chart legend)
+-   NX-2875 (PhysicalDisk.SmartAttr() metric not working)
 -   NX-2876 (Incorrect value for System.CPU.Count on Windows machines with more than 64 logical processors)
 
 # 5.2.7
