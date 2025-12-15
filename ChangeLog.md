@@ -15,6 +15,7 @@
 -   Server database password can be provided via external command
 -   Added lock for database inline upgrade
 -   New internal table Server.Queues
+-   Drill-down option for dashboard element "Status indicator"
 -   Drivers for Planet LAN switches
 -   Drivers for Planet industrial switches
 -   Fixed "Go to DCI" action
