@@ -72,6 +72,7 @@
 -   NX-2842 (Pinned line chart changes time period also for original chart)
 -   NX-2844 (Header with DCI name, [DCI metric] and units in DCI history view)
 -   NX-2854 (Ability to specify default column type for agent external table)
+-   NX-2857 (Limit notification channel message queue and create event when limit is hit)
 -   NX-2858 (Add debug console command to clear notification channel queue)
 -   NX-2869 (Local variable should have priority over object attributes in object query)
 -   NX-2870 (NXSL keyword to explicitly declare variable as local)
