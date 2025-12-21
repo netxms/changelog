@@ -9,6 +9,7 @@
 -   New NXSL keyword "local" for explicit creation of local variable
 -   NXSL functions and string methods for fuzzy matching
 -   Removed unused 'Objects.Security.ReadAccessViaMap' server configuration variable
+-   Node decommissioning
 -   Fixed unique constraint failure for network\_map\_deleted\_nodes table
 -   Added SNMP Walk button to MIB Explorer with the option to walk OIDs not present in NetXMS MIB database 
 -   Integration with HashiCorp Vault for secure credential management
@@ -30,6 +31,7 @@
 -   NX-2160 (Option to not show default columns in Find Object -> Query results)
 -   NX-2202 (Add access to alarm's related event list from NXSL)
 -   NX-2246 (Add report retention and housekeeper in reporting server)
+-   NX-2344 (Decommissioning for nodes)
 -   NX-2398 (Add method for node and interface setPollCountForStatusChange)
 -   NX-2437 (Ability to change MAC address on an interface)
 -   NX-2447 (Add ability to instance-discover notification channels and server queues)
