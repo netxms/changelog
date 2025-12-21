@@ -23,6 +23,7 @@
 
 ## Fixed issues
 
+-   NX-531 (Use ENTITY MIB for physical port mapping)
 -   NX-660 (Scroll network map by dragging on empty space)
 -   NX-753 (Interface speed mismatch or under-utilization detection)
 -   NX-1443 (Merge threshold/table threshold rules in default EPP)
