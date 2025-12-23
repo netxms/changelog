@@ -81,6 +81,7 @@
 -   NX-2869 (Local variable should have priority over object attributes in object query)
 -   NX-2870 (NXSL keyword to explicitly declare variable as local)
 -   NX-2871 (Add SYS\_IF\_UNMANAGED event)
+-   NX-2884 (Use character limit for varchar fields on Oracle)
 
 # 5.2.8
 
