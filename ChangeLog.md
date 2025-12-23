@@ -40,6 +40,7 @@
 -   NX-2462 (Add "value with multipliers and units" column in DCI history view)
 -   NX-2496 (Add methods to Tunnel class for binding new tunnels)
 -   NX-2497 (Add option "go to DCI" for alarms that are related to a DCI)
+-   NX-2558 (Add separate access right to manage agent policies within templates)
 -   NX-2573 (Event template editor window is not resizable)
 -   NX-2588 (Show unsupported DCIs by default)
 -   NX-2612 (EPP rule import does not warn that a rule is referring missing event)
