@@ -1,5 +1,8 @@
 # 6.0.0
 
+-   Integrated AI assistant and AI agent
+-   Built-in basic incident management
+-   Improved SSH support
 -   Event processing rules with empty filters are skipped (instead of "match all" behavior)
 -   Instance discovery for push DCIs
 -   Any NXSL object can be converted to JSON 
