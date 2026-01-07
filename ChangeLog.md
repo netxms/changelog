@@ -30,6 +30,7 @@
 -   NX-531 (Use ENTITY MIB for physical port mapping)
 -   NX-660 (Scroll network map by dragging on empty space)
 -   NX-753 (Interface speed mismatch or under-utilization detection)
+-   NX-1072 (SNMP context support in data collection)
 -   NX-1443 (Merge threshold/table threshold rules in default EPP)
 -   NX-1872 (DCI Table column ordering)
 -   NX-1979 (Ability to set DCI into maintenance mode)
