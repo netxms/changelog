@@ -24,9 +24,11 @@
 -   Drivers for Planet LAN switches
 -   Drivers for Planet industrial switches
 -   Fixed "Go to DCI" action
+-   Dropped support of AIX 6.1
 
 ## Fixed issues
 
+-   NX-119 (Add support for drops counters on interfaces)
 -   NX-531 (Use ENTITY MIB for physical port mapping)
 -   NX-660 (Scroll network map by dragging on empty space)
 -   NX-753 (Interface speed mismatch or under-utilization detection)
@@ -60,6 +62,7 @@
 -   NX-2757 (Add view deactivation on perspective change)
 -   NX-2758 (NXSL function to find all DCIs of a node that have specific related object)
 -   NX-2763 (Dashboard charts ignore multiplier setting in DCI)
+-   NX-2773 (Rework threshold event repetition to exact interval)
 -   NX-2774 (Allow to specify column for instance-name for instance discovery from a table)
 -   NX-2778 (Logwatch should save file position in agent DB)
 -   NX-2779 (Add instance value as event parameter)
