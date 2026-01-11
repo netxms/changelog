@@ -29,10 +29,13 @@
 ## Fixed issues
 
 -   NX-119 (Add support for drops counters on interfaces)
+-   NX-352 (Use display hint from MIB files in server and command line tools)
+-   NX-484 ( Open Event Log from Event monitor)
 -   NX-531 (Use ENTITY MIB for physical port mapping)
 -   NX-660 (Scroll network map by dragging on empty space)
 -   NX-753 (Interface speed mismatch or under-utilization detection)
 -   NX-1072 (SNMP context support in data collection)
+-   NX-1439 (Dashboard widget "Table" should notify user DCI is in error state instead of showing empty table)
 -   NX-1443 (Merge threshold/table threshold rules in default EPP)
 -   NX-1872 (DCI Table column ordering)
 -   NX-1979 (Ability to set DCI into maintenance mode)
