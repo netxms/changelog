@@ -30,7 +30,8 @@
 
 -   NX-119 (Add support for drops counters on interfaces)
 -   NX-352 (Use display hint from MIB files in server and command line tools)
--   NX-484 ( Open Event Log from Event monitor)
+-   NX-484 (Open Event Log from Event monitor)
+-   NX-507 (Show effective ACL for object)
 -   NX-531 (Use ENTITY MIB for physical port mapping)
 -   NX-660 (Scroll network map by dragging on empty space)
 -   NX-753 (Interface speed mismatch or under-utilization detection)
