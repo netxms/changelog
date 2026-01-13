@@ -39,6 +39,7 @@
 -   NX-1439 (Dashboard widget "Table" should notify user DCI is in error state instead of showing empty table)
 -   NX-1443 (Merge threshold/table threshold rules in default EPP)
 -   NX-1872 (DCI Table column ordering)
+-   NX-1917 (Add "Copy SQL" button to Log viewers)
 -   NX-1979 (Ability to set DCI into maintenance mode)
 -   NX-2160 (Option to not show default columns in Find Object -> Query results)
 -   NX-2202 (Add access to alarm's related event list from NXSL)
@@ -79,6 +80,7 @@
 -   NX-2814 (Auto link objects should allow object linking even if non object elements are selected)
 -   NX-2815 (Leave disabled "Link objects" option in menu when multiple objects are selected)
 -   NX-2817 (Rename MapLinkStyle:: constants)
+-   NX-2818 (Investigate and update MySQL monitoring subagent)
 -   NX-2823 (Drill-down dashboard not opening)
 -   NX-2824 (Use float for delta per second or minute calculation)
 -   NX-2826 (Automatic dashboard creation from template)
@@ -97,6 +99,7 @@
 -   NX-2877 (Show "What's new" only to specific users and only once)
 -   NX-2884 (Use character limit for varchar fields on Oracle)
 -   NX-2889 (New DCI option: save only every n-th sample)
+-   NX-2891 (Add lastAlarmId attribute to Event class)
 
 # 5.2.8
 
