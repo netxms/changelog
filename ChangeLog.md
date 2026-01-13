@@ -25,6 +25,9 @@
 -   Drivers for Planet industrial switches
 -   Fixed "Go to DCI" action
 -   Dropped support of AIX 6.1
+-   Reworked configuration export/import to use JSON instead of XML; XML import is retained for backward compatibility
+-   Fixed deadlock in session termination caused by DCI force poll reference leak
+-   Fixed interface IP address access by adding lock to prevent use-after-free
 
 ## Fixed issues
 
@@ -42,6 +45,7 @@
 -   NX-1917 (Add "Copy SQL" button to Log viewers)
 -   NX-1979 (Ability to set DCI into maintenance mode)
 -   NX-2160 (Option to not show default columns in Find Object -> Query results)
+-   NX-2188 (Add search/filter in network maps)
 -   NX-2202 (Add access to alarm's related event list from NXSL)
 -   NX-2246 (Add report retention and housekeeper in reporting server)
 -   NX-2344 (Decommissioning for nodes)
@@ -84,6 +88,7 @@
 -   NX-2823 (Drill-down dashboard not opening)
 -   NX-2824 (Use float for delta per second or minute calculation)
 -   NX-2826 (Automatic dashboard creation from template)
+-   NX-2830 (Add option to export-import syslog and windows event processing rules)
 -   NX-2839 (DCI "Query" button fails silently on error)
 -   NX-2840 (Add parameterized metrics for structured metric provider)
 -   NX-2841 (Add ability to monitor and control systemd services on Linux)
