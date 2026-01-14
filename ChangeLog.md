@@ -37,6 +37,7 @@
 -   NX-484 (Open Event Log from Event monitor)
 -   NX-507 (Show effective ACL for object)
 -   NX-531 (Use ENTITY MIB for physical port mapping)
+-   NX-600 (MikroTik authentication failure alarms from syslog)
 -   NX-660 (Scroll network map by dragging on empty space)
 -   NX-753 (Interface speed mismatch or under-utilization detection)
 -   NX-1072 (SNMP context support in data collection)
