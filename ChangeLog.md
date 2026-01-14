@@ -58,6 +58,7 @@
 -   NX-2497 (Add option "go to DCI" for alarms that are related to a DCI)
 -   NX-2558 (Add separate access right to manage agent policies within templates)
 -   NX-2573 (Event template editor window is not resizable)
+-   NX-2579 (User is not able to create node without having access on whole zone if zonning is enabled)
 -   NX-2588 (Show unsupported DCIs by default)
 -   NX-2612 (EPP rule import does not warn that a rule is referring missing event)
 -   NX-2638 (After disabling a DCI in template there's no message with apply button is displayed)
