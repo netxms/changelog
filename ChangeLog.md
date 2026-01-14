@@ -11,6 +11,7 @@
 -   Changed NXSL variable lookup priority (local variables now have higher priority)
 -   New NXSL keyword "local" for explicit creation of local variable
 -   NXSL functions and string methods for fuzzy matching
+-   Improved web service call interface in NXSL
 -   Removed unused 'Objects.Security.ReadAccessViaMap' server configuration variable
 -   Node decommissioning
 -   Fixed unique constraint failure for network\_map\_deleted\_nodes table
@@ -105,6 +106,7 @@
 -   NX-2884 (Use character limit for varchar fields on Oracle)
 -   NX-2889 (New DCI option: save only every n-th sample)
 -   NX-2891 (Add lastAlarmId attribute to Event class)
+-   NX-2892 (callWebService() does not set errorMessage if EnableWebServiceProxy is not enabled)
 
 # 5.2.8
 
