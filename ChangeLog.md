@@ -106,6 +106,7 @@
 -   NX-2871 (Add SYS\_IF\_UNMANAGED event)
 -   NX-2877 (Show "What's new" only to specific users and only once)
 -   NX-2884 (Use character limit for varchar fields on Oracle)
+-   NX-2887 (Use DCI multiplier configuration to format DCI value in DCI summary tables in Grafana Infinity API)
 -   NX-2889 (New DCI option: save only every n-th sample)
 -   NX-2891 (Add lastAlarmId attribute to Event class)
 -   NX-2892 (callWebService() does not set errorMessage if EnableWebServiceProxy is not enabled)
