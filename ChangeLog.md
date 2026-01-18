@@ -64,6 +64,7 @@
 -   NX-2588 (Show unsupported DCIs by default)
 -   NX-2612 (EPP rule import does not warn that a rule is referring missing event)
 -   NX-2638 (After disabling a DCI in template there's no message with apply button is displayed)
+-   NX-2643 (Add function to read list of available packages (and versions) in package manager from NXSL)
 -   NX-2655 (Add an option to select sort column and ASC\\DES for Table DCI on Dashboard)
 -   NX-2709 (Automatically add scripts mentioned in macros in configuration export view)
 -   NX-2710 (Traffic graphs for interface on overview)
