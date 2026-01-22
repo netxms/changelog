@@ -107,6 +107,7 @@
 -   NX-2870 (NXSL keyword to explicitly declare variable as local)
 -   NX-2871 (Add SYS\_IF\_UNMANAGED event)
 -   NX-2877 (Show "What's new" only to specific users and only once)
+-   Nx-2882 (Ask whether to delete or detach DCIs on template deletion)
 -   NX-2884 (Use character limit for varchar fields on Oracle)
 -   NX-2887 (Use DCI multiplier configuration to format DCI value in DCI summary tables in Grafana Infinity API)
 -   NX-2889 (New DCI option: save only every n-th sample)
@@ -115,6 +116,7 @@
 -   NX-2894 (DCI description not appearing in Data Source table in Saved Graph)
 -   NX-2895 (Action with event and without alarm using DCI macro crashes server)
 -   NX-2896 (Unified DCI template matching for context dashboard elements)
+-   NX-2903 (Add support for # character in cron format)
 
 # 5.2.8
 
