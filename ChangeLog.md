@@ -113,6 +113,7 @@
 -   NX-2891 (Add lastAlarmId attribute to Event class)
 -   NX-2892 (callWebService() does not set errorMessage if EnableWebServiceProxy is not enabled)
 -   NX-2894 (DCI description not appearing in Data Source table in Saved Graph)
+-   NX-2895 (Action with event and without alarm using DCI macro crashes server)
 -   NX-2896 (Unified DCI template matching for context dashboard elements)
 
 # 5.2.8
