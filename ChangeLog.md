@@ -66,6 +66,7 @@
 -   NX-2638 (After disabling a DCI in template there's no message with apply button is displayed)
 -   NX-2643 (Add function to read list of available packages (and versions) in package manager from NXSL)
 -   NX-2655 (Add an option to select sort column and ASC\\DES for Table DCI on Dashboard)
+-   NX-2697 (Improve management of authentication tokens)
 -   NX-2709 (Automatically add scripts mentioned in macros in configuration export view)
 -   NX-2710 (Traffic graphs for interface on overview)
 -   NX-2722 (Add attributes of class User to Alarm and AlarmComment class)
@@ -107,6 +108,7 @@
 -   NX-2870 (NXSL keyword to explicitly declare variable as local)
 -   NX-2871 (Add SYS\_IF\_UNMANAGED event)
 -   NX-2877 (Show "What's new" only to specific users and only once)
+-   NX-2879 (Add GUID support in EPP editor filter)
 -   Nx-2882 (Ask whether to delete or detach DCIs on template deletion)
 -   NX-2884 (Use character limit for varchar fields on Oracle)
 -   NX-2887 (Use DCI multiplier configuration to format DCI value in DCI summary tables in Grafana Infinity API)
@@ -119,7 +121,6 @@
 -   NX-2903 (Add support for # character in cron format)
 -   NX-2904 (System.IO.DiskTime calculated incorrectly on Windows)
 -   NX-2906 (Values sent by nxapush should be cached in agent DB if connection to server is not available)
--   NX-2911 (Unable to export db using nxdbmgr)
 
 # 5.2.8
 
