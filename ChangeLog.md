@@ -119,6 +119,7 @@
 -   NX-2903 (Add support for # character in cron format)
 -   NX-2904 (System.IO.DiskTime calculated incorrectly on Windows)
 -   NX-2906 (Values sent by nxapush should be cached in agent DB if connection to server is not available)
+-   NX-2911 (Unable to export db using nxdbmgr)
 
 # 5.2.8
 
