@@ -117,6 +117,7 @@
 -   NX-2895 (Action with event and without alarm using DCI macro crashes server)
 -   NX-2896 (Unified DCI template matching for context dashboard elements)
 -   NX-2903 (Add support for # character in cron format)
+-   NX-2904 (System.IO.DiskTime calculated incorrectly on Windows)
 
 # 5.2.8
 
