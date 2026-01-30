@@ -132,6 +132,7 @@
 -   NX-2906 (Values sent by nxapush should be cached in agent DB if connection to server is not available)
 -   NX-2908 (Object/Tag should be displayed as <context> for DCI template elements of dashboard status indicator)
 -   NX-2912 (Last known table value is shown instead of error when table DCI is in error due to connectivity loss to agent)
+-   NX-2914 (DCIs from cluster are not reapplied to nodes under cluster on housekeeper run)
 -   NX-2915 (DCIs with template <unknown> left on nodes when a cluster is deleted)
 
 # 5.2.8
