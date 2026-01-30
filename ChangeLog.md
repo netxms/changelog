@@ -1,6 +1,7 @@
 # 6.0.0
 
 -   Integrated AI assistant and AI agent
+-   AI-powered anomaly detection
 -   Built-in basic incident management
 -   Improved SSH support
 -   Event processing rules with empty filters are skipped (instead of "match all" behavior)
