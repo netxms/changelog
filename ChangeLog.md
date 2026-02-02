@@ -20,6 +20,7 @@
 -   Integration with HashiCorp Vault for secure credential management
 -   Server database password can be provided via external command
 -   Added lock for database inline upgrade
+-   DCI option to interpret unsupported state as data collection error
 -   New internal table Server.Queues
 -   Objects can be marked as "hidden"
 -   Drill-down option for dashboard element "Status indicator"
