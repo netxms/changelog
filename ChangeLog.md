@@ -12,6 +12,7 @@
 -   Changed NXSL variable lookup priority (local variables now have higher priority)
 -   New NXSL keyword "local" for explicit creation of local variable
 -   NXSL functions and string methods for fuzzy matching
+-   New methods in NXSL classes JsonObject and JsonArray to set value with explicit data type
 -   Improved web service call interface in NXSL
 -   Removed unused 'Objects.Security.ReadAccessViaMap' server configuration variable
 -   Node decommissioning
