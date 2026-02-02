@@ -48,6 +48,7 @@
 -   NX-1293 (Insert data with timestamp from NXSL)
 -   NX-1439 (Dashboard widget "Table" should notify user DCI is in error state instead of showing empty table)
 -   NX-1443 (Merge threshold/table threshold rules in default EPP)
+-   NX-1795 (On TimescaleDB when DCI storage class changes historical data should get copied to new storage class)
 -   NX-1826 (Graph option to not join lines if time between is over a specific value)
 -   NX-1872 (DCI Table column ordering)
 -   NX-1917 (Add "Copy SQL" button to Log viewers)
