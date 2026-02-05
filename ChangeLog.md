@@ -28,6 +28,7 @@
 -   Drivers for Planet LAN switches
 -   Drivers for Planet industrial switches
 -   Fixed "Go to DCI" action
+-   Data collection uses millisecond timestamps
 -   Dropped support of AIX 6.1
 -   Reworked configuration export/import to use JSON instead of XML; XML import is retained for backward compatibility
 -   Fixed deadlock in session termination caused by DCI force poll reference leak
