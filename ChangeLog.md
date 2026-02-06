@@ -1,3 +1,10 @@
+# 6.0.1
+
+-   Fixed object names not resolved on "Dashboards and Maps" property page (showing object IDs instead of names)
+-   Fixed missing action list loading in Event Processing Policy editor
+-   Fixed business service uptime calculation for business services containing other business services
+-   Fixed database upgrade procedure failure on Microsoft SQL Server
+
 # 6.0.0
 
 -   Integrated AI assistant and AI agent
