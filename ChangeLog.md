@@ -1,5 +1,7 @@
 # 6.0.1
 
+-   Improved database upgrade procedure (no long data conversion during upgrade)
+-   Agent environment can be set from server using custom attributes
 -   Fixed object names not resolved on "Dashboards and Maps" property page (showing object IDs instead of names)
 -   Fixed missing action list loading in Event Processing Policy editor
 -   Fixed business service uptime calculation for business services containing other business services
