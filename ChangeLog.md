@@ -6,6 +6,8 @@
 -   Fixed missing action list loading in Event Processing Policy editor
 -   Fixed business service uptime calculation for business services containing other business services
 -   Fixed database upgrade procedure failure on Microsoft SQL Server
+-   Added support for Anthropic API for AI agent
+-   Implemented changes proposed in PR #155 (IP address wipe on DNS resolution failure and DNS resolution conflict detection)
 
 # 6.0.0
 
