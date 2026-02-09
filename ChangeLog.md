@@ -8,6 +8,7 @@
 -   Fixed database upgrade procedure failure on Microsoft SQL Server
 -   Added support for Anthropic API for AI agent
 -   Implemented changes proposed in PR #155 (IP address wipe on DNS resolution failure and DNS resolution conflict detection)
+-   Fixed NumberFormatException in legacy REST API when setting object flags with high bit (values >= 0x80000000)
 
 # 6.0.0
 
