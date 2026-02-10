@@ -1,3 +1,9 @@
+# 6.0.2
+
+-   Added wireless controller bridge for UniFi controllers (PR #255)
+-   Small fixes in background conversion of collected data
+-   Improved AI assistant guardrails
+
 # 6.0.1
 
 -   Improved database upgrade procedure (no long data conversion during upgrade)
