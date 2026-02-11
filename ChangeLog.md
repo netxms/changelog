@@ -2,6 +2,8 @@
 
 ## Fixed issues
 
+-   NX-1008 (Add option to have "sample" count that is required before deactivation event generation)
+-   NX-1961 (Tool for explaining object status calculation)
 -   NX-2805 (Terminate long-running NXSL scripts on server shutdown)
 -   NX-2820 (Metadata for columns of tables from dbquery subagent)
 -   NX-2864 (Scripts referenced by another scripts are not added automatically to the export)
