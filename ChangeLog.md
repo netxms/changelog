@@ -2,6 +2,9 @@
 
 ## Fixed issues
 
+-   NX-2805 (Terminate long-running NXSL scripts on server shutdown)
+-   NX-2820 (Metadata for columns of tables from dbquery subagent)
+-   NX-2864 (Scripts referenced by another scripts are not added automatically to the export)
 -   NX-2874 (Implement security contexts in NXSL)
 
 # 6.0.2
@@ -12,7 +15,9 @@
 
 ## Fixed issues
 
+-   NX-1658 (Drag and Drop confirmation prompt)
 -   NX-2900 (Business Service check script editor should have hint)
+-   NX-2913 (Cluster DCI is not populated to nodes under cluster)
 -   NX-2919 (Push DCI from agent log parsing may come in wrong order)
 
 # 6.0.1
