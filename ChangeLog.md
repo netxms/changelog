@@ -14,10 +14,12 @@
 -   Added wireless controller bridge for UniFi controllers (PR #255)
 -   Small fixes in background conversion of collected data
 -   Improved AI assistant guardrails
+-   Added internal metrics for monitoring AI providers usage
 
 ## Fixed issues
 
 -   NX-1658 (Drag and Drop confirmation prompt)
+-   NX-2495 (Do not treat disk I/O error as file rotation in log file monitoring)
 -   NX-2900 (Business Service check script editor should have hint)
 -   NX-2913 (Cluster DCI is not populated to nodes under cluster)
 -   NX-2919 (Push DCI from agent log parsing may come in wrong order)
