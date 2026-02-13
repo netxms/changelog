@@ -15,6 +15,7 @@
 -   Small fixes in background conversion of collected data
 -   Improved AI assistant guardrails
 -   Added internal metrics for monitoring AI providers usage
+-   Added TLS support in web API using monitored reproxy process
 
 ## Fixed issues
 
