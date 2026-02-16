@@ -9,6 +9,12 @@
 -   NX-2864 (Scripts referenced by another scripts are not added automatically to the export)
 -   NX-2874 (Implement security contexts in NXSL)
 
+# 6.0.3
+
+## Fixed issues
+
+-   NX-2867 (Disable "Create database and database user before initialization" if SQLite selected in Windows installer)
+
 # 6.0.2
 
 -   Added wireless controller bridge for UniFi controllers (PR #255)
