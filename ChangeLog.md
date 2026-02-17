@@ -12,6 +12,8 @@
 
 # 6.0.3
 
+-   Added wireless controller bridge for Aruba Instant controllers (PR #257)
+
 ## Fixed issues
 
 -   NX-2867 (Disable "Create database and database user before initialization" if SQLite selected in Windows installer)
