@@ -1,5 +1,7 @@
 # 6.1.0
 
+-   View rearrange in pin areas and move between pin areas using drag and drop
+
 ## Fixed issues
 
 -   NX-1008 (Add option to have "sample" count that is required before deactivation event generation)
