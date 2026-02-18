@@ -9,6 +9,7 @@
 -   NX-2852 (Option to regenerate threshold event if DCI value changed)
 -   NX-2864 (Scripts referenced by another scripts are not added automatically to the export)
 -   NX-2874 (Implement security contexts in NXSL)
+-   NX-2921 (New feature in file delivery policy: delete file)
 
 # 6.0.3
 
