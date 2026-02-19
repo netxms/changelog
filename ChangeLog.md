@@ -16,10 +16,12 @@
 # 6.0.3
 
 -   Added wireless controller bridge for Aruba Instant controllers (PR #257)
+-   Improved interactive SSH mode support
 
 ## Fixed issues
 
 -   NX-2867 (Disable "Create database and database user before initialization" if SQLite selected in Windows installer)
+-   NX-2922 (New agent actions: enable / disable ExternalMetricProvider)
 
 # 6.0.2
 
