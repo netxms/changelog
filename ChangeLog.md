@@ -1,5 +1,6 @@
 # 6.1.0
 
+-   Two-factor authentication can be enforced on group level or globally
 -   View rearrange in pin areas and move between pin areas using drag and drop
 
 ## Fixed issues
@@ -17,6 +18,7 @@
 
 -   Added wireless controller bridge for Aruba Instant controllers (PR #257)
 -   Improved interactive SSH mode support
+-   Improved web API
 
 ## Fixed issues
 
