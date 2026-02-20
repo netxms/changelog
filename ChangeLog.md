@@ -3,6 +3,8 @@
 -   Two-factor authentication can be enforced on group level or globally
 -   View rearrange in pin areas and move between pin areas using drag and drop
 -   Service accounts (can login only via web API using tokens)
+-   Added option to move and reorder columns in table and tree view
+-   Added instegration with oxidized 
 
 ## Fixed issues
 
