@@ -8,6 +8,7 @@
 
 ## Fixed issues
 
+-   NX-175 (Hide/Show some colums in tables)
 -   NX-1008 (Add option to have "sample" count that is required before deactivation event generation)
 -   NX-1961 (Tool for explaining object status calculation)
 -   NX-2805 (Terminate long-running NXSL scripts on server shutdown)
@@ -15,6 +16,7 @@
 -   NX-2852 (Option to regenerate threshold event if DCI value changed)
 -   NX-2864 (Scripts referenced by another scripts are not added automatically to the export)
 -   NX-2874 (Implement security contexts in NXSL)
+-   NX-2890 (Perspective switched should support two modes - normal and narrow)
 -   NX-2921 (New feature in file delivery policy: delete file)
 
 # 6.0.3
