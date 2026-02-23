@@ -11,6 +11,8 @@
 -   NX-175 (Hide/Show some colums in tables)
 -   NX-1008 (Add option to have "sample" count that is required before deactivation event generation)
 -   NX-1961 (Tool for explaining object status calculation)
+-   NX-2585 (Implement correct parsing of syslog messages according to RFC5424)
+-   NX-2749 (Fallback proxy for Telegram notification channel)
 -   NX-2805 (Terminate long-running NXSL scripts on server shutdown)
 -   NX-2820 (Metadata for columns of tables from dbquery subagent)
 -   NX-2852 (Option to regenerate threshold event if DCI value changed)
