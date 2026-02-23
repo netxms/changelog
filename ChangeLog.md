@@ -26,9 +26,11 @@
 -   Added wireless controller bridge for Aruba Instant controllers (PR #257)
 -   Improved interactive SSH mode support
 -   Improved web API
+-   Fixed bug in database schema upgrade on Microsoft SQL Server
 
 ## Fixed issues
 
+-   NX-2369 ( Option to add number of items in a container)
 -   NX-2867 (Disable "Create database and database user before initialization" if SQLite selected in Windows installer)
 -   NX-2922 (New agent actions: enable / disable ExternalMetricProvider)
 
