@@ -12,6 +12,7 @@
 -   NX-1008 (Add option to have "sample" count that is required before deactivation event generation)
 -   NX-1961 (Tool for explaining object status calculation)
 -   NX-2585 (Implement correct parsing of syslog messages according to RFC5424)
+-   NX-2615 (Add ability to exclude certain subnets from topology, allowing to have duplicate IP addresses)
 -   NX-2749 (Fallback proxy for Telegram notification channel)
 -   NX-2805 (Terminate long-running NXSL scripts on server shutdown)
 -   NX-2820 (Metadata for columns of tables from dbquery subagent)
@@ -26,6 +27,7 @@
 -   Added wireless controller bridge for Aruba Instant controllers (PR #257)
 -   Improved interactive SSH mode support
 -   Improved web API
+-   Windows agent renames in-use files during upload if they cannot be replaced
 -   Fixed bug in database schema upgrade on Microsoft SQL Server
 
 ## Fixed issues
