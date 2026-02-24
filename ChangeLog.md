@@ -28,11 +28,12 @@
 -   Improved interactive SSH mode support
 -   Improved web API
 -   Windows agent renames in-use files during upload if they cannot be replaced
+-   Fixed incorrect handling of empty tool call list in LLM response
 -   Fixed bug in database schema upgrade on Microsoft SQL Server
 
 ## Fixed issues
 
--   NX-2369 ( Option to add number of items in a container)
+-   NX-2369 (Option to add number of items in a container)
 -   NX-2867 (Disable "Create database and database user before initialization" if SQLite selected in Windows installer)
 -   NX-2922 (New agent actions: enable / disable ExternalMetricProvider)
 
