@@ -5,11 +5,13 @@
 -   View rearrange in pin areas and move between pin areas using drag and drop
 -   Service accounts (can login only via web API using tokens)
 -   Added option to move and reorder columns in table and tree view
+-   Fixed editing of mapping table name, description and flag
 
 ## Fixed issues
 
 -   NX-175 (Hide/Show some colums in tables)
 -   NX-1008 (Add option to have "sample" count that is required before deactivation event generation)
+-   NX-1925 (Add ability to export/import mapping tables)
 -   NX-1961 (Tool for explaining object status calculation)
 -   NX-2585 (Implement correct parsing of syslog messages according to RFC5424)
 -   NX-2615 (Add ability to exclude certain subnets from topology, allowing to have duplicate IP addresses)
@@ -21,6 +23,7 @@
 -   NX-2874 (Implement security contexts in NXSL)
 -   NX-2890 (Perspective switched should support two modes - normal and narrow)
 -   NX-2921 (New feature in file delivery policy: delete file)
+-   NX-2930 (Forbid creation of table columns with identical names)
 
 # 6.0.4
 
