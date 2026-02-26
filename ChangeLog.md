@@ -24,6 +24,7 @@
 -   NX-2890 (Perspective switched should support two modes - normal and narrow)
 -   NX-2921 (New feature in file delivery policy: delete file)
 -   NX-2930 (Forbid creation of table columns with identical names)
+-   NX-2931 (Display enums and display hint in MIB explorer)
 
 # 6.0.4
 
