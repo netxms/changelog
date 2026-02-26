@@ -6,6 +6,7 @@
 -   Service accounts (can login only via web API using tokens)
 -   Added option to move and reorder columns in table and tree view
 -   Fixed editing of mapping table name, description and flag
+-   Implemented metric System.IO.DiskTime for AIX, FreeBSD, Mac OS X, and Solaris
 
 ## Fixed issues
 
@@ -25,6 +26,7 @@
 -   NX-2921 (New feature in file delivery policy: delete file)
 -   NX-2930 (Forbid creation of table columns with identical names)
 -   NX-2931 (Display enums and display hint in MIB explorer)
+-   NX-2934 (System.IO.DiskTime global total sums percentages across disks, producing unusable values)
 
 # 6.0.4
 
