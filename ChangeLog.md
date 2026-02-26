@@ -1,10 +1,10 @@
 # 6.1.0
 
+-   Integration with Oxidized (network device backup system)
 -   Two-factor authentication can be enforced on group level or globally
 -   View rearrange in pin areas and move between pin areas using drag and drop
 -   Service accounts (can login only via web API using tokens)
 -   Added option to move and reorder columns in table and tree view
--   Added instegration with oxidized 
 
 ## Fixed issues
 
@@ -21,6 +21,14 @@
 -   NX-2874 (Implement security contexts in NXSL)
 -   NX-2890 (Perspective switched should support two modes - normal and narrow)
 -   NX-2921 (New feature in file delivery policy: delete file)
+
+# 6.0.4
+
+-   File delivery policy deployment uses separate agent connection to avoid interference with data collection
+
+## Fixed issues
+
+-   NX-2933 (External metric provider may leave orphaned processes on Windows)
 
 # 6.0.3
 
