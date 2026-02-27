@@ -11,6 +11,7 @@
 ## Fixed issues
 
 -   NX-175 (Hide/Show some colums in tables)
+-   NX-575 (Add object menu and 'Go to object' to subnet "Address Map")
 -   NX-1008 (Add option to have "sample" count that is required before deactivation event generation)
 -   NX-1925 (Add ability to export/import mapping tables)
 -   NX-1961 (Tool for explaining object status calculation)
