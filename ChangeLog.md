@@ -35,6 +35,7 @@
 
 ## Fixed issues
 
+-   NX-2932 (File deployment from multiple policies should be serialized)
 -   NX-2933 (External metric provider may leave orphaned processes on Windows)
 
 # 6.0.3
