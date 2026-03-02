@@ -34,6 +34,7 @@
 # 6.0.4
 
 -   File delivery policy deployment uses separate agent connection to avoid interference with data collection
+-   NXSL removes trailing zeroes from floating point value representation (unless explicitly set as string)
 
 ## Fixed issues
 
