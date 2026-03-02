@@ -37,6 +37,7 @@
 ## Fixed issues
 
 -   #3128 / NX-2928 (Add --resolve parameter option to NetworkService.Status)
+-   #3129 / NX-2929 (Left column of elements not displayed in interface Overview tab)
 -   NX-2932 (File deployment from multiple policies should be serialized)
 -   NX-2933 (External metric provider may leave orphaned processes on Windows)
 
