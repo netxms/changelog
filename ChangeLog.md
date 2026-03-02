@@ -37,6 +37,7 @@
 
 ## Fixed issues
 
+-   #2378 / NX-2171 (In Configuration-\>Object Tools-\>General-\>Icon, give more info about image size accepted)
 -   #3128 / NX-2928 (Add --resolve parameter option to NetworkService.Status)
 -   #3129 / NX-2929 (Left column of elements not displayed in interface Overview tab)
 -   NX-2932 (File deployment from multiple policies should be serialized)
