@@ -11,7 +11,8 @@
 
 ## Fixed issues
 
--   #2794 / NX-2591 Importing dashboard without matching node and dci imports it as context dashboard 
+-   #375 / NX-169 (Use layer 2 topology information for event correlation)
+-   #2794 / NX-2591 (Importing dashboard without matching node and dci imports it as context dashboard) 
 -   NX-175 (Hide/Show some colums in tables)
 -   NX-575 (Add object menu and 'Go to object' to subnet "Address Map")
 -   NX-1008 (Add option to have "sample" count that is required before deactivation event generation)
@@ -36,6 +37,7 @@
 -   File delivery policy deployment uses separate agent connection to avoid interference with data collection
 -   NXSL removes trailing zeroes from floating point value representation (unless explicitly set as string)
 -   Database manager supports parallel table migration
+-   Internal node name resolver cache in syslog processor
 
 ## Fixed issues
 
