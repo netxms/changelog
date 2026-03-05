@@ -8,6 +8,7 @@
 -   Fixed editing of mapping table name, description and flag
 -   Implemented metric System.IO.DiskTime for AIX, FreeBSD, Mac OS X, and Solaris
 -   Port forwarding in object tools allows conection to remote address from tool target node
+-   Improved trusted device implementation for 2FA
 
 ## Fixed issues
 
