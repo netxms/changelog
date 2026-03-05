@@ -12,6 +12,7 @@
 ## Fixed issues
 
 -   #375 / NX-169 (Use layer 2 topology information for event correlation)
+-   #2635 / NX-2429 (Add option to create SNMP table from MIB Explorer)
 -   #2794 / NX-2591 (Importing dashboard without matching node and dci imports it as context dashboard) 
 -   #2825 / NX-2622 (Remove Utilization information on node's interfaces when corresponding DCIs are deleted or go into Error)
 -   NX-175 (Hide/Show some colums in tables)
