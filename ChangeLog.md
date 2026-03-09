@@ -1,5 +1,10 @@
 # 6.1.0
 
+-   Added option to creat events form event selector
+-   Added selector button to instance discovery property page for selecting discovery data
+-   Added agent list System.CPU.Instances for CPU instance discovery on all platforms
+-   Removed hard limit of 16 items on charts
+-   Implemented metric Net.IP.Stats.TCPConnections with named parameters for counting TCP connections with optional state and IP version filtering
 -   Integration with Oxidized (network device backup system)
 -   Two-factor authentication can be enforced on group level or globally
 -   View rearrange in pin areas and move between pin areas using drag and drop
@@ -34,6 +39,10 @@
 -   NX-2930 (Forbid creation of table columns with identical names)
 -   NX-2931 (Display enums and display hint in MIB explorer)
 -   NX-2934 (System.IO.DiskTime global total sums percentages across disks, producing unusable values)
+
+# 6.0.5
+
+-   Fixed error in log view after console reconnect
 
 # 6.0.4
 
