@@ -1,7 +1,6 @@
 # 6.1.0
 
 -   Added option to creat events form event selector
--   Added selector button to instance discovery property page for selecting discovery data
 -   Added agent list System.CPU.Instances for CPU instance discovery on all platforms
 -   Removed hard limit of 16 items on charts
 -   Implemented metric Net.IP.Stats.TCPConnections with named parameters for counting TCP connections with optional state and IP version filtering
@@ -18,6 +17,7 @@
 ## Fixed issues
 
 -   #375 / NX-169 (Use layer 2 topology information for event correlation)
+-   #2492 / NX-2285 (Selection dialog for instance discovery data source)
 -   #2635 / NX-2429 (Add option to create SNMP table from MIB Explorer)
 -   #2794 / NX-2591 (Importing dashboard without matching node and dci imports it as context dashboard) 
 -   #2825 / NX-2622 (Remove Utilization information on node's interfaces when corresponding DCIs are deleted or go into Error)
