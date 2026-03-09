@@ -131,13 +131,15 @@ def generate_html(version_data):
     if changes:
         html_content += "\n    <h2>Changes</h2>\n    <ul>\n"
         for change in changes:
-            html_content += f"        <li>{md.convert(change).strip()}</li>\n"
+            safe = change if not change.startswith('#') else '\\' + change
+            html_content += f"        <li>{md.convert(safe).strip()}</li>\n"
         html_content += "    </ul>\n"
 
     if fixed_issues:
         html_content += "\n    <h2>Fixed Issues</h2>\n    <ul>\n"
         for issue in fixed_issues:
-            html_content += f"        <li>{md.convert(issue).strip()}</li>\n"
+            safe = issue if not issue.startswith('#') else '\\' + issue
+            html_content += f"        <li>{md.convert(safe).strip()}</li>\n"
         html_content += "    </ul>\n"
 
     html_content += "</body>\n</html>\n"
