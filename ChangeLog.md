@@ -1,26 +1,32 @@
 # 6.1.0
 
--   Added option to creat events form event selector
--   Added agent list System.CPU.Instances for CPU instance discovery on all platforms
--   Removed hard limit of 16 items on charts
--   Implemented metric Net.IP.Stats.TCPConnections with named parameters for counting TCP connections with optional state and IP version filtering
+-   Metric data ingestion from OTLP (Open Telemetry Protocol)
 -   Integration with Oxidized (network device backup system)
 -   Two-factor authentication can be enforced on group level or globally
 -   View rearrange in pin areas and move between pin areas using drag and drop
+-   New event templates can be created directly from event selector
+-   Removed hard limit of 16 items on charts
+-   Implemented metric Net.IP.Stats.TCPConnections with named parameters for counting TCP connections with optional state and IP version filtering
+-   Added agent list System.CPU.Instances for CPU instance discovery on all platforms
 -   Service accounts (can login only via web API using tokens)
 -   Added option to move and reorder columns in table and tree view
 -   Fixed editing of mapping table name, description and flag
 -   Implemented metric System.IO.DiskTime for AIX, FreeBSD, Mac OS X, and Solaris
 -   Port forwarding in object tools allows conection to remote address from tool target node
 -   Improved trusted device implementation for 2FA
+-   Improved NXSL editor in web UI
 
 ## Fixed issues
 
 -   #375 / NX-169 (Use layer 2 topology information for event correlation)
+-   #673 / NX-462 (Display L2 routes - "MAC route to" and "MAC route from")
+-   #2359 / NX-2151 (Implement alarm notification popups in web UI)
 -   #2492 / NX-2285 (Selection dialog for instance discovery data source)
 -   #2635 / NX-2429 (Add option to create SNMP table from MIB Explorer)
+-   #2792 / NX-2589 (Add CPU usage in % in processes tab)
 -   #2794 / NX-2591 (Importing dashboard without matching node and dci imports it as context dashboard) 
 -   #2825 / NX-2622 (Remove Utilization information on node's interfaces when corresponding DCIs are deleted or go into Error)
+-   #3140 (Tab key moves cursor to the right)
 -   NX-175 (Hide/Show some colums in tables)
 -   NX-575 (Add object menu and 'Go to object' to subnet "Address Map")
 -   NX-1008 (Add option to have "sample" count that is required before deactivation event generation)
@@ -43,6 +49,12 @@
 # 6.0.5
 
 -   Fixed error in log view after console reconnect
+-   Fixed incorrect gap detection on line charts
+
+## Fixed issues
+
+-   #2561 / NX-2355 (An IP address from a Cluster object does not appear on a map in the address map)
+-   #3139 (serial\_number field on nodes table too small)
 
 # 6.0.4
 
