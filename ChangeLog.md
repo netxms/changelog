@@ -22,7 +22,9 @@
 -   #673 / NX-462 (Display L2 routes - "MAC route to" and "MAC route from")
 -   #2359 / NX-2151 (Implement alarm notification popups in web UI)
 -   #2492 / NX-2285 (Selection dialog for instance discovery data source)
+-   #2622 / NX-2416 (SYS\_DUPLICATE\_IP\_ADDRESS on service interfaces of Juniper routers)
 -   #2635 / NX-2429 (Add option to create SNMP table from MIB Explorer)
+-   #2735 / NX-2530 (Add system events SYS\_NODE\_DELETED and SYS\_OBJECT\_DELETED)
 -   #2792 / NX-2589 (Add CPU usage in % in processes tab)
 -   #2794 / NX-2591 (Importing dashboard without matching node and dci imports it as context dashboard) 
 -   #2825 / NX-2622 (Remove Utilization information on node's interfaces when corresponding DCIs are deleted or go into Error)
@@ -56,8 +58,8 @@
 ## Fixed issues
 
 -   #2561 / NX-2355 (An IP address from a Cluster object does not appear on a map in the address map)
--   #3139 (serial\_number field on nodes table too small)
 -   #3033 / NX-2831 (Custom attribute value lost on child object)
+-   #3139 (serial\_number field on nodes table too small)
 
 # 6.0.4
 
