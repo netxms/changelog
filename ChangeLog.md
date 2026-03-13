@@ -54,6 +54,7 @@
 
 -   Fixed error in log view after console reconnect
 -   Fixed incorrect gap detection on line charts
+-   Fixed bug in handling permanent authentication token expiration time
 
 ## Fixed issues
 
