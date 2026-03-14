@@ -29,6 +29,7 @@
 -   #2794 / NX-2591 (Importing dashboard without matching node and dci imports it as context dashboard) 
 -   #2825 / NX-2622 (Remove Utilization information on node's interfaces when corresponding DCIs are deleted or go into Error)
 -   #2951 / NX-2748 (Do not fallback to management node if unable to find node for macro expansion)
+-   #2982 / NX-2780 (Events and Push DCI's from logwatch policies should be sent only to the source server of policy)
 -   #2987 / NX-2785 (Throttling for notification channels)
 -   #3140 (Tab key moves cursor to the right)
 -   NX-175 (Hide/Show some colums in tables)
