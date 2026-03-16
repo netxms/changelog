@@ -20,6 +20,7 @@
 
 -   #375 / NX-169 (Use layer 2 topology information for event correlation)
 -   #673 / NX-462 (Display L2 routes - "MAC route to" and "MAC route from")
+-   #2180 / NX-1971 (Populate object tools input fields with predefined values)
 -   #2359 / NX-2151 (Implement alarm notification popups in web UI)
 -   #2492 / NX-2285 (Selection dialog for instance discovery data source)
 -   #2622 / NX-2416 (SYS\_DUPLICATE\_IP\_ADDRESS on service interfaces of Juniper routers)
