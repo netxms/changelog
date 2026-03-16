@@ -35,6 +35,7 @@
 -   #2982 / NX-2780 (Events and Push DCI's from logwatch policies should be sent only to the source server of policy)
 -   #2987 / NX-2785 (Throttling for notification channels)
 -   #3070 / NX-2868 (Add output console in Object Query)
+-   #3089 / NX-2888 (Add notification on the object view: "agent restart pending" with button "restart")
 -   #3140 (Tab key moves cursor to the right)
 -   NX-175 (Hide/Show some colums in tables)
 -   NX-575 (Add object menu and 'Go to object' to subnet "Address Map")
