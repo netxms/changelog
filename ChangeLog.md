@@ -61,6 +61,7 @@
 -   Fixed incorrect gap detection on line charts
 -   Fixed bug in handling permanent authentication token expiration time
 -   Fixed server crash during dashboard template processing
+-   Added -Z/-L mappings for AI, deployment, downtime, and incident log tables in nxdbmgr
 
 ## Fixed issues
 
