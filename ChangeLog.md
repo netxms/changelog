@@ -20,6 +20,7 @@
 
 -   #375 / NX-169 (Use layer 2 topology information for event correlation)
 -   #673 / NX-462 (Display L2 routes - "MAC route to" and "MAC route from")
+-   #1895 / NX-1685 (Option to return threshold value and actual value from threshold script)
 -   #2180 / NX-1971 (Populate object tools input fields with predefined values)
 -   #2359 / NX-2151 (Implement alarm notification popups in web UI)
 -   #2492 / NX-2285 (Selection dialog for instance discovery data source)
@@ -59,10 +60,11 @@
 -   Fixed error in log view after console reconnect
 -   Fixed incorrect gap detection on line charts
 -   Fixed bug in handling permanent authentication token expiration time
--   Fixed crash in DashboardTemplate::autobindPoll caused by shared_from_this() called during Dashboard constructor
+-   Fixed server crash during dashboard template processing
 
 ## Fixed issues
 
+-   #1052 / NX-842 (Ability to switch bar chart from lef-to-right rendering to right-to-left)
 -   #2561 / NX-2355 (An IP address from a Cluster object does not appear on a map in the address map)
 -   #3033 / NX-2831 (Custom attribute value lost on child object)
 -   #3139 (serial\_number field on nodes table too small)
