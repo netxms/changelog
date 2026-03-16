@@ -25,6 +25,7 @@
 -   #2492 / NX-2285 (Selection dialog for instance discovery data source)
 -   #2622 / NX-2416 (SYS\_DUPLICATE\_IP\_ADDRESS on service interfaces of Juniper routers)
 -   #2635 / NX-2429 (Add option to create SNMP table from MIB Explorer)
+-   #2724 / NX-2927 (Display Wi-Fi clients on L2 map)
 -   #2735 / NX-2530 (Add system events SYS\_NODE\_DELETED and SYS\_OBJECT\_DELETED)
 -   #2792 / NX-2589 (Add CPU usage in % in processes tab)
 -   #2794 / NX-2591 (Importing dashboard without matching node and dci imports it as context dashboard) 
@@ -58,6 +59,7 @@
 -   Fixed error in log view after console reconnect
 -   Fixed incorrect gap detection on line charts
 -   Fixed bug in handling permanent authentication token expiration time
+-   Fixed crash in DashboardTemplate::autobindPoll caused by shared_from_this() called during Dashboard constructor
 
 ## Fixed issues
 
