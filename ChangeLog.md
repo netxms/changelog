@@ -70,6 +70,7 @@
 -   #2561 / NX-2355 (An IP address from a Cluster object does not appear on a map in the address map)
 -   #3033 / NX-2831 (Custom attribute value lost on child object)
 -   #3050 / NX-2848 (Issues pinning views on WEB UI)
+-   #3135 (nxdbmgr migrate: "-Z" should skip related tables)
 -   #3139 (serial\_number field on nodes table too small)
 
 # 6.0.4
