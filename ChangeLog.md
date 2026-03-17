@@ -20,6 +20,7 @@
 
 -   #375 / NX-169 (Use layer 2 topology information for event correlation)
 -   #673 / NX-462 (Display L2 routes - "MAC route to" and "MAC route from")
+-   #1850 / NX-1640 (Alarm list not refreshed when backend DB connection lost)
 -   #1895 / NX-1685 (Option to return threshold value and actual value from threshold script)
 -   #2180 / NX-1971 (Populate object tools input fields with predefined values)
 -   #2359 / NX-2151 (Implement alarm notification popups in web UI)
