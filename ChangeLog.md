@@ -28,6 +28,7 @@
 -   #2180 / NX-1971 (Populate object tools input fields with predefined values)
 -   #2359 / NX-2151 (Implement alarm notification popups in web UI)
 -   #2492 / NX-2285 (Selection dialog for instance discovery data source)
+-   #2615 / NX-2409 (Issues when renaming event used in log parser policy)
 -   #2622 / NX-2416 (SYS\_DUPLICATE\_IP\_ADDRESS on service interfaces of Juniper routers)
 -   #2635 / NX-2429 (Add option to create SNMP table from MIB Explorer)
 -   #2662 / NX-2456 (Have separate set of SNMP credentials for polling and trap receiving in node properties)
