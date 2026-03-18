@@ -7,6 +7,7 @@
 -   View rearrange in pin areas and move between pin areas using drag and drop
 -   New event templates can be created directly from event selector
 -   Removed hard limit of 16 items on charts
+-   Use ipNetToPhysicalTable in addition to ipNetToMediaTable for reading ARP cache via SNMP
 -   Implemented metric Net.IP.Stats.TCPConnections with named parameters for counting TCP connections with optional state and IP version filtering
 -   Added agent list System.CPU.Instances for CPU instance discovery on all platforms
 -   Service accounts (can login only via web API using tokens)
@@ -41,6 +42,7 @@
 -   #2987 / NX-2785 (Throttling for notification channels)
 -   #3070 / NX-2868 (Add output console in Object Query)
 -   #3089 / NX-2888 (Add notification on the object view: "agent restart pending" with button "restart")
+-   #3136 (Skip repeated values in "Show history" on the DCI)
 -   #3140 (Tab key moves cursor to the right)
 -   NX-175 (Hide/Show some colums in tables)
 -   NX-575 (Add object menu and 'Go to object' to subnet "Address Map")
