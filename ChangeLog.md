@@ -2,6 +2,7 @@
 
 -   Metric data ingestion from OTLP (Open Telemetry Protocol)
 -   Integration with Oxidized (network device backup system)
+-   Connection tracking for nodes / MAC addresses
 -   Two-factor authentication can be enforced on group level or globally
 -   View rearrange in pin areas and move between pin areas using drag and drop
 -   New event templates can be created directly from event selector
@@ -20,6 +21,7 @@
 
 -   #375 / NX-169 (Use layer 2 topology information for event correlation)
 -   #673 / NX-462 (Display L2 routes - "MAC route to" and "MAC route from")
+-   #804 / NX-593 (Connection history for nodes, IP and MAC addresses)
 -   #1850 / NX-1640 (Alarm list not refreshed when backend DB connection lost)
 -   #1895 / NX-1685 (Option to return threshold value and actual value from threshold script)
 -   #2180 / NX-1971 (Populate object tools input fields with predefined values)
