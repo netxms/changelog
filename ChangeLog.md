@@ -47,6 +47,7 @@
 -   #3045 / NX-2843 (Allow to change helpdesk reference on alarm from script)
 -   #3070 / NX-2868 (Add output console in Object Query)
 -   #3089 / NX-2888 (Add notification on the object view: "agent restart pending" with button "restart")
+-   #3102 / NX-2901 (No error displayed when read-only user edits a DCI)
 -   #3136 (Skip repeated values in "Show history" on the DCI)
 -   #3140 (Tab key moves cursor to the right)
 -   NX-175 (Hide/Show some colums in tables)
