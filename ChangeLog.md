@@ -35,6 +35,7 @@
 -   #2662 / NX-2456 (Have separate set of SNMP credentials for polling and trap receiving in node properties)
 -   #2689 / NX-2483 (Dashboard Status Indicator with DCI Template source picks only one DCI)
 -   #2735 / NX-2530 (Add system events SYS\_NODE\_DELETED and SYS\_OBJECT\_DELETED)
+-   #2768 / NX-2565 (Link on map is not removed when same switch port connected to another interface of same PC)
 -   #2786 / NX-2583 (Do not show clusters in subnet tree if they do not have subnet as a parent)
 -   #2792 / NX-2589 (Add CPU usage in % in processes tab)
 -   #2794 / NX-2591 (Importing dashboard without matching node and dci imports it as context dashboard) 
