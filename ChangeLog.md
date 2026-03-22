@@ -57,6 +57,7 @@
 -   #2794 / NX-2591 (Importing dashboard without matching node and dci imports it as context dashboard) 
 -   #2825 / NX-2622 (Remove Utilization information on node's interfaces when corresponding DCIs are deleted or go into Error)
 -   #2895 / NX-2692 (Terminate unexpected up alarms when interface is disabled)
+-   #2861 / NX-2658 (delete nodes process cause high cpu)
 -   #2903 / NX-2700 (Add server configuration to limit minimal SNMP version)
 -   #2922 / NX-2719 (SQL query failed invalid byte sequence for encoding)
 -   #2927 / NX-2724 (Display Wi-Fi clients on L2 map)
