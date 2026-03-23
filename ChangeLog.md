@@ -17,6 +17,7 @@
 -   Port forwarding in object tools allows conection to remote address from tool target node
 -   Improved trusted device implementation for 2FA
 -   Improved NXSL editor in web UI
+-   Session agent for Linux with screenshot functionality
 
 ## Fixed issues
 
@@ -27,8 +28,10 @@
 -   #804 / NX-593 (Connection history for nodes, IP and MAC addresses)
 -   #864 / NX-653 (Parameter Oracle.TableSpace.Status returns data collection error for offline tablespace)
 -   #996 / NX-786 (Maintenance mode context menu should be aware of the current state of the node)
+-   #1155 / NX-945 (Screenshot support on Linux)
 -   #1342 / NX-1132 (MAC addresses in tables)
 -   #1438 / NX-1228 (SNMP down not correlated to Proxying Agent down)
+-   #1544 / NX-1334 (nxdbmgr import fails on oracle)
 -   #1562 / NX-1352 (Add filtering for performance tab)
 -   #1794 / NX-1584 (Console doesn't tell user that ICMP subagent is missing)
 -   #1801 / NX-1591 (Wrong IP address discovery on Cisco ASA in failover configuration)
@@ -37,6 +40,7 @@
 -   #1972 / NX-1762 (Ensure, that agent is checking on startup, that all policy files have corresponding entries in agent DB)
 -   #2098 / NX-1889 (Add additional checks on deduplication by reading more data via SNMP)
 -   #2180 / NX-1971 (Populate object tools input fields with predefined values)
+-   #2325 / NX-2117 (Chassis modules position calculated incorrectly in rack)
 -   #2354 / NX-2146 (Fix /lib/systemd/system/nxagentd.service PIDFile)
 -   #2359 / NX-2151 (Implement alarm notification popups in web UI)
 -   #2475 / NX-2268 (nx-collect-server-diag shoul be fixed to ask for credentials for nxadm)
@@ -51,6 +55,7 @@
 -   #2689 / NX-2483 (Dashboard Status Indicator with DCI Template source picks only one DCI)
 -   #2735 / NX-2530 (Add system events SYS\_NODE\_DELETED and SYS\_OBJECT\_DELETED)
 -   #2748 / NX-2543 (Active discovery for zones without zone proxy fails silently)
+-   #2758 / NX-2555 (Add ability to make two or more templates mutually exclusive)
 -   #2768 / NX-2565 (Link on map is not removed when same switch port connected to another interface of same PC)
 -   #2786 / NX-2583 (Do not show clusters in subnet tree if they do not have subnet as a parent)
 -   #2792 / NX-2589 (Add CPU usage in % in processes tab)
@@ -78,6 +83,7 @@
 -   #3137 (Agent reports less installed software packages when user is not logged in)
 -   #3140 (Tab key moves cursor to the right)
 -   #3147 (Thresholds with repeat event option set keep generating events even when threshold processing on DCI is disabled)
+-   #3149 (Add support for SSH keyboard-interactive authentication method)
 -   NX-175 (Hide/Show some colums in tables)
 -   NX-575 (Add object menu and 'Go to object' to subnet "Address Map")
 -   NX-1008 (Add option to have "sample" count that is required before deactivation event generation)
