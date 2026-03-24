@@ -39,6 +39,7 @@
 -   #1850 / NX-1640 (Alarm list not refreshed when backend DB connection lost)
 -   #1895 / NX-1685 (Option to return threshold value and actual value from threshold script)
 -   #1972 / NX-1762 (Ensure, that agent is checking on startup, that all policy files have corresponding entries in agent DB)
+-   #2084 / NX-1874 (Replace special DCI macros with standard EPP macros)
 -   #2098 / NX-1889 (Add additional checks on deduplication by reading more data via SNMP)
 -   #2118 / NX-1909 (Ethernet-IP interface only checks one interface)
 -   #2159 / NX-1950 (When importing EPP configuration with actions not present in system console should give a warning)
