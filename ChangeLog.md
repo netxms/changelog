@@ -19,6 +19,7 @@
 -   Improved NXSL editor in web UI
 -   Session agent for Linux with screenshot functionality
 -   Added Find to MIB Explorer with support for searching by OID, name, and description
+-   Full process metrics suite for Darwin subagent implemented
 
 ## Fixed issues
 
@@ -121,6 +122,7 @@
 -   NX-2930 (Forbid creation of table columns with identical names)
 -   NX-2931 (Display enums and display hint in MIB explorer)
 -   NX-2934 (System.IO.DiskTime global total sums percentages across disks, producing unusable values)
+-   #2364 / NX-2156 (User filter for Process.Count parameter on darwin)
 
 # 6.0.5
 
