@@ -33,10 +33,12 @@
 -   #1155 / NX-945 (Screenshot support on Linux)
 -   #1342 / NX-1132 (MAC addresses in tables)
 -   #1438 / NX-1228 (SNMP down not correlated to Proxying Agent down)
+-   #1532 / NX-1322 (Object Tools - Edit Input Fields - Can't edit name after saving)
 -   #1533 / NX-1323 (Object Tools - Input Fields - Improvements)
 -   #1544 / NX-1334 (nxdbmgr import fails on oracle)
 -   #1562 / NX-1352 (Add filtering for performance tab)
 -   #1600 / NX-1390 (nxdbmgr - new "object consistency reset" function)
+-   #1705 / NX-1495 (Support for array properties in WMI.Query)
 -   #1789 / NX-1579 (Improve L2 topology based event correlation)
 -   #1794 / NX-1584 (Console doesn't tell user that ICMP subagent is missing)
 -   #1801 / NX-1591 (Wrong IP address discovery on Cisco ASA in failover configuration)
@@ -54,6 +56,7 @@
 -   #2331 / NX-2123 (Table Last Value view is not refreshed correctly)
 -   #2354 / NX-2146 (Fix /lib/systemd/system/nxagentd.service PIDFile)
 -   #2359 / NX-2151 (Implement alarm notification popups in web UI)
+-   #2364 / NX-2156 (User filter for Process.Count parameter on Darwin)
 -   #2475 / NX-2268 (nx-collect-server-diag shoul be fixed to ask for credentials for nxadm)
 -   #2492 / NX-2285 (Selection dialog for instance discovery data source)
 -   #2599 / NX-2393 (Create new NXSL function instead of format())
@@ -122,7 +125,6 @@
 -   NX-2930 (Forbid creation of table columns with identical names)
 -   NX-2931 (Display enums and display hint in MIB explorer)
 -   NX-2934 (System.IO.DiskTime global total sums percentages across disks, producing unusable values)
--   #2364 / NX-2156 (User filter for Process.Count parameter on darwin)
 
 # 6.0.5
 
