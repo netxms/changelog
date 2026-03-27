@@ -18,6 +18,7 @@
 -   Improved trusted device implementation for 2FA
 -   Improved NXSL editor in web UI
 -   Session agent for Linux with screenshot functionality
+-   Added Find to MIB Explorer with support for searching by OID, name, and description
 
 ## Fixed issues
 
