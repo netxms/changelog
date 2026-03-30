@@ -20,6 +20,7 @@
 -   Session agent for Linux with screenshot functionality
 -   Added Find to MIB Explorer with support for searching by OID, name, and description
 -   Full process metrics suite for Darwin subagent implemented
+-   Improved alarm loading performance on server startup
 
 ## Fixed issues
 
@@ -106,6 +107,7 @@
 -   #3136 (Skip repeated values in "Show history" on the DCI)
 -   #3137 (Agent reports less installed software packages when user is not logged in)
 -   #3140 (Tab key moves cursor to the right)
+-   #3144 ("Go to Template DCI" does not work for instance discovery)
 -   #3147 (Thresholds with repeat event option set keep generating events even when threshold processing on DCI is disabled)
 -   #3149 (Add support for SSH keyboard-interactive authentication method)
 -   #3151 (New NetXMS installations should generate self signed certificate for Agent to server connection)
