@@ -56,6 +56,7 @@
 -   #2248 / NX-2039 (Add Date&Time Picker input field type)
 -   #2325 / NX-2117 (Chassis modules position calculated incorrectly in rack)
 -   #2331 / NX-2123 (Table Last Value view is not refreshed correctly)
+-   #2349 / NX-2141 (Replace empty primary hostname with 0.0.0.0)
 -   #2354 / NX-2146 (Fix /lib/systemd/system/nxagentd.service PIDFile)
 -   #2359 / NX-2151 (Implement alarm notification popups in web UI)
 -   #2364 / NX-2156 (User filter for Process.Count parameter on Darwin)
