@@ -56,6 +56,7 @@
 -   #2248 / NX-2039 (Add Date&Time Picker input field type)
 -   #2325 / NX-2117 (Chassis modules position calculated incorrectly in rack)
 -   #2331 / NX-2123 (Table Last Value view is not refreshed correctly)
+-   #2343 / NX-2135 ("nxdbmgr init" should generate random password for "admin" user and show it to admin during installation)
 -   #2349 / NX-2141 (Replace empty primary hostname with 0.0.0.0)
 -   #2354 / NX-2146 (Fix /lib/systemd/system/nxagentd.service PIDFile)
 -   #2359 / NX-2151 (Implement alarm notification popups in web UI)
