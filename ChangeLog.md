@@ -21,6 +21,8 @@
 -   Added Find to MIB Explorer with support for searching by OID, name, and description
 -   Full process metrics suite for Darwin subagent implemented
 -   Improved alarm loading performance on server startup
+-   AI skills and functions can be selectively disabled by system administrator
+-   Improved AI assistant data security
 
 ## Fixed issues
 
