@@ -119,6 +119,7 @@
 -   #3155 (Add SYSTEM\_ACCESS\_USE\_AI\_ASSISTANT access right)
 -   #3156 (Add missing audit logging for trap mapping operations)
 -   #3157 (Add EtherNet/IP proxy support to agent and server)
+-   #3161 (Topology poll on switch connected to Juniper switch incorrectly identifies connected ports)
 -   NX-175 (Hide/Show some colums in tables)
 -   NX-575 (Add object menu and 'Go to object' to subnet "Address Map")
 -   NX-1008 (Add option to have "sample" count that is required before deactivation event generation)
