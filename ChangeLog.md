@@ -123,6 +123,8 @@
 -   #3159 (linux/netlink.h not detected on Alpine)
 -   #3160 (Asterisk subagent: remove exosip dependency)
 -   #3161 (Topology poll on switch connected to Juniper switch incorrectly identifies connected ports)
+-   #3164 (Virtual IP cluster resource is moved with delay, if node where it was is suddenly disconnected)
+-   #3174 (Object tool filter should support isSSH)
 -   NX-175 (Hide/Show some colums in tables)
 -   NX-575 (Add object menu and 'Go to object' to subnet "Address Map")
 -   NX-1008 (Add option to have "sample" count that is required before deactivation event generation)
