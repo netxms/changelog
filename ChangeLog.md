@@ -24,6 +24,7 @@
 -   AI skills and functions can be selectively disabled by system administrator
 -   Improved AI assistant data security
 -   Added driver for Zyxel ES switch line
+-   Network discovery filter script provides access to agent metrics on discovered node
 
 ## Fixed issues
 
