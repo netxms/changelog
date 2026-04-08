@@ -25,6 +25,22 @@
 -   Improved AI assistant data security
 -   Added driver for Zyxel ES switch line
 -   Network discovery filter script provides access to agent metrics on discovered node
+-   Mutually exclusive templates
+-   Throttling for notification channels
+-   Security contexts in NXSL
+-   Separate set of SNMP credentials for polling and trap receiving
+-   Correct parsing of syslog messages according to RFC5424
+-   Option to exclude certain subnets from topology, allowing duplicate IP addresses
+-   Deploy new / upgrade existing report definitions from GUI
+-   Alarm notification popups in web UI
+-   Metrics for certificates in Windows certificate store
+-   Support for SSH keyboard-interactive authentication method
+-   New NetXMS installations generate self-signed certificate for agent to server connection
+-   EtherNet/IP proxy support in agent and server
+-   Absence detection mode in log parser rules
+-   Server configuration option to limit minimal SNMP version
+-   Tool for explaining object status calculation
+-   Display Wi-Fi clients on L2 map
 
 ## Fixed issues
 
