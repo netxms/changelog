@@ -23,6 +23,7 @@
 -   Improved alarm loading performance on server startup
 -   AI skills and functions can be selectively disabled by system administrator
 -   Improved AI assistant data security
+-   Added driver for Zyxel ES switch line
 
 ## Fixed issues
 
@@ -89,6 +90,7 @@
 -   #2895 / NX-2692 (Terminate unexpected up alarms when interface is disabled)
 -   #2861 / NX-2658 (delete nodes process cause high cpu)
 -   #2903 / NX-2700 (Add server configuration to limit minimal SNMP version)
+-   #2909 / NX-2706 (Add the ability to syslog parser - "execute processing only if there was no event or entries in the syslog parser")
 -   #2922 / NX-2719 (SQL query failed invalid byte sequence for encoding)
 -   #2927 / NX-2724 (Display Wi-Fi clients on L2 map)
 -   #2934 / NX-2731 (Have stage1 and stage2 filter scripts inside Network Discovery view)
