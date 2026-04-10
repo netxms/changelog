@@ -1,3 +1,7 @@
+# 6.1.1
+
+-   Improved status poll implementation when poll count for status change is greater than 1
+
 # 6.1.0
 
 -   Metric data ingestion from OTLP (Open Telemetry Protocol)
