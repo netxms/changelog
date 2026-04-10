@@ -2,6 +2,11 @@
 
 -   Improved status poll implementation when poll count for status change is greater than 1
 
+## Fixed issues
+
+-   #3018 / NX-2816 (L2 topology map is built with same interface used multiple times)
+-   #3173 (Set restrictive file permissions on auto-generated cert/key files)
+
 # 6.1.0
 
 -   Metric data ingestion from OTLP (Open Telemetry Protocol)
