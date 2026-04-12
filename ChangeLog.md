@@ -1,6 +1,9 @@
 # 6.1.1
 
+-   Notification channel driver for Matrix
 -   Improved status poll implementation when poll count for status change is greater than 1
+-   Fixed bug in context menu display in alarm view, data collection view, and other table views
+-   Fixed background colors in alarm view
 
 ## Fixed issues
 
