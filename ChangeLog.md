@@ -1,3 +1,9 @@
+# 7.0.0
+
+## Fixed issues
+
+-   #2350 / NX-2142 (Context aware "Command Palette")
+
 # 6.1.1
 
 -   Notification channel driver for Matrix
@@ -7,8 +13,14 @@
 
 ## Fixed issues
 
+-   #2471 / NX-2264 (In rack view, tooltip is shown for chassis, not for its elements)
+-   #2560 / NX-2354 (Agent file policy are not propagated to cluster member nodes)
+-   #2978 / NX-2776 (Add additional parameters to events created from synchronized Windows Events)
 -   #3018 / NX-2816 (L2 topology map is built with same interface used multiple times)
+-   #3036 / NX-2834 (Do not display value in percent in bar chart legend)
+-   #3126 / NX-2926 (Logwatch last read location is incorrectly saved for Windows agent)
 -   #3173 (Set restrictive file permissions on auto-generated cert/key files)
+-   #3176 (Support for installed product list retrieval on apk-based distributions)
 
 # 6.1.0
 
