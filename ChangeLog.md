@@ -20,6 +20,7 @@
 -   #3036 / NX-2834 (Do not display value in percent in bar chart legend)
 -   #3126 / NX-2926 (Logwatch last read location is incorrectly saved for Windows agent)
 -   #3173 (Set restrictive file permissions on auto-generated cert/key files)
+-   #3175 (CTabFolder high CPU consumption in Infrastructure and Entire Network)
 -   #3176 (Support for installed product list retrieval on apk-based distributions)
 
 # 6.1.0
