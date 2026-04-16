@@ -19,9 +19,12 @@
 -   #3018 / NX-2816 (L2 topology map is built with same interface used multiple times)
 -   #3036 / NX-2834 (Do not display value in percent in bar chart legend)
 -   #3126 / NX-2926 (Logwatch last read location is incorrectly saved for Windows agent)
+-   #3166 (Escape special characters in Prometheus metric argument values)
 -   #3173 (Set restrictive file permissions on auto-generated cert/key files)
 -   #3175 (CTabFolder high CPU consumption in Infrastructure and Entire Network)
 -   #3176 (Support for installed product list retrieval on apk-based distributions)
+-   #3189 (Incorrect current value in chart legend)
+-   #3190 (Multiple Asterisk subagent metrics fail on newer Asterisk versions)
 
 # 6.1.0
 
