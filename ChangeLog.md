@@ -4,6 +4,21 @@
 
 -   #2350 / NX-2142 (Context aware "Command Palette")
 
+# 6.2.0
+
+-   Object tools are available on access points, sensors, and interfaces
+-   LLDP information access via NetXMS agent on nodes with lldpd
+
+## Fixed issues
+
+-   #2217 / NX-2008 (Object tools in switch port context)
+-   #2631 / NX-2425 (Object Tools on interfaces)
+-   #2686 / NX-2480 (Add ability to schedule polls from NXSL)
+-   #3178 (Interface to lldpd in Linux agent)
+-   #3183 (Use SNMP MIB enum values when displaying DCI value)
+-   #3185 (Make configurable automatic column resize in table views)
+-   #3191 (Use restrictive security context for NXSL scripts that semantically should not modify anything)
+
 # 6.1.1
 
 -   Notification channel driver for Matrix
