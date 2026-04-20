@@ -8,10 +8,12 @@
 
 -   Object tools are available on access points, sensors, and interfaces
 -   LLDP information access via NetXMS agent on nodes with lldpd
+-   Access to action execution log and notification log requires separate access rights
 
 ## Fixed issues
 
 -   #2217 / NX-2008 (Object tools in switch port context)
+-   #2425 / NX-2218 (ACL for Action Execution log and Notification log)
 -   #2631 / NX-2425 (Object Tools on interfaces)
 -   #2686 / NX-2480 (Add ability to schedule polls from NXSL)
 -   #3178 (Interface to lldpd in Linux agent)
