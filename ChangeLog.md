@@ -14,6 +14,7 @@
 ## Fixed issues
 
 -   #2217 / NX-2008 (Object tools in switch port context)
+-   #2363 / NX-2155 (Feature Request - Expand All Child Containers)
 -   #2425 / NX-2218 (ACL for Action Execution log and Notification log)
 -   #2631 / NX-2425 (Object Tools on interfaces)
 -   #2686 / NX-2480 (Add ability to schedule polls from NXSL)
