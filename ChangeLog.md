@@ -26,6 +26,9 @@
 
 # 6.1.2
 
+-   Script entry point can be specified in "execute NXSL script" actions
+-   Improved performance of data migration when upgrading from versions before 6.0
+
 ## Fixed issues
 
 -   #2290 / NX-2081 (Allow to go to object details from event log source with right click option)
