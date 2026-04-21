@@ -23,6 +23,12 @@
 -   #3185 (Make configurable automatic column resize in table views)
 -   #3191 (Use restrictive security context for NXSL scripts that semantically should not modify anything)
 
+# 6.1.2
+
+## Fixed issues
+
+-   #2290 / NX-2081 (Allow to go to object details from event log source with right click option)
+
 # 6.1.1
 
 -   Notification channel driver for Matrix
