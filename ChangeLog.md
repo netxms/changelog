@@ -32,6 +32,8 @@
 ## Fixed issues
 
 -   #2290 / NX-2081 (Allow to go to object details from event log source with right click option)
+-   #3195 (Slow query from idata tables on MySQL)
+-   #3200 (Port in Ports view should be selected when right-clicking it)
 
 # 6.1.1
 
