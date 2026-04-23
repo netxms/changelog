@@ -27,6 +27,7 @@
 -   #3191 (Use restrictive security context for NXSL scripts that semantically should not modify anything)
 -   #3201 (Add NXSL methods to set node postal address)
 -   #3203 (Drop pre-2.1 database upgrade path from nxdbmgr)
+-   #3204 (Move idata/tdata table creation from metadata rows to code)
 
 # 6.1.2
 
