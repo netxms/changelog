@@ -10,6 +10,7 @@
 -   LLDP information access via NetXMS agent on nodes with lldpd
 -   Access to action execution log and notification log requires separate access rights
 -   Debug console 'exec' command will only execute scripts from pre-configured locations
+-   Direct upgrade from versions before 2.1.0 is no longer possible
 
 ## Fixed issues
 
@@ -18,11 +19,14 @@
 -   #2425 / NX-2218 (ACL for Action Execution log and Notification log)
 -   #2631 / NX-2425 (Object Tools on interfaces)
 -   #2686 / NX-2480 (Add ability to schedule polls from NXSL)
+-   #3141 (Method for manually setting peer interface for interface class in NXSL)
 -   #3178 (Interface to lldpd in Linux agent)
 -   #3179 (Add configurable list of allowed sources for "exec" in debug console)
 -   #3183 (Use SNMP MIB enum values when displaying DCI value)
 -   #3185 (Make configurable automatic column resize in table views)
 -   #3191 (Use restrictive security context for NXSL scripts that semantically should not modify anything)
+-   #3201 (Add NXSL methods to set node postal address)
+-   #3203 (Drop pre-2.1 database upgrade path from nxdbmgr)
 
 # 6.1.2
 
