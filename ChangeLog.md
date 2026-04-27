@@ -10,6 +10,7 @@
 -   LLDP information access via NetXMS agent on nodes with lldpd
 -   Access to action execution log and notification log requires separate access rights
 -   Debug console 'exec' command will only execute scripts from pre-configured locations
+-   Local user passwords hashed with argon2id instead of SHA-256
 -   Direct upgrade from versions before 2.1.0 is no longer possible
 
 ## Fixed issues
@@ -33,12 +34,19 @@
 
 -   Script entry point can be specified in "execute NXSL script" actions
 -   Improved performance of data migration when upgrading from versions before 6.0
+-   File manager subagent supports `nofollow` (do not follow symlinks) option for configured roots
+-   Notification channel drivers that accepts endpoint URLs in configuration or as recipient explicitly forbids any protocols besides http(s) 
+-   Fixed pre-authentication buffer overflow in SNMPv3 USM parser
+-   Fixed bug in updating instance discovery DCIs from templates
+-   Fixed pre-authentication OOB read in NXCP binary message parser
 
 ## Fixed issues
 
 -   #2290 / NX-2081 (Allow to go to object details from event log source with right click option)
 -   #3195 (Slow query from idata tables on MySQL)
 -   #3200 (Port in Ports view should be selected when right-clicking it)
+-   #3211 (Set browser document title for RWT shells)
+-   #3212 (filemgr subagent: path-traversal weaknesses in CheckFullPath / GetRealPath)
 
 # 6.1.1
 
