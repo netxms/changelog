@@ -44,6 +44,7 @@
 
 -   #2290 / NX-2081 (Allow to go to object details from event log source with right click option)
 -   #3195 (Slow query from idata tables on MySQL)
+-   #3199 (Add agent metric to read smartctl raw values)
 -   #3200 (Port in Ports view should be selected when right-clicking it)
 -   #3211 (Set browser document title for RWT shells)
 -   #3212 (filemgr subagent: path-traversal weaknesses in CheckFullPath / GetRealPath)
