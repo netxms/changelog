@@ -29,6 +29,7 @@
 -   #3201 (Add NXSL methods to set node postal address)
 -   #3203 (Drop pre-2.1 database upgrade path from nxdbmgr)
 -   #3204 (Move idata/tdata table creation from metadata rows to code)
+-   #3210 (Add RADIUS Access-Challenge 2FA flow)
 
 # 6.1.2
 
@@ -39,6 +40,7 @@
 -   Fixed pre-authentication buffer overflow in SNMPv3 USM parser
 -   Fixed bug in updating instance discovery DCIs from templates
 -   Fixed pre-authentication OOB read in NXCP binary message parser
+-   Fixed the SHA-1 + AES-192/256 and SHA-224 + AES-256 key extension bug in SNMP library
 
 ## Fixed issues
 
