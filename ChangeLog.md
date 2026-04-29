@@ -41,6 +41,7 @@
 -   Fixed bug in updating instance discovery DCIs from templates
 -   Fixed pre-authentication OOB read in NXCP binary message parser
 -   Fixed the SHA-1 + AES-192/256 and SHA-224 + AES-256 key extension bug in SNMP library
+-   Fixed default object tool Connect SSH
 
 ## Fixed issues
 
