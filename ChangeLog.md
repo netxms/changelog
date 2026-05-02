@@ -51,6 +51,7 @@
 -   #3195 (Slow query from idata tables on MySQL)
 -   #3199 (Add agent metric to read smartctl raw values)
 -   #3200 (Port in Ports view should be selected when right-clicking it)
+-   #3208 (Add Nodes via ARP Cache Tab)
 -   #3211 (Set browser document title for RWT shells)
 -   #3212 (filemgr subagent: path-traversal weaknesses in CheckFullPath / GetRealPath)
 
