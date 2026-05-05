@@ -15,12 +15,14 @@
 
 ## Fixed issues
 
+-   #1118 / NX-908 ("Source node" setting for DCIs is not exported)
 -   #2122 / NX-1913 (Ability to download files from Agent Policies)
 -   #2217 / NX-2008 (Object tools in switch port context)
 -   #2363 / NX-2155 (Feature Request - Expand All Child Containers)
 -   #2425 / NX-2218 (ACL for Action Execution log and Notification log)
 -   #2631 / NX-2425 (Object Tools on interfaces)
 -   #2686 / NX-2480 (Add ability to schedule polls from NXSL)
+-   #2949 / NX-2746 (Separate OS platform name from agent platform name)
 -   #3011 / NX-2809 (Add OAuth to SMTP notification channel driver)
 -   #3141 (Method for manually setting peer interface for interface class in NXSL)
 -   #3178 (Interface to lldpd in Linux agent)
@@ -54,6 +56,7 @@
 -   #3208 (Add Nodes via ARP Cache Tab)
 -   #3211 (Set browser document title for RWT shells)
 -   #3212 (filemgr subagent: path-traversal weaknesses in CheckFullPath / GetRealPath)
+-   #3223 (Allow dragging tabs from main area to docking areas)
 
 # 6.1.1
 
