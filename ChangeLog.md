@@ -56,6 +56,8 @@
 -   #3208 (Add Nodes via ARP Cache Tab)
 -   #3211 (Set browser document title for RWT shells)
 -   #3212 (filemgr subagent: path-traversal weaknesses in CheckFullPath / GetRealPath)
+-   #3219 (Legacy web API: java.lang.NoClassDefFoundError: jakarta/servlet/ServletContext)
+-   #3222 (Dragging of tabs to currenly hidden docking area)
 -   #3223 (Allow dragging tabs from main area to docking areas)
 
 # 6.1.1
