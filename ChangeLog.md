@@ -41,6 +41,7 @@
 -   Improved performance of data migration when upgrading from versions before 6.0
 -   File manager subagent supports `nofollow` (do not follow symlinks) option for configured roots
 -   Notification channel drivers that accepts endpoint URLs in configuration or as recipient explicitly forbids any protocols besides http(s) 
+-   Fixed intermittent SNMP proxy failures
 -   Fixed regression in SNMP walk that broke handling of buggy agents returning table rows in random order
 -   Fixed pre-authentication buffer overflow in SNMPv3 USM parser
 -   Fixed bug in updating instance discovery DCIs from templates
