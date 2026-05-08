@@ -41,11 +41,14 @@
 -   Improved performance of data migration when upgrading from versions before 6.0
 -   File manager subagent supports `nofollow` (do not follow symlinks) option for configured roots
 -   Notification channel drivers that accepts endpoint URLs in configuration or as recipient explicitly forbids any protocols besides http(s) 
+-   Fixed regression in SNMP walk that broke handling of buggy agents returning table rows in random order
 -   Fixed pre-authentication buffer overflow in SNMPv3 USM parser
 -   Fixed bug in updating instance discovery DCIs from templates
 -   Fixed pre-authentication OOB read in NXCP binary message parser
 -   Fixed the SHA-1 + AES-192/256 and SHA-224 + AES-256 key extension bug in SNMP library
 -   Fixed default object tool Connect SSH
+-   Fixed issues with language switch in nxmc
+-   Updated Brazilian Portuguese translation
 
 ## Fixed issues
 
