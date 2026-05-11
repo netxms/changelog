@@ -12,6 +12,8 @@
 -   Debug console 'exec' command will only execute scripts from pre-configured locations
 -   Local user passwords hashed with argon2id instead of SHA-256
 -   Direct upgrade from versions before 2.1.0 is no longer possible
+-   Added postgres monitoring template
+-   Fixed small issues in SNMP printer template 
 
 ## Fixed issues
 
@@ -50,6 +52,7 @@
 -   Fixed default object tool Connect SSH
 -   Fixed issues with language switch in nxmc
 -   Updated Brazilian Portuguese translation
+-   Added cisco performance monitoring template
 
 ## Fixed issues
 
