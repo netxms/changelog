@@ -28,6 +28,7 @@
 -   #3141 (Method for manually setting peer interface for interface class in NXSL)
 -   #3178 (Interface to lldpd in Linux agent)
 -   #3179 (Add configurable list of allowed sources for "exec" in debug console)
+-   #3180 (Use mapping tables to provide display value for DCIs)
 -   #3183 (Use SNMP MIB enum values when displaying DCI value)
 -   #3185 (Make configurable automatic column resize in table views)
 -   #3191 (Use restrictive security context for NXSL scripts that semantically should not modify anything)
@@ -35,10 +36,14 @@
 -   #3203 (Drop pre-2.1 database upgrade path from nxdbmgr)
 -   #3204 (Move idata/tdata table creation from metadata rows to code)
 -   #3210 (Add RADIUS Access-Challenge 2FA flow)
+-   #3218 (Allow agent upgrade via packages without requiring full MasterServers access)
 
 
 # 6.1.3
 
+-   Improved AI assistant access to DCI thresholds
+-   Improved Qtech driver
+-   Improved Cisco SB driver
 -   Fixed small issues in SNMP printer template 
 
 # 6.1.2
