@@ -13,7 +13,6 @@
 -   Local user passwords hashed with argon2id instead of SHA-256
 -   Direct upgrade from versions before 2.1.0 is no longer possible
 -   Added postgres monitoring template
--   Fixed small issues in SNMP printer template 
 
 ## Fixed issues
 
@@ -36,6 +35,11 @@
 -   #3203 (Drop pre-2.1 database upgrade path from nxdbmgr)
 -   #3204 (Move idata/tdata table creation from metadata rows to code)
 -   #3210 (Add RADIUS Access-Challenge 2FA flow)
+
+
+# 6.1.3
+
+-   Fixed small issues in SNMP printer template 
 
 # 6.1.2
 
