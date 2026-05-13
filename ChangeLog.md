@@ -38,13 +38,18 @@
 -   #3210 (Add RADIUS Access-Challenge 2FA flow)
 -   #3218 (Allow agent upgrade via packages without requiring full MasterServers access)
 
-
 # 6.1.3
 
 -   Improved AI assistant access to DCI thresholds
+-   Improved AI assistant access to alarms
 -   Improved Qtech driver
 -   Improved Cisco SB driver
 -   Fixed small issues in SNMP printer template 
+
+## Fixed issues
+
+-   #3205 (Cropped login form on first run of nxmc on RPi)
+-   #3232 (Disabled push DCI continues accepting newly pushed data)
 
 # 6.1.2
 
