@@ -44,12 +44,14 @@
 -   Improved AI assistant access to alarms
 -   Improved Qtech driver
 -   Improved Cisco SB driver
+-   Server no longer attempts to retry agent package deployment after non-transient errors
 -   Fixed small issues in SNMP printer template 
 
 ## Fixed issues
 
 -   #3205 (Cropped login form on first run of nxmc on RPi)
 -   #3232 (Disabled push DCI continues accepting newly pushed data)
+-   #3234 (.apkg package fails to install under dash due to bash-only [[ ]])
 
 # 6.1.2
 
@@ -77,6 +79,7 @@
 -   #3208 (Add Nodes via ARP Cache Tab)
 -   #3211 (Set browser document title for RWT shells)
 -   #3212 (filemgr subagent: path-traversal weaknesses in CheckFullPath / GetRealPath)
+-   #3214 (Wrong localized texts in Web UI)
 -   #3219 (Legacy web API: java.lang.NoClassDefFoundError: jakarta/servlet/ServletContext)
 -   #3222 (Dragging of tabs to currenly hidden docking area)
 -   #3223 (Allow dragging tabs from main area to docking areas)
