@@ -42,6 +42,7 @@
 
 -   Improved AI assistant access to DCI thresholds
 -   Improved AI assistant access to alarms
+-   AI assistant can initiate polls
 -   Improved Qtech driver
 -   Improved Cisco SB driver
 -   Server no longer attempts to retry agent package deployment after non-transient errors
@@ -52,6 +53,8 @@
 -   #3205 (Cropped login form on first run of nxmc on RPi)
 -   #3232 (Disabled push DCI continues accepting newly pushed data)
 -   #3234 (.apkg package fails to install under dash due to bash-only [[ ]])
+-   #3236 (Server name is shown in black in GUI header)
+-   #3238 (Server crash on shutdown due to use-after-free in the notification channel worker thread)
 
 # 6.1.2
 
