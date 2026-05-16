@@ -25,6 +25,7 @@
 -   #2686 / NX-2480 (Add ability to schedule polls from NXSL)
 -   #2949 / NX-2746 (Separate OS platform name from agent platform name)
 -   #3011 / NX-2809 (Add OAuth to SMTP notification channel driver)
+-   #3023 / NX-2821 (Add support for 802.1x from custom OID for Huawei)
 -   #3141 (Method for manually setting peer interface for interface class in NXSL)
 -   #3178 (Interface to lldpd in Linux agent)
 -   #3179 (Add configurable list of allowed sources for "exec" in debug console)
@@ -46,6 +47,7 @@
 -   Improved Qtech driver
 -   Improved Cisco SB driver
 -   Server no longer attempts to retry agent package deployment after non-transient errors
+-   Configurable page size in log viewer
 -   Fixed small issues in SNMP printer template 
 
 ## Fixed issues
@@ -55,6 +57,7 @@
 -   #3234 (.apkg package fails to install under dash due to bash-only [[ ]])
 -   #3236 (Server name is shown in black in GUI header)
 -   #3238 (Server crash on shutdown due to use-after-free in the notification channel worker thread)
+-   #3239 (Filter values are not set when popping out log viewer)
 
 # 6.1.2
 
