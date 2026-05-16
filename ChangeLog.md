@@ -17,6 +17,7 @@
 ## Fixed issues
 
 -   #1118 / NX-908 ("Source node" setting for DCIs is not exported)
+-   #1477 / NX-1267 (Object Tools Icons - Pick from Image Library)
 -   #2122 / NX-1913 (Ability to download files from Agent Policies)
 -   #2217 / NX-2008 (Object tools in switch port context)
 -   #2363 / NX-2155 (Feature Request - Expand All Child Containers)
@@ -38,6 +39,7 @@
 -   #3204 (Move idata/tdata table creation from metadata rows to code)
 -   #3210 (Add RADIUS Access-Challenge 2FA flow)
 -   #3218 (Allow agent upgrade via packages without requiring full MasterServers access)
+-   #3241 (Harmonize object tool icons with image library (use UUID reference instead of embedded blob))
 
 # 6.1.3
 
