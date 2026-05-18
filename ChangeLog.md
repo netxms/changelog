@@ -48,18 +48,24 @@
 -   AI assistant can initiate polls
 -   Improved Qtech driver
 -   Improved Cisco SB driver
+-   Added driver for Lenovo switches
 -   Server no longer attempts to retry agent package deployment after non-transient errors
 -   Configurable page size in log viewer
 -   Fixed small issues in SNMP printer template 
 
 ## Fixed issues
 
+-   #3202 (Problems with audit log filtering condition)
 -   #3205 (Cropped login form on first run of nxmc on RPi)
 -   #3232 (Disabled push DCI continues accepting newly pushed data)
 -   #3234 (.apkg package fails to install under dash due to bash-only [[ ]])
 -   #3236 (Server name is shown in black in GUI header)
 -   #3238 (Server crash on shutdown due to use-after-free in the notification channel worker thread)
 -   #3239 (Filter values are not set when popping out log viewer)
+-   #3245 (AI assistant: add composite 'operational-status' triage tool)
+-   #3246 (Threshold line not shown on chart if threshold value is bigger then maxint)
+-   #3247 (Thresholds values should be inverted on chart if "invert values" is selected for a data source)
+-   #3250 (Agent tunnel bind fails with error 923 on OpenSSL 3.5.x)
 
 # 6.1.2
 
