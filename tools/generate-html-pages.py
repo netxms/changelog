@@ -119,6 +119,11 @@ def generate_html(version_data):
         li pre {{
             margin: 0.5em 0;
         }}
+        .full-changelog {{
+            margin-top: 2em;
+            padding-top: 1em;
+            border-top: 1px solid #eee;
+        }}
     </style>
 </head>
 <body>
@@ -142,6 +147,7 @@ def generate_html(version_data):
             html_content += f"        <li>{md.convert(safe).strip()}</li>\n"
         html_content += "    </ul>\n"
 
+    html_content += '\n    <p class="full-changelog">See the <a href="https://netxms.com/release-notes/">full changelog</a> on netxms.com.</p>\n'
     html_content += "</body>\n</html>\n"
     return html_content
 
