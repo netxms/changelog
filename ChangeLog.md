@@ -13,6 +13,7 @@
 -   Local user passwords hashed with argon2id instead of SHA-256
 -   Direct upgrade from versions before 2.1.0 is no longer possible
 -   Added postgres monitoring template
+-   AI assistant has access to EPP and can create, modify, and delete rules
 
 ## Fixed issues
 
@@ -49,6 +50,7 @@
 -   Improved Qtech driver
 -   Improved Cisco SB driver
 -   Added driver for Lenovo switches
+-   Added driver for BDCOM switches
 -   Server no longer attempts to retry agent package deployment after non-transient errors
 -   Configurable page size in log viewer
 -   Fixed small issues in SNMP printer template 
@@ -59,13 +61,18 @@
 -   #3205 (Cropped login form on first run of nxmc on RPi)
 -   #3232 (Disabled push DCI continues accepting newly pushed data)
 -   #3234 (.apkg package fails to install under dash due to bash-only [[ ]])
+-   #3235 (Display switch IP address in IP/MAC search results)
 -   #3236 (Server name is shown in black in GUI header)
+-   #3237 (Agent should verify installer signature when upgrading itself on Windows)
 -   #3238 (Server crash on shutdown due to use-after-free in the notification channel worker thread)
 -   #3239 (Filter values are not set when popping out log viewer)
 -   #3245 (AI assistant: add composite 'operational-status' triage tool)
 -   #3246 (Threshold line not shown on chart if threshold value is bigger then maxint)
 -   #3247 (Thresholds values should be inverted on chart if "invert values" is selected for a data source)
+-   #3248 (Filter in Status Map dashboard element is slow)
 -   #3250 (Agent tunnel bind fails with error 923 on OpenSSL 3.5.x)
+-   #3253 (Empty f-string in NXSL script result in data stack underflow)
+-   #3255 (Node without IP address and connected by agent tunnel only never marked as unreachable or down)
 
 # 6.1.2
 
