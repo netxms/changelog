@@ -28,6 +28,7 @@
 -   #2949 / NX-2746 (Separate OS platform name from agent platform name)
 -   #3011 / NX-2809 (Add OAuth to SMTP notification channel driver)
 -   #3023 / NX-2821 (Add support for 802.1x from custom OID for Huawei)
+-   #3094 / NX-2893 (Last value request for DCI in error state should return error indicator instead of last known good value)
 -   #3141 (Method for manually setting peer interface for interface class in NXSL)
 -   #3178 (Interface to lldpd in Linux agent)
 -   #3179 (Add configurable list of allowed sources for "exec" in debug console)
@@ -41,6 +42,8 @@
 -   #3210 (Add RADIUS Access-Challenge 2FA flow)
 -   #3218 (Allow agent upgrade via packages without requiring full MasterServers access)
 -   #3241 (Harmonize object tool icons with image library (use UUID reference instead of embedded blob))
+-   #3261 (NXSL object methods for accessing DCI objects and values)
+-   #3266 (DataCollection.TemplateRemovalGracePeriod server configuration variable should have units)
 
 # 6.1.3
 
@@ -51,6 +54,7 @@
 -   Improved Cisco SB driver
 -   Added driver for Lenovo switches
 -   Added driver for BDCOM switches
+-   Added driver for Bulat switches
 -   Server no longer attempts to retry agent package deployment after non-transient errors
 -   Configurable page size in log viewer
 -   Fixed small issues in SNMP printer template 
@@ -60,6 +64,7 @@
 -   #3202 (Problems with audit log filtering condition)
 -   #3205 (Cropped login form on first run of nxmc on RPi)
 -   #3232 (Disabled push DCI continues accepting newly pushed data)
+-   #3233 (Commands on Overview Windows are shown like gray rectangles)
 -   #3234 (.apkg package fails to install under dash due to bash-only [[ ]])
 -   #3235 (Display switch IP address in IP/MAC search results)
 -   #3236 (Server name is shown in black in GUI header)
@@ -73,6 +78,11 @@
 -   #3250 (Agent tunnel bind fails with error 923 on OpenSSL 3.5.x)
 -   #3253 (Empty f-string in NXSL script result in data stack underflow)
 -   #3255 (Node without IP address and connected by agent tunnel only never marked as unreachable or down)
+-   #3260 (C:\ in file manager incorrectly expanded to C:\Windows\system32)
+-   #3267 (Script contents are deleted when dragging "Execute script" view from one docking area to another)
+-   #3270 ("Do not show this message again" in "This DCI was added by instance discovery" dialog is not persisted across console restarts)
+-   #3272 (No option to configure automatic column resize in DCI summary tables)
+-   #3275 (Package deployment jobs should be cancelled if corresponding package is deleted from server)
 
 # 6.1.2
 
