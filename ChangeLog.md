@@ -43,6 +43,8 @@
 -   #3218 (Allow agent upgrade via packages without requiring full MasterServers access)
 -   #3241 (Harmonize object tool icons with image library (use UUID reference instead of embedded blob))
 -   #3261 (NXSL object methods for accessing DCI objects and values)
+-   #3263 (Generate event when SNMP traps are not accepted due to incorrect credentials)
+-   #3265 (Change color of disabled EPP rules)
 -   #3266 (DataCollection.TemplateRemovalGracePeriod server configuration variable should have units)
 
 # 6.1.3
@@ -83,6 +85,8 @@
 -   #3270 ("Do not show this message again" in "This DCI was added by instance discovery" dialog is not persisted across console restarts)
 -   #3272 (No option to configure automatic column resize in DCI summary tables)
 -   #3275 (Package deployment jobs should be cancelled if corresponding package is deleted from server)
+-   #3276 (Send updates to Package deployment jobs view)
+-   #3279 (Cannot upload file to server from nxmc if web server is running on Windows)
 
 # 6.1.2
 
