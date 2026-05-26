@@ -57,6 +57,7 @@
 -   Added driver for Lenovo switches
 -   Added driver for BDCOM switches
 -   Added driver for Bulat switches
+-   Added driver for Origo switches
 -   Server no longer attempts to retry agent package deployment after non-transient errors
 -   Configurable page size in log viewer
 -   Fixed small issues in SNMP printer template 
@@ -73,6 +74,7 @@
 -   #3237 (Agent should verify installer signature when upgrading itself on Windows)
 -   #3238 (Server crash on shutdown due to use-after-free in the notification channel worker thread)
 -   #3239 (Filter values are not set when popping out log viewer)
+-   #3240 (Windows agent breaks Store app launches by loading UsrClass.dat of logged-on users)
 -   #3245 (AI assistant: add composite 'operational-status' triage tool)
 -   #3246 (Threshold line not shown on chart if threshold value is bigger then maxint)
 -   #3247 (Thresholds values should be inverted on chart if "invert values" is selected for a data source)
