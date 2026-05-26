@@ -66,6 +66,7 @@
 
 -   #3202 (Problems with audit log filtering condition)
 -   #3205 (Cropped login form on first run of nxmc on RPi)
+-   #3230 (New and changed device drivers)
 -   #3232 (Disabled push DCI continues accepting newly pushed data)
 -   #3233 (Commands on Overview Windows are shown like gray rectangles)
 -   #3234 (.apkg package fails to install under dash due to bash-only [[ ]])
