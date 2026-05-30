@@ -14,6 +14,7 @@
 -   Direct upgrade from versions before 2.1.0 is no longer possible
 -   Added postgres monitoring template
 -   AI assistant has access to EPP and can create, modify, and delete rules
+-   Added driver for Fortinet FortiSwitch series
 
 ## Fixed issues
 
@@ -28,6 +29,7 @@
 -   #2949 / NX-2746 (Separate OS platform name from agent platform name)
 -   #3011 / NX-2809 (Add OAuth to SMTP notification channel driver)
 -   #3023 / NX-2821 (Add support for 802.1x from custom OID for Huawei)
+-   #3068 / NX-2866 (Object query in dashboard should take column definitions from metadata if no columns are defined)
 -   #3094 / NX-2893 (Last value request for DCI in error state should return error indicator instead of last known good value)
 -   #3141 (Method for manually setting peer interface for interface class in NXSL)
 -   #3178 (Interface to lldpd in Linux agent)
