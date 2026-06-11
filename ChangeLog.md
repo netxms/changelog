@@ -52,6 +52,7 @@
 # 6.1.4
 
 -   Improved data migration performance when upgrading from 5.x and earlier versions to 6.1
+-   Fixed bug in stacked chart drawing (manifested as unresponsive client)
 
 ## Fixed issues
 
@@ -59,6 +60,7 @@
 -   #3290 (Text in Status Explanation unreadable due to it's color)
 -   #3291 (Fixed time frame setting not preserved when chart view is pinned or moved between areas)
 -   #3298 (DCI image map element tooltip shows only DCI name, not current value)
+-   #3306 (Agent list instance discovery not working via gateway node on sensor)
 -   #3309 (Add /health endpoint in nxmc/web)
 
 # 6.1.3
