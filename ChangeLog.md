@@ -97,6 +97,7 @@
 -   #3265 (Change color of disabled EPP rules)
 -   #3266 (DataCollection.TemplateRemovalGracePeriod server configuration variable should have units)
 -   #3268 (Use regex and Multiple match checkboxes not set when adding instance prototype to context dashboard)
+-   #3278 (Unable to cancel a package deployment job)
 -   #3280 (Object tools of type AGENT_LIST / AGENT_TABLE / SNMP_TABLE silently ignore input fields and don't expand macros)
 -   #3281 (Add Oracle.Databases list parameter to Oracle subagent)
 -   #3286 (SQL errors after in-place database conversion to TimescaleDB)
