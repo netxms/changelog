@@ -79,6 +79,20 @@
 -   #3722 (null node in FindAllDCIs)
 -   #3724 (Agent: external subagent watchdog stops at first session even if nobody is logged on to it)
 -   #3725 (NXSL: sometimes 'while' loop compiled incorrectly)
+-   #3733 (nxreportd ignores ReportingServer.ResultsRetentionTime (misspelled property name in housekeeper))
+-   #3734 (Delayed incident creation from EPP drops description and truncates text at semicolons)
+-   #3735 (Isolation forest anomaly detection looks back seconds instead of days (Timestamp unit mismatch in IsAnomalousValue))
+-   #3736 (Formatted DCI value has a space between multiplier prefix and unit ("2.31 Gi B"))
+-   #3737 (AI anomaly profiles are regenerated every second day: 24 h cooldown equals the daily task period)
+-   #3738 (Asset management: unique attribute check rejects writing the asset's own current value)
+-   #3739 (Asset management: date attribute validation accepts invalid dates (isValidDate logic inverted))
+-   #3740 (Oxidized module: backup timestamps ignore the UTC offset reported by Oxidized)
+-   #3741 (LLM provider type openai falls back to Ollama URL and model when URL/Model are omitted)
+-   #3742 (AI tasks keep running after their owner's account is disabled)
+-   #3743 (netsvc: TLS.Certificate.* option list starts at the StartTLS protocol argument)
+-   #3746 (OTLP event forwarder: dropped events are not reflected in forwarder counters and status)
+-   #3747 (AI: task prompt lacks opening <instructions> tag; show ai providers reports Mistral as Ollama)
+-   #3748 (nxshell samples call removed method getAllChilds())
 
 # 6.2.5
 
